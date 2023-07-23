@@ -1,0 +1,199 @@
+[INFO] 14:10:28:614 SOtp/(2994:2994): llegue vivo
+[INFO] 14:10:28:630 SOtp/(2994:2994): No es null el archivo de config
+[INFO] 14:10:28:630 SOtp/(2994:2994): hrrn
+[ERROR] 14:10:28:630 SOtp/(2994:2994): Error: Connection refused
+[ERROR] 14:10:28:642 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:28:649 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:28:650 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:28:650 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:28:658 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:28:658 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:29:658 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:29:659 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:29:659 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:29:659 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:29:668 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:29:668 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:30:666 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:30:669 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:30:669 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:30:670 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:30:674 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:30:675 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:31:674 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:31:675 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:31:675 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:31:676 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:31:681 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:31:681 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:32:677 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:32:681 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:32:681 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:32:681 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:32:688 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:32:688 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:33:690 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:33:691 SOtp/(2994:2998): Error: Bad file descriptor
+[ERROR] 14:10:33:691 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:33:691 SOtp/(2994:2996): Error: Bad file descriptor
+[ERROR] 14:10:33:695 SOtp/(2994:2997): Error: Bad file descriptor
+[ERROR] 14:10:33:695 SOtp/(2994:2997): Error: Bad file descriptor
+[INFO] 14:13:30:322 SOtp/(3368:3368): llegue vivo
+[INFO] 14:13:30:327 SOtp/(3368:3368): No es null el archivo de config
+[INFO] 14:13:30:327 SOtp/(3368:3368): hrrn
+[INFO] 14:30:59:255 SOtp/(4689:4689): llegue vivo
+[INFO] 14:30:59:266 SOtp/(4689:4689): No es null el archivo de config
+[INFO] 14:30:59:269 SOtp/(4689:4689): hrrn
+[INFO] 15:35:11:539 SOtp/(9592:9592): llegue vivo
+[INFO] 15:35:11:560 SOtp/(9592:9592): No es null el archivo de config
+[INFO] 15:35:11:563 SOtp/(9592:9592): hrrn
+[INFO] 15:35:36:277 SOtp/(9592:9592): conectado
+[INFO] 15:38:56:889 SOtp/(9592:9592): conectado
+[INFO] 15:50:36:413 SOtp/(9592:9592): conectado
+[INFO] 15:52:59:523 SOtp/(9592:9592): conectado
+[INFO] 15:55:06:313 SOtp/(11154:11154): llegue vivo
+[INFO] 15:55:06:322 SOtp/(11154:11154): No es null el archivo de config
+[INFO] 15:55:06:325 SOtp/(11154:11154): hrrn
+[ERROR] 15:55:06:326 SOtp/(11154:11154): Error: Connection refused
+[INFO] 15:56:00:350 SOtp/(11252:11252): llegue vivo
+[INFO] 15:56:00:357 SOtp/(11252:11252): No es null el archivo de config
+[INFO] 15:56:00:363 SOtp/(11252:11252): hrrn
+[ERROR] 15:56:00:363 SOtp/(11252:11252): Error: Connection refused
+[INFO] 15:57:35:322 SOtp/(11415:11415): llegue vivo
+[INFO] 15:57:35:333 SOtp/(11415:11415): No es null el archivo de config
+[INFO] 15:57:35:347 SOtp/(11415:11415): hrrn
+[ERROR] 15:57:35:348 SOtp/(11415:11415): Error: Connection refused
+[INFO] 15:57:35:348 SOtp/(11415:11415): conecte con cpu
+[INFO] 15:59:16:160 SOtp/(11577:11577): llegue vivo
+[INFO] 15:59:16:163 SOtp/(11577:11577): No es null el archivo de config
+[INFO] 15:59:16:167 SOtp/(11577:11577): hrrn
+[ERROR] 15:59:16:169 SOtp/(11577:11577): Error: Connection refused
+[INFO] 15:59:16:170 SOtp/(11577:11577): conecte con cpu
+[INFO] 16:04:55:232 SOtp/(11859:11859): 8001
+[INFO] 16:04:55:243 SOtp/(11859:11859): llegue vivo
+[INFO] 16:04:55:246 SOtp/(11859:11859): No es null el archivo de config
+[INFO] 16:04:55:246 SOtp/(11859:11859): hrrn
+[ERROR] 16:04:55:248 SOtp/(11859:11859): Error: Connection refused
+[INFO] 16:04:55:252 SOtp/(11859:11859): conecte con cpu
+[INFO] 16:07:55:870 SOtp/(12439:12439): 8001
+[INFO] 16:07:55:882 SOtp/(12439:12439): llegue vivo
+[INFO] 16:07:55:887 SOtp/(12439:12439): No es null el archivo de config
+[INFO] 16:07:55:887 SOtp/(12439:12439): hrrn
+[INFO] 16:07:55:889 SOtp/(12439:12439): conecte con cpu
+[INFO] 16:10:05:720 SOtp/(12439:12439): conectado
+[INFO] 03:22:55:176 kernel_logger/(13446:13446): config levantado
+[INFO] 03:25:26:792 kernel_logger/(13661:13661): config levantado
+[INFO] 03:26:42:764 kernel_logger/(13807:13807): config levantado
+[INFO] 03:28:00:452 kernel_logger/(14026:14026): config levantado
+[INFO] 03:28:50:287 kernel_logger/(14198:14198): config levantado
+[INFO] 03:29:37:959 kernel_logger/(14358:14358): config levantado
+[INFO] 03:30:27:235 kernel_logger/(14501:14501): config levantado
+[INFO] 03:30:27:249 kernel_logger/(14501:14501): colas
+[INFO] 03:30:27:254 kernel_logger/(14501:14501): semaforos
+[INFO] 03:31:48:983 kernel_logger/(14694:14694): config levantado
+[INFO] 03:31:48:983 kernel_logger/(14694:14694): colas
+[INFO] 03:31:48:983 kernel_logger/(14694:14694): semaforos
+[INFO] 03:31:48:983 kernel_logger/(14694:14694): diccionario
+[INFO] 03:33:41:124 kernel_logger/(14905:14905): config levantado
+[INFO] 03:33:41:135 kernel_logger/(14905:14905): colas
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): semaforos
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): diccionario
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): fors
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): recursos
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): No es null el archivo de config
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): hilos abajo !
+[INFO] 03:33:41:145 kernel_logger/(14905:14905): llegue
+[INFO] 03:33:41:146 kernel_logger/(14905:14905): hilos arriba !
+[INFO] 03:33:41:147 kernel_logger/(14905:14906): rompo1
+[INFO] 03:38:00:665 kernel_logger/(15406:15406): diccionario
+[INFO] 03:38:00:680 kernel_logger/(15406:15406): fors
+[INFO] 03:38:00:685 kernel_logger/(15406:15406): No es null el archivo de config
+[INFO] 03:38:00:685 kernel_logger/(15406:15406): hilos abajo !
+[INFO] 03:38:00:685 kernel_logger/(15406:15406): llegue
+[INFO] 03:38:00:686 kernel_logger/(15406:15406): hilos arriba !
+[INFO] 03:38:00:688 kernel_logger/(15406:15406): llego vivo hasta acá
+[INFO] 03:40:34:023 kernel_logger/(15763:15763): diccionario
+[INFO] 03:40:34:032 kernel_logger/(15763:15763): fors
+[INFO] 03:40:34:044 kernel_logger/(15763:15763): No es null el archivo de config
+[INFO] 03:40:34:044 kernel_logger/(15763:15763): llegue
+[INFO] 03:40:48:770 kernel_logger/(15763:15815): escuchando a consola
+[INFO] 03:43:54:183 kernel_logger/(15763:15815): Recibido codigo de operacion: -1945695344
+[INFO] 03:43:54:184 kernel_logger/(15763:15815): recibi lista de instrucciones
+[INFO] 03:43:54:184 kernel_logger/(15763:15815): Se crea el proceso 15763 en NEW
+[INFO] 03:43:54:184 kernel_logger/(15763:15764): ingreso proceso a listos
+[INFO] 03:44:03:140 kernel_logger/(15763:16131): escuchando a consola
+[INFO] 03:57:13:792 kernel_logger/(16839:16839): diccionario
+[INFO] 03:57:13:814 kernel_logger/(16839:16839): fors
+[INFO] 03:57:13:817 kernel_logger/(16839:16839): No es null el archivo de config
+[INFO] 03:57:13:820 kernel_logger/(16839:16839): llegue
+[INFO] 03:58:51:335 kernel_logger/(17194:17194): diccionario
+[INFO] 03:58:51:342 kernel_logger/(17194:17194): fors
+[INFO] 03:58:51:344 kernel_logger/(17194:17194): No es null el archivo de config
+[INFO] 03:58:51:345 kernel_logger/(17194:17194): llegue
+[INFO] 03:58:59:773 kernel_logger/(17194:17243): escuchando a consola
+[INFO] 04:01:54:263 kernel_logger/(17767:17767): diccionario
+[INFO] 04:01:54:273 kernel_logger/(17767:17767): fors
+[INFO] 04:01:54:274 kernel_logger/(17767:17767): No es null el archivo de config
+[INFO] 04:02:10:403 kernel_logger/(17767:17819): escuchando a consola
+[INFO] 04:11:11:677 kernel_logger/(18715:18715): diccionario
+[INFO] 04:11:11:695 kernel_logger/(18715:18715): fors
+[INFO] 04:11:11:696 kernel_logger/(18715:18715): No es null el archivo de config
+[INFO] 04:11:23:186 kernel_logger/(18715:18764): escuchando a consola
+[INFO] 04:11:23:186 kernel_logger/(18715:18764): espacio asignada
+[INFO] 04:19:18:535 kernel_logger/(19417:19417): diccionario
+[INFO] 04:19:18:544 kernel_logger/(19417:19417): fors
+[INFO] 04:19:18:560 kernel_logger/(19417:19417): No es null el archivo de config
+[INFO] 04:19:25:662 kernel_logger/(19417:19466): escuchando a consola
+[INFO] 04:19:25:663 kernel_logger/(19417:19466): espacio asignada
+[INFO] 04:21:32:189 kernel_logger/(19653:19653): diccionario
+[INFO] 04:21:32:191 kernel_logger/(19653:19653): fors
+[INFO] 04:21:32:197 kernel_logger/(19653:19653): No es null el archivo de config
+[INFO] 04:22:51:929 kernel_logger/(19899:19899): diccionario
+[INFO] 04:22:51:944 kernel_logger/(19899:19899): fors
+[INFO] 04:22:51:948 kernel_logger/(19899:19899): No es null el archivo de config
+[INFO] 04:23:00:172 kernel_logger/(19899:19954): escuchando a consola
+[INFO] 04:23:00:172 kernel_logger/(19899:19954): espacio asignada
+[INFO] 04:28:55:395 kernel_logger/(20431:20431): diccionario
+[INFO] 04:28:55:411 kernel_logger/(20431:20431): fors
+[INFO] 04:28:55:412 kernel_logger/(20431:20431): No es null el archivo de config
+[INFO] 04:29:28:485 kernel_logger/(20528:20528): diccionario
+[INFO] 04:29:28:487 kernel_logger/(20528:20528): fors
+[INFO] 04:29:28:490 kernel_logger/(20528:20528): No es null el archivo de config
+[INFO] 04:29:36:917 kernel_logger/(20528:20577): escuchando a consola
+[INFO] 04:29:36:920 kernel_logger/(20528:20577): espacio asignada
+[INFO] 04:29:52:314 kernel_logger/(20528:20577): Recibido codigo de operacion: 0
+[INFO] 04:29:52:322 kernel_logger/(20528:20577): paquete recibido
+[INFO] 04:29:52:322 kernel_logger/(20528:20577): recibi lista de instrucciones
+[INFO] 04:29:52:322 kernel_logger/(20528:20577): Se crea el proceso 20528 en NEW
+[INFO] 04:29:52:323 kernel_logger/(20528:20529): ingreso proceso a listos
+[INFO] 04:31:07:311 kernel_logger/(20972:20972): diccionario
+[INFO] 04:31:07:324 kernel_logger/(20972:20972): fors
+[INFO] 04:31:07:326 kernel_logger/(20972:20972): No es null el archivo de config
+[INFO] 04:31:15:204 kernel_logger/(20972:21036): escuchando a consola
+[INFO] 04:31:15:205 kernel_logger/(20972:21036): espacio asignada
+[INFO] 04:31:15:209 kernel_logger/(20972:21036): Recibido codigo de operacion: 20
+[INFO] 04:31:15:212 kernel_logger/(20972:21036): paquete recibido
+[INFO] 04:40:51:091 kernel_logger/(21409:21409): diccionario
+[INFO] 04:40:51:119 kernel_logger/(21409:21409): fors
+[INFO] 04:40:51:119 kernel_logger/(21409:21409): No es null el archivo de config
+[INFO] 04:41:39:321 kernel_logger/(21589:21589): diccionario
+[INFO] 04:41:39:337 kernel_logger/(21589:21589): fors
+[INFO] 04:41:39:339 kernel_logger/(21589:21589): No es null el archivo de config
+[INFO] 04:41:47:364 kernel_logger/(21589:21641): escuchando a consola
+[INFO] 04:41:47:366 kernel_logger/(21589:21641): espacio asignada
+[INFO] 04:41:47:366 kernel_logger/(21589:21641): Recibido codigo de operacion: 20
+[INFO] 04:41:47:366 kernel_logger/(21589:21641): paquete recibido
+[INFO] 04:49:09:311 kernel_logger/(22394:22394): diccionario
+[INFO] 04:49:09:314 kernel_logger/(22394:22394): fors
+[INFO] 04:49:09:321 kernel_logger/(22394:22394): No es null el archivo de config
+[INFO] 04:49:17:930 kernel_logger/(22394:22443): escuchando a consola
+[INFO] 04:49:17:930 kernel_logger/(22394:22443): espacio asignada
+[INFO] 04:49:17:930 kernel_logger/(22394:22443): Recibido codigo de operacion: 20
+[INFO] 04:49:17:930 kernel_logger/(22394:22443): paquete recibido
+[INFO] 05:07:44:376 kernel_logger/(23338:23338): diccionario
+[INFO] 05:07:44:383 kernel_logger/(23338:23338): fors
+[INFO] 05:07:44:389 kernel_logger/(23338:23338): No es null el archivo de config
+[INFO] 05:07:51:161 kernel_logger/(23338:23382): escuchando a consola
+[INFO] 05:07:51:162 kernel_logger/(23338:23382): espacio asignada
+[INFO] 05:07:51:162 kernel_logger/(23338:23382): Recibido codigo de operacion: 20
+[INFO] 05:07:51:162 kernel_logger/(23338:23382): paquete recibido

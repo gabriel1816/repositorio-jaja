@@ -1,0 +1,171 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Memoria",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/memoria/memoria",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/memoria",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Debug Kernel",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/kernel/kernel",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/kernel",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Debug Consola",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/consola/consola",
+      "args": [
+        "${workspaceFolder}/consola/cfg/consola.config",
+        "${workspaceFolder}/consola/cfg/pseudo.codigo"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/consola",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Debug CPU",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/CPU/CPU",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/CPU",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Debug Filesystem",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/fileSystem/fileSystem",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/fileSystem",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Debug Proceso3",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/proceso3/proceso3",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/proceso3/proceso3",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/utnso/USA_ESTA_CARPETA/tp-2023-1c-Los-Operandos",
+      "program": "/home/utnso/USA_ESTA_CARPETA/tp-2023-1c-Los-Operandos/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

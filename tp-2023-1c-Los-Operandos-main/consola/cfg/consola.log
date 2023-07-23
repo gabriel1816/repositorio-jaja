@@ -1,0 +1,171 @@
+[INFO] 22:38:30:470 CONSOLE/(12338:12338): No es null el archivo de config
+[ERROR] 22:38:31:764 CONSOLE/(12338:12338): Error: Connection refused
+[INFO] 22:39:23:605 CONSOLE/(12662:12662): No es null el archivo de config
+[INFO] 14:36:50:245 CONSOLE/(5368:5368): No es null el archivo de config
+[INFO] 14:40:19:231 CONSOLE/(5637:5637): No es null el archivo de config
+[ERROR] 14:40:19:241 CONSOLE/(5637:5637): Error: Invalid argument
+[ERROR] 14:40:19:243 CONSOLE/(5637:5637): Error: Bad file descriptor
+[INFO] 15:03:01:757 CONSOLE/(7026:7026): No es null el archivo de config
+[ERROR] 15:03:01:766 CONSOLE/(7026:7026): No se pudo abrir el archivo de pseudocódigo 
+
+[INFO] 15:03:27:816 CONSOLE/(7064:7064): No es null el archivo de config
+[ERROR] 15:03:27:817 CONSOLE/(7064:7064): Error: Invalid argument
+[ERROR] 15:03:27:817 CONSOLE/(7064:7064): Error: Bad file descriptor
+[INFO] 15:04:38:004 CONSOLE/(7190:7190): No es null el archivo de config
+[INFO] 15:04:38:017 CONSOLE/(7190:7190): Consola iniciada
+[ERROR] 15:04:38:019 CONSOLE/(7190:7190): Error: Invalid argument
+[ERROR] 15:04:38:027 CONSOLE/(7190:7190): Error: Bad file descriptor
+[INFO] 15:07:15:228 CONSOLE/(7404:7404): No es null el archivo de config
+[INFO] 15:07:15:241 CONSOLE/(7404:7404): Consola iniciada
+[INFO] 15:07:15:255 CONSOLE/(7404:7404): llegue aca 1
+[INFO] 15:07:15:257 CONSOLE/(7404:7404): llegue aca 2
+[ERROR] 15:07:15:257 CONSOLE/(7404:7404): Error: Invalid argument
+[ERROR] 15:07:15:257 CONSOLE/(7404:7404): Error: Bad file descriptor
+[INFO] 15:10:53:849 CONSOLE/(7650:7650): (null)
+[INFO] 15:10:53:858 CONSOLE/(7650:7650): No es null el archivo de config
+[INFO] 15:10:53:861 CONSOLE/(7650:7650): Consola iniciada
+[INFO] 15:10:53:862 CONSOLE/(7650:7650): llegue aca 1
+[INFO] 15:10:53:864 CONSOLE/(7650:7650): llegue aca 2
+[ERROR] 15:10:53:864 CONSOLE/(7650:7650): Error: Invalid argument
+[ERROR] 15:10:53:864 CONSOLE/(7650:7650): Error: Bad file descriptor
+[INFO] 15:14:14:125 CONSOLE/(7884:7884): (null)
+[INFO] 15:14:14:140 CONSOLE/(7884:7884): No es null el archivo de config
+[INFO] 15:14:14:142 CONSOLE/(7884:7884): Consola iniciada
+[INFO] 15:14:14:142 CONSOLE/(7884:7884): llegue aca 1
+[INFO] 15:14:14:143 CONSOLE/(7884:7884): llegue aca 2
+[ERROR] 15:14:14:143 CONSOLE/(7884:7884): Error: Invalid argument
+[ERROR] 15:14:14:143 CONSOLE/(7884:7884): Error: Bad file descriptor
+[INFO] 15:15:22:443 CONSOLE/(8019:8019): ./consola
+[INFO] 15:15:22:451 CONSOLE/(8019:8019): (null)
+[INFO] 15:15:22:454 CONSOLE/(8019:8019): No es null el archivo de config
+[INFO] 15:15:22:456 CONSOLE/(8019:8019): Consola iniciada
+[INFO] 15:15:22:457 CONSOLE/(8019:8019): llegue aca 1
+[INFO] 15:15:22:457 CONSOLE/(8019:8019): llegue aca 2
+[ERROR] 15:15:22:457 CONSOLE/(8019:8019): Error: Invalid argument
+[ERROR] 15:15:22:458 CONSOLE/(8019:8019): Error: Bad file descriptor
+[INFO] 15:16:20:241 CONSOLE/(8114:8114): /home/utnso/Desktop/tp-2023-1c-Los-Operandos/consola/cfg/consola.config
+[INFO] 15:16:20:251 CONSOLE/(8114:8114): 127.0.0.1
+[INFO] 15:16:20:251 CONSOLE/(8114:8114): No es null el archivo de config
+[INFO] 15:16:20:251 CONSOLE/(8114:8114): Consola iniciada
+[INFO] 15:17:13:060 CONSOLE/(8217:8217): No es null el archivo de config
+[INFO] 15:17:13:075 CONSOLE/(8217:8217): Consola iniciada
+[INFO] 15:22:14:943 CONSOLE/(8432:8432): No es null el archivo de config
+[INFO] 15:22:14:950 CONSOLE/(8432:8432): Consola iniciada
+[INFO] 15:24:46:939 CONSOLE/(8666:8666): No es null el archivo de config
+[INFO] 15:24:46:945 CONSOLE/(8666:8666): Consola iniciada
+[INFO] 15:25:37:250 CONSOLE/(8806:8806): No es null el archivo de config
+[INFO] 15:25:37:255 CONSOLE/(8806:8806): Consola iniciada
+[INFO] 15:25:37:258 CONSOLE/(8806:8806): hola?
+[INFO] 15:27:13:464 CONSOLE/(8979:8979): No es null el archivo de config
+[INFO] 15:27:13:469 CONSOLE/(8979:8979): Consola iniciada
+[INFO] 15:27:13:475 CONSOLE/(8979:8979): hola???? ayuda!!
+[INFO] 15:27:41:533 CONSOLE/(9102:9102): No es null el archivo de config
+[INFO] 15:27:41:552 CONSOLE/(9102:9102): Consola iniciada
+[INFO] 15:28:50:319 CONSOLE/(9185:9185): No es null el archivo de config
+[INFO] 15:28:50:329 CONSOLE/(9185:9185): Consola iniciada
+[INFO] 15:28:50:335 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:336 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:336 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:336 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:336 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:338 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:339 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:339 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:339 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:340 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:341 CONSOLE/(9185:9185): hola???? ayuda!!
+[INFO] 15:28:50:341 CONSOLE/(9185:9185): llegue aca 1
+[INFO] 15:28:50:342 CONSOLE/(9185:9185): llegue aca 2
+[INFO] 15:28:50:345 CONSOLE/(9185:9185): llegue aca 3
+[INFO] 15:35:36:264 CONSOLE/(9704:9704): No es null el archivo de config
+[INFO] 15:35:36:275 CONSOLE/(9704:9704): Consola iniciada
+[INFO] 15:38:56:877 CONSOLE/(10020:10020): No es null el archivo de config
+[INFO] 15:38:56:884 CONSOLE/(10020:10020): Consola iniciada
+[INFO] 15:38:56:890 CONSOLE/(10020:10020): :)
+[INFO] 15:38:56:893 CONSOLE/(10020:10020): :3
+[INFO] 15:50:36:396 CONSOLE/(10665:10665): No es null el archivo de config
+[INFO] 15:50:36:412 CONSOLE/(10665:10665): Consola iniciada
+[INFO] 15:50:36:414 CONSOLE/(10665:10665): :)
+[INFO] 15:50:36:415 CONSOLE/(10665:10665): :3
+[INFO] 15:52:59:490 CONSOLE/(10910:10910): No es null el archivo de config
+[INFO] 15:52:59:522 CONSOLE/(10910:10910): Consola iniciada
+[INFO] 15:52:59:523 CONSOLE/(10910:10910): :)
+[INFO] 15:52:59:540 CONSOLE/(10910:10910): :3
+[INFO] 15:52:59:540 CONSOLE/(10910:10910): uwu
+[INFO] 16:10:05:708 CONSOLE/(12839:12839): No es null el archivo de config
+[INFO] 16:10:05:717 CONSOLE/(12839:12839): Consola iniciada
+[INFO] 16:10:05:721 CONSOLE/(12839:12839): :)
+[INFO] 16:10:05:723 CONSOLE/(12839:12839): :3
+[INFO] 16:10:05:723 CONSOLE/(12839:12839): uwu
+[INFO] 03:35:16:620 CONSOLE/(15106:15106): No es null el archivo de config
+[INFO] 03:35:16:625 CONSOLE/(15106:15106): Consola iniciada
+[INFO] 03:37:43:843 CONSOLE/(15106:15106): motivo finalizacion de proceso: 
+[INFO] 03:39:38:961 CONSOLE/(15603:15603): No es null el archivo de config
+[INFO] 03:39:38:974 CONSOLE/(15603:15603): Consola iniciada
+[INFO] 03:39:38:977 CONSOLE/(15603:15603): motivo finalizacion de proceso: 
+[INFO] 03:40:48:755 CONSOLE/(15814:15814): No es null el archivo de config
+[INFO] 03:40:48:760 CONSOLE/(15814:15814): Consola iniciada
+[INFO] 03:44:03:124 CONSOLE/(16130:16130): No es null el archivo de config
+[INFO] 03:44:03:135 CONSOLE/(16130:16130): Consola iniciada
+[INFO] 03:44:03:137 CONSOLE/(16130:16130): enviando
+[INFO] 03:44:03:137 CONSOLE/(16130:16130): instrucciones enviadas
+[INFO] 03:44:47:190 CONSOLE/(16130:16130): motivo finalizacion de proceso: 
+[INFO] 03:58:59:761 CONSOLE/(17242:17242): No es null el archivo de config
+[INFO] 03:58:59:764 CONSOLE/(17242:17242): Consola iniciada
+[INFO] 03:58:59:770 CONSOLE/(17242:17242): enviando
+[INFO] 03:58:59:773 CONSOLE/(17242:17242): instrucciones enviadas
+[INFO] 04:00:29:290 CONSOLE/(17242:17242): motivo finalizacion de proceso: 
+[INFO] 04:02:10:382 CONSOLE/(17817:17817): No es null el archivo de config
+[INFO] 04:02:10:392 CONSOLE/(17817:17817): Consola iniciada
+[INFO] 04:02:10:393 CONSOLE/(17817:17817): enviando
+[INFO] 04:02:10:400 CONSOLE/(17817:17817): instrucciones enviadas
+[INFO] 04:07:55:482 CONSOLE/(17817:17817): motivo finalizacion de proceso: 
+[INFO] 04:11:23:150 CONSOLE/(18763:18763): No es null el archivo de config
+[INFO] 04:11:23:185 CONSOLE/(18763:18763): Consola iniciada
+[INFO] 04:11:23:186 CONSOLE/(18763:18763): enviando
+[INFO] 04:11:23:186 CONSOLE/(18763:18763): instrucciones enviadas
+[INFO] 04:16:35:306 CONSOLE/(18763:18763): motivo finalizacion de proceso: 
+[INFO] 04:19:25:646 CONSOLE/(19465:19465): No es null el archivo de config
+[INFO] 04:19:25:655 CONSOLE/(19465:19465): Consola iniciada
+[INFO] 04:19:25:656 CONSOLE/(19465:19465): enviando
+[INFO] 04:19:25:661 CONSOLE/(19465:19465): instrucciones enviadas
+[INFO] 04:21:20:775 CONSOLE/(19465:19465): motivo finalizacion de proceso: 
+[INFO] 04:23:00:153 CONSOLE/(19953:19953): No es null el archivo de config
+[INFO] 04:23:00:166 CONSOLE/(19953:19953): Consola iniciada
+[INFO] 04:23:00:171 CONSOLE/(19953:19953): enviando
+[INFO] 04:23:00:171 CONSOLE/(19953:19953): instrucciones enviadas
+[INFO] 04:28:09:439 CONSOLE/(19953:19953): motivo finalizacion de proceso: 
+[INFO] 04:29:03:343 CONSOLE/(20482:20482): No es null el archivo de config
+[INFO] 04:29:03:357 CONSOLE/(20482:20482): Consola iniciada
+[INFO] 04:29:03:360 CONSOLE/(20482:20482): enviando
+[INFO] 04:29:03:362 CONSOLE/(20482:20482): instrucciones enviadas
+[INFO] 04:29:03:363 CONSOLE/(20482:20482): motivo finalizacion de proceso: 
+[INFO] 04:29:36:901 CONSOLE/(20576:20576): No es null el archivo de config
+[INFO] 04:29:36:913 CONSOLE/(20576:20576): Consola iniciada
+[INFO] 04:29:36:915 CONSOLE/(20576:20576): enviando
+[INFO] 04:29:36:915 CONSOLE/(20576:20576): instrucciones enviadas
+[INFO] 04:31:15:188 CONSOLE/(21035:21035): No es null el archivo de config
+[INFO] 04:31:15:191 CONSOLE/(21035:21035): Consola iniciada
+[INFO] 04:31:15:193 CONSOLE/(21035:21035): enviando
+[INFO] 04:31:15:197 CONSOLE/(21035:21035): instrucciones enviadas
+[INFO] 04:31:15:858 CONSOLE/(21035:21035): motivo finalizacion de proceso: 
+[INFO] 04:41:47:346 CONSOLE/(21640:21640): No es null el archivo de config
+[INFO] 04:41:47:355 CONSOLE/(21640:21640): Consola iniciada
+[INFO] 04:41:47:363 CONSOLE/(21640:21640): enviando
+[INFO] 04:41:47:363 CONSOLE/(21640:21640): instrucciones enviadas
+[INFO] 04:41:47:944 CONSOLE/(21640:21640): motivo finalizacion de proceso: 
+[INFO] 04:49:17:880 CONSOLE/(22442:22442): No es null el archivo de config
+[INFO] 04:49:17:890 CONSOLE/(22442:22442): Consola iniciada
+[INFO] 04:49:17:904 CONSOLE/(22442:22442): enviando
+[INFO] 04:49:17:924 CONSOLE/(22442:22442): instrucciones enviadas
+[INFO] 04:49:18:561 CONSOLE/(22442:22442): motivo finalizacion de proceso: 
+[INFO] 05:07:51:147 CONSOLE/(23381:23381): No es null el archivo de config
+[INFO] 05:07:51:149 CONSOLE/(23381:23381): Consola iniciada
+[INFO] 05:07:51:151 CONSOLE/(23381:23381): enviando
+[INFO] 05:07:51:158 CONSOLE/(23381:23381): instrucciones enviadas
+[INFO] 05:07:51:745 CONSOLE/(23381:23381): motivo finalizacion de proceso: 

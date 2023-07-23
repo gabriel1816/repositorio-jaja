@@ -1,0 +1,122 @@
+[INFO] 16:33:41:398 Servidor/(7021:7021): Servidor listo para recibir al cliente
+[INFO] 16:34:26:363 Servidor/(7217:7217): Servidor listo para recibir al cliente
+[INFO] 16:34:32:811 Servidor/(7217:7217): recibio mansaje
+[ERROR] 16:34:32:812 Servidor/(7217:7217): el cliente se desconecto. Terminando servidor
+[INFO] 16:35:58:268 Servidor/(7518:7518): Servidor listo para recibir al cliente
+[INFO] 16:36:04:410 Servidor/(7518:7518): recibio mansaje
+[ERROR] 16:36:04:410 Servidor/(7518:7518): el cliente se desconecto. Terminando servidor
+[INFO] 16:40:15:930 Servidor/(7859:7859): Servidor listo para recibir al cliente
+[INFO] 16:47:47:235 Servidor/(8574:8574): Servidor listo para recibir al cliente
+[INFO] 16:47:52:637 Servidor/(8574:8574): recibio mansaje
+[ERROR] 16:47:52:638 Servidor/(8574:8574): el cliente se desconecto. Terminando servidor
+[INFO] 16:48:52:512 Servidor/(8787:8787): Servidor listo para recibir al cliente
+[INFO] 16:48:57:320 Servidor/(8787:8787): recibio mansaje
+[ERROR] 16:48:57:321 Servidor/(8787:8787): el cliente se desconecto. Terminando servidor
+[INFO] 17:00:17:294 Servidor/(9790:9790): Servidor listo para recibir al cliente
+[INFO] 17:00:26:045 Servidor/(9790:9790): recibio mansaje
+[ERROR] 17:00:26:045 Servidor/(9790:9790): el cliente se desconecto. Terminando servidor
+[INFO] 17:01:07:031 Servidor/(9989:9989): Servidor listo para recibir al cliente
+[INFO] 17:01:12:839 Servidor/(9989:9989): recibio mansaje
+[ERROR] 17:01:12:839 Servidor/(9989:9989): el cliente se desconecto. Terminando servidor
+[INFO] 17:02:09:151 Servidor/(10263:10263): Servidor listo para recibir al cliente
+[INFO] 20:58:18:580 Servidor/(2158:2158): Servidor listo para recibir al cliente
+[INFO] 20:58:23:373 Servidor/(2158:2158): recibio mansaje de kernel
+[ERROR] 20:58:23:373 Servidor/(2158:2158): el cliente se desconecto. Terminando servidor
+[INFO] 21:59:51:009 Servidor/(3129:3129): Servidor listo para recibir al cliente
+[INFO] 21:59:57:056 Servidor/(3129:3129): recibio mansaje de kernel
+[ERROR] 21:59:57:057 Servidor/(3129:3129): el cliente se desconecto. Terminando servidor
+[INFO] 22:01:16:632 Servidor/(3410:3410): Servidor listo para recibir al cliente
+[INFO] 22:01:22:464 Servidor/(3410:3410): recibio mansaje de kernel
+[ERROR] 22:01:22:465 Servidor/(3410:3410): el cliente se desconecto. Terminando servidor
+[INFO] 22:03:01:115 Servidor/(3723:3723): Servidor listo para recibir al cliente
+[INFO] 22:14:30:104 Servidor/(4874:4874): Servidor listo para recibir al cliente
+[INFO] 22:14:39:966 Servidor/(4874:4874): recibio mansaje de kernel
+[ERROR] 22:14:39:972 Servidor/(4874:4874): el cliente se desconecto. Terminando servidor
+[INFO] 22:32:05:564 Servidor/(5843:5843): Servidor listo para recibir al cliente
+[INFO] 22:32:11:850 Servidor/(5843:5843): recibio mansaje de kernel
+[ERROR] 22:32:11:851 Servidor/(5843:5843): el cliente se desconecto. Terminando servidor
+[INFO] 22:33:18:146 Servidor/(6095:6095): Servidor listo para recibir al cliente
+[INFO] 22:33:23:459 Servidor/(6095:6095): recibio mansaje de kernel
+[ERROR] 22:33:23:460 Servidor/(6095:6095): el cliente se desconecto. Terminando servidor
+[INFO] 22:35:54:894 Servidor/(6461:6461): Servidor listo para recibir al cliente
+[INFO] 22:35:58:853 Servidor/(6461:6461): recibio mansaje de kernel
+[ERROR] 22:35:58:858 Servidor/(6461:6461): el cliente se desconecto. Terminando servidor
+[INFO] 22:48:32:418 Servidor/(7421:7421): Servidor listo para recibir al cliente
+[INFO] 22:48:36:258 Servidor/(7421:7421): recibio mansaje de kernel
+[ERROR] 22:48:36:259 Servidor/(7421:7421): el cliente se desconecto. Terminando servidor
+[INFO] 22:50:30:613 Servidor/(7769:7769): Servidor listo para recibir al cliente
+[INFO] 22:50:35:349 Servidor/(7769:7769): recibio mansaje de kernel
+[ERROR] 22:50:35:354 Servidor/(7769:7769): el cliente se desconecto. Terminando servidor
+[INFO] 22:51:07:830 Servidor/(7935:7935): Servidor listo para recibir al cliente
+[INFO] 22:51:11:161 Servidor/(7935:7935): recibio mansaje de kernel
+[ERROR] 22:51:11:166 Servidor/(7935:7935): el cliente se desconecto. Terminando servidor
+[INFO] 22:52:56:063 Servidor/(8293:8293): Servidor listo para recibir al cliente
+[INFO] 22:52:59:283 Servidor/(8293:8293): recibio mansaje de kernel
+[ERROR] 22:52:59:285 Servidor/(8293:8293): el cliente se desconecto. Terminando servidor
+[INFO] 22:58:53:097 Servidor/(9212:9212): Servidor listo para recibir al cliente
+[INFO] 22:58:56:986 Servidor/(9212:9212): recibio mansaje de kernel
+[ERROR] 22:58:56:988 Servidor/(9212:9212): el cliente se desconecto. Terminando servidor
+[INFO] 23:00:27:040 Servidor/(9708:9708): Servidor listo para recibir al cliente
+[INFO] 23:00:34:002 Servidor/(9708:9708): recibio mansaje de kernel
+[ERROR] 23:00:34:003 Servidor/(9708:9708): el cliente se desconecto. Terminando servidor
+[INFO] 23:04:40:736 Servidor/(10627:10627): Servidor listo para recibir al cliente
+[INFO] 23:04:50:379 Servidor/(10627:10627): recibio mansaje de kernel
+[ERROR] 23:04:56:597 Servidor/(10627:10627): el cliente se desconecto. Terminando servidor
+[INFO] 23:24:44:244 Servidor/(12171:12171): Servidor listo para recibir al cliente
+[INFO] 23:24:51:042 Servidor/(12171:12171): recibio mansaje de kernel
+[ERROR] 23:25:01:788 Servidor/(12171:12171): el cliente se desconecto. Terminando servidor
+[INFO] 23:31:52:050 Servidor/(12877:12877): Servidor listo para recibir al cliente
+[INFO] 23:31:55:993 Servidor/(12877:12877): recibio mansaje de kernel
+[ERROR] 23:31:59:498 Servidor/(12877:12877): el cliente se desconecto. Terminando servidor
+[INFO] 23:39:10:829 Servidor/(13592:13592): Servidor listo para recibir al cliente
+[INFO] 23:39:15:479 Servidor/(13592:13592): recibio mansaje de kernel
+[ERROR] 23:39:24:952 Servidor/(13592:13592): el cliente se desconecto. Terminando servidor
+[INFO] 23:43:43:237 Servidor/(13918:13918): Servidor listo para recibir al cliente
+[INFO] 23:43:48:736 Servidor/(13918:13918): recibio mansaje de kernel
+[ERROR] 23:43:53:394 Servidor/(13918:13918): el cliente se desconecto. Terminando servidor
+[INFO] 13:16:31:083 Servidor/(2393:2393): Servidor listo para recibir al cliente
+[INFO] 13:16:45:614 Servidor/(2393:2393): recibio mansaje de kernel
+[INFO] 03:18:56:324 SOtp/(13017:13017): levante
+[INFO] 03:20:17:946 SOtp/(13132:13132): levante
+[INFO] 03:20:42:386 SOtp/(13208:13208): levante
+[INFO] 03:20:42:394 SOtp/(13208:13208): termine
+[INFO] 03:20:42:400 SOtp/(13208:13208): Servidor listo para recibir al cliente
+[INFO] 03:22:37:867 SOtp/(13391:13391): levante
+[INFO] 03:22:37:872 SOtp/(13391:13391): termine
+[INFO] 03:22:37:875 SOtp/(13391:13391): Servidor listo para recibir al cliente
+[INFO] 03:56:37:619 SOtp/(16754:16754): levante
+[INFO] 03:56:37:627 SOtp/(16754:16754): termine
+[INFO] 03:56:37:630 SOtp/(16754:16754): Servidor listo para recibir al cliente
+[INFO] 03:58:36:514 SOtp/(17126:17126): levante
+[INFO] 03:58:36:524 SOtp/(17126:17126): termine
+[INFO] 03:58:36:526 SOtp/(17126:17126): Servidor listo para recibir al cliente
+[INFO] 04:01:39:831 SOtp/(17697:17697): levante
+[INFO] 04:01:39:833 SOtp/(17697:17697): termine
+[INFO] 04:01:39:834 SOtp/(17697:17697): Servidor listo para recibir al cliente
+[INFO] 04:10:29:309 SOtp/(18561:18561): levante
+[INFO] 04:10:29:332 SOtp/(18561:18561): termine
+[INFO] 04:10:29:334 SOtp/(18561:18561): Servidor listo para recibir al cliente
+[INFO] 04:10:48:122 SOtp/(18632:18632): levante
+[INFO] 04:10:48:138 SOtp/(18632:18632): termine
+[INFO] 04:10:48:138 SOtp/(18632:18632): Servidor listo para recibir al cliente
+[INFO] 04:19:03:357 SOtp/(19329:19329): levante
+[INFO] 04:19:03:360 SOtp/(19329:19329): termine
+[INFO] 04:19:03:365 SOtp/(19329:19329): Servidor listo para recibir al cliente
+[INFO] 04:22:32:106 SOtp/(19819:19819): levante
+[INFO] 04:22:32:120 SOtp/(19819:19819): termine
+[INFO] 04:22:32:128 SOtp/(19819:19819): Servidor listo para recibir al cliente
+[INFO] 04:28:40:246 SOtp/(20328:20328): levante
+[INFO] 04:28:40:248 SOtp/(20328:20328): termine
+[INFO] 04:28:40:251 SOtp/(20328:20328): Servidor listo para recibir al cliente
+[INFO] 04:30:51:300 SOtp/(20890:20890): levante
+[INFO] 04:30:51:309 SOtp/(20890:20890): termine
+[INFO] 04:30:51:313 SOtp/(20890:20890): Servidor listo para recibir al cliente
+[INFO] 04:41:21:268 SOtp/(21492:21492): levante
+[INFO] 04:41:21:270 SOtp/(21492:21492): termine
+[INFO] 04:41:21:272 SOtp/(21492:21492): Servidor listo para recibir al cliente
+[INFO] 04:48:51:361 SOtp/(22311:22311): levante
+[INFO] 04:48:51:364 SOtp/(22311:22311): termine
+[INFO] 04:48:51:366 SOtp/(22311:22311): Servidor listo para recibir al cliente
+[INFO] 05:07:26:147 SOtp/(23254:23254): levante
+[INFO] 05:07:26:155 SOtp/(23254:23254): termine
+[INFO] 05:07:26:163 SOtp/(23254:23254): Servidor listo para recibir al cliente

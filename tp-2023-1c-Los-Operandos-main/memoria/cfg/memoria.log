@@ -1,0 +1,58 @@
+
+[INFO] 22:48:20:917 Servidor/(7374:7374): Servidor listo para recibir al cliente
+[INFO] 22:48:36:259 Servidor/(7374:7374): recibio mansaje de kernel
+[ERROR] 22:48:36:261 Servidor/(7374:7374): el cliente se desconecto. Terminando servidor
+[INFO] 22:51:01:203 Servidor/(7876:7876): Servidor listo para recibir al cliente
+[INFO] 22:51:11:165 Servidor/(7876:7876): recibio mansaje de kernel
+[ERROR] 22:51:11:168 Servidor/(7876:7876): el cliente se desconecto. Terminando servidor
+[INFO] 23:00:19:800 Servidor/(9646:9646): Servidor listo para recibir al cliente
+[INFO] 23:00:34:003 Servidor/(9646:9646): recibio mansaje de kernel
+[ERROR] 23:00:34:004 Servidor/(9646:9646): el cliente se desconecto. Terminando servidor
+[INFO] 23:03:02:461 Servidor/(10160:10160): Servidor listo para recibir al cliente
+[INFO] 23:03:13:687 Servidor/(10160:10160): recibio mansaje de kernel
+[ERROR] 23:03:13:692 Servidor/(10160:10160): el cliente se desconecto. Terminando servidor
+[INFO] 23:04:33:252 Servidor/(10556:10556): Servidor listo para recibir al cliente
+[INFO] 23:04:50:384 Servidor/(10556:10556): recibio mansaje de kernel
+[ERROR] 23:04:50:386 Servidor/(10556:10556): el cliente se desconecto. Terminando servidor
+[INFO] 23:22:06:513 Servidor/(11668:11668): Servidor listo para recibir al cliente
+[INFO] 23:24:34:590 Servidor/(12081:12081): Servidor listo para recibir al cliente
+[INFO] 23:24:51:032 Servidor/(12081:12081): recibio mansaje de kernel
+[ERROR] 23:24:51:033 Servidor/(12081:12081): el cliente se desconecto. Terminando servidor
+[INFO] 23:31:44:602 Servidor/(12830:12830): Servidor listo para recibir al cliente
+[INFO] 23:38:58:130 Servidor/(13521:13521): Servidor listo para recibir al cliente
+[INFO] 23:43:34:543 Servidor/(13877:13877): Servidor listo para recibir al cliente
+[INFO] 23:43:48:735 Servidor/(13877:13877): recibio mansaje de kernel
+[INFO] 23:43:48:735 Servidor/(13877:13877): recibio mansaje de fileSystem
+[INFO] 23:43:48:736 Servidor/(13877:13877): recibio mansaje de cpu
+[INFO] 12:43:24:395 Servidor/(48298:48298): Servidor listo para recibir al cliente
+[INFO] 13:15:52:998 Servidor/(2262:2262): Servidor listo para recibir al cliente
+[INFO] 13:16:45:614 Servidor/(2262:2262): recibio mansaje de kernel
+[INFO] 13:16:45:614 Servidor/(2262:2262): recibio mansaje de fileSystem
+[INFO] 13:16:45:616 Servidor/(2262:2262): recibio mansaje de cpu
+[INFO] 02:05:37:275 Servidor/(5442:5442): Servidor listo para recibir al cliente
+[INFO] 04:21:59:754 Servidor/(12948:12948): Servidor listo para recibir al cliente
+[INFO] 18:56:32:180 Servidor/(4047:4047): Servidor listo para recibir al cliente
+[INFO] 19:17:10:672 Servidor/(2224:2224): Servidor listo para recibir al cliente
+[INFO] 19:19:58:663 Servidor/(2508:2508): Servidor listo para recibir al cliente
+[INFO] 19:50:44:170 Servidor/(3073:3073): Servidor listo para recibir al cliente
+[INFO] 03:16:05:436 Servidor/(12527:12527): 8002
+[INFO] 03:16:05:448 Servidor/(12527:12527): 4096
+[INFO] 03:16:05:452 Servidor/(12527:12527): 128
+[INFO] 03:16:05:452 Servidor/(12527:12527): 16
+[INFO] 03:16:05:453 Servidor/(12527:12527): 1000
+[INFO] 03:16:05:453 Servidor/(12527:12527): 60000
+[INFO] 03:16:05:454 Servidor/(12527:12527): BEST
+[INFO] 03:16:05:454 Servidor/(12527:12527): 127.0.0.1
+[INFO] 03:17:13:019 Servidor/(12745:12745): cree estructuras
+[INFO] 03:21:42:994 Servidor/(13294:13294): cree estructuras
+[INFO] 03:56:28:820 Servidor/(16723:16723): cree estructuras
+[INFO] 03:58:22:177 Servidor/(17089:17089): cree estructuras
+[INFO] 04:01:32:084 Servidor/(17647:17647): cree estructuras
+[INFO] 04:10:38:318 Servidor/(18595:18595): cree estructuras
+[INFO] 04:18:57:095 Servidor/(19282:19282): cree estructuras
+[INFO] 04:22:21:064 Servidor/(19760:19760): cree estructuras
+[INFO] 04:28:33:687 Servidor/(20279:20279): cree estructuras
+[INFO] 04:30:45:805 Servidor/(20847:20847): cree estructuras
+[INFO] 04:41:15:669 Servidor/(21460:21460): cree estructuras
+[INFO] 04:48:43:632 Servidor/(22265:22265): cree estructuras
+[INFO] 05:07:20:198 Servidor/(23217:23217): cree estructuras

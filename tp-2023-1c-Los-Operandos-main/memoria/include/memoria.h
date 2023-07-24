@@ -36,11 +36,12 @@ extern int* retardo_memoria;
 extern int* retardo_compactacion;
 extern char* algoritmo_asignacion;
 extern char* ip_memoria;
+extern t_log* logger;
 
 
-void atender_cpu(void* conexion, t_log* logger);
-void atender_kernel(void* conexion, t_log* logger);
-void atender_fs(void* conexion, t_log* logger);
+void atender_cpu(void* conexion);
+void atender_kernel(void* conexion);
+void atender_fs(void* conexion);
 
 void levantar_config(char* path);
 void crear_estructuras();

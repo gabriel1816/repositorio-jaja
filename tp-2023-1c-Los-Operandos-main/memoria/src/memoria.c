@@ -24,7 +24,7 @@ pthread_t hilo_de_escucha_kernel, hilo_de_escucha_cpu, hilo_de_escucha_fs;
 
 int main(void) {
 
-
+	printf("buenas");
 	logger = log_create("./cfg/memoria.log", "Servidor", 1, LOG_LEVEL_DEBUG);
     levantar_config("./cfg/memoria.config");
 

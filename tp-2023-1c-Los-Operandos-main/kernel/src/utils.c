@@ -3,7 +3,7 @@
 
 t_kernel_config levantar_config(){
 	t_kernel_config kernel_config;
-	kernel_config.config = config_create("cfg/kernel.config");
+	kernel_config.config = config_create("../cfg/kernel.config");
 	kernel_config.cpuIP = config_get_string_value(kernel_config.config, "IP_CPU");
 	kernel_config.memoryIP = config_get_string_value(kernel_config.config, "IP_MEMORIA");
 	kernel_config.filesystemIP = config_get_string_value(kernel_config.config, "IP_FILESYSTEM");

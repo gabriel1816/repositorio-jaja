@@ -1,9 +1,10 @@
 #include "memoria.h"
 
 
-
 t_paquete* serializar_segmentos(t_tabla_segmentos* tabla){
-	t_paquete* paquete = crear_paquete();
+	t_buffer* buffer = malloc(sizeof(t_buffer));
+	buffer = NULL;
+	t_paquete* paquete = crear_paquete(buffer, 7);
 	agregar_a_paquete(paquete, &(tabla->pid), sizeof(int));
 	int cant_segmentos = list_size(tabla->segmentos);
 	agregar_a_paquete(paquete, &cant_segmentos, sizeof(int));

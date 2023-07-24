@@ -1,7 +1,7 @@
 #include "memoria.h"
 
 
-void atender_cpu(void* conexion, t_log* logger)
+void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int)conexion;
 	log_info(logger, "escuchando a cpu");
@@ -13,7 +13,7 @@ void atender_cpu(void* conexion, t_log* logger)
 	close(conexion_cpu);
 
 }
-void atender_kernel(void* conexion, t_log* logger)
+void atender_kernel(void* conexion)
 {
 	int conexion_kernel = (int)conexion;
 	log_info(logger, "escuchando a kernel");
@@ -27,7 +27,7 @@ void atender_kernel(void* conexion, t_log* logger)
 
 }
 
-void atender_fs(void* conexion, t_log* logger)
+void atender_fs(void* conexion)
 {
 	int conexion_fs = (int)conexion;
 	log_info(logger, "escuchando al filesystem");

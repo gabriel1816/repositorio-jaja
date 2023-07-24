@@ -51,26 +51,23 @@ int esperar_cliente(int socket_servidor)
 	return socket_cliente;
 }
 
-t_list* recibir_paquete(int socket_cliente)
+t_paquete *recibir_paquete(int socket, t_log *logger)
 {
-	int size;
-	int desplazamiento = 0;
-	void * buffer;
-	t_list* valores = list_create();
-	int tamanio;
+    t_paquete *paquete = malloc(sizeof(t_paquete));
+    paquete->buffer = malloc(sizeof(t_buffer));
+    paquete->buffer->stream = NULL;
+    paquete->buffer->size = 0;
+    paquete->codigo_operacion = 0;
 
-	buffer = recibir_buffer(&size, socket_cliente);
-	while(desplazamiento < size)
-	{
-		memcpy(&tamanio, buffer + desplazamiento, sizeof(int));
-		desplazamiento+=sizeof(int);
-		char* valor = malloc(tamanio);
-		memcpy(valor, buffer+desplazamiento, tamanio);
-		desplazamiento+=tamanio;
-		list_add(valores, valor);
-	}
-	free(buffer);
-	return valores;
+    // Primero recibimos el codigo de operacion
+    recv(socket, &(paquete->codigo_operacion), sizeof(uint8_t), 0);
+    //log_info(logger, "Recibido codigo de operacion: %d", paquete->codigo_operacion);
+    // Después ya podemos recibir el buffer. Primero su tamaño seguido del contenido
+    recv(socket, &(paquete->buffer->size), sizeof(uint32_t), 0);
+    paquete->buffer->stream = malloc(paquete->buffer->size);
+    recv(socket, paquete->buffer->stream, paquete->buffer->size, 0);
+
+    return paquete;
 }
 
 void recibir_mensaje(int socket_cliente)
@@ -108,22 +105,5 @@ void* recibir_buffer(int* size, int socket_cliente)
 
 
 
-t_paquete *package_recv(int socket, t_log *logger)
-{
-    t_paquete* paquete = malloc(sizeof(t_paquete));
-    paquete->buffer = malloc(sizeof(t_buffer));
-	paquete->buffer->stream = NULL;
-	paquete->buffer->size = 0;
-	paquete->codigo_operacion = 0;
-	log_info(logger, "espacio asignada");
 
-    // Primero recibimos el codigo de operacion
-    recv(socket, &(paquete->codigo_operacion), sizeof(op_code), 0);
-    log_info(logger, "Recibido codigo de operacion: %d", paquete->codigo_operacion);
-    // Después ya podemos recibir el buffer. Primero su tamaño seguido del contenido
-    recv(socket, &(paquete->buffer->size), sizeof(int), 0);
-    paquete->buffer->stream = malloc(paquete->buffer->size);
-    recv(socket, paquete->buffer->stream, paquete->buffer->size, 0);
 
-    return paquete;
-}

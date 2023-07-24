@@ -2,7 +2,8 @@
 
 
 // funciones de archivos
-bool abrir_archivo(char* nombre_archivo){ //si devuelve false es porque no existe el archivo
+bool abrir_archivo(char* nombre_archivo)
+{ //si devuelve false es porque no existe el archivo
 	bool encontrado = true;
 	//abro el archivo directorio de fcbs
 
@@ -31,23 +32,38 @@ bool crear_archivo(char *nombreArchivo){ //siempre devuelve true porque siempre 
 
     fclose(nuevoArchivo);
 
+    t_fcb *fcb_nuevo;
+    fcb_nuevo->nombre_archivo = nombreArchivo;
+    fcb_nuevo->tam_archivo = 0;
+    fcb_nuevo->puntero_directo = 0;
+    fcb_nuevo->puntero_indirecto = 0;
+
+    agregar_a_Lista(lista_fcbs, fcb_nuevo);
+
 	return true;
 }
-/*
+
 void truncar_archivo(char *nombre_archivo, int tamanio){
     //obtengo el tamanio del archivo
-     FILE *archivo = fopen(strcat("FCBs/", nombre_archivo), "r");
-
-     t_fcb archivoFCB = 
-    int tam_archivo;
-    if(tamanio < tam_archivo){
-        //lo tengo que achicar
+    t_fcb* fcbArchivo = obtenerFcb(nombre_archivo);
+    int cant_bloques_ocupados = cant_bloques_nec(fcbArchivo->tam_archivo);
+    int nueva_cant_bloques = cant_bloques_nec(tamanio);
+    
+    if(tamanio < fcbArchivo->tam_archivo){
+        int bloques_a_borrar = cant_bloques_ocupados - nueva_cant_bloques;
+        borrar_bloques(cant_bloques_ocupados, bloques_a_borrar, fcbArchivo);
+        
     }
     else{
-        //lo agrando
+        int bloques_a_agregar = nueva_cant_bloques - cant_bloques_ocupados;
+        agregar_bloques(cant_bloques_ocupados, bloques_a_agregar, fcbArchivo);
+        //si ocupo otro archivo actualizo el bitmap
     }
+
+     //actualizo el tamanio en el fcb
+    fcbArchivo->tam_archivo = tamanio;
 }
-*/
+
 
 void leer_archivo(char *path_archivo, void* info_a_leer, int cantBytes){
 	//voy a buscar el fcb
@@ -140,4 +156,43 @@ int bloqueLogicoAFisico(t_fcb* fcb, int num_bloque){
 		//leerArchivoBloques((void*)&bloque_fisico, posicion, sizeof(uint32_t));
 		return bloque_fisico;
 	}
+}
+
+void borrar_bloques(int bloques_ocupados, int cant_bloques_a_borrar, t_fcb *fcb){
+   
+}
+
+void agregar_bloques(int bloques_ocupados, int cant_bloques_a_agregar, t_fcb *fcb){
+    if(bloques_ocupados == 0){
+        fcb->puntero_directo = asignar_bloque_libre();
+        cant_bloques_a_agregar -= 1; 
+    }
+    else{
+        for(int i = 0; i < cant_bloques_a_agregar; i++){
+            fcb->puntero_indirecto = asignar_bloque_libre();
+        }
+    }
+    
+}
+
+uint32_t asignar_bloque_libre(){
+	bool bloque_libre = false;
+    uint32_t bloque;
+	int num_linea; //cada linea del archivo de bitmap me representa un bloque
+
+
+    FILE *bitmap = fopen(path_bloques, "r");
+    char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
+	while(bloque_libre == false){//recorro el archivo bitmp y busco el primer bloque libre
+        if(fgets(linea, MAX_LINE_LENGTH, bitmap) == 0){
+           	bloque_libre == true;
+			bloque = (uint32_t)linea;
+            fwrite(1, sizeof(char*), 1, bitmap); //actualizo el archivo 
+        }
+		linea ++;
+    }
+
+    fclose(bitmap);
+		
+	return bloque;
 }

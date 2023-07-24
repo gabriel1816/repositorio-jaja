@@ -44,12 +44,13 @@ int main(void) {
 	hilo_planificador_corto_plazo();
 
 	server_socket = iniciar_servidor(kernel_config.listenPort, kernel_config.kernelIP, logger);
+
 	// escucho consola y recibo las instrucciones
 	pthread_t hilo_de_escucha_consola;
 	while(1){
-	int socket_consola = esperar_cliente(server_socket);
-	pthread_create(&hilo_de_escucha_consola, NULL, (void*)atender_consola, (void*)socket_consola);
-	pthread_detach(hilo_de_escucha_consola);
+		int socket_consola = esperar_cliente(server_socket);
+		pthread_create(&hilo_de_escucha_consola, NULL, (void*)atender_consola, (void*)socket_consola);
+		pthread_detach(hilo_de_escucha_consola);
 	} 
 
 	memoria_socket = crear_conexion(kernel_config.memoryIP,kernel_config.memoryPort);
@@ -94,8 +95,8 @@ int main(void) {
 void startUp(void){
 
 	// Inicializo logger
-	logger = log_create("cfg/kernel.log","kernel_logger", true, LOG_LEVEL_INFO);	
-
+	logger = log_create("../cfg/kernel.log","kernel_logger", true, LOG_LEVEL_INFO);	
+	
 	// Inicializo archivo de configuracion.
 	kernel_config =	levantar_config();
 	// Creo todas las colas

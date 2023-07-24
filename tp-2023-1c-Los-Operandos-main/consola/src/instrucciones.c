@@ -38,19 +38,20 @@ t_identificador buscar_identificador(char *identificador)
     return id;
 }
 
- void agregar_parametro_a_instruccion(t_list *parametros, t_instruccion *instruccion)
+ void agregar_parametro_a_instruccion(t_list* parametros, t_instruccion* instruccion)
 {
     int i = 0;
-    if (parametros != NULL)
+    if(parametros != NULL)
         while (i < instruccion->cant_parametros)
         {
             instruccion->parametros[i] = list_get(parametros, i);
             i++;
         }   
-    instruccion->param_length1 = 0;
-    instruccion->param_length2 = 0;
-    instruccion->param_length3 = 0;
-    instruccion->param_length4 = 0;
+    instruccion->param_length1 = 0;      ////////////////////////
+    instruccion->param_length2 = 0;      //     inicializo     //
+    instruccion->param_length3 = 0;      //      tamanios      //
+    instruccion->param_length4 = 0;      ////////////////////////
+
     if(instruccion->cant_parametros >= 1)
         instruccion->param_length1 = strlen(instruccion->parametros[0]) + 1;
     if (instruccion->cant_parametros >= 2)
@@ -64,47 +65,54 @@ t_identificador buscar_identificador(char *identificador)
 
 
 t_instruccion* crear_instruccion(t_identificador identificador, t_list* parametros){
-    t_instruccion* tmp = malloc(sizeof(t_instruccion));
+    t_instruccion* instruccion_tmp = malloc(sizeof(t_instruccion));
 
-    tmp -> identificador = identificador;
+    instruccion_tmp->identificador = identificador;
     if (list_size(parametros) < 1 ) {
-        tmp -> cant_parametros = 0;
-        tmp -> parametros = NULL;
-        tmp -> param_length1= 0;
-        tmp->param_length2 = 0;
-        tmp -> param_length3=0;
-        tmp ->param_length4 = 0;
-    } else {
-        tmp -> cant_parametros = list_size(parametros);
-        tmp -> parametros = malloc(sizeof(char*) * tmp->cant_parametros);
-        agregar_parametro_a_instruccion(parametros, tmp);
+        instruccion_tmp->cant_parametros = 0;
+        instruccion_tmp->parametros = NULL;
+        instruccion_tmp->param_length1 = 0;
+        instruccion_tmp->param_length2 = 0;
+        instruccion_tmp->param_length3 = 0;
+        instruccion_tmp->param_length4 = 0;
+    } else {      
+        instruccion_tmp->cant_parametros = list_size(parametros);
+        instruccion_tmp->parametros = malloc(sizeof(char*) * instruccion_tmp->cant_parametros);
+        agregar_parametro_a_instruccion(parametros, instruccion_tmp);
     }
 
-    return tmp;
+    return instruccion_tmp;
 
 }
 
 t_list* parsear_pseudocodigo(FILE* archivo_instrucciones) {
-    char* line = malloc(sizeof(char) * 1024);
-    size_t len = sizeof(line);  
+    ////// creo variable para leer linea //////
+    char* linea = malloc(sizeof(char) * 1024);
+    size_t len = sizeof(linea);  
+    ////// creo lista para las instrucciones //////
     t_list* lista_instrucciones = list_create();
-    while ((getline(&line, &len, archivo_instrucciones)) != -1) {
-        t_list* lines = list_create();
-        char* t = strtok(line, "\n");   
+
+    ////// leo linea del archivo //////
+    while ((getline(&linea, &len, archivo_instrucciones)) != -1) {
+        t_list* palabras = list_create();
+        char* t = strtok(linea, "\n");   
         char** tokens = string_split(t, " "); 
+        ////// ^^ separo linea en palabras //////
+
         int i = 1;
         while(tokens[i] != NULL){
-            list_add(lines, (void*) tokens[i]);
+            ////// por cada token guardo en palabras //////
+            list_add(palabras, (void*) tokens[i]);
             i++;
         }
         t_identificador identificador = buscar_identificador(tokens[0]); 
-        t_instruccion* instruccion = crear_instruccion(identificador, lines);  
+        t_instruccion* instruccion = crear_instruccion(identificador, palabras);  
         list_add(lista_instrucciones, instruccion);     
        
         free(tokens);
-        list_destroy(lines); 
+        list_destroy(palabras); 
     }
-    free(line);
+    free(linea);
     return lista_instrucciones;
 }
 

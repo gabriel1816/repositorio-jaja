@@ -26,15 +26,8 @@
 #include <commons/collections/queue.h>
 #include <semaphore.h>
 
-#define PUERTO "4444"
 #define INITIAL_STREAM_SIZE 64
-
-typedef struct pQueue
-{
-	t_queue *lib_queue;
-	pthread_mutex_t mutex;
-	sem_t sem;
-} t_pQueue;
+#define CODIGO_INSTRUCCION 20
 
 extern t_log* logger;
 
@@ -53,7 +46,7 @@ typedef struct {
 
 typedef struct
 {
-	int codigo_operacion;
+	uint32_t codigo_operacion;
 	t_buffer* buffer;
 } t_paquete;
 
@@ -73,7 +66,6 @@ typedef struct{
     bool libre;
 } t_segmento;
 
-extern t_log* logger;
 
 typedef enum {
 	SET,
@@ -97,11 +89,11 @@ typedef enum {
 
 typedef struct{
 	t_identificador identificador;
-	int cant_parametros;
-	int param_length1;
-	int param_length2;
-	int param_length3;
-	int param_length4;
+	uint32_t cant_parametros;
+	uint32_t param_length1;
+	uint32_t param_length2;
+	uint32_t param_length3;
+	uint32_t param_length4;
 	char **parametros;
 
 }t_instruccion;
@@ -134,11 +126,6 @@ typedef struct{
 	//Agregar prioridad?
 }t_pcb;
 
-typedef struct 
-{
-	t_instruccion* instruccion;
-	t_list* siguienteInstruc;
-}instr;
 
 typedef struct
 {
@@ -146,82 +133,35 @@ typedef struct
 	int desplazamiento;
 }t_direc_fisica;
 
-typedef struct t_stream_buffer {
-    uint32_t offset;
-    size_t malloc_size;
-    char* stream;
-} t_stream_buffer;
 
-typedef struct t_packet {
-	uint8_t header;
-	t_stream_buffer *payload;
-} t_packet;
-
-
-
-bool catch_syscall_err(int code);
-int accept_client(int server_socket);
-void server_listen(int server_socket, void* (*client_handler)(void*));
-t_packet* create_packet(uint8_t header, size_t size);
-void packet_destroy(t_packet *packet);
-int create_server(char *server_port);
-// int receive_wrapper(int socket, void *dest, size_t size);
-// bool socket_receive(int socket, void *dest, size_t size);
-int connect_to(char *server_ip, char *server_port);
-uint8_t socket_receive_header(int socket);
-t_packet *socket_receive_packet(int socket);
-bool socket_retry_packet(int socket, t_packet **packet);
-// int send_wrapper(int socket, void *buffer, size_t size);
-// void socket_send(int socket, void *source, size_t size);
-void socket_send_header(int socket, uint8_t header);
-void socket_send_packet(int socket, t_packet *packet);
-
-int mi_funcion_compartida();
 
 int crear_conexion(char* ip, char* puerto);
-t_paquete* crear_paquete(t_buffer* buffer, int codigo_op);
 t_paquete* crear_super_paquete(void);
 void agregar_a_paquete(t_paquete* paquete, void* valor, int tamanio);
-void enviar_paquete(t_paquete* paquete, int socket_cliente);
 void liberar_conexion(int socket_cliente);
 void eliminar_paquete(t_paquete* paquete);
 void* recibir_buffer(int* size, int socket_cliente);
 void destruir_buffer(t_buffer* buffer);
-t_paquete *package_recv(int socket, t_log *logger);
-
-t_stream_buffer* create_stream(size_t size);
-int iniciar_servidor(char *puerto, char* ip, t_log* logger);
-void stream_destroy(t_stream_buffer *stream);
-void stream_add(t_stream_buffer *stream, void *source, size_t size);
-void stream_add_UINT32P(t_stream_buffer *stream, void *source);
-void stream_add_UINT32(t_stream_buffer *stream, uint32_t value);
-void stream_add_STRINGP(t_stream_buffer *stream, void *source);
-void stream_add_STRING(t_stream_buffer *stream, char *source);
-void stream_add_LIST(t_stream_buffer* stream, t_list* source, void(*stream_add_ELEM_P)(t_stream_buffer*, void*));
-void stream_take(t_stream_buffer *stream, void **dest, size_t size);
-void stream_take_UINT32P(t_stream_buffer *stream, void **dest);
-uint32_t stream_take_UINT32(t_stream_buffer *stream);
-void stream_take_STRINGP(t_stream_buffer *stream, void **dest);
-char* stream_take_STRING(t_stream_buffer *stream);
-void stream_take_LISTP(t_stream_buffer* stream, t_list** source, void(*stream_take_ELEMP)(t_stream_buffer*, void**));
-t_list* stream_take_LIST(t_stream_buffer* stream, void(*stream_take_ELEMP)(t_stream_buffer*, void**));
-
-
-t_list *deserializar_lista_instrucciones( t_buffer *buffer);
-t_instruccion *crear_instruccion_para_el_buffer(t_buffer *buffer, int *offset);
+uint32_t espacio_de_array_parametros(t_instruccion *instruccion);
+t_paquete *crear_paquete(t_buffer *buffer, int codigo_operacion);
+bool enviar_instrucciones(int socket, t_list *lista_instrucciones, t_log *logger);
 t_buffer *crear_buffer_para_t_instruccion(t_instruccion *instruccion);
-void enviar_instrucciones(int socket, t_list *lista_instrucciones, t_log *logger);
+bool enviar_paquete(int socket, t_paquete *paquete, t_log *logger);
+void destruir_paquete(t_paquete *paquete);
+t_paquete *recibir_paquete(int socket, t_log *logger);
+
+t_buffer *null_buffer();
+t_list *crear_lista_instrucciones_para_el_buffer( t_buffer *buffer);
+t_instruccion *crear_instruccion_para_el_buffer(t_buffer *buffer, uint32_t *offset);
 t_buffer *crear_buffer__para_t_lista_instrucciones(t_list *lista_instrucciones);
-int espacio_de_array_parametros(t_instruccion *instruccion);
-void destruir_instruccion(t_instruccion* instruccion);
-
-
 void enviar_pcb(t_pcb* pcb, int socket, t_log* logger);
 t_pcb* crear_pcb(t_list* instrucciones, int conexion);
 t_registro inicializar_registro();
 t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger);
-t_pcb* recibir_pcb(int socket_cliente);
+t_pcb* recibir_pcb(int socket_cliente, t_log* logger);
 t_pcb* deserializar_buffer_pcb(t_buffer* buffer);
 void destruir_pcb(t_pcb* pcb);
+void destruir_instruccion(t_instruccion *instruccion);
+
 
 #endif

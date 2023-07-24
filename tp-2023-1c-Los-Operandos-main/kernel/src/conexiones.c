@@ -5,23 +5,24 @@ void atender_consola(void* conexion)
 {
 	int conexion_consola = (int)conexion;
 	log_info(logger, "escuchando a consola");
-    t_paquete* paquete_instrucciones = package_recv(conexion_consola, logger);
+    t_paquete* paquete_instrucciones = recibir_paquete(conexion_consola, logger);
 	log_info(logger, "paquete recibido");
-	t_list* lista_instrucciones = deserializar_lista_instrucciones(paquete_instrucciones->buffer);
+	t_list* lista_instrucciones = crear_lista_instrucciones_para_el_buffer(paquete_instrucciones->buffer);
 	log_info(logger, "recibi lista de instrucciones");
 	t_pcb* pcb = crear_pcb(lista_instrucciones, conexion_consola);
 	log_info(logger, "Se crea el proceso %d en NEW", pcb->pid);
 	agregar_a_nuevos(pcb);
+		
 
-	list_destroy_and_destroy_elements(lista_instrucciones, free);
-	close(conexion_consola);
+	//list_destroy_and_destroy_elements(lista_instrucciones, destruir_instruccion);
+	//close(conexion_consola);
 }
 
 void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int)conexion;
 	log_info(logger, "escuchando a cpu");
-	t_pcb* pcb = recibir_pcb(conexion_cpu);
+	t_pcb* pcb = recibir_pcb(conexion_cpu, logger);
 	log_info(logger, "recibi pcb");
 
 	// hacer lo que tengo que hacer

@@ -1,8 +1,6 @@
 #include "fileSystem.h"
 
 //levanta archivos y crea estructuras de fcb
-t_lista_fcb* lista_fcbs[25];
-
 void levantar_estructuras(){
 
 	//abro archivo de suberbloque y me guardo el tamanio y la cant de bloques
@@ -27,8 +25,6 @@ void levantar_estructuras(){
 		cant_bloques = strtol(lista[1], NULL, 10);
 	}
 	fclose(superbloque_file);
-
-
   
 //levanta el bitmap de bloques 
 
@@ -37,11 +33,17 @@ void levantar_estructuras(){
     	fprintf(stderr, "No se pudo abrir el archivo de bloques %s\n", "cfg/bloques.txt");
     	exit(EXIT_FAILURE);
   	}
-  	linea = malloc(MAX_LINE_LENGTH * sizeof(char));
+  	/*char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
   	if (!linea) {
     	fprintf(stderr, "No se pudo asignar memoria para el archivo de bloques\n");
     	exit(EXIT_FAILURE);
-  	}
+  	}*/
+/*
+	buscar_bloque_libre(bitmap_file, linea){
+		bloque_libre(bitmap_file, linea);
+	}
+	*/
+
 
 	// abro archivo de bloques
 
@@ -50,15 +52,16 @@ void levantar_estructuras(){
     	fprintf(stderr, "No se pudo abrir el archivo de bloques %s\n", "cfg/bloques.txt");
     	exit(EXIT_FAILURE);
   	}
-  	linea = malloc(MAX_LINE_LENGTH * sizeof(char));
+  	/*char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
   	if (!linea) {
     	fprintf(stderr, "No se pudo asignar memoria para el archivo de bloques\n");
     	exit(EXIT_FAILURE);
-  	}
+  	}*/
+
 
 	// recorro el directorio de fcbs y por cada fcb guardo su informacion en una lista de fcbs 
+	t_lista_fcb* lista_fcbs[25];
 	
-
 	FILE *dir_fcbs = fopen(path_fcb, "r");
 	char *nombre_fcb = malloc(MAX_LINE_LENGTH * sizeof(char)); //la linea me lee el nombre del fcb
 	while(fgets(nombre_fcb, MAX_LINE_LENGTH, dir_fcbs)){
@@ -85,7 +88,7 @@ void levantar_estructuras(){
 		char **lista3 = string_split(linea, '=');  
 		fcb->puntero_indirecto = (uint32_t)lista3[1];
 	
-		//*lista_fcbs = agregar_a_lista(lista_fcbs, fcb);
+		list_add(lista_fcbs, fcb);
 	}
 
 }
@@ -99,3 +102,4 @@ t_lista_fcb* agregar_a_Lista(t_lista_fcb* lista, t_fcb* fcb_a_agregar){
 	lista = listaAux;
 	return lista;
 }
+

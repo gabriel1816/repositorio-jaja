@@ -1,8 +1,5 @@
 #include "utils-shared.h"
 
-int mi_funcion_compartida(){
-    return 100;
-}
 
 int crear_conexion(char *ip, char* puerto)
 {
@@ -49,13 +46,46 @@ t_paquete* crear_super_paquete(void)
 	return paquete;
 }
 
-t_paquete* crear_paquete(t_buffer* buffer, int codigo_op)
+t_paquete *crear_paquete(t_buffer *buffer, int codigo_operacion)
 {
-	t_paquete* paquete = malloc(sizeof(t_paquete));
-	paquete->codigo_operacion = codigo_op;
-	paquete->buffer = buffer;
-	return paquete;
+    t_paquete *paquete = malloc(sizeof(t_paquete));
+    paquete->codigo_operacion = codigo_operacion;
+    if (buffer == NULL)
+        paquete->buffer = null_buffer();
+    else
+        paquete->buffer = buffer;
+    return paquete;
 }
+
+t_buffer *null_buffer()
+{
+    t_buffer *buffer = malloc(sizeof(t_buffer));
+    buffer->size = 0;
+    buffer->stream = NULL;
+    return buffer;
+}
+
+bool enviar_paquete(int socket, t_paquete *paquete, t_log *logger)
+{
+    // Armamos el stream a enviar
+    // Buffer Size + Size of Operation Code Var + Size of Buffer Size Var
+    void *a_enviar = malloc(paquete->buffer->size + sizeof(uint8_t) + sizeof(uint32_t));
+    int offset = 0;
+    memcpy(a_enviar + offset, &(paquete->codigo_operacion), sizeof(uint8_t));
+    offset += sizeof(uint8_t);
+    memcpy(a_enviar + offset, &(paquete->buffer->size), sizeof(uint32_t));
+    offset += sizeof(uint32_t);
+    memcpy(a_enviar + offset, paquete->buffer->stream, paquete->buffer->size);
+    if (send(socket, a_enviar, paquete->buffer->size + sizeof(uint8_t) + sizeof(uint32_t), 0) == -1)
+    {
+        //log_error(logger, "Error al enviar el paquete");
+        free(a_enviar);
+        return false;
+    }
+    free(a_enviar);
+    return true;
+}
+
 
 void agregar_a_paquete(t_paquete* paquete, void* valor, int tamanio)
 {
@@ -67,19 +97,6 @@ void agregar_a_paquete(t_paquete* paquete, void* valor, int tamanio)
 	paquete->buffer->size += tamanio + sizeof(int);
 }
 
-void enviar_paquete(t_paquete* paquete, int socket_cliente)
-{
-	void* a_enviar = malloc(paquete->buffer->size + sizeof(int) *2);
-	int offset = 0;
-	memcpy(a_enviar + offset, &(paquete->codigo_operacion), sizeof(int));
-	offset += sizeof(int);
-	memcpy(a_enviar +offset, &(paquete->buffer->size), sizeof(int));
-	offset += sizeof(int);
-	memcpy(a_enviar +offset, &(paquete->buffer->stream), paquete->buffer->size);
-	send(socket_cliente, a_enviar, paquete->buffer->size + sizeof(int) *2 , 0);
-	free(a_enviar);
-	return;
-}
 
 void eliminar_paquete(t_paquete* paquete)
 {
@@ -90,6 +107,7 @@ void eliminar_paquete(t_paquete* paquete)
 
 void destruir_buffer(t_buffer* buffer)
 {
+	free(buffer->stream);
 	free(buffer);
 }
 
@@ -99,3 +117,9 @@ void liberar_conexion(int socket_cliente)
 }
 
 
+void destruir_paquete(t_paquete *paquete)
+{
+    free(paquete->buffer->stream);
+    free(paquete->buffer);
+    free(paquete);
+}

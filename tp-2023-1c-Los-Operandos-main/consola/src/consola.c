@@ -10,6 +10,7 @@ int main(int argc, char *argv[]){ // Argc es la cantidad de argumentos y argv so
   //char *path_configuracion, char *path_pseudocodigo quiero que sean las entradas
 
   startUp(argv[1]); // Paso como parametro el archivo de configuracion
+  //startUp("/home/utnso/Desktop/carpeta/tp-2023-1c-Los-Operandos-main/consola/cfg/consola.config");
   if (console_config.config == NULL) {
 	    log_error(logger, "No se pudo leer el archivo de configuración.");
 		  exit(EXIT_FAILURE);
@@ -20,6 +21,7 @@ int main(int argc, char *argv[]){ // Argc es la cantidad de argumentos y argv so
   // Acá quiero que lea el archivo de pseudocódigo
 
   FILE *pseudocode_file = fopen(argv[2], "r");
+  //FILE *pseudocode_file = fopen("/home/utnso/Desktop/carpeta/tp-2023-1c-Los-Operandos-main/consola/cfg/pseudo.codigo", "r");
   if (!pseudocode_file) {
     log_error(logger, "No se pudo abrir el archivo de pseudocódigo \n");
     exit(EXIT_FAILURE);
@@ -38,19 +40,25 @@ int main(int argc, char *argv[]){ // Argc es la cantidad de argumentos y argv so
       return 0;
   }
 
+ 
 
+  kernel_socket = crear_conexion(console_config.kernelIP, console_config.kernelPort);
 
-  kernel_socket= crear_conexion(console_config.kernelIP, console_config.kernelPort);
-
-  enviar_instrucciones(kernel_socket, lista_instrucciones, logger);
+   if( enviar_instrucciones(kernel_socket, lista_instrucciones, logger)) {
+        log_info(logger, "Se puedo enviar las instrucciones");
+    }
+    else {
+        log_error(logger, "No mandé nada :c");
+    }
 
   char mensaje[20];
-  recv(kernel_socket, mensaje, sizeof(mensaje), 0);
-  log_info(logger, "motivo finalizacion de proceso: %s", mensaje);
-  
+  if(recv(kernel_socket, mensaje, sizeof(mensaje), 0)){
+    log_info(logger, "motivo finalizacion de proceso: %s", mensaje);
+  }
+
   // fin del programa
   terminar_programa();
-  list_destroy_and_destroy_elements(lista_instrucciones, (void*)destruir_instruccion);
+  //list_destroy_and_destroy_elements(lista_instrucciones, (void*)destruir_instruccion);
 
   return EXIT_SUCCESS;
 

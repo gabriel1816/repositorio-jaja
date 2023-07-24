@@ -2,6 +2,7 @@
 
 #define MAX_LINE_LENGTH 1024 
 
+
 t_log* logger;
 t_config *config;
 int conexionConMemoria;
@@ -17,6 +18,7 @@ char *retardo_acceso_bloque;
 int tamanio_bloque;
 int cant_bloques; 
 int tam_max_segmento;
+t_lista_fcb* lista_fcbs[25];
 
 int main(void) {
 
@@ -48,6 +50,7 @@ int main(void) {
 
 	//abro todos los archivos y creo estructuras necesarias
 	//levantar_estructuras();
+
 	log_info(logger, "levante");
 
 	 //enviar_mensaje(valorMemoria, conexionConMemoria);
@@ -78,9 +81,6 @@ int main(void) {
 		case -1:
 			log_error(logger, "el cliente se desconecto. Terminando servidor");
 			return EXIT_FAILURE;
-		default:
-			log_warning(logger,"Operacion desconocida. No quieras meter la pata");
-			break;
 		}
 	}
 
@@ -114,7 +114,7 @@ int cant_bloques_nec(int tam_archivo){
 
 void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 	switch(instruccion->identificador){
-		t_buffer *buffer;
+		t_buffer *buffer = malloc(sizeof(t_buffer));
 		t_paquete *paquete;
 		char *mensaje;
 		case F_OPEN: 
@@ -125,7 +125,7 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			else{
 				mensaje = "No se pudo abrir el archivo, el archivo no existe";
 			}
-			paquete = crear_paquete();
+			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
 			enviar_paquete(paquete, socket_kernel);
 
@@ -136,24 +136,24 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			leer_archivo(instruccion->parametros[0], info_a_leer ,instruccion->parametros[2]);
 			
 			//le mando a memoria lo que se leyo
-			mandar_a_memoria(info_a_leer, direcFisica_lectura, conexionConMemoria);
+			mandar_a_memoria(info_a_leer, direcFisica_lectura, conexionConMemoria, instruccion);
 
 			//le mando a kernel que se leyo el archivo
 			mensaje = "se leyo el archivo";
-			paquete = crear_paquete();
+			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
 			enviar_paquete(paquete, socket_kernel);
 
 		case F_WRITE: 
 		//le solicita a memoria la info que se encuentra a partir de la direc fisica
 			t_direc_fisica *direcFisica_escritura = traducir_direccion(instruccion->parametros[1]);
-			char datos_para_escribir = pedir_a_memoria(direcFisica_escritura, conexionConMemoria);
+			char datos_para_escribir = pedir_a_memoria(direcFisica_escritura, conexionConMemoria, instruccion);
 			
 			escribir_archivo(instruccion->parametros[0],datos_para_escribir, instruccion->parametros[2]);
 			
 			//le mando a kernel que se escribio el archivo
 			mensaje = "se escribio el archivo";
-			paquete = crear_paquete();
+			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
 			enviar_paquete(paquete, socket_kernel);
 
@@ -166,7 +166,7 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 		case F_TRUNCATE:
 			//truncar_archivo(instruccion->parametros[0]);
 			mensaje = "se modifico el tamanio del archivo";
-			paquete = crear_paquete();
+			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
 			enviar_paquete(paquete, socket_kernel);
 		case F_SEEK:
@@ -182,10 +182,9 @@ t_direc_fisica* traducir_direccion(int direc_logica)
     return direc_fisica;
 }
 
-char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria){
-
-	// mandamos direccion a memoria
-	t_paquete* paquete = crear_paquete();
+char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria, t_instruccion *instruccion){
+	t_buffer *buffer = malloc(sizeof(t_buffer));
+	t_paquete* paquete = crear_paquete(buffer, instruccion->identificador);
 	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
 	enviar_paquete(paquete, conexionConMemoria);
 	eliminar_paquete(paquete);
@@ -201,9 +200,10 @@ char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria){
 	return valor;
 }
 
-void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria){
+void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria, t_instruccion *instruccion){
 
-	t_paquete* paquete = crear_paquete();
+	t_buffer *buffer = malloc(sizeof(t_buffer));
+	t_paquete* paquete = crear_paquete(buffer, instruccion->identificador);
 	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
 	agregar_a_paquete(paquete, valor, strlen(valor));
 	enviar_paquete(paquete, socketMemoria);

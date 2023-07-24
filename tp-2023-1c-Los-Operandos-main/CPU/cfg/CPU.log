@@ -60,3 +60,6 @@
 [INFO] 14:30:59:270 SOtp/(4616:4616): escuchando al kernel
 [INFO] 15:35:11:565 SOtp/(9521:9593): escuchando al kernel
 [INFO] 16:07:55:897 SOtp/(12339:12440): escuchando al kernel
+[INFO] 05:26:32:328 cpu_logger/(9548:10590): escuchando al kernel
+[INFO] 05:31:37:245 cpu_logger/(11303:11557): escuchando al kernel
+[INFO] 05:35:09:935 cpu_logger/(12093:12317): escuchando al kernel

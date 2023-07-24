@@ -4,10 +4,9 @@ int size_registros = sizeof(char[4]) * 4 + sizeof(char[8])* 4 + sizeof(char[16])
 
 void enviar_pcb(t_pcb* pcb, int socket, t_log* logger){
 	t_buffer* buffer = crear_buffer_pcb(pcb, logger);
-	t_paquete* paquete = crear_paquete();
-	paquete->codigo_operacion = PCB;
+	t_paquete* paquete = crear_paquete(buffer, 80);
 	agregar_a_paquete(paquete,buffer,buffer->size); 
-	enviar_paquete(paquete, socket);
+	enviar_paquete(paquete, socket, logger);
 	eliminar_paquete(paquete);
 }
 
@@ -20,7 +19,6 @@ t_pcb* crear_pcb(t_list* instrucciones, int conexion){
 	pcb->p_counter = 0;
 	pcb->estado = NUEVO;
     pcb->instrucciones = instrucciones;
-	pcb->tiempo_llegada = 0;
 	pcb->tiempo_ejecucion = 0;
 	pcb->registros = inicializar_registro();
     return pcb;
@@ -82,9 +80,9 @@ t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger){
 	return buffer;
 }
 
-t_pcb* recibir_pcb(int socket_cliente)
+t_pcb* recibir_pcb(int socket_cliente, t_log* logger)
 {
-	t_paquete* paquete = recibir_paquete(socket_cliente);
+	t_paquete* paquete = recibir_paquete(socket_cliente, logger);
 	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer);
 
 	eliminar_paquete(paquete);
@@ -119,7 +117,7 @@ t_pcb* deserializar_buffer_pcb(t_buffer* buffer)
 
 	buffer->size = size_restante;
 	pcb->instrucciones = list_create();
-	t_list* lista_instrucciones = deserializar_lista_instrucciones(buffer);
+	t_list* lista_instrucciones = crear_lista_instrucciones_para_el_buffer(buffer);
 	stream += sizeof(lista_instrucciones);
 	size_restante -= sizeof(lista_instrucciones);
 
@@ -131,4 +129,20 @@ void destruir_pcb(t_pcb* pcb)
 {
 	list_destroy_and_destroy_elements(pcb->instrucciones, (void*)destruir_instruccion);
 	free(pcb);
+}
+void destruir_instruccion(t_instruccion *instruccion)
+{
+    if (instruccion == NULL)
+    {
+        return;
+    }
+    for (int i = 0; i < instruccion->cant_parametros; i++)
+    {
+        if (instruccion->parametros[i] != NULL)
+        {
+            free(instruccion->parametros[i]);
+        }
+    }
+    free(instruccion->parametros);
+    free(instruccion);
 }

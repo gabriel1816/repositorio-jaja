@@ -25,7 +25,6 @@ t_instruccion *guardar_linea(char *line);
 t_list *parsear_pseudocodigo(FILE *pseudo_file);
 void enviar_instrucciones_y_esperar( t_list *lista_instrucciones);
 t_instruccion* crear_instruccion(t_identificador identificador, t_list* parametros);
- void agregar_parametro_a_instruccion(t_list *parametros, t_instruccion *instruccion);
+void agregar_parametro_a_instruccion(t_list *parametros, t_instruccion *instruccion);
  
-
 #endif /* CONSOLA_H_ */

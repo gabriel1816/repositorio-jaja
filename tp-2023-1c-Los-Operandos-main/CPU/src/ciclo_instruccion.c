@@ -3,15 +3,16 @@
 
 void comenzar_ciclo_de_instruccion(t_pcb* pcb, int conexion_con_kernel)
 {
-	log_info(logger, "comenzando ciclo de instruccion");
+	log_trace(logger, "comenzando ciclo de instruccion para el proceso PID: %d", pcb->pid);
     t_instruccion* instruccion = fetch(pcb);
     decode_y_execute(instruccion, pcb, conexion_con_kernel);
+	
 }
 
 t_instruccion* fetch(t_pcb *pcb)
-{
+{	
     t_instruccion *siguiente_instruccion = list_get(pcb->instrucciones, pcb->p_counter);
-    pcb->p_counter++;
+	pcb->p_counter += 1;
     return siguiente_instruccion;
 }
 
@@ -86,6 +87,8 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 	    	usleep(retardo_instruccion * 1000); 
 			strcpy(instruccion_a_ejecutar->parametros[0], instruccion_a_ejecutar->parametros[1]);
 			guardarRegistro(instruccion_a_ejecutar->parametros[0], instruccion_a_ejecutar->parametros[1], pcb);
+
+			//imprimir registros
 			
 		break;
 		
@@ -105,5 +108,6 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 		default:
 		break;
 	}
-    return;
+    log_info(logger, "Actualización del Program Counter");
+	comenzar_ciclo_de_instruccion(pcb, conexion_con_kernel);
 }

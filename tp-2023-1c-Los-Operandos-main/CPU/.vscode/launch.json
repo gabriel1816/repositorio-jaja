@@ -9,7 +9,7 @@
             "name": "CPU",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/../cpu",
+            "program": "${fileDirname}/../CPU",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/../shared/include",
-                "${workspaceFolder}/src"
+                "${workspaceFolder}/src",
+                "/home/utnso/Desktop/tp-2023-1c-Los-Operandos/shared/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

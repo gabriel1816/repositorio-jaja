@@ -26,6 +26,7 @@ int main(){
 	// espero a kernel
 
 	pthread_t hilo_de_escucha;
+		log_debug(logger, "Esperando ando...");
 	while(1){
 		int socket_kernel = esperar_cliente(server_fd);
 		pthread_create(&hilo_de_escucha, NULL, (void*)atender_kernel, (void*)socket_kernel);
@@ -37,14 +38,14 @@ int main(){
 
 t_log* iniciar_logger(void) {
 	t_log *nuevo_logger;
-	nuevo_logger = log_create("cfg/CPU.log","cpu_logger", true, LOG_LEVEL_INFO);
+	nuevo_logger = log_create("../cfg/CPU.log","LOGGER_CPU", true, LOG_LEVEL_DEBUG);
 
 	return nuevo_logger;
 }
 
 t_config* iniciar_config(void) {
 	t_config *nuevo_config;
-	nuevo_config = config_create("cfg/CPU.config");
+	nuevo_config = config_create("../cfg/CPU.config");
 
 	if(nuevo_config == NULL){
 	    // ¡No se pudo crear el config!
@@ -53,6 +54,7 @@ t_config* iniciar_config(void) {
 	}else {
 
 		    ipMemoria = config_get_string_value(nuevo_config,"IP_MEMORIA");
+			//AGREGAR IP CPU
 			puertoMemoria = config_get_string_value(nuevo_config,"PUERTO_MEMORIA");
 			valorMemoria = config_get_string_value(nuevo_config,"CLAVE_MEMORIA");
 			tam_max_segmento = config_get_int_value(nuevo_config,"TAM_MAX_SEGMENTO");
@@ -68,12 +70,11 @@ void atender_kernel(void* conexion)
 {
 	int conexion_kernel = (int)conexion;
 	log_info(logger, "escuchando al kernel");
-	t_pcb* pcb = recibir_pcb(conexion_kernel);
+	t_pcb* pcb = recibir_pcb(conexion_kernel, logger);
 	log_info(logger, "recibi pcb");
 
 	temporizador = temporal_create();
 	comenzar_ciclo_de_instruccion(pcb, conexion_kernel); 
-	destruir_pcb(pcb); 
 	close(conexion_kernel);
 
 }

@@ -5,7 +5,7 @@ void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int)conexion;
 	log_info(logger, "escuchando a cpu");
-	t_pcb* pcb = recibir_pcb(conexion_cpu);
+	t_pcb* pcb = recibir_pcb(conexion_cpu, logger);
 	log_info(logger, "recibi pcb");
 
 	// hacer lo que tengo que hacer
@@ -17,7 +17,7 @@ void atender_kernel(void* conexion)
 {
 	int conexion_kernel = (int)conexion;
 	log_info(logger, "escuchando a kernel");
-	t_pcb* pcb = recibir_pcb(conexion_kernel);
+	t_pcb* pcb = recibir_pcb(conexion_kernel, logger);
 	log_info(logger, "recibi pcb");
    
    

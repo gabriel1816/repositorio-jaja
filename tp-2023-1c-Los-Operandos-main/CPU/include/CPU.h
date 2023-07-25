@@ -32,9 +32,6 @@ char* leerRegistro(char* registro, t_registro* registros);
 //char pedir_a_memoria(direccionFisica* direccion, int conexionConMemoria);
 //void mandar_a_memoria(char* valor, direccionFisica* direccion, int socketMemoria);
 
-t_pcb* recibir_pcb(int socket_cliente);
-t_pcb* deserializar_buffer_pcb(t_buffer* buffer);
-void destruir_pcb(t_pcb* pcb);
 
 void comenzar_ciclo_de_instruccion(t_pcb* pcb, int conexion_con_kernel);
 t_instruccion* fetch(t_pcb * pcb);

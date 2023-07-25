@@ -1,3 +1,5 @@
+
+
 #include "kernel.h"
 
 pthread_t hilo_IO;
@@ -5,7 +7,7 @@ t_list* cola_bloqueados_IO;
 
 void recibir_pcb_de_cpu(int cpu_socket)
 {
-    t_pcb* pcb_actualizado = recibir_pcb(cpu_socket);
+    t_pcb* pcb_actualizado = recibir_pcb(cpu_socket, logger);
     t_instruccion* ultima_instruccion = list_get(pcb_actualizado->instrucciones, pcb_actualizado->p_counter - 1);
     t_pcb* pcb_en_ejecucion;
 

@@ -21,6 +21,16 @@ typedef struct{
 	t_fcb* siguiente_fcb;
 }t_lista_fcb;
 
+typedef enum {
+		LSB_FIRST,
+		MSB_FIRST
+	} bit_numbering_t;
+
+typedef struct {
+		char *bitarray;
+		size_t size;
+		bit_numbering_t mode;
+	} t_bitarray;
 
 extern t_log* logger;
 extern t_config *config;

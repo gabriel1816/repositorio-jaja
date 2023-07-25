@@ -3,7 +3,7 @@
 
 t_kernel_config levantar_config(){
 	t_kernel_config kernel_config;
-	kernel_config.config = config_create("../cfg/kernel.config");
+	kernel_config.config = config_create(CONFIG_PATH);
 	kernel_config.cpuIP = config_get_string_value(kernel_config.config, "IP_CPU");
 	kernel_config.memoryIP = config_get_string_value(kernel_config.config, "IP_MEMORIA");
 	kernel_config.filesystemIP = config_get_string_value(kernel_config.config, "IP_FILESYSTEM");
@@ -12,7 +12,7 @@ t_kernel_config levantar_config(){
 	kernel_config.filesystemPort = config_get_string_value(kernel_config.config, "PUERTO_FILESYSTEM");
 	kernel_config.schedulerAlgorithm = config_get_string_value(kernel_config.config, "ALGORITMO_PLANIFICACION");
 	kernel_config.listenPort = config_get_string_value(kernel_config.config, "PUERTO_ESCUCHA");
-	kernel_config.initialEstimate = config_get_int_value(kernel_config.config, "ESTIMACION_INICIAL");
+	kernel_config.initialEstimate = config_get_double_value(kernel_config.config, "ESTIMACION_INICIAL");
 	kernel_config.alpha = config_get_double_value(kernel_config.config, "HRRN_ALFA");
 	kernel_config.multiprogrammingLevel = config_get_int_value(kernel_config.config, "GRADO_MAX_MULTIPROGRAMACION");
 	kernel_config.recursos = config_get_array_value(kernel_config.config, "RECURSOS");

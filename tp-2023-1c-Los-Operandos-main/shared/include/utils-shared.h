@@ -28,6 +28,7 @@
 
 #define INITIAL_STREAM_SIZE 64
 #define CODIGO_INSTRUCCION 20
+#define CODIGO_PCB 80
 
 extern t_log* logger;
 
@@ -54,16 +55,16 @@ typedef struct {
     t_list* segmentos;
 	int pid;
 } t_tabla_segmentos;
-
+//^^^^mmmmmmm
 
 
 typedef struct{
     int id;
-    pid_t pid;
+    // pid_t pid;
     void* base;
     void* limite;
-    int tamanio;
-    bool libre;
+    // int tamanio;
+    // bool libre;
 } t_segmento;
 
 
@@ -122,8 +123,10 @@ typedef struct{
     int64_t tiempo_ejecucion;
 	t_registro registros;	// Contexto de la cpu
 	double estimado_rafaga; 
-	//Falta tabla de segmentos y tabla de archivos abiertos
-	//Agregar prioridad?
+	t_segmento* tabla_segmentos;
+	uint32_t tamanio_tabla;
+	//archivos
+	uint32_t direccion_fisica;
 }t_pcb;
 
 
@@ -149,19 +152,21 @@ t_buffer *crear_buffer_para_t_instruccion(t_instruccion *instruccion);
 bool enviar_paquete(int socket, t_paquete *paquete, t_log *logger);
 void destruir_paquete(t_paquete *paquete);
 t_paquete *recibir_paquete(int socket, t_log *logger);
+t_buffer* crear_buffer();
 
 t_buffer *null_buffer();
 t_list *crear_lista_instrucciones_para_el_buffer( t_buffer *buffer);
 t_instruccion *crear_instruccion_para_el_buffer(t_buffer *buffer, uint32_t *offset);
 t_buffer *crear_buffer__para_t_lista_instrucciones(t_list *lista_instrucciones);
 void enviar_pcb(t_pcb* pcb, int socket, t_log* logger);
-t_pcb* crear_pcb(t_list* instrucciones, int conexion);
+t_pcb* crear_pcb(int pid, t_list* lista_instrucciones, t_estado estado, double estimado_rafaga);
 t_registro inicializar_registro();
 t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger);
 t_pcb* recibir_pcb(int socket_cliente, t_log* logger);
-t_pcb* deserializar_buffer_pcb(t_buffer* buffer);
+t_pcb* deserializar_buffer_pcb(t_buffer* buffer, t_log* logger);
 void destruir_pcb(t_pcb* pcb);
 void destruir_instruccion(t_instruccion *instruccion);
+t_registro inicializar_registros();
 
 
 #endif

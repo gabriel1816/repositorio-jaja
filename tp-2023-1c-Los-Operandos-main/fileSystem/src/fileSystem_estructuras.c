@@ -1,7 +1,8 @@
 #include "fileSystem.h"
 
+//t_bitarray *bit_array;
 //levanta archivos y crea estructuras de fcb
-void levantar_estructuras(){
+/* void levantar_estructuras(){
 
 	//abro archivo de suberbloque y me guardo el tamanio y la cant de bloques
 
@@ -26,23 +27,31 @@ void levantar_estructuras(){
 	}
 	fclose(superbloque_file);
   
+
 //levanta el bitmap de bloques 
 
-  	FILE *bitmap_file = fopen(path_bloques, "r");
+// creo el bitarray
+	int size = cant_bloques/8;
+	char *bloque = malloc(size);
+	bit_array = bitarray_create(bloque, size); 
+	if (!bit_array) {
+    	fprintf(stderr, "No se pudo crear el bitmap");
+    	exit(EXIT_FAILURE);
+  	}
+	
+  	FILE *bitmap_file = fopen(path_bloques, "w+b");
   	if (!bitmap_file) {
     	fprintf(stderr, "No se pudo abrir el archivo de bloques %s\n", "cfg/bloques.txt");
     	exit(EXIT_FAILURE);
   	}
-  	/*char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
-  	if (!linea) {
-    	fprintf(stderr, "No se pudo asignar memoria para el archivo de bloques\n");
-    	exit(EXIT_FAILURE);
-  	}*/
-/*
-	buscar_bloque_libre(bitmap_file, linea){
-		bloque_libre(bitmap_file, linea);
-	}
-	*/
+	fwrite(bit_array->bitarray, 1, size, bitmap_file); //escribo  1 en la cant de bloques que hay
+
+	
+
+//	buscar_bloque_libre(bitmap_file, linea){
+//		bloque_libre(bitmap_file, linea);
+//	}
+	
 
 
 	// abro archivo de bloques
@@ -52,11 +61,12 @@ void levantar_estructuras(){
     	fprintf(stderr, "No se pudo abrir el archivo de bloques %s\n", "cfg/bloques.txt");
     	exit(EXIT_FAILURE);
   	}
-  	/*char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
-  	if (!linea) {
-    	fprintf(stderr, "No se pudo asignar memoria para el archivo de bloques\n");
-    	exit(EXIT_FAILURE);
-  	}*/
+
+  	//char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
+  	//if (!linea) {
+    //	fprintf(stderr, "No se pudo asignar memoria para el archivo de bloques\n");
+    //	exit(EXIT_FAILURE);
+  	//}
 
 
 	// recorro el directorio de fcbs y por cada fcb guardo su informacion en una lista de fcbs 
@@ -91,8 +101,8 @@ void levantar_estructuras(){
 		list_add(lista_fcbs, fcb);
 	}
 
-}
-
+} */
+/*
 t_lista_fcb* agregar_a_Lista(t_lista_fcb* lista, t_fcb* fcb_a_agregar){
 
 	t_lista_fcb* listaAux = malloc(sizeof (t_list));
@@ -101,5 +111,7 @@ t_lista_fcb* agregar_a_Lista(t_lista_fcb* lista, t_fcb* fcb_a_agregar){
 
 	lista = listaAux;
 	return lista;
-}
+} */
+
+
 

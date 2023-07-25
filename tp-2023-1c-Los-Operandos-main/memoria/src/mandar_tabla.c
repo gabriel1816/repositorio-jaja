@@ -21,6 +21,6 @@ void enviar_segmentos(t_tabla_segmentos* tabla, int socket){
 	paquete = serializar_segmentos(tabla);
 	int tamanio_tabla;
 	memcpy(&tamanio_tabla, paquete->buffer->stream, sizeof(int));
-	enviar_paquete(paquete, socket);
+	enviar_paquete( socket, paquete, logger);
 }
 

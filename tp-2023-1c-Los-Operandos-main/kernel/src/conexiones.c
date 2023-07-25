@@ -9,10 +9,12 @@ void atender_consola(void* conexion)
 	log_info(logger, "paquete recibido");
 	t_list* lista_instrucciones = crear_lista_instrucciones_para_el_buffer(paquete_instrucciones->buffer);
 	log_info(logger, "recibi lista de instrucciones");
-	t_pcb* pcb = crear_pcb(lista_instrucciones, conexion_consola);
+	t_pcb* pcb = crear_pcb(conexion_consola, lista_instrucciones, NUEVO, kernel_config.initialEstimate); 
+	// no se si el esimado va inicializado o hay q pasarle algo
+	
 	log_info(logger, "Se crea el proceso %d en NEW", pcb->pid);
 	agregar_a_nuevos(pcb);
-		
+	
 
 	//list_destroy_and_destroy_elements(lista_instrucciones, destruir_instruccion);
 	//close(conexion_consola);

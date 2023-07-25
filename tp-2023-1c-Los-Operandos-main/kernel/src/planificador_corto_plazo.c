@@ -30,6 +30,7 @@ void ejecutar(t_pcb* pcb){
     cpu_socket = crear_conexion(kernel_config.cpuIP,kernel_config.cpuPort);
 	log_info(logger, "conecte con cpu");
     poner_en_ejecucion(pcb);
+    log_info(logger, "pcb en ejecucion");
     enviar_pcb(pcb_a_ejecutar, cpu_socket, logger);
     recibir_pcb_de_cpu(cpu_socket);
     close(cpu_socket);

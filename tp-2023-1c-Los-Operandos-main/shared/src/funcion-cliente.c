@@ -27,12 +27,13 @@ int crear_conexion(char *ip, char* puerto)
 	return socket_cliente;
 }
 
-
-void crear_buffer(t_paquete* paquete)
+t_buffer* crear_buffer()
 {
-	paquete->buffer = malloc(sizeof(t_buffer));
-	paquete->buffer->size = 0;
-	paquete->buffer->stream = NULL;
+	t_buffer* buffer;
+	buffer = malloc(sizeof(t_buffer));
+	buffer->size = 0;
+	buffer->stream = NULL;
+	return buffer;
 }
 
 t_paquete* crear_super_paquete(void)

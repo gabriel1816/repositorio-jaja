@@ -4,27 +4,30 @@ int size_registros = sizeof(char[4]) * 4 + sizeof(char[8])* 4 + sizeof(char[16])
 
 void enviar_pcb(t_pcb* pcb, int socket, t_log* logger){
 	t_buffer* buffer = crear_buffer_pcb(pcb, logger);
-	t_paquete* paquete = crear_paquete(buffer, 80);
-	agregar_a_paquete(paquete,buffer,buffer->size); 
-	enviar_paquete(paquete, socket, logger);
-	eliminar_paquete(paquete);
+	t_paquete* paquete = crear_paquete(buffer, CODIGO_PCB);
+	enviar_paquete(socket, paquete, logger);
+	destruir_paquete(paquete);
 }
 
-t_pcb* crear_pcb(t_list* instrucciones, int conexion){
-    // agregar las cosas al pcb 
-    // inicializar contexto, etc....
-    t_pcb* pcb = malloc(sizeof(t_pcb));
+t_pcb* crear_pcb(int conexion, t_list* lista_instrucciones, t_estado estado, double estimado_rafaga)
+{
+	t_pcb* pcb = malloc(sizeof(t_pcb));
+    pcb->pid = getpid();
 	pcb->conexion = conexion;
-	pcb->pid = getpid();
-	pcb->p_counter = 0;
-	pcb->estado = NUEVO;
-    pcb->instrucciones = instrucciones;
-	pcb->tiempo_ejecucion = 0;
-	pcb->registros = inicializar_registro();
-    return pcb;
+    pcb->instrucciones = lista_instrucciones; // le paso por parámetro la lista de instrucciones
+	pcb->p_counter = 0; // ip comienza en 0 arbitrariamente
+	pcb->estado = estado; // pasa por parámetros de momento desconocemos origen
+    pcb->registros = inicializar_registros();
+	pcb->tabla_segmentos = NULL; 
+	pcb->tamanio_tabla = 0;
+	pcb->estimado_rafaga = estimado_rafaga; 
+    //pcb->tabla_archivos = list_create(); // ver, por ahora no es algo que sepamos bien la estructura
+	pcb->direccion_fisica = 0;
+	return pcb;
 }
 
-t_registro inicializar_registro(){
+t_registro inicializar_registros()
+{
 	t_registro registro;
 	strcpy(registro.AX, "\0");
 	strcpy(registro.BX, "\0");
@@ -42,18 +45,22 @@ t_registro inicializar_registro(){
 }
 
 
-t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger){
+t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger)
+{
 	t_buffer* buffer = crear_buffer();
 	t_buffer* buffer_instrucciones = crear_buffer__para_t_lista_instrucciones(pcb->instrucciones);
 
-	int size = sizeof(int) * 2 + //conexion y pc
-				sizeof(pid_t) +
-				sizeof(int64_t) +
-				sizeof(double) +
-				sizeof(t_estado) + //estado
-				buffer_instrucciones->size + //instrucciones
-                sizeof(t_registro); // registros
-	buffer->size = size;
+	uint32_t size_total = sizeof(uint32_t)
+						+ sizeof(int)*2
+						+ sizeof(pid_t)  
+						//+ sizeof(int32_t)*2
+						+ size_registros
+						+ sizeof(int32_t)
+						+ sizeof(int64_t)
+						+ (sizeof(int32_t) + sizeof(uint32_t) * 2) * pcb->tamanio_tabla  // (id + base + segmento) * cuan grande es la tabla 
+						+ buffer_instrucciones->size; 
+
+	buffer->size = size_total;
 
 	void* stream = malloc(buffer->size);
 	int offset = 0;
@@ -65,16 +72,30 @@ t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger){
 	offset += sizeof(pid_t);
 	memcpy(stream + offset, &pcb->p_counter, sizeof(int));
 	offset += sizeof(int);
-	memcpy(stream + offset, &pcb->estado, sizeof(t_estado));
-	offset += sizeof(t_estado);
-	memcpy(stream + offset, buffer_instrucciones->stream, buffer_instrucciones->size);
-    offset += sizeof(buffer_instrucciones->size);
-    memcpy(stream + offset, &pcb->tiempo_ejecucion, sizeof(int));
+	memcpy(stream + offset, &pcb->estado, sizeof(uint32_t));
+	offset += sizeof(uint32_t);
+	memcpy(stream + offset, &pcb->direccion_fisica, sizeof(int32_t));
+	offset += sizeof(int32_t);
+	memcpy(stream + offset, &pcb->tiempo_ejecucion, sizeof(int64_t));
 	offset += sizeof(int64_t);
-	memcpy(stream + offset, &pcb->estimado_rafaga, size_registros);
-    offset += sizeof(double);
-	memcpy(stream + offset, &pcb->registros, size_registros);
+	memcpy(stream + offset, &pcb->tamanio_tabla, sizeof(uint32_t));
+    offset += sizeof(uint32_t);
+    for(int i = 0; i < pcb->tamanio_tabla; i++)
+    {
+        t_segmento segmento = pcb->tabla_segmentos[i];
+        memcpy(stream + offset, &segmento.id, sizeof(int32_t));
+        offset += sizeof(int32_t);
+        memcpy(stream + offset, &segmento.base, sizeof(uint32_t));
+        offset += sizeof(uint32_t);
+        memcpy(stream + offset, &segmento.limite, sizeof(uint32_t));
+        offset += sizeof(uint32_t);
+    }
     
+	memcpy(stream + offset, &pcb->registros, size_registros);
+	offset += size_registros;
+	memcpy(stream + offset, buffer_instrucciones->stream, buffer_instrucciones->size);
+	offset += buffer_instrucciones->size;
+
 	buffer->stream = stream;
 	destruir_buffer(buffer_instrucciones);
 	return buffer;
@@ -83,13 +104,13 @@ t_buffer* crear_buffer_pcb(t_pcb* pcb, t_log* logger){
 t_pcb* recibir_pcb(int socket_cliente, t_log* logger)
 {
 	t_paquete* paquete = recibir_paquete(socket_cliente, logger);
-	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer);
+	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer, logger);
 
 	eliminar_paquete(paquete);
 	return pcb;
 }
 
-t_pcb* deserializar_buffer_pcb(t_buffer* buffer)
+t_pcb* deserializar_buffer_pcb(t_buffer* buffer, t_log* logger)
 {
 	t_pcb* pcb = malloc(sizeof(t_pcb));
 
@@ -99,29 +120,50 @@ t_pcb* deserializar_buffer_pcb(t_buffer* buffer)
 	memcpy(&(pcb->conexion), stream, sizeof(int));
 	stream += sizeof(int);
 	size_restante -= sizeof(int);
-	memcpy(&(pcb->pid), stream, sizeof(int));
+	memcpy(&(pcb->pid), stream, sizeof(pid_t));
 	stream += sizeof(pid_t);
-	size_restante -= sizeof(int);
-	memcpy(&(pcb->p_counter), stream, sizeof(int));
+	size_restante -= sizeof(pid_t);
+    memcpy(&(pcb->p_counter), stream, sizeof(int));
 	stream += sizeof(int);
 	size_restante -= sizeof(int);
-	memcpy(&(pcb->estado), stream, sizeof(t_estado));
-    size_restante -= sizeof(t_estado);
-    memcpy(&(pcb->tiempo_ejecucion), stream, sizeof(int));
+    memcpy(&(pcb->estado), stream, sizeof(uint32_t));
+	stream += sizeof(uint32_t);
+	size_restante -= sizeof(uint32_t);
+	memcpy(&(pcb->direccion_fisica), stream, sizeof(int32_t));
+	stream += sizeof(int32_t);
+	size_restante -= sizeof(int32_t);
+	memcpy(&(pcb->tiempo_ejecucion), stream, sizeof(int64_t));
 	stream += sizeof(int64_t);
-    memcpy(&(pcb->tiempo_llegada), stream, sizeof(int));
-	stream += sizeof(int);
-	memcpy(&(pcb->estimado_rafaga), stream, sizeof(double));
-	stream += sizeof(double);
+	size_restante -= sizeof(int64_t);
+    memcpy(&(pcb->tamanio_tabla), stream, sizeof(uint32_t));
+    stream += sizeof(uint32_t);
+	size_restante -= sizeof(uint32_t);
+    pcb->tabla_segmentos = malloc(sizeof(t_segmento) * pcb->tamanio_tabla);
+    t_segmento* tabla_segmento = pcb->tabla_segmentos;
+    for (int i = 0; i < pcb->tamanio_tabla; i++) {
+        memcpy(&(tabla_segmento[i].id), stream, sizeof(int32_t));
+        stream += sizeof(int32_t);
+		size_restante -= sizeof(int32_t);
+        memcpy(&(tabla_segmento[i].base), stream, sizeof(uint32_t));
+        stream += sizeof(uint32_t);
+		size_restante -= sizeof(uint32_t);
+        memcpy(&(tabla_segmento[i].limite), stream, sizeof(uint32_t));
+        stream += sizeof(uint32_t);
+		size_restante -= sizeof(uint32_t);
+    }
+
 	memcpy(&(pcb->registros), stream, size_registros);
-
-	buffer->size = size_restante;
+	stream += size_registros;
+	size_restante -= size_registros;
+	memcpy(buffer->stream, stream, size_restante);
+	//free(stream);  
+	buffer->size=size_restante;
+	//pcb->tabla_archivos = list_create();
 	pcb->instrucciones = list_create();
-	t_list* lista_instrucciones = crear_lista_instrucciones_para_el_buffer(buffer);
-	stream += sizeof(lista_instrucciones);
-	size_restante -= sizeof(lista_instrucciones);
+	t_list *lista_instrucciones = crear_lista_instrucciones_para_el_buffer(buffer);
+	list_add_all(pcb->instrucciones, lista_instrucciones);
 
-	return pcb; 
+	return pcb;
 	
 }
 

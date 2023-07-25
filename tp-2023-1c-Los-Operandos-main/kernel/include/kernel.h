@@ -1,5 +1,7 @@
 #ifndef KERNEL_H_
 #define KERNEL_H_
+#define CONFIG_PATH "./cfg/kernel.config"
+#define LOG_PATH "./cfg/kernel.log"
 
 
 #include <commons/config.h>
@@ -13,6 +15,7 @@
 #include <unistd.h>
 #include <netdb.h>
 #include <assert.h>
+
 
 extern t_config *config;
 
@@ -57,7 +60,7 @@ typedef struct
 	char *cpuPort;
 	char *listenPort;
 	char *schedulerAlgorithm;
-	uint32_t initialEstimate;
+	double initialEstimate;
 	double alpha;
 	int multiprogrammingLevel;
     char** recursos;

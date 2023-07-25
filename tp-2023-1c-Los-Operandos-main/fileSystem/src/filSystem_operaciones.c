@@ -1,4 +1,5 @@
 #include "fileSystem.h"
+#include "fileSystem_estructuras.c"
 
 
 // funciones de archivos
@@ -38,7 +39,7 @@ bool crear_archivo(char *nombreArchivo){ //siempre devuelve true porque siempre 
     fcb_nuevo->puntero_directo = 0;
     fcb_nuevo->puntero_indirecto = 0;
 
-    agregar_a_Lista(lista_fcbs, fcb_nuevo);
+    list_add(lista_fcbs, fcb_nuevo);
 
 	return true;
 }
@@ -159,7 +160,14 @@ int bloqueLogicoAFisico(t_fcb* fcb, int num_bloque){
 }
 
 void borrar_bloques(int bloques_ocupados, int cant_bloques_a_borrar, t_fcb *fcb){
-   
+   if(bloques_ocupados == 1){
+       bitarray_clean_bit(bit_array, fcb->puntero_directo); //borro el valor 
+    }
+    else{
+        for(int i = 0; i < cant_bloques_a_borrar; i++){
+            desasignar_bloque(fcb->puntero_indirecto, cant_bloques_a_borrar -1);
+        }
+    }
 }
 
 void agregar_bloques(int bloques_ocupados, int cant_bloques_a_agregar, t_fcb *fcb){
@@ -180,19 +188,30 @@ uint32_t asignar_bloque_libre(){
     uint32_t bloque;
 	int num_linea; //cada linea del archivo de bitmap me representa un bloque
 
-
     FILE *bitmap = fopen(path_bloques, "r");
-    char *linea = malloc(MAX_LINE_LENGTH * sizeof(char));
+    int i = 0;
 	while(bloque_libre == false){//recorro el archivo bitmp y busco el primer bloque libre
-        if(fgets(linea, MAX_LINE_LENGTH, bitmap) == 0){
+        if(bitarray_test_bit(bit_array, i) == 0){
            	bloque_libre == true;
-			bloque = (uint32_t)linea;
-            fwrite(1, sizeof(char*), 1, bitmap); //actualizo el archivo 
+			bloque = (uint32_t)i;
+            bitarray_clean_bit(bit_array, i); //borro el valor actual
+            fwrite(bit_array->bitarray, 1, bit_array->size, bitmap);//actualizo el valor de 0 a 1
+            
         }
-		linea ++;
+		i ++;
     }
 
     fclose(bitmap);
 		
 	return bloque;
+}
+
+void desasignar_bloque(uint32_t puntero, int bloques_a_borrar){
+   int i = 0;
+   while(i < bloques_a_borrar){
+
+     bitarray_clean_bit(bit_array, puntero); 
+
+     i += 1;
+   }
 }

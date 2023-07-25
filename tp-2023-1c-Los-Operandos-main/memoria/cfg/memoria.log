@@ -98,3 +98,69 @@
 [INFO] 05:33:37:667 Servidor/(11747:11776): escuchando a kernel
 [INFO] 05:33:40:988 Servidor/(11747:11808): escuchando a kernel
 [INFO] 05:34:13:608 Servidor/(12026:12026): cree estructuras
+[INFO] 01:39:45:080 Servidor/(9911:9911): cree estructuras
+[INFO] 01:39:51:305 Servidor/(9911:9949): escuchando a kernel
+[INFO] 01:40:01:702 Servidor/(9911:10017): escuchando a kernel
+[INFO] 01:42:21:521 Servidor/(10873:10873): cree estructuras
+[INFO] 01:42:27:526 Servidor/(10873:10910): escuchando a kernel
+[INFO] 01:42:35:145 Servidor/(10873:10990): escuchando a kernel
+[INFO] 02:37:29:134 Servidor/(2573:2573): cree estructuras
+[INFO] 02:37:33:576 Servidor/(2573:2606): escuchando a kernel
+[INFO] 02:37:43:485 Servidor/(2573:2664): escuchando a kernel
+[INFO] 03:28:39:099 Servidor/(4932:4932): cree estructuras
+[INFO] 03:28:46:337 Servidor/(4932:4964): escuchando a kernel
+[INFO] 03:28:53:473 Servidor/(4932:5023): escuchando a kernel
+[INFO] 03:53:37:307 Servidor/(5986:5986): cree estructuras
+[INFO] 03:54:37:677 Servidor/(6293:6293): cree estructuras
+[INFO] 03:54:43:006 Servidor/(6293:6328): escuchando a kernel
+[INFO] 03:54:47:842 Servidor/(6293:6360): escuchando a kernel
+[INFO] 03:57:14:418 Servidor/(6935:6935): cree estructuras
+[INFO] 04:06:59:972 Servidor/(7453:7453): cree estructuras
+[INFO] 04:07:07:083 Servidor/(7453:7482): escuchando a kernel
+[INFO] 04:07:36:062 Servidor/(7453:7553): escuchando a kernel
+[INFO] 04:17:49:722 Servidor/(8494:8494): cree estructuras
+[INFO] 04:18:04:783 Servidor/(8494:8526): escuchando a kernel
+[INFO] 04:19:14:745 Servidor/(8494:8705): escuchando a kernel
+[INFO] 04:28:33:577 Servidor/(9375:9375): cree estructuras
+[INFO] 04:28:40:099 Servidor/(9375:9405): escuchando a kernel
+[INFO] 04:29:18:264 Servidor/(9516:9516): cree estructuras
+[INFO] 04:29:26:812 Servidor/(9516:9560): escuchando a kernel
+[INFO] 04:29:40:392 Servidor/(9516:9607): escuchando a kernel
+[INFO] 04:32:38:053 Servidor/(9972:9972): cree estructuras
+[INFO] 04:32:43:897 Servidor/(9972:9999): escuchando a kernel
+[INFO] 04:33:06:374 Servidor/(9972:10132): escuchando a kernel
+[INFO] 04:33:37:434 Servidor/(10268:10268): cree estructuras
+[INFO] 04:39:33:213 Servidor/(10812:10812): cree estructuras
+[INFO] 04:41:12:836 Servidor/(10930:10930): cree estructuras
+[INFO] 04:41:21:201 Servidor/(10930:10962): escuchando a kernel
+[INFO] 04:41:36:145 Servidor/(10930:11079): escuchando a kernel
+[INFO] 04:46:26:491 Servidor/(11582:11582): cree estructuras
+[INFO] 04:47:35:941 Servidor/(11866:11866): cree estructuras
+[INFO] 04:47:46:833 Servidor/(11866:11930): escuchando a kernel
+[INFO] 04:47:55:393 Servidor/(11866:12036): escuchando a kernel
+[INFO] 04:54:19:429 Servidor/(12548:12548): cree estructuras
+[INFO] 04:58:56:696 Servidor/(12869:12869): cree estructuras
+[INFO] 05:00:48:972 Servidor/(12869:12919): escuchando a kernel
+[INFO] 05:01:00:616 Servidor/(12869:13038): escuchando a kernel
+[INFO] 05:11:44:730 Servidor/(13478:13478): cree estructuras
+[INFO] 05:13:38:083 Servidor/(13825:13825): cree estructuras
+[INFO] 05:13:46:693 Servidor/(13825:13869): escuchando a kernel
+[INFO] 05:14:20:566 Servidor/(13825:13975): escuchando a kernel
+[INFO] 05:19:41:385 Servidor/(14569:14569): cree estructuras
+[INFO] 05:20:06:964 Servidor/(14569:14672): escuchando a kernel
+[INFO] 05:22:36:112 Servidor/(14569:14777): escuchando a kernel
+[INFO] 05:25:24:351 Servidor/(15276:15276): cree estructuras
+[INFO] 05:49:32:387 Servidor/(16123:16123): cree estructuras
+[INFO] 05:53:42:246 Servidor/(16123:16189): escuchando a kernel
+[INFO] 05:53:47:131 Servidor/(16123:16236): escuchando a kernel
+[INFO] 06:04:47:412 Servidor/(17000:17000): cree estructuras
+[INFO] 06:04:55:032 Servidor/(17000:17032): escuchando a kernel
+[INFO] 06:05:00:126 Servidor/(17000:17065): escuchando a kernel
+[INFO] 06:05:48:383 Servidor/(17350:17350): cree estructuras
+[INFO] 06:08:17:793 Servidor/(17871:17871): cree estructuras
+[INFO] 06:08:35:693 Servidor/(17871:17938): escuchando a kernel
+[INFO] 06:08:38:157 Servidor/(17871:17960): escuchando a kernel
+[INFO] 06:12:55:393 Servidor/(18498:18498): cree estructuras
+[INFO] 06:13:00:277 Servidor/(18498:18524): escuchando a kernel
+[INFO] 06:13:49:564 Servidor/(18498:18725): escuchando a kernel
+[INFO] 06:20:37:377 Servidor/(19233:19233): cree estructuras

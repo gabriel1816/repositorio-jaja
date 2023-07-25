@@ -95,7 +95,7 @@ int main(void) {
 void startUp(void){
 
 	// Inicializo logger
-	logger = log_create("../cfg/kernel.log","kernel_logger", true, LOG_LEVEL_INFO);	
+	logger = log_create(LOG_PATH,"kernel_logger", true, LOG_LEVEL_INFO);	
 	
 	// Inicializo archivo de configuracion.
 	kernel_config =	levantar_config();

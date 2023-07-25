@@ -392,3 +392,207 @@
 [INFO] 05:34:36:637 kernel_logger/(12154:12194): Se crea el proceso 12154 en NEW
 [INFO] 05:34:50:344 kernel_logger/(12154:12160): ingreso proceso a listos
 [INFO] 05:35:11:895 kernel_logger/(12154:12161): conecte con cpu
+[INFO] 02:38:03:679 kernel_logger/(2758:2758): diccionario
+[INFO] 02:38:03:683 kernel_logger/(2758:2758): fors
+[INFO] 02:38:03:685 kernel_logger/(2758:2758): No es null el archivo de config
+[INFO] 02:38:40:283 kernel_logger/(2758:2868): escuchando a consola
+[INFO] 02:38:40:285 kernel_logger/(2758:2868): paquete recibido
+[INFO] 02:38:40:287 kernel_logger/(2758:2868): recibi lista de instrucciones
+[INFO] 02:38:40:291 kernel_logger/(2758:2868): Se crea el proceso 2758 en NEW
+[INFO] 02:38:40:291 kernel_logger/(2758:2759): ingreso proceso a listos
+[INFO] 02:38:40:291 kernel_logger/(2758:2760): conecte con cpu
+[INFO] 03:49:38:997 kernel_logger/(5551:5551): diccionario
+[INFO] 03:49:39:025 kernel_logger/(5551:5551): fors
+[INFO] 03:49:39:028 kernel_logger/(5551:5551): No es null el archivo de config
+[INFO] 03:50:34:893 kernel_logger/(5551:5663): escuchando a consola
+[INFO] 03:50:34:895 kernel_logger/(5551:5663): paquete recibido
+[INFO] 03:50:34:898 kernel_logger/(5551:5663): recibi lista de instrucciones
+[INFO] 03:50:34:899 kernel_logger/(5551:5663): Se crea el proceso 5551 en NEW
+[INFO] 03:50:34:899 kernel_logger/(5551:5563): ingreso proceso a listos
+[INFO] 03:50:34:899 kernel_logger/(5551:5564): conecte con cpu
+[INFO] 03:50:34:900 kernel_logger/(5551:5564): pcb en ejecucion
+[INFO] 03:54:14:104 kernel_logger/(6156:6156): diccionario
+[INFO] 03:54:14:106 kernel_logger/(6156:6156): fors
+[INFO] 03:54:14:109 kernel_logger/(6156:6156): No es null el archivo de config
+[INFO] 03:55:02:979 kernel_logger/(6458:6458): diccionario
+[INFO] 03:55:02:981 kernel_logger/(6458:6458): fors
+[INFO] 03:55:02:981 kernel_logger/(6458:6458): No es null el archivo de config
+[INFO] 03:55:09:306 kernel_logger/(6458:6491): escuchando a consola
+[INFO] 03:55:09:309 kernel_logger/(6458:6491): paquete recibido
+[INFO] 03:55:09:310 kernel_logger/(6458:6491): recibi lista de instrucciones
+[INFO] 03:55:09:310 kernel_logger/(6458:6491): Se crea el proceso 6458 en NEW
+[INFO] 03:55:09:310 kernel_logger/(6458:6466): ingreso proceso a listos
+[INFO] 03:55:09:311 kernel_logger/(6458:6467): conecte con cpu
+[INFO] 03:55:09:312 kernel_logger/(6458:6467): pcb en ejecucion
+[INFO] 04:05:05:582 kernel_logger/(7133:7133): diccionario
+[INFO] 04:05:05:589 kernel_logger/(7133:7133): fors
+[INFO] 04:05:05:591 kernel_logger/(7133:7133): No es null el archivo de config
+[INFO] 04:06:24:219 kernel_logger/(7133:7197): escuchando a consola
+[INFO] 04:06:24:220 kernel_logger/(7133:7197): paquete recibido
+[INFO] 04:06:24:221 kernel_logger/(7133:7197): recibi lista de instrucciones
+[INFO] 04:06:24:222 kernel_logger/(7133:7197): Se crea el proceso 7133 en NEW
+[INFO] 04:06:24:226 kernel_logger/(7133:7139): ingreso proceso a listos
+[INFO] 04:06:24:226 kernel_logger/(7133:7140): conecte con cpu
+[INFO] 04:06:24:227 kernel_logger/(7133:7140): pcb en ejecucion
+[INFO] 04:08:17:274 kernel_logger/(7681:7681): diccionario
+[INFO] 04:08:17:275 kernel_logger/(7681:7681): fors
+[INFO] 04:08:17:276 kernel_logger/(7681:7681): No es null el archivo de config
+[INFO] 04:08:26:176 kernel_logger/(7681:7721): escuchando a consola
+[INFO] 04:08:26:180 kernel_logger/(7681:7721): paquete recibido
+[INFO] 04:08:26:183 kernel_logger/(7681:7721): recibi lista de instrucciones
+[INFO] 04:08:26:184 kernel_logger/(7681:7721): Se crea el proceso 7681 en NEW
+[INFO] 04:08:26:186 kernel_logger/(7681:7687): ingreso proceso a listos
+[INFO] 04:08:26:186 kernel_logger/(7681:7688): conecte con cpu
+[INFO] 04:08:26:186 kernel_logger/(7681:7688): pcb en ejecucion
+[INFO] 04:20:32:309 kernel_logger/(8789:8789): diccionario
+[INFO] 04:20:32:311 kernel_logger/(8789:8789): fors
+[INFO] 04:20:32:313 kernel_logger/(8789:8789): No es null el archivo de config
+[INFO] 04:20:38:457 kernel_logger/(8789:8832): escuchando a consola
+[INFO] 04:20:38:459 kernel_logger/(8789:8832): paquete recibido
+[INFO] 04:20:38:465 kernel_logger/(8789:8832): recibi lista de instrucciones
+[INFO] 04:20:38:466 kernel_logger/(8789:8832): Se crea el proceso 8789 en NEW
+[INFO] 04:20:38:466 kernel_logger/(8789:8790): ingreso proceso a listos
+[INFO] 04:20:38:466 kernel_logger/(8789:8791): conecte con cpu
+[INFO] 04:20:38:467 kernel_logger/(8789:8791): pcb en ejecucion
+[INFO] 04:29:53:106 kernel_logger/(9668:9668): diccionario
+[INFO] 04:29:53:110 kernel_logger/(9668:9668): fors
+[INFO] 04:29:53:111 kernel_logger/(9668:9668): No es null el archivo de config
+[INFO] 04:30:14:772 kernel_logger/(9668:9711): escuchando a consola
+[INFO] 04:30:14:774 kernel_logger/(9668:9711): paquete recibido
+[INFO] 04:30:14:776 kernel_logger/(9668:9711): recibi lista de instrucciones
+[INFO] 04:30:14:779 kernel_logger/(9668:9711): Se crea el proceso 9668 en NEW
+[INFO] 04:30:14:780 kernel_logger/(9668:9669): ingreso proceso a listos
+[INFO] 04:30:14:780 kernel_logger/(9668:9670): conecte con cpu
+[INFO] 04:30:14:780 kernel_logger/(9668:9670): pcb en ejecucion
+[INFO] 04:34:15:176 kernel_logger/(10395:10395): diccionario
+[INFO] 04:34:15:178 kernel_logger/(10395:10395): fors
+[INFO] 04:34:15:179 kernel_logger/(10395:10395): No es null el archivo de config
+[INFO] 04:34:18:851 kernel_logger/(10395:10421): escuchando a consola
+[INFO] 04:34:18:853 kernel_logger/(10395:10421): paquete recibido
+[INFO] 04:34:18:854 kernel_logger/(10395:10421): recibi lista de instrucciones
+[INFO] 04:34:18:855 kernel_logger/(10395:10421): Se crea el proceso 10395 en NEW
+[INFO] 04:34:18:857 kernel_logger/(10395:10396): ingreso proceso a listos
+[INFO] 04:34:18:858 kernel_logger/(10395:10397): conecte con cpu
+[INFO] 04:34:18:858 kernel_logger/(10395:10397): pcb en ejecucion
+[INFO] 04:41:03:078 kernel_logger/(10884:10884): diccionario
+[INFO] 04:41:03:080 kernel_logger/(10884:10884): fors
+[INFO] 04:41:03:081 kernel_logger/(10884:10884): No es null el archivo de config
+[INFO] 04:41:49:686 kernel_logger/(11131:11131): diccionario
+[INFO] 04:41:49:699 kernel_logger/(11131:11131): fors
+[INFO] 04:41:49:700 kernel_logger/(11131:11131): No es null el archivo de config
+[INFO] 04:41:54:733 kernel_logger/(11131:11150): escuchando a consola
+[INFO] 04:41:54:735 kernel_logger/(11131:11150): paquete recibido
+[INFO] 04:41:54:738 kernel_logger/(11131:11150): recibi lista de instrucciones
+[INFO] 04:41:54:739 kernel_logger/(11131:11150): Se crea el proceso 11131 en NEW
+[INFO] 04:41:54:740 kernel_logger/(11131:11132): ingreso proceso a listos
+[INFO] 04:41:54:740 kernel_logger/(11131:11133): conecte con cpu
+[INFO] 04:41:54:740 kernel_logger/(11131:11133): pcb en ejecucion
+[INFO] 04:46:50:188 kernel_logger/(11728:11728): diccionario
+[INFO] 04:46:50:191 kernel_logger/(11728:11728): fors
+[INFO] 04:46:50:197 kernel_logger/(11728:11728): No es null el archivo de config
+[INFO] 04:48:05:462 kernel_logger/(12073:12073): diccionario
+[INFO] 04:48:05:465 kernel_logger/(12073:12073): fors
+[INFO] 04:48:05:466 kernel_logger/(12073:12073): No es null el archivo de config
+[INFO] 04:48:57:266 kernel_logger/(12073:12111): escuchando a consola
+[INFO] 04:48:57:269 kernel_logger/(12073:12111): paquete recibido
+[INFO] 04:48:57:272 kernel_logger/(12073:12111): recibi lista de instrucciones
+[INFO] 04:48:57:272 kernel_logger/(12073:12111): Se crea el proceso 12073 en NEW
+[INFO] 04:48:57:273 kernel_logger/(12073:12074): ingreso proceso a listos
+[INFO] 04:48:57:273 kernel_logger/(12073:12075): conecte con cpu
+[INFO] 04:48:57:273 kernel_logger/(12073:12075): pcb en ejecucion
+[INFO] 04:54:56:357 kernel_logger/(12678:12678): diccionario
+[INFO] 04:54:56:360 kernel_logger/(12678:12678): fors
+[INFO] 04:54:56:362 kernel_logger/(12678:12678): No es null el archivo de config
+[INFO] 05:03:24:198 kernel_logger/(13097:13097): diccionario
+[INFO] 05:03:24:215 kernel_logger/(13097:13097): fors
+[INFO] 05:03:24:217 kernel_logger/(13097:13097): No es null el archivo de config
+[INFO] 05:03:31:649 kernel_logger/(13097:13132): escuchando a consola
+[INFO] 05:03:31:650 kernel_logger/(13097:13132): paquete recibido
+[INFO] 05:03:31:650 kernel_logger/(13097:13132): recibi lista de instrucciones
+[INFO] 05:03:31:651 kernel_logger/(13097:13132): Se crea el proceso 13097 en NEW
+[INFO] 05:03:31:653 kernel_logger/(13097:13098): ingreso proceso a listos
+[INFO] 05:03:31:653 kernel_logger/(13097:13099): conecte con cpu
+[INFO] 05:03:31:653 kernel_logger/(13097:13099): pcb en ejecucion
+[INFO] 05:12:31:768 kernel_logger/(13637:13637): diccionario
+[INFO] 05:12:31:774 kernel_logger/(13637:13637): fors
+[INFO] 05:12:31:776 kernel_logger/(13637:13637): No es null el archivo de config
+[INFO] 05:13:07:220 kernel_logger/(13637:13673): escuchando a consola
+[INFO] 05:13:07:225 kernel_logger/(13637:13673): paquete recibido
+[INFO] 05:13:07:227 kernel_logger/(13637:13673): recibi lista de instrucciones
+[INFO] 05:13:07:227 kernel_logger/(13637:13673): Se crea el proceso 13637 en NEW
+[INFO] 05:13:07:227 kernel_logger/(13637:13638): ingreso proceso a listos
+[INFO] 05:13:07:227 kernel_logger/(13637:13639): conecte con cpu
+[INFO] 05:13:07:228 kernel_logger/(13637:13639): pcb en ejecucion
+[INFO] 05:14:45:617 kernel_logger/(14050:14050): diccionario
+[INFO] 05:14:45:620 kernel_logger/(14050:14050): fors
+[INFO] 05:14:45:620 kernel_logger/(14050:14050): No es null el archivo de config
+[INFO] 05:15:02:043 kernel_logger/(14050:14098): escuchando a consola
+[INFO] 05:15:02:046 kernel_logger/(14050:14098): paquete recibido
+[INFO] 05:15:02:047 kernel_logger/(14050:14098): recibi lista de instrucciones
+[INFO] 05:15:02:054 kernel_logger/(14050:14098): Se crea el proceso 14050 en NEW
+[INFO] 05:15:02:055 kernel_logger/(14050:14051): ingreso proceso a listos
+[INFO] 05:15:02:055 kernel_logger/(14050:14052): conecte con cpu
+[INFO] 05:15:02:056 kernel_logger/(14050:14052): pcb en ejecucion
+[INFO] 05:23:18:466 kernel_logger/(14905:14905): diccionario
+[INFO] 05:23:18:471 kernel_logger/(14905:14905): fors
+[INFO] 05:23:18:471 kernel_logger/(14905:14905): No es null el archivo de config
+[INFO] 05:23:45:770 kernel_logger/(14905:14965): escuchando a consola
+[INFO] 05:23:45:770 kernel_logger/(14905:14965): paquete recibido
+[INFO] 05:23:45:771 kernel_logger/(14905:14965): recibi lista de instrucciones
+[INFO] 05:23:45:771 kernel_logger/(14905:14965): Se crea el proceso 14905 en NEW
+[INFO] 05:23:45:771 kernel_logger/(14905:14930): ingreso proceso a listos
+[INFO] 05:23:45:771 kernel_logger/(14905:14931): conecte con cpu
+[INFO] 05:23:45:771 kernel_logger/(14905:14931): pcb en ejecucion
+[INFO] 05:25:54:346 kernel_logger/(15466:15466): diccionario
+[INFO] 05:25:54:350 kernel_logger/(15466:15466): fors
+[INFO] 05:25:54:352 kernel_logger/(15466:15466): No es null el archivo de config
+[INFO] 05:33:39:128 kernel_logger/(15466:15536): escuchando a consola
+[INFO] 05:33:39:132 kernel_logger/(15466:15536): paquete recibido
+[INFO] 05:33:39:137 kernel_logger/(15466:15536): recibi lista de instrucciones
+[INFO] 05:33:39:138 kernel_logger/(15466:15536): Se crea el proceso 15466 en NEW
+[INFO] 05:33:39:140 kernel_logger/(15466:15472): ingreso proceso a listos
+[INFO] 05:33:39:140 kernel_logger/(15466:15473): conecte con cpu
+[INFO] 05:33:39:140 kernel_logger/(15466:15473): pcb en ejecucion
+[INFO] 05:55:26:610 kernel_logger/(16405:16405): diccionario
+[INFO] 05:55:26:624 kernel_logger/(16405:16405): fors
+[INFO] 05:55:26:625 kernel_logger/(16405:16405): No es null el archivo de config
+[INFO] 05:56:48:865 kernel_logger/(16405:16465): escuchando a consola
+[INFO] 05:56:48:865 kernel_logger/(16405:16465): paquete recibido
+[INFO] 05:58:22:515 kernel_logger/(16405:16465): recibi lista de instrucciones
+[INFO] 05:58:22:517 kernel_logger/(16405:16465): Se crea el proceso 16405 en NEW
+[INFO] 05:58:22:517 kernel_logger/(16405:16424): ingreso proceso a listos
+[INFO] 05:58:22:517 kernel_logger/(16405:16425): conecte con cpu
+[INFO] 05:58:22:518 kernel_logger/(16405:16425): pcb en ejecucion
+[INFO] 06:05:16:664 kernel_logger/(17206:17206): diccionario
+[INFO] 06:05:16:667 kernel_logger/(17206:17206): fors
+[INFO] 06:05:16:667 kernel_logger/(17206:17206): No es null el archivo de config
+[INFO] 06:06:47:965 kernel_logger/(17484:17484): diccionario
+[INFO] 06:06:47:966 kernel_logger/(17484:17484): fors
+[INFO] 06:06:47:967 kernel_logger/(17484:17484): No es null el archivo de config
+[INFO] 06:06:57:287 kernel_logger/(17484:17547): escuchando a consola
+[INFO] 06:06:57:289 kernel_logger/(17484:17547): paquete recibido
+[INFO] 06:07:09:220 kernel_logger/(17484:17547): recibi lista de instrucciones
+[INFO] 06:07:09:221 kernel_logger/(17484:17547): Se crea el proceso 17484 en NEW
+[INFO] 06:07:09:221 kernel_logger/(17484:17489): ingreso proceso a listos
+[INFO] 06:07:09:221 kernel_logger/(17484:17490): conecte con cpu
+[INFO] 06:07:09:221 kernel_logger/(17484:17490): pcb en ejecucion
+[INFO] 06:08:46:477 kernel_logger/(18021:18021): diccionario
+[INFO] 06:08:46:480 kernel_logger/(18021:18021): fors
+[INFO] 06:08:46:483 kernel_logger/(18021:18021): No es null el archivo de config
+[INFO] 06:08:56:109 kernel_logger/(18021:18067): escuchando a consola
+[INFO] 06:08:56:113 kernel_logger/(18021:18067): paquete recibido
+[INFO] 06:08:56:113 kernel_logger/(18021:18067): recibi lista de instrucciones
+[INFO] 06:08:56:113 kernel_logger/(18021:18067): Se crea el proceso 18021 en NEW
+[INFO] 06:08:56:113 kernel_logger/(18021:18022): ingreso proceso a listos
+[INFO] 06:08:56:114 kernel_logger/(18021:18023): conecte con cpu
+[INFO] 06:08:56:117 kernel_logger/(18021:18023): pcb en ejecucion
+[INFO] 06:14:02:400 kernel_logger/(18778:18778): diccionario
+[INFO] 06:14:02:403 kernel_logger/(18778:18778): fors
+[INFO] 06:14:02:404 kernel_logger/(18778:18778): No es null el archivo de config
+[INFO] 06:14:10:781 kernel_logger/(18778:18822): escuchando a consola
+[INFO] 06:14:10:782 kernel_logger/(18778:18822): paquete recibido
+[INFO] 06:14:10:782 kernel_logger/(18778:18822): recibi lista de instrucciones
+[INFO] 06:14:10:800 kernel_logger/(18778:18822): Se crea el proceso 18778 en NEW
+[INFO] 06:14:10:802 kernel_logger/(18778:18779): ingreso proceso a listos
+[INFO] 06:14:10:802 kernel_logger/(18778:18780): conecte con cpu
+[INFO] 06:14:10:802 kernel_logger/(18778:18780): pcb en ejecucion

@@ -74,8 +74,8 @@ int main(void) {
 			break;
 		case PAQUETE:
 		// aca el kernel le manda las instrucciones de abrir archivo y eso
-		t_paquete *paquete = package_recv(cliente_fd, logger); //recibo el paquete
-		t_instruccion *instruccion =  deserializar_instruccion(paquete->buffer);
+		t_paquete *paquete = recibir_paquete(cliente_fd, logger); //recibo el paquete
+		t_instruccion *instruccion =  crear_instruccion_para_el_buffer(paquete->buffer, 0);
 		atender_instruccion(instruccion, cliente_fd);
 		break;
 		case -1:
@@ -127,7 +127,7 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			}
 			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(paquete, socket_kernel);
+			enviar_paquete(socket_kernel, paquete, logger);
 
 		case F_READ: 
 			t_direc_fisica *direcFisica_lectura = traducir_direccion(instruccion->parametros[1]);
@@ -142,7 +142,7 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			mensaje = "se leyo el archivo";
 			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(paquete, socket_kernel);
+			enviar_paquete(socket_kernel, paquete, logger);
 
 		case F_WRITE: 
 		//le solicita a memoria la info que se encuentra a partir de la direc fisica
@@ -155,11 +155,11 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			mensaje = "se escribio el archivo";
 			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(paquete, socket_kernel);
+			enviar_paquete(socket_kernel, paquete, logger);
 
 		case F_CLOSE:
-		// borrar archivo: vaciar las estructuras necesarias
-		//elimino de la lista de fcbs el fcb de ese arch 
+		t_fcb *fcb_eliminar = obtenerFcb(instruccion->parametros[0]);
+		//remover_de_lista(lista_fcbs, fcb_eliminar);//elimino de la lista de fcbs el fcb de ese arch 
 
 		// eimino la entrada del directorio
 
@@ -168,9 +168,10 @@ void atender_instruccion(t_instruccion *instruccion, int socket_kernel){
 			mensaje = "se modifico el tamanio del archivo";
 			paquete = crear_paquete(buffer, instruccion->identificador);
 			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(paquete, socket_kernel);
+
+			enviar_paquete(socket_kernel, paquete, logger);
+
 		case F_SEEK:
-			// modificar el puntero a la posicion pasada por parametro
 	}
 }
 
@@ -186,7 +187,9 @@ char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria, t_instru
 	t_buffer *buffer = malloc(sizeof(t_buffer));
 	t_paquete* paquete = crear_paquete(buffer, instruccion->identificador);
 	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
-	enviar_paquete(paquete, conexionConMemoria);
+
+	enviar_paquete(conexionConMemoria, paquete, logger);
+
 	eliminar_paquete(paquete);
 
 	// recibimos valor de memoria
@@ -206,7 +209,9 @@ void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria,
 	t_paquete* paquete = crear_paquete(buffer, instruccion->identificador);
 	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
 	agregar_a_paquete(paquete, valor, strlen(valor));
-	enviar_paquete(paquete, socketMemoria);
+	enviar_paquete(socketMemoria, paquete, logger);
+
+
 	eliminar_paquete(paquete);
 
 }

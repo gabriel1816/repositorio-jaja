@@ -63,3 +63,88 @@
 [INFO] 05:26:32:328 cpu_logger/(9548:10590): escuchando al kernel
 [INFO] 05:31:37:245 cpu_logger/(11303:11557): escuchando al kernel
 [INFO] 05:35:09:935 cpu_logger/(12093:12317): escuchando al kernel
+[INFO] 02:38:40:297 cpu_logger/(2605:2869): escuchando al kernel
+[INFO] 03:50:34:937 cpu_logger/(5022:5665): escuchando al kernel
+[INFO] 03:55:09:324 cpu_logger/(6359:6492): escuchando al kernel
+[INFO] 04:06:24:248 cpu_logger/(6988:7199): escuchando al kernel
+[INFO] 04:08:26:205 cpu_logger/(7481:7722): escuchando al kernel
+[INFO] 04:20:38:477 cpu_logger/(8700:8833): escuchando al kernel
+[INFO] 04:23:48:495 cpu_logger/(8700:8833): recibi pcb
+[INFO] 04:23:51:413 cpu_logger/(8700:8833): comenzando ciclo de instruccion
+[INFO] 04:23:51:415 cpu_logger/(8700:8833): PID: 8789 - ejecutando 0 - AX HOLA
+[INFO] 04:29:26:807 cpu_logger/(9559:9559): Esperando ando...
+[INFO] 04:30:14:780 cpu_logger/(9559:9559): Esperando ando...
+[INFO] 04:30:14:781 cpu_logger/(9559:9712): escuchando al kernel
+[INFO] 04:30:14:781 cpu_logger/(9559:9712): recibi pcb
+[INFO] 04:30:14:782 cpu_logger/(9559:9712): comenzando ciclo de instruccion
+[INFO] 04:30:14:783 cpu_logger/(9559:9712): PID: 9668 - ejecutando 0 - AX HOLA
+[DEBUG] 04:33:53:207 cpu_logger/(10367:10367): Esperando ando...
+[INFO] 04:34:18:865 cpu_logger/(10367:10422): escuchando al kernel
+[INFO] 04:34:35:805 cpu_logger/(10367:10422): recibi pcb
+[INFO] 04:34:35:806 cpu_logger/(10367:10422): comenzando ciclo de instruccion
+[INFO] 04:35:31:098 cpu_logger/(10367:10422): PID: 10395 - ejecutando 0 - AX HOLA
+[DEBUG] 04:41:36:137 LOGGER_CPU/(11074:11074): Esperando ando...
+[INFO] 04:41:54:747 LOGGER_CPU/(11074:11151): escuchando al kernel
+[INFO] 04:42:03:208 LOGGER_CPU/(11074:11151): recibi pcb
+[INFO] 04:42:23:616 LOGGER_CPU/(11074:11151): PID: 11131 - ejecutando 0 - AX HOLA
+[INFO] 04:43:18:506 LOGGER_CPU/(11074:11151): Actualización del Program Counter
+[INFO] 04:43:38:978 LOGGER_CPU/(11074:11151): PID: 11131 - ejecutando 2 - DISCO
+[DEBUG] 04:46:46:494 LOGGER_CPU/(11702:11702): Esperando ando...
+[DEBUG] 04:47:55:385 LOGGER_CPU/(12031:12031): Esperando ando...
+[INFO] 04:48:57:277 LOGGER_CPU/(12031:12112): escuchando al kernel
+[INFO] 04:49:04:723 LOGGER_CPU/(12031:12112): recibi pcb
+[INFO] 04:49:28:605 LOGGER_CPU/(12031:12112): PID: 12073 - ejecutando 0 - AX HOLA
+[INFO] 04:50:19:653 LOGGER_CPU/(12031:12112): Actualización del Program Counter
+[INFO] 04:50:31:710 LOGGER_CPU/(12031:12112): PID: 12073 - ejecutando 0 - HOLA HOLA
+[INFO] 04:50:37:454 LOGGER_CPU/(12031:12112): Actualización del Program Counter
+[INFO] 04:50:41:023 LOGGER_CPU/(12031:12112): PID: 12073 - ejecutando 0 - HOLA HOLA
+[INFO] 04:50:42:023 LOGGER_CPU/(12031:12112): Actualización del Program Counter
+[DEBUG] 04:54:50:355 LOGGER_CPU/(12652:12652): Esperando ando...
+[DEBUG] 05:01:00:601 LOGGER_CPU/(13033:13033): Esperando ando...
+[INFO] 05:03:31:657 LOGGER_CPU/(13033:13133): escuchando al kernel
+[INFO] 05:03:38:188 LOGGER_CPU/(13033:13133): recibi pcb
+[INFO] 05:03:47:022 LOGGER_CPU/(13033:13133): PID: 13097 - ejecutando 2 - DISCO
+[DEBUG] 05:12:09:200 LOGGER_CPU/(13610:13610): Esperando ando...
+[DEBUG] 05:14:20:547 LOGGER_CPU/(13970:13970): Esperando ando...
+[INFO] 05:15:02:058 LOGGER_CPU/(13970:14099): escuchando al kernel
+[INFO] 05:15:11:019 LOGGER_CPU/(13970:14099): recibi pcb
+[INFO] 05:15:14:102 LOGGER_CPU/(13970:14099): PID: 14050 - ejecutando 0 - AX HOLA
+[INFO] 05:15:15:103 LOGGER_CPU/(13970:14099): Actualización del Program Counter
+[INFO] 05:15:25:256 LOGGER_CPU/(13970:14099): PID: 14050 - ejecutando 2 - DISCO
+[DEBUG] 05:22:36:109 LOGGER_CPU/(14776:14776): Esperando ando...
+[INFO] 05:23:45:781 LOGGER_CPU/(14776:14966): escuchando al kernel
+[INFO] 05:24:00:066 LOGGER_CPU/(14776:14966): recibi pcb
+[INFO] 05:24:00:069 LOGGER_CPU/(14776:14966): PID: 14905 - ejecutando 0 - AX HOLA
+[INFO] 05:24:01:070 LOGGER_CPU/(14776:14966): Actualización del Program Counter
+[INFO] 05:24:01:070 LOGGER_CPU/(14776:14966): PID: 14905 - ejecutando 2 - DISCO
+[DEBUG] 05:25:32:759 LOGGER_CPU/(15335:15335): Esperando ando...
+[INFO] 05:33:39:157 LOGGER_CPU/(15335:15538): escuchando al kernel
+[INFO] 05:33:45:785 LOGGER_CPU/(15335:15538): recibi pcb
+[INFO] 05:33:45:786 LOGGER_CPU/(15335:15538): PID: 15466 - ejecutando 0 - AX HOLA
+[INFO] 05:33:46:786 LOGGER_CPU/(15335:15538): Actualización del Program Counter
+[INFO] 05:33:46:788 LOGGER_CPU/(15335:15538): PID: 15466 - ejecutando 2 - DISCO
+[DEBUG] 05:53:42:241 LOGGER_CPU/(16188:16188): Esperando ando...
+[INFO] 05:58:22:534 LOGGER_CPU/(16188:16539): escuchando al kernel
+[INFO] 05:58:48:440 LOGGER_CPU/(16188:16539): recibi pcb
+[INFO] 05:58:48:441 LOGGER_CPU/(16188:16539): PID: 16405 - ejecutando 0 - AX HOLA
+[INFO] 05:58:49:442 LOGGER_CPU/(16188:16539): Actualización del Program Counter
+[INFO] 05:58:49:442 LOGGER_CPU/(16188:16539): PID: 16405 - ejecutando 2 - DISCO
+[DEBUG] 06:05:00:125 LOGGER_CPU/(17064:17064): Esperando ando...
+[DEBUG] 06:06:22:790 LOGGER_CPU/(17412:17412): Esperando ando...
+[INFO] 06:07:09:241 LOGGER_CPU/(17412:17596): escuchando al kernel
+[INFO] 06:07:21:422 LOGGER_CPU/(17412:17596): recibi pcb
+[INFO] 06:07:21:425 LOGGER_CPU/(17412:17596): PID: 17484 - ejecutando 0 - AX HOLA
+[INFO] 06:07:22:431 LOGGER_CPU/(17412:17596): Actualización del Program Counter
+[INFO] 06:07:22:431 LOGGER_CPU/(17412:17596): PID: 17484 - ejecutando 2 - DISCO
+[DEBUG] 06:08:35:709 LOGGER_CPU/(17927:17927): Esperando ando...
+[INFO] 06:08:56:241 LOGGER_CPU/(17927:18068): escuchando al kernel
+[INFO] 06:08:56:282 LOGGER_CPU/(17927:18068): recibi pcb
+[INFO] 06:08:56:291 LOGGER_CPU/(17927:18068): PID: 18021 - ejecutando 0 - AX HOLA
+[INFO] 06:08:57:312 LOGGER_CPU/(17927:18068): Actualización del Program Counter
+[INFO] 06:08:57:315 LOGGER_CPU/(17927:18068): PID: 18021 - ejecutando 2 - DISCO
+[DEBUG] 06:13:49:542 LOGGER_CPU/(18715:18715): Esperando ando...
+[INFO] 06:14:10:807 LOGGER_CPU/(18715:18823): escuchando al kernel
+[INFO] 06:15:36:797 LOGGER_CPU/(18715:18823): recibi pcb
+[INFO] 06:15:38:334 LOGGER_CPU/(18715:18823): PID: 18778 - ejecutando 0 - AX HOLA
+[INFO] 06:15:39:335 LOGGER_CPU/(18715:18823): Actualización del Program Counter
+[INFO] 06:17:03:336 LOGGER_CPU/(18715:18823): PID: 18778 - ejecutando 2 - DISCO

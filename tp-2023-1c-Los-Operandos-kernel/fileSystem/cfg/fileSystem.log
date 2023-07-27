@@ -1,0 +1,407 @@
+[INFO] 16:33:41:398 Servidor/(7021:7021): Servidor listo para recibir al cliente
+[INFO] 16:34:26:363 Servidor/(7217:7217): Servidor listo para recibir al cliente
+[INFO] 16:34:32:811 Servidor/(7217:7217): recibio mansaje
+[ERROR] 16:34:32:812 Servidor/(7217:7217): el cliente se desconecto. Terminando servidor
+[INFO] 16:35:58:268 Servidor/(7518:7518): Servidor listo para recibir al cliente
+[INFO] 16:36:04:410 Servidor/(7518:7518): recibio mansaje
+[ERROR] 16:36:04:410 Servidor/(7518:7518): el cliente se desconecto. Terminando servidor
+[INFO] 16:40:15:930 Servidor/(7859:7859): Servidor listo para recibir al cliente
+[INFO] 16:47:47:235 Servidor/(8574:8574): Servidor listo para recibir al cliente
+[INFO] 16:47:52:637 Servidor/(8574:8574): recibio mansaje
+[ERROR] 16:47:52:638 Servidor/(8574:8574): el cliente se desconecto. Terminando servidor
+[INFO] 16:48:52:512 Servidor/(8787:8787): Servidor listo para recibir al cliente
+[INFO] 16:48:57:320 Servidor/(8787:8787): recibio mansaje
+[ERROR] 16:48:57:321 Servidor/(8787:8787): el cliente se desconecto. Terminando servidor
+[INFO] 17:00:17:294 Servidor/(9790:9790): Servidor listo para recibir al cliente
+[INFO] 17:00:26:045 Servidor/(9790:9790): recibio mansaje
+[ERROR] 17:00:26:045 Servidor/(9790:9790): el cliente se desconecto. Terminando servidor
+[INFO] 17:01:07:031 Servidor/(9989:9989): Servidor listo para recibir al cliente
+[INFO] 17:01:12:839 Servidor/(9989:9989): recibio mansaje
+[ERROR] 17:01:12:839 Servidor/(9989:9989): el cliente se desconecto. Terminando servidor
+[INFO] 17:02:09:151 Servidor/(10263:10263): Servidor listo para recibir al cliente
+[INFO] 20:58:18:580 Servidor/(2158:2158): Servidor listo para recibir al cliente
+[INFO] 20:58:23:373 Servidor/(2158:2158): recibio mansaje de kernel
+[ERROR] 20:58:23:373 Servidor/(2158:2158): el cliente se desconecto. Terminando servidor
+[INFO] 21:59:51:009 Servidor/(3129:3129): Servidor listo para recibir al cliente
+[INFO] 21:59:57:056 Servidor/(3129:3129): recibio mansaje de kernel
+[ERROR] 21:59:57:057 Servidor/(3129:3129): el cliente se desconecto. Terminando servidor
+[INFO] 22:01:16:632 Servidor/(3410:3410): Servidor listo para recibir al cliente
+[INFO] 22:01:22:464 Servidor/(3410:3410): recibio mansaje de kernel
+[ERROR] 22:01:22:465 Servidor/(3410:3410): el cliente se desconecto. Terminando servidor
+[INFO] 22:03:01:115 Servidor/(3723:3723): Servidor listo para recibir al cliente
+[INFO] 22:14:30:104 Servidor/(4874:4874): Servidor listo para recibir al cliente
+[INFO] 22:14:39:966 Servidor/(4874:4874): recibio mansaje de kernel
+[ERROR] 22:14:39:972 Servidor/(4874:4874): el cliente se desconecto. Terminando servidor
+[INFO] 22:32:05:564 Servidor/(5843:5843): Servidor listo para recibir al cliente
+[INFO] 22:32:11:850 Servidor/(5843:5843): recibio mansaje de kernel
+[ERROR] 22:32:11:851 Servidor/(5843:5843): el cliente se desconecto. Terminando servidor
+[INFO] 22:33:18:146 Servidor/(6095:6095): Servidor listo para recibir al cliente
+[INFO] 22:33:23:459 Servidor/(6095:6095): recibio mansaje de kernel
+[ERROR] 22:33:23:460 Servidor/(6095:6095): el cliente se desconecto. Terminando servidor
+[INFO] 22:35:54:894 Servidor/(6461:6461): Servidor listo para recibir al cliente
+[INFO] 22:35:58:853 Servidor/(6461:6461): recibio mansaje de kernel
+[ERROR] 22:35:58:858 Servidor/(6461:6461): el cliente se desconecto. Terminando servidor
+[INFO] 22:48:32:418 Servidor/(7421:7421): Servidor listo para recibir al cliente
+[INFO] 22:48:36:258 Servidor/(7421:7421): recibio mansaje de kernel
+[ERROR] 22:48:36:259 Servidor/(7421:7421): el cliente se desconecto. Terminando servidor
+[INFO] 22:50:30:613 Servidor/(7769:7769): Servidor listo para recibir al cliente
+[INFO] 22:50:35:349 Servidor/(7769:7769): recibio mansaje de kernel
+[ERROR] 22:50:35:354 Servidor/(7769:7769): el cliente se desconecto. Terminando servidor
+[INFO] 22:51:07:830 Servidor/(7935:7935): Servidor listo para recibir al cliente
+[INFO] 22:51:11:161 Servidor/(7935:7935): recibio mansaje de kernel
+[ERROR] 22:51:11:166 Servidor/(7935:7935): el cliente se desconecto. Terminando servidor
+[INFO] 22:52:56:063 Servidor/(8293:8293): Servidor listo para recibir al cliente
+[INFO] 22:52:59:283 Servidor/(8293:8293): recibio mansaje de kernel
+[ERROR] 22:52:59:285 Servidor/(8293:8293): el cliente se desconecto. Terminando servidor
+[INFO] 22:58:53:097 Servidor/(9212:9212): Servidor listo para recibir al cliente
+[INFO] 22:58:56:986 Servidor/(9212:9212): recibio mansaje de kernel
+[ERROR] 22:58:56:988 Servidor/(9212:9212): el cliente se desconecto. Terminando servidor
+[INFO] 23:00:27:040 Servidor/(9708:9708): Servidor listo para recibir al cliente
+[INFO] 23:00:34:002 Servidor/(9708:9708): recibio mansaje de kernel
+[ERROR] 23:00:34:003 Servidor/(9708:9708): el cliente se desconecto. Terminando servidor
+[INFO] 23:04:40:736 Servidor/(10627:10627): Servidor listo para recibir al cliente
+[INFO] 23:04:50:379 Servidor/(10627:10627): recibio mansaje de kernel
+[ERROR] 23:04:56:597 Servidor/(10627:10627): el cliente se desconecto. Terminando servidor
+[INFO] 23:24:44:244 Servidor/(12171:12171): Servidor listo para recibir al cliente
+[INFO] 23:24:51:042 Servidor/(12171:12171): recibio mansaje de kernel
+[ERROR] 23:25:01:788 Servidor/(12171:12171): el cliente se desconecto. Terminando servidor
+[INFO] 23:31:52:050 Servidor/(12877:12877): Servidor listo para recibir al cliente
+[INFO] 23:31:55:993 Servidor/(12877:12877): recibio mansaje de kernel
+[ERROR] 23:31:59:498 Servidor/(12877:12877): el cliente se desconecto. Terminando servidor
+[INFO] 23:39:10:829 Servidor/(13592:13592): Servidor listo para recibir al cliente
+[INFO] 23:39:15:479 Servidor/(13592:13592): recibio mansaje de kernel
+[ERROR] 23:39:24:952 Servidor/(13592:13592): el cliente se desconecto. Terminando servidor
+[INFO] 23:43:43:237 Servidor/(13918:13918): Servidor listo para recibir al cliente
+[INFO] 23:43:48:736 Servidor/(13918:13918): recibio mansaje de kernel
+[ERROR] 23:43:53:394 Servidor/(13918:13918): el cliente se desconecto. Terminando servidor
+[INFO] 13:16:31:083 Servidor/(2393:2393): Servidor listo para recibir al cliente
+[INFO] 13:16:45:614 Servidor/(2393:2393): recibio mansaje de kernel
+[INFO] 03:18:56:324 SOtp/(13017:13017): levante
+[INFO] 03:20:17:946 SOtp/(13132:13132): levante
+[INFO] 03:20:42:386 SOtp/(13208:13208): levante
+[INFO] 03:20:42:394 SOtp/(13208:13208): termine
+[INFO] 03:20:42:400 SOtp/(13208:13208): Servidor listo para recibir al cliente
+[INFO] 03:22:37:867 SOtp/(13391:13391): levante
+[INFO] 03:22:37:872 SOtp/(13391:13391): termine
+[INFO] 03:22:37:875 SOtp/(13391:13391): Servidor listo para recibir al cliente
+[INFO] 03:56:37:619 SOtp/(16754:16754): levante
+[INFO] 03:56:37:627 SOtp/(16754:16754): termine
+[INFO] 03:56:37:630 SOtp/(16754:16754): Servidor listo para recibir al cliente
+[INFO] 03:58:36:514 SOtp/(17126:17126): levante
+[INFO] 03:58:36:524 SOtp/(17126:17126): termine
+[INFO] 03:58:36:526 SOtp/(17126:17126): Servidor listo para recibir al cliente
+[INFO] 04:01:39:831 SOtp/(17697:17697): levante
+[INFO] 04:01:39:833 SOtp/(17697:17697): termine
+[INFO] 04:01:39:834 SOtp/(17697:17697): Servidor listo para recibir al cliente
+[INFO] 04:10:29:309 SOtp/(18561:18561): levante
+[INFO] 04:10:29:332 SOtp/(18561:18561): termine
+[INFO] 04:10:29:334 SOtp/(18561:18561): Servidor listo para recibir al cliente
+[INFO] 04:10:48:122 SOtp/(18632:18632): levante
+[INFO] 04:10:48:138 SOtp/(18632:18632): termine
+[INFO] 04:10:48:138 SOtp/(18632:18632): Servidor listo para recibir al cliente
+[INFO] 04:19:03:357 SOtp/(19329:19329): levante
+[INFO] 04:19:03:360 SOtp/(19329:19329): termine
+[INFO] 04:19:03:365 SOtp/(19329:19329): Servidor listo para recibir al cliente
+[INFO] 04:22:32:106 SOtp/(19819:19819): levante
+[INFO] 04:22:32:120 SOtp/(19819:19819): termine
+[INFO] 04:22:32:128 SOtp/(19819:19819): Servidor listo para recibir al cliente
+[INFO] 04:28:40:246 SOtp/(20328:20328): levante
+[INFO] 04:28:40:248 SOtp/(20328:20328): termine
+[INFO] 04:28:40:251 SOtp/(20328:20328): Servidor listo para recibir al cliente
+[INFO] 04:30:51:300 SOtp/(20890:20890): levante
+[INFO] 04:30:51:309 SOtp/(20890:20890): termine
+[INFO] 04:30:51:313 SOtp/(20890:20890): Servidor listo para recibir al cliente
+[INFO] 04:41:21:268 SOtp/(21492:21492): levante
+[INFO] 04:41:21:270 SOtp/(21492:21492): termine
+[INFO] 04:41:21:272 SOtp/(21492:21492): Servidor listo para recibir al cliente
+[INFO] 04:48:51:361 SOtp/(22311:22311): levante
+[INFO] 04:48:51:364 SOtp/(22311:22311): termine
+[INFO] 04:48:51:366 SOtp/(22311:22311): Servidor listo para recibir al cliente
+[INFO] 05:07:26:147 SOtp/(23254:23254): levante
+[INFO] 05:07:26:155 SOtp/(23254:23254): termine
+[INFO] 05:07:26:163 SOtp/(23254:23254): Servidor listo para recibir al cliente
+[INFO] 17:46:18:678 SOtp/(4682:4682): levante
+[INFO] 17:46:18:684 SOtp/(4682:4682): termine
+[INFO] 17:46:18:684 SOtp/(4682:4682): Servidor listo para recibir al cliente
+[INFO] 18:42:52:051 SOtp/(6039:6039): levante
+[INFO] 18:42:52:058 SOtp/(6039:6039): termine
+[INFO] 18:42:52:061 SOtp/(6039:6039): Servidor listo para recibir al cliente
+[INFO] 18:51:03:149 SOtp/(156101:156101): levante
+[INFO] 18:51:03:156 SOtp/(156101:156101): termine
+[INFO] 18:51:03:158 SOtp/(156101:156101): Servidor listo para recibir al cliente
+[INFO] 21:39:33:914 SOtp/(162505:162505): levante
+[INFO] 21:39:33:924 SOtp/(162505:162505): termine
+[INFO] 21:39:33:925 SOtp/(162505:162505): Servidor listo para recibir al cliente
+[INFO] 21:44:57:752 SOtp/(163424:163424): levante
+[INFO] 21:44:57:761 SOtp/(163424:163424): termine
+[INFO] 21:44:57:762 SOtp/(163424:163424): Servidor listo para recibir al cliente
+[INFO] 21:47:21:641 SOtp/(163949:163949): levante
+[INFO] 21:47:21:679 SOtp/(163949:163949): termine
+[INFO] 21:47:21:680 SOtp/(163949:163949): Servidor listo para recibir al cliente
+[INFO] 21:49:39:985 SOtp/(164324:164324): levante
+[INFO] 21:49:39:994 SOtp/(164324:164324): termine
+[INFO] 21:49:39:999 SOtp/(164324:164324): Servidor listo para recibir al cliente
+[INFO] 22:09:31:943 SOtp/(165769:165769): levante
+[INFO] 22:09:31:950 SOtp/(165769:165769): termine
+[INFO] 22:09:31:953 SOtp/(165769:165769): Servidor listo para recibir al cliente
+[INFO] 03:15:10:322 SOtp/(3327:3327): levante
+[INFO] 03:15:10:330 SOtp/(3327:3327): termine
+[INFO] 03:15:10:333 SOtp/(3327:3327): Servidor listo para recibir al cliente
+[INFO] 03:23:53:694 SOtp/(4233:4233): levante
+[INFO] 03:23:53:705 SOtp/(4233:4233): termine
+[INFO] 03:23:53:710 SOtp/(4233:4233): Servidor listo para recibir al cliente
+[INFO] 03:26:05:049 SOtp/(4791:4791): levante
+[INFO] 03:26:05:058 SOtp/(4791:4791): termine
+[INFO] 03:26:05:063 SOtp/(4791:4791): Servidor listo para recibir al cliente
+[INFO] 04:02:14:390 SOtp/(2567:2567): levante
+[INFO] 04:02:14:407 SOtp/(2567:2567): termine
+[INFO] 04:02:14:407 SOtp/(2567:2567): Servidor listo para recibir al cliente
+[INFO] 04:05:06:120 SOtp/(3089:3089): levante
+[INFO] 04:05:06:123 SOtp/(3089:3089): termine
+[INFO] 04:05:06:124 SOtp/(3089:3089): Servidor listo para recibir al cliente
+[INFO] 04:08:49:272 SOtp/(3625:3625): levante
+[INFO] 04:08:49:275 SOtp/(3625:3625): termine
+[INFO] 04:08:49:282 SOtp/(3625:3625): Servidor listo para recibir al cliente
+[INFO] 04:21:07:680 SOtp/(5521:5521): levante
+[INFO] 04:21:07:684 SOtp/(5521:5521): termine
+[INFO] 04:21:07:685 SOtp/(5521:5521): Servidor listo para recibir al cliente
+[INFO] 05:17:53:889 SOtp/(9579:9579): levante
+[INFO] 05:17:53:891 SOtp/(9579:9579): termine
+[INFO] 05:17:53:892 SOtp/(9579:9579): Servidor listo para recibir al cliente
+[INFO] 05:29:35:193 SOtp/(10875:10875): levante
+[INFO] 05:29:35:197 SOtp/(10875:10875): termine
+[INFO] 05:29:35:199 SOtp/(10875:10875): Servidor listo para recibir al cliente
+[INFO] 05:30:34:345 SOtp/(11272:11272): levante
+[INFO] 05:30:34:347 SOtp/(11272:11272): termine
+[INFO] 05:30:34:349 SOtp/(11272:11272): Servidor listo para recibir al cliente
+[INFO] 05:33:37:655 SOtp/(11775:11775): levante
+[INFO] 05:33:37:659 SOtp/(11775:11775): termine
+[INFO] 05:33:37:661 SOtp/(11775:11775): Servidor listo para recibir al cliente
+[INFO] 05:34:16:995 SOtp/(12063:12063): levante
+[INFO] 05:34:17:000 SOtp/(12063:12063): termine
+[INFO] 05:34:17:003 SOtp/(12063:12063): Servidor listo para recibir al cliente
+[INFO] 01:40:01:701 SOtp/(10016:10016): levante
+[INFO] 01:40:01:705 SOtp/(10016:10016): termine
+[INFO] 01:40:01:706 SOtp/(10016:10016): Servidor listo para recibir al cliente
+[INFO] 01:42:35:124 SOtp/(10989:10989): levante
+[INFO] 01:42:35:128 SOtp/(10989:10989): termine
+[INFO] 01:42:35:130 SOtp/(10989:10989): Servidor listo para recibir al cliente
+[INFO] 02:37:43:477 SOtp/(2663:2663): levante
+[INFO] 02:37:43:481 SOtp/(2663:2663): termine
+[INFO] 02:37:43:482 SOtp/(2663:2663): Servidor listo para recibir al cliente
+[INFO] 15:57:24:852 LOGGER FILESYSTEM/(7110:7110): levante
+[INFO] 15:57:24:856 LOGGER FILESYSTEM/(7110:7110): termine
+[INFO] 15:57:24:858 LOGGER FILESYSTEM/(7110:7110): Servidor listo para recibir al cliente
+[INFO] 17:44:40:350 LOGGER FILESYSTEM/(14141:14141): levante
+[INFO] 17:44:40:356 LOGGER FILESYSTEM/(14141:14141): termine
+[INFO] 17:44:40:356 LOGGER FILESYSTEM/(14141:14141): Servidor listo para recibir al cliente
+[INFO] 17:51:45:634 LOGGER FILESYSTEM/(15095:15095): levante
+[INFO] 17:51:45:636 LOGGER FILESYSTEM/(15095:15095): termine
+[INFO] 17:51:45:636 LOGGER FILESYSTEM/(15095:15095): Servidor listo para recibir al cliente
+[INFO] 17:59:29:026 LOGGER FILESYSTEM/(16055:16055): levante
+[INFO] 17:59:29:033 LOGGER FILESYSTEM/(16055:16055): termine
+[INFO] 17:59:29:036 LOGGER FILESYSTEM/(16055:16055): Servidor listo para recibir al cliente
+[INFO] 18:04:07:544 LOGGER FILESYSTEM/(16668:16668): levante
+[INFO] 18:04:07:554 LOGGER FILESYSTEM/(16668:16668): termine
+[INFO] 18:04:07:554 LOGGER FILESYSTEM/(16668:16668): Servidor listo para recibir al cliente
+[INFO] 18:13:04:171 LOGGER FILESYSTEM/(17584:17584): levante
+[INFO] 18:13:04:179 LOGGER FILESYSTEM/(17584:17584): termine
+[INFO] 18:13:04:181 LOGGER FILESYSTEM/(17584:17584): Servidor listo para recibir al cliente
+[INFO] 18:20:08:189 LOGGER FILESYSTEM/(18405:18405): levante
+[INFO] 18:20:08:197 LOGGER FILESYSTEM/(18405:18405): termine
+[INFO] 18:20:08:198 LOGGER FILESYSTEM/(18405:18405): Servidor listo para recibir al cliente
+[INFO] 18:20:48:350 LOGGER FILESYSTEM/(18635:18635): levante
+[INFO] 18:20:48:356 LOGGER FILESYSTEM/(18635:18635): termine
+[INFO] 18:20:48:359 LOGGER FILESYSTEM/(18635:18635): Servidor listo para recibir al cliente
+[INFO] 02:51:56:359 LOGGER FILESYSTEM/(3604:3604): levante
+[INFO] 02:51:56:363 LOGGER FILESYSTEM/(3604:3604): termine
+[INFO] 02:51:56:364 LOGGER FILESYSTEM/(3604:3604): Servidor listo para recibir al cliente
+[INFO] 03:10:04:348 LOGGER FILESYSTEM/(4803:4803): levante
+[INFO] 03:10:04:352 LOGGER FILESYSTEM/(4803:4803): termine
+[INFO] 03:10:04:354 LOGGER FILESYSTEM/(4803:4803): Servidor listo para recibir al cliente
+[INFO] 03:25:20:571 LOGGER FILESYSTEM/(5412:5412): levante
+[INFO] 03:25:20:573 LOGGER FILESYSTEM/(5412:5412): termine
+[INFO] 03:25:20:575 LOGGER FILESYSTEM/(5412:5412): Servidor listo para recibir al cliente
+[INFO] 04:00:20:272 LOGGER FILESYSTEM/(6591:6591): levante
+[INFO] 04:00:20:278 LOGGER FILESYSTEM/(6591:6591): termine
+[INFO] 04:00:20:280 LOGGER FILESYSTEM/(6591:6591): Servidor listo para recibir al cliente
+[INFO] 04:02:13:072 LOGGER FILESYSTEM/(7034:7034): levante
+[INFO] 04:02:13:079 LOGGER FILESYSTEM/(7034:7034): termine
+[INFO] 04:02:13:081 LOGGER FILESYSTEM/(7034:7034): Servidor listo para recibir al cliente
+[INFO] 04:21:01:143 LOGGER FILESYSTEM/(7820:7820): levante
+[INFO] 04:21:01:153 LOGGER FILESYSTEM/(7820:7820): termine
+[INFO] 04:21:01:156 LOGGER FILESYSTEM/(7820:7820): Servidor listo para recibir al cliente
+[INFO] 04:25:53:774 LOGGER FILESYSTEM/(8430:8430): levante
+[INFO] 04:25:53:777 LOGGER FILESYSTEM/(8430:8430): termine
+[INFO] 04:25:53:778 LOGGER FILESYSTEM/(8430:8430): Servidor listo para recibir al cliente
+[INFO] 05:05:17:884 LOGGER FILESYSTEM/(9235:9235): levante
+[INFO] 05:05:17:889 LOGGER FILESYSTEM/(9235:9235): termine
+[INFO] 05:05:17:891 LOGGER FILESYSTEM/(9235:9235): Servidor listo para recibir al cliente
+[INFO] 05:12:02:951 LOGGER FILESYSTEM/(10215:10215): levante
+[INFO] 05:12:02:975 LOGGER FILESYSTEM/(10215:10215): termine
+[INFO] 05:12:02:977 LOGGER FILESYSTEM/(10215:10215): Servidor listo para recibir al cliente
+[INFO] 05:13:07:704 LOGGER FILESYSTEM/(10655:10655): levante
+[INFO] 05:13:07:707 LOGGER FILESYSTEM/(10655:10655): termine
+[INFO] 05:13:07:725 LOGGER FILESYSTEM/(10655:10655): Servidor listo para recibir al cliente
+[INFO] 05:18:12:198 LOGGER FILESYSTEM/(12154:12154): levante
+[INFO] 05:18:12:203 LOGGER FILESYSTEM/(12154:12154): termine
+[INFO] 05:18:12:205 LOGGER FILESYSTEM/(12154:12154): Servidor listo para recibir al cliente
+[INFO] 05:19:54:456 LOGGER FILESYSTEM/(12807:12807): levante
+[INFO] 05:19:54:458 LOGGER FILESYSTEM/(12807:12807): termine
+[INFO] 05:19:54:460 LOGGER FILESYSTEM/(12807:12807): Servidor listo para recibir al cliente
+[INFO] 05:46:57:568 LOGGER FILESYSTEM/(20849:20849): levante
+[INFO] 05:46:57:570 LOGGER FILESYSTEM/(20849:20849): termine
+[INFO] 05:46:57:572 LOGGER FILESYSTEM/(20849:20849): Servidor listo para recibir al cliente
+[INFO] 05:52:08:584 LOGGER FILESYSTEM/(22317:22317): levante
+[INFO] 05:52:08:587 LOGGER FILESYSTEM/(22317:22317): termine
+[INFO] 05:52:08:588 LOGGER FILESYSTEM/(22317:22317): Servidor listo para recibir al cliente
+[INFO] 06:02:55:490 LOGGER FILESYSTEM/(24215:24215): levante
+[INFO] 06:02:55:491 LOGGER FILESYSTEM/(24215:24215): termine
+[INFO] 06:02:55:492 LOGGER FILESYSTEM/(24215:24215): Servidor listo para recibir al cliente
+[INFO] 06:06:39:023 LOGGER FILESYSTEM/(25551:25551): levante
+[INFO] 06:06:39:024 LOGGER FILESYSTEM/(25551:25551): termine
+[INFO] 06:06:39:024 LOGGER FILESYSTEM/(25551:25551): Servidor listo para recibir al cliente
+[INFO] 06:15:26:287 LOGGER FILESYSTEM/(27867:27867): levante
+[INFO] 06:15:26:295 LOGGER FILESYSTEM/(27867:27867): termine
+[INFO] 06:15:26:297 LOGGER FILESYSTEM/(27867:27867): Servidor listo para recibir al cliente
+[INFO] 06:16:22:715 LOGGER FILESYSTEM/(28374:28374): levante
+[INFO] 06:16:22:719 LOGGER FILESYSTEM/(28374:28374): termine
+[INFO] 06:16:22:723 LOGGER FILESYSTEM/(28374:28374): Servidor listo para recibir al cliente
+[INFO] 06:19:12:423 LOGGER FILESYSTEM/(29448:29448): levante
+[INFO] 06:19:12:426 LOGGER FILESYSTEM/(29448:29448): termine
+[INFO] 06:19:12:426 LOGGER FILESYSTEM/(29448:29448): Servidor listo para recibir al cliente
+[INFO] 06:21:26:468 LOGGER FILESYSTEM/(30165:30165): levante
+[INFO] 06:21:26:471 LOGGER FILESYSTEM/(30165:30165): termine
+[INFO] 06:21:26:476 LOGGER FILESYSTEM/(30165:30165): Servidor listo para recibir al cliente
+[INFO] 06:24:01:681 LOGGER FILESYSTEM/(30726:30726): levante
+[INFO] 06:24:01:684 LOGGER FILESYSTEM/(30726:30726): termine
+[INFO] 06:24:01:685 LOGGER FILESYSTEM/(30726:30726): Servidor listo para recibir al cliente
+[INFO] 06:25:22:025 LOGGER FILESYSTEM/(31040:31040): levante
+[INFO] 06:25:22:034 LOGGER FILESYSTEM/(31040:31040): termine
+[INFO] 06:25:22:036 LOGGER FILESYSTEM/(31040:31040): Servidor listo para recibir al cliente
+[INFO] 06:29:09:967 LOGGER FILESYSTEM/(31547:31547): levante
+[INFO] 06:29:09:975 LOGGER FILESYSTEM/(31547:31547): termine
+[INFO] 06:29:09:979 LOGGER FILESYSTEM/(31547:31547): Servidor listo para recibir al cliente
+[INFO] 06:33:21:682 LOGGER FILESYSTEM/(32102:32102): levante
+[INFO] 06:33:21:685 LOGGER FILESYSTEM/(32102:32102): termine
+[INFO] 06:33:21:686 LOGGER FILESYSTEM/(32102:32102): Servidor listo para recibir al cliente
+[INFO] 06:34:09:837 LOGGER FILESYSTEM/(32422:32422): levante
+[INFO] 06:34:09:846 LOGGER FILESYSTEM/(32422:32422): termine
+[INFO] 06:34:09:848 LOGGER FILESYSTEM/(32422:32422): Servidor listo para recibir al cliente
+[INFO] 06:41:40:967 LOGGER FILESYSTEM/(33129:33129): levante
+[INFO] 06:41:40:982 LOGGER FILESYSTEM/(33129:33129): termine
+[INFO] 06:41:40:983 LOGGER FILESYSTEM/(33129:33129): Servidor listo para recibir al cliente
+[INFO] 06:42:34:202 LOGGER FILESYSTEM/(33442:33442): levante
+[INFO] 06:42:34:217 LOGGER FILESYSTEM/(33442:33442): termine
+[INFO] 06:42:34:223 LOGGER FILESYSTEM/(33442:33442): Servidor listo para recibir al cliente
+[INFO] 06:44:53:021 LOGGER FILESYSTEM/(33864:33864): levante
+[INFO] 06:44:53:023 LOGGER FILESYSTEM/(33864:33864): termine
+[INFO] 06:44:53:024 LOGGER FILESYSTEM/(33864:33864): Servidor listo para recibir al cliente
+[INFO] 06:45:55:736 LOGGER FILESYSTEM/(34196:34196): levante
+[INFO] 06:45:55:745 LOGGER FILESYSTEM/(34196:34196): termine
+[INFO] 06:45:55:748 LOGGER FILESYSTEM/(34196:34196): Servidor listo para recibir al cliente
+[INFO] 07:11:16:323 LOGGER FILESYSTEM/(3996:3996): levante
+[INFO] 07:11:16:338 LOGGER FILESYSTEM/(3996:3996): termine
+[INFO] 07:11:16:338 LOGGER FILESYSTEM/(3996:3996): Servidor listo para recibir al cliente
+[INFO] 07:17:07:416 LOGGER FILESYSTEM/(4751:4751): levante
+[INFO] 07:17:07:420 LOGGER FILESYSTEM/(4751:4751): termine
+[INFO] 07:17:07:422 LOGGER FILESYSTEM/(4751:4751): Servidor listo para recibir al cliente
+[INFO] 07:19:16:467 LOGGER FILESYSTEM/(5242:5242): levante
+[INFO] 07:19:16:470 LOGGER FILESYSTEM/(5242:5242): termine
+[INFO] 07:19:16:471 LOGGER FILESYSTEM/(5242:5242): Servidor listo para recibir al cliente
+[INFO] 07:20:46:275 LOGGER FILESYSTEM/(5794:5794): levante
+[INFO] 07:20:46:277 LOGGER FILESYSTEM/(5794:5794): termine
+[INFO] 07:20:46:277 LOGGER FILESYSTEM/(5794:5794): Servidor listo para recibir al cliente
+[INFO] 07:21:43:598 LOGGER FILESYSTEM/(6092:6092): levante
+[INFO] 07:21:43:602 LOGGER FILESYSTEM/(6092:6092): termine
+[INFO] 07:21:43:604 LOGGER FILESYSTEM/(6092:6092): Servidor listo para recibir al cliente
+[INFO] 07:22:56:781 LOGGER FILESYSTEM/(6451:6451): levante
+[INFO] 07:22:56:783 LOGGER FILESYSTEM/(6451:6451): termine
+[INFO] 07:22:56:784 LOGGER FILESYSTEM/(6451:6451): Servidor listo para recibir al cliente
+[INFO] 07:23:56:958 LOGGER FILESYSTEM/(6857:6857): levante
+[INFO] 07:23:56:961 LOGGER FILESYSTEM/(6857:6857): termine
+[INFO] 07:23:56:963 LOGGER FILESYSTEM/(6857:6857): Servidor listo para recibir al cliente
+[INFO] 07:24:35:264 LOGGER FILESYSTEM/(7148:7148): levante
+[INFO] 07:24:35:267 LOGGER FILESYSTEM/(7148:7148): termine
+[INFO] 07:24:35:269 LOGGER FILESYSTEM/(7148:7148): Servidor listo para recibir al cliente
+[INFO] 19:41:39:827 LOGGER FILESYSTEM/(3132:3132): levante
+[INFO] 19:41:39:841 LOGGER FILESYSTEM/(3132:3132): termine
+[INFO] 19:41:39:841 LOGGER FILESYSTEM/(3132:3132): Servidor listo para recibir al cliente
+[INFO] 19:48:08:901 LOGGER FILESYSTEM/(3857:3857): levante
+[INFO] 19:48:08:903 LOGGER FILESYSTEM/(3857:3857): termine
+[INFO] 19:48:08:904 LOGGER FILESYSTEM/(3857:3857): Servidor listo para recibir al cliente
+[INFO] 20:18:13:239 LOGGER FILESYSTEM/(4630:4630): levante
+[INFO] 20:18:13:241 LOGGER FILESYSTEM/(4630:4630): termine
+[INFO] 20:18:13:242 LOGGER FILESYSTEM/(4630:4630): Servidor listo para recibir al cliente
+[INFO] 20:23:15:677 LOGGER FILESYSTEM/(5317:5317): levante
+[INFO] 20:23:15:682 LOGGER FILESYSTEM/(5317:5317): termine
+[INFO] 20:23:15:682 LOGGER FILESYSTEM/(5317:5317): Servidor listo para recibir al cliente
+[INFO] 20:36:07:880 LOGGER FILESYSTEM/(5997:5997): levante
+[INFO] 20:36:07:886 LOGGER FILESYSTEM/(5997:5997): termine
+[INFO] 20:36:07:886 LOGGER FILESYSTEM/(5997:5997): Servidor listo para recibir al cliente
+[INFO] 20:41:05:111 LOGGER FILESYSTEM/(6864:6864): levante
+[INFO] 20:41:05:115 LOGGER FILESYSTEM/(6864:6864): termine
+[INFO] 20:41:05:118 LOGGER FILESYSTEM/(6864:6864): Servidor listo para recibir al cliente
+[INFO] 20:56:51:826 LOGGER FILESYSTEM/(7524:7524): levante
+[INFO] 20:56:51:830 LOGGER FILESYSTEM/(7524:7524): termine
+[INFO] 20:56:51:831 LOGGER FILESYSTEM/(7524:7524): Servidor listo para recibir al cliente
+[INFO] 20:59:29:374 LOGGER FILESYSTEM/(8112:8112): levante
+[INFO] 20:59:29:377 LOGGER FILESYSTEM/(8112:8112): termine
+[INFO] 20:59:29:379 LOGGER FILESYSTEM/(8112:8112): Servidor listo para recibir al cliente
+[INFO] 21:02:23:792 LOGGER FILESYSTEM/(8614:8614): levante
+[INFO] 21:02:23:796 LOGGER FILESYSTEM/(8614:8614): termine
+[INFO] 21:02:23:800 LOGGER FILESYSTEM/(8614:8614): Servidor listo para recibir al cliente
+[INFO] 21:03:21:763 LOGGER FILESYSTEM/(9015:9015): levante
+[INFO] 21:03:21:766 LOGGER FILESYSTEM/(9015:9015): termine
+[INFO] 21:03:21:767 LOGGER FILESYSTEM/(9015:9015): Servidor listo para recibir al cliente
+[INFO] 21:07:19:533 LOGGER FILESYSTEM/(9557:9557): levante
+[INFO] 21:07:19:537 LOGGER FILESYSTEM/(9557:9557): termine
+[INFO] 21:07:19:539 LOGGER FILESYSTEM/(9557:9557): Servidor listo para recibir al cliente
+[INFO] 21:07:52:304 LOGGER FILESYSTEM/(9800:9800): levante
+[INFO] 21:07:52:307 LOGGER FILESYSTEM/(9800:9800): termine
+[INFO] 21:07:52:311 LOGGER FILESYSTEM/(9800:9800): Servidor listo para recibir al cliente
+[INFO] 21:09:46:873 LOGGER FILESYSTEM/(10310:10310): levante
+[INFO] 21:09:47:150 LOGGER FILESYSTEM/(10310:10310): termine
+[INFO] 21:09:47:150 LOGGER FILESYSTEM/(10310:10310): Servidor listo para recibir al cliente
+[INFO] 21:10:14:233 LOGGER FILESYSTEM/(10604:10604): levante
+[INFO] 21:10:14:238 LOGGER FILESYSTEM/(10604:10604): termine
+[INFO] 21:10:14:240 LOGGER FILESYSTEM/(10604:10604): Servidor listo para recibir al cliente
+[INFO] 21:10:48:799 LOGGER FILESYSTEM/(10854:10854): levante
+[INFO] 21:10:48:804 LOGGER FILESYSTEM/(10854:10854): termine
+[INFO] 21:10:48:804 LOGGER FILESYSTEM/(10854:10854): Servidor listo para recibir al cliente
+[INFO] 21:15:25:823 LOGGER FILESYSTEM/(11532:11532): levante
+[INFO] 21:15:25:825 LOGGER FILESYSTEM/(11532:11532): termine
+[INFO] 21:15:25:826 LOGGER FILESYSTEM/(11532:11532): Servidor listo para recibir al cliente
+[INFO] 21:18:33:816 LOGGER FILESYSTEM/(12977:12977): levante
+[INFO] 21:18:33:819 LOGGER FILESYSTEM/(12977:12977): termine
+[INFO] 21:18:33:821 LOGGER FILESYSTEM/(12977:12977): Servidor listo para recibir al cliente
+[INFO] 21:19:01:324 LOGGER FILESYSTEM/(13221:13221): levante
+[INFO] 21:19:01:329 LOGGER FILESYSTEM/(13221:13221): termine
+[INFO] 21:19:01:332 LOGGER FILESYSTEM/(13221:13221): Servidor listo para recibir al cliente
+[INFO] 21:19:38:613 LOGGER FILESYSTEM/(13542:13542): levante
+[INFO] 21:19:38:616 LOGGER FILESYSTEM/(13542:13542): termine
+[INFO] 21:19:38:620 LOGGER FILESYSTEM/(13542:13542): Servidor listo para recibir al cliente
+[INFO] 21:21:49:202 LOGGER FILESYSTEM/(13942:13942): levante
+[INFO] 21:21:49:206 LOGGER FILESYSTEM/(13942:13942): termine
+[INFO] 21:21:49:210 LOGGER FILESYSTEM/(13942:13942): Servidor listo para recibir al cliente
+[INFO] 22:04:05:925 LOGGER FILESYSTEM/(14438:14438): levante
+[INFO] 22:04:05:927 LOGGER FILESYSTEM/(14438:14438): termine
+[INFO] 22:04:05:927 LOGGER FILESYSTEM/(14438:14438): Servidor listo para recibir al cliente
+[INFO] 22:06:32:396 LOGGER FILESYSTEM/(14941:14941): levante
+[INFO] 22:06:32:399 LOGGER FILESYSTEM/(14941:14941): termine
+[INFO] 22:06:32:417 LOGGER FILESYSTEM/(14941:14941): Servidor listo para recibir al cliente
+[INFO] 22:14:06:390 LOGGER FILESYSTEM/(15641:15641): levante
+[INFO] 22:14:06:390 LOGGER FILESYSTEM/(15641:15641): termine
+[INFO] 22:14:06:392 LOGGER FILESYSTEM/(15641:15641): Servidor listo para recibir al cliente
+[INFO] 22:19:04:391 LOGGER FILESYSTEM/(16281:16281): levante
+[INFO] 22:19:04:399 LOGGER FILESYSTEM/(16281:16281): termine
+[INFO] 22:19:04:400 LOGGER FILESYSTEM/(16281:16281): Servidor listo para recibir al cliente
+[INFO] 22:21:18:703 LOGGER FILESYSTEM/(16801:16801): levante
+[INFO] 22:21:18:721 LOGGER FILESYSTEM/(16801:16801): termine
+[INFO] 22:21:18:721 LOGGER FILESYSTEM/(16801:16801): Servidor listo para recibir al cliente
+[INFO] 22:25:03:100 LOGGER FILESYSTEM/(17446:17446): levante
+[INFO] 22:25:03:102 LOGGER FILESYSTEM/(17446:17446): termine
+[INFO] 22:25:03:103 LOGGER FILESYSTEM/(17446:17446): Servidor listo para recibir al cliente
+[INFO] 22:38:45:364 LOGGER FILESYSTEM/(19238:19238): levante
+[INFO] 22:38:45:366 LOGGER FILESYSTEM/(19238:19238): termine
+[INFO] 22:38:45:368 LOGGER FILESYSTEM/(19238:19238): Servidor listo para recibir al cliente

@@ -1,0 +1,374 @@
+
+[INFO] 22:48:20:917 Servidor/(7374:7374): Servidor listo para recibir al cliente
+[INFO] 22:48:36:259 Servidor/(7374:7374): recibio mansaje de kernel
+[ERROR] 22:48:36:261 Servidor/(7374:7374): el cliente se desconecto. Terminando servidor
+[INFO] 22:51:01:203 Servidor/(7876:7876): Servidor listo para recibir al cliente
+[INFO] 22:51:11:165 Servidor/(7876:7876): recibio mansaje de kernel
+[ERROR] 22:51:11:168 Servidor/(7876:7876): el cliente se desconecto. Terminando servidor
+[INFO] 23:00:19:800 Servidor/(9646:9646): Servidor listo para recibir al cliente
+[INFO] 23:00:34:003 Servidor/(9646:9646): recibio mansaje de kernel
+[ERROR] 23:00:34:004 Servidor/(9646:9646): el cliente se desconecto. Terminando servidor
+[INFO] 23:03:02:461 Servidor/(10160:10160): Servidor listo para recibir al cliente
+[INFO] 23:03:13:687 Servidor/(10160:10160): recibio mansaje de kernel
+[ERROR] 23:03:13:692 Servidor/(10160:10160): el cliente se desconecto. Terminando servidor
+[INFO] 23:04:33:252 Servidor/(10556:10556): Servidor listo para recibir al cliente
+[INFO] 23:04:50:384 Servidor/(10556:10556): recibio mansaje de kernel
+[ERROR] 23:04:50:386 Servidor/(10556:10556): el cliente se desconecto. Terminando servidor
+[INFO] 23:22:06:513 Servidor/(11668:11668): Servidor listo para recibir al cliente
+[INFO] 23:24:34:590 Servidor/(12081:12081): Servidor listo para recibir al cliente
+[INFO] 23:24:51:032 Servidor/(12081:12081): recibio mansaje de kernel
+[ERROR] 23:24:51:033 Servidor/(12081:12081): el cliente se desconecto. Terminando servidor
+[INFO] 23:31:44:602 Servidor/(12830:12830): Servidor listo para recibir al cliente
+[INFO] 23:38:58:130 Servidor/(13521:13521): Servidor listo para recibir al cliente
+[INFO] 23:43:34:543 Servidor/(13877:13877): Servidor listo para recibir al cliente
+[INFO] 23:43:48:735 Servidor/(13877:13877): recibio mansaje de kernel
+[INFO] 23:43:48:735 Servidor/(13877:13877): recibio mansaje de fileSystem
+[INFO] 23:43:48:736 Servidor/(13877:13877): recibio mansaje de cpu
+[INFO] 12:43:24:395 Servidor/(48298:48298): Servidor listo para recibir al cliente
+[INFO] 13:15:52:998 Servidor/(2262:2262): Servidor listo para recibir al cliente
+[INFO] 13:16:45:614 Servidor/(2262:2262): recibio mansaje de kernel
+[INFO] 13:16:45:614 Servidor/(2262:2262): recibio mansaje de fileSystem
+[INFO] 13:16:45:616 Servidor/(2262:2262): recibio mansaje de cpu
+[INFO] 02:05:37:275 Servidor/(5442:5442): Servidor listo para recibir al cliente
+[INFO] 04:21:59:754 Servidor/(12948:12948): Servidor listo para recibir al cliente
+[INFO] 18:56:32:180 Servidor/(4047:4047): Servidor listo para recibir al cliente
+[INFO] 19:17:10:672 Servidor/(2224:2224): Servidor listo para recibir al cliente
+[INFO] 19:19:58:663 Servidor/(2508:2508): Servidor listo para recibir al cliente
+[INFO] 19:50:44:170 Servidor/(3073:3073): Servidor listo para recibir al cliente
+[INFO] 03:16:05:436 Servidor/(12527:12527): 8002
+[INFO] 03:16:05:448 Servidor/(12527:12527): 4096
+[INFO] 03:16:05:452 Servidor/(12527:12527): 128
+[INFO] 03:16:05:452 Servidor/(12527:12527): 16
+[INFO] 03:16:05:453 Servidor/(12527:12527): 1000
+[INFO] 03:16:05:453 Servidor/(12527:12527): 60000
+[INFO] 03:16:05:454 Servidor/(12527:12527): BEST
+[INFO] 03:16:05:454 Servidor/(12527:12527): 127.0.0.1
+[INFO] 03:17:13:019 Servidor/(12745:12745): cree estructuras
+[INFO] 03:21:42:994 Servidor/(13294:13294): cree estructuras
+[INFO] 03:56:28:820 Servidor/(16723:16723): cree estructuras
+[INFO] 03:58:22:177 Servidor/(17089:17089): cree estructuras
+[INFO] 04:01:32:084 Servidor/(17647:17647): cree estructuras
+[INFO] 04:10:38:318 Servidor/(18595:18595): cree estructuras
+[INFO] 04:18:57:095 Servidor/(19282:19282): cree estructuras
+[INFO] 04:22:21:064 Servidor/(19760:19760): cree estructuras
+[INFO] 04:28:33:687 Servidor/(20279:20279): cree estructuras
+[INFO] 04:30:45:805 Servidor/(20847:20847): cree estructuras
+[INFO] 04:41:15:669 Servidor/(21460:21460): cree estructuras
+[INFO] 04:48:43:632 Servidor/(22265:22265): cree estructuras
+[INFO] 05:07:20:198 Servidor/(23217:23217): cree estructuras
+[INFO] 17:45:51:462 Servidor/(4587:4587): cree estructuras
+[INFO] 18:42:40:764 Servidor/(5949:5949): cree estructuras
+[INFO] 18:42:44:982 Servidor/(5949:5972): escuchando a kernel
+[INFO] 18:42:52:064 Servidor/(5949:6040): escuchando a kernel
+[INFO] 18:50:54:255 Servidor/(156063:156063): cree estructuras
+[INFO] 21:10:53:381 Servidor/(159512:159512): cree estructuras
+[INFO] 21:11:16:323 Servidor/(159512:159604): escuchando a kernel
+[INFO] 21:38:54:709 Servidor/(162345:162345): cree estructuras
+[INFO] 21:39:10:165 Servidor/(162345:162408): escuchando a kernel
+[INFO] 21:39:33:915 Servidor/(162345:162506): escuchando a kernel
+[INFO] 21:44:20:321 Servidor/(163246:163246): cree estructuras
+[INFO] 21:44:40:751 Servidor/(163246:163325): escuchando a kernel
+[INFO] 21:44:57:752 Servidor/(163246:163425): escuchando a kernel
+[INFO] 21:47:10:665 Servidor/(163893:163893): cree estructuras
+[INFO] 21:49:23:438 Servidor/(164246:164246): cree estructuras
+[INFO] 21:49:35:582 Servidor/(164246:164284): escuchando a kernel
+[INFO] 21:49:40:022 Servidor/(164246:164326): escuchando a kernel
+[INFO] 22:09:23:181 Servidor/(165707:165707): cree estructuras
+[INFO] 03:23:42:832 Servidor/(4182:4182): cree estructuras
+[INFO] 03:23:53:689 Servidor/(4182:4234): escuchando a kernel
+[INFO] 03:24:07:036 Servidor/(4182:4337): escuchando a kernel
+[INFO] 03:25:53:148 Servidor/(4723:4723): cree estructuras
+[INFO] 04:01:19:327 Servidor/(2314:2314): cree estructuras
+[INFO] 04:01:27:442 Servidor/(2314:2367): escuchando a kernel
+[INFO] 04:01:36:970 Servidor/(2314:2429): escuchando a kernel
+[INFO] 04:02:09:084 Servidor/(2538:2538): cree estructuras
+[INFO] 04:04:59:998 Servidor/(3045:3045): cree estructuras
+[INFO] 04:05:06:128 Servidor/(3045:3090): escuchando a kernel
+[INFO] 04:05:17:248 Servidor/(3045:3168): escuchando a kernel
+[INFO] 04:08:43:475 Servidor/(3587:3587): cree estructuras
+[INFO] 04:21:02:785 Servidor/(5490:5490): cree estructuras
+[INFO] 04:21:07:693 Servidor/(5490:5522): escuchando a kernel
+[INFO] 04:21:11:435 Servidor/(5490:5546): escuchando a kernel
+[INFO] 05:17:44:122 Servidor/(9517:9517): cree estructuras
+[INFO] 05:29:31:148 Servidor/(10835:10835): cree estructuras
+[INFO] 05:29:35:202 Servidor/(10835:10876): escuchando a kernel
+[INFO] 05:29:38:133 Servidor/(10835:10898): escuchando a kernel
+[INFO] 05:30:29:961 Servidor/(11217:11217): cree estructuras
+[INFO] 05:33:34:283 Servidor/(11747:11747): cree estructuras
+[INFO] 05:33:37:667 Servidor/(11747:11776): escuchando a kernel
+[INFO] 05:33:40:988 Servidor/(11747:11808): escuchando a kernel
+[INFO] 05:34:13:608 Servidor/(12026:12026): cree estructuras
+[INFO] 01:39:45:080 Servidor/(9911:9911): cree estructuras
+[INFO] 01:39:51:305 Servidor/(9911:9949): escuchando a kernel
+[INFO] 01:40:01:702 Servidor/(9911:10017): escuchando a kernel
+[INFO] 01:42:21:521 Servidor/(10873:10873): cree estructuras
+[INFO] 01:42:27:526 Servidor/(10873:10910): escuchando a kernel
+[INFO] 01:42:35:145 Servidor/(10873:10990): escuchando a kernel
+[INFO] 02:37:29:134 Servidor/(2573:2573): cree estructuras
+[INFO] 02:37:33:576 Servidor/(2573:2606): escuchando a kernel
+[INFO] 02:37:43:485 Servidor/(2573:2664): escuchando a kernel
+[INFO] 15:57:14:907 LOGGER MEMORIA/(7073:7073): cree estructuras
+[INFO] 15:57:24:862 LOGGER MEMORIA/(7073:7111): escuchando a kernel
+[INFO] 15:57:29:624 LOGGER MEMORIA/(7073:7149): escuchando a kernel
+[INFO] 17:44:31:202 LOGGER MEMORIA/(14092:14092): cree estructuras
+[INFO] 17:44:40:358 LOGGER MEMORIA/(14092:14142): escuchando a kernel
+[INFO] 17:44:46:751 LOGGER MEMORIA/(14092:14190): escuchando a kernel
+[INFO] 17:51:36:509 LOGGER MEMORIA/(15058:15058): cree estructuras
+[INFO] 17:51:45:639 LOGGER MEMORIA/(15058:15096): escuchando a kernel
+[INFO] 17:51:52:972 LOGGER MEMORIA/(15058:15164): escuchando a kernel
+[INFO] 17:59:24:923 LOGGER MEMORIA/(16033:16033): cree estructuras
+[INFO] 17:59:29:042 LOGGER MEMORIA/(16033:16056): escuchando a kernel
+[INFO] 17:59:35:373 LOGGER MEMORIA/(16033:16104): escuchando a kernel
+[INFO] 18:03:46:645 LOGGER MEMORIA/(16610:16610): cree estructuras
+[INFO] 18:04:07:544 LOGGER MEMORIA/(16610:16669): escuchando a kernel
+[INFO] 18:04:18:167 LOGGER MEMORIA/(16610:16750): escuchando a kernel
+[INFO] 18:12:57:793 LOGGER MEMORIA/(17547:17547): cree estructuras
+[INFO] 18:13:04:176 LOGGER MEMORIA/(17547:17585): escuchando a kernel
+[INFO] 18:13:15:119 LOGGER MEMORIA/(17547:17676): escuchando a kernel
+[INFO] 18:19:56:799 LOGGER MEMORIA/(18306:18306): cree estructuras
+[INFO] 18:20:08:207 LOGGER MEMORIA/(18306:18406): escuchando a kernel
+[INFO] 18:20:38:682 LOGGER MEMORIA/(18574:18574): cree estructuras
+[INFO] 02:49:47:306 LOGGER MEMORIA/(3119:3119): cree estructuras
+[INFO] 02:50:15:685 LOGGER MEMORIA/(3119:3245): escuchando a kernel
+[INFO] 02:51:44:344 LOGGER MEMORIA/(3570:3570): cree estructuras
+[INFO] 02:51:56:366 LOGGER MEMORIA/(3570:3605): escuchando a kernel
+[INFO] 02:52:08:944 LOGGER MEMORIA/(3570:3695): escuchando a kernel
+[INFO] 03:09:58:865 LOGGER MEMORIA/(4764:4764): cree estructuras
+[INFO] 03:10:04:356 LOGGER MEMORIA/(4764:4804): escuchando a kernel
+[INFO] 03:10:16:689 LOGGER MEMORIA/(4764:4905): escuchando a kernel
+[INFO] 03:25:16:214 LOGGER MEMORIA/(5375:5375): cree estructuras
+[INFO] 03:25:20:578 LOGGER MEMORIA/(5375:5413): escuchando a kernel
+[INFO] 03:25:30:306 LOGGER MEMORIA/(5375:5486): escuchando a kernel
+[INFO] 04:00:16:098 LOGGER MEMORIA/(6569:6569): cree estructuras
+[INFO] 04:00:20:282 LOGGER MEMORIA/(6569:6592): escuchando a kernel
+[INFO] 04:01:08:387 LOGGER MEMORIA/(6569:6751): escuchando a kernel
+[INFO] 04:02:08:127 LOGGER MEMORIA/(7012:7012): cree estructuras
+[INFO] 04:20:57:958 LOGGER MEMORIA/(7798:7798): cree estructuras
+[INFO] 04:21:01:160 LOGGER MEMORIA/(7798:7821): escuchando a kernel
+[INFO] 04:21:12:270 LOGGER MEMORIA/(7798:7896): escuchando a kernel
+[INFO] 04:25:48:280 LOGGER MEMORIA/(8404:8404): cree estructuras
+[INFO] 04:25:53:784 LOGGER MEMORIA/(8404:8431): escuchando a kernel
+[INFO] 04:26:01:458 LOGGER MEMORIA/(8404:8516): escuchando a kernel
+[INFO] 05:05:12:897 LOGGER MEMORIA/(9204:9204): cree estructuras
+[INFO] 05:05:17:897 LOGGER MEMORIA/(9204:9236): escuchando a kernel
+[INFO] 05:05:33:267 LOGGER MEMORIA/(9204:9341): escuchando a kernel
+[INFO] 05:10:28:788 LOGGER MEMORIA/(9813:9813): cree estructuras
+[INFO] 05:12:58:343 LOGGER MEMORIA/(10596:10596): cree estructuras
+[INFO] 05:13:07:699 LOGGER MEMORIA/(10596:10656): escuchando a kernel
+[INFO] 05:13:35:716 LOGGER MEMORIA/(10596:10863): escuchando a kernel
+[INFO] 05:18:07:979 LOGGER MEMORIA/(12114:12114): cree estructuras
+[INFO] 05:18:12:207 LOGGER MEMORIA/(12114:12155): escuchando a kernel
+[INFO] 05:18:17:301 LOGGER MEMORIA/(12114:12219): escuchando a kernel
+[INFO] 05:19:48:543 LOGGER MEMORIA/(12755:12755): cree estructuras
+[INFO] 05:19:54:469 LOGGER MEMORIA/(12755:12808): escuchando a kernel
+[INFO] 05:20:00:445 LOGGER MEMORIA/(12755:12876): escuchando a kernel
+[INFO] 05:46:53:144 LOGGER MEMORIA/(20812:20812): cree estructuras
+[INFO] 05:46:57:577 LOGGER MEMORIA/(20812:20850): escuchando a kernel
+[INFO] 05:47:03:663 LOGGER MEMORIA/(20812:20924): escuchando a kernel
+[INFO] 05:52:03:745 LOGGER MEMORIA/(22280:22280): cree estructuras
+[INFO] 05:52:08:591 LOGGER MEMORIA/(22280:22318): escuchando a kernel
+[INFO] 05:52:12:921 LOGGER MEMORIA/(22280:22372): escuchando a kernel
+[INFO] 06:02:49:558 LOGGER MEMORIA/(24173:24173): cree estructuras
+[INFO] 06:02:55:468 LOGGER MEMORIA/(24173:24216): escuchando a kernel
+[INFO] 06:03:05:149 LOGGER MEMORIA/(24173:24299): escuchando a kernel
+[INFO] 06:06:35:132 LOGGER MEMORIA/(25519:25519): cree estructuras
+[INFO] 06:06:39:016 LOGGER MEMORIA/(25519:25552): escuchando a kernel
+[INFO] 06:06:43:127 LOGGER MEMORIA/(25519:25599): escuchando a kernel
+[INFO] 06:15:22:472 LOGGER MEMORIA/(27817:27817): cree estructuras
+[INFO] 06:16:18:672 LOGGER MEMORIA/(28344:28344): cree estructuras
+[INFO] 06:16:22:724 LOGGER MEMORIA/(28344:28375): escuchando a kernel
+[INFO] 06:16:27:699 LOGGER MEMORIA/(28344:28428): escuchando a kernel
+[INFO] 06:19:06:367 LOGGER MEMORIA/(29401:29401): cree estructuras
+[INFO] 06:21:04:657 LOGGER MEMORIA/(30010:30010): cree estructuras
+[INFO] 06:21:16:822 LOGGER MEMORIA/(30010:30085): escuchando a kernel
+[INFO] 06:21:26:480 LOGGER MEMORIA/(30010:30166): escuchando a kernel
+[INFO] 06:23:53:131 LOGGER MEMORIA/(30667:30667): cree estructuras
+[INFO] 06:25:12:740 LOGGER MEMORIA/(30980:30980): cree estructuras
+[INFO] 06:25:16:907 LOGGER MEMORIA/(30980:31003): escuchando a kernel
+[INFO] 06:25:22:041 LOGGER MEMORIA/(30980:31041): escuchando a kernel
+[INFO] 06:29:03:096 LOGGER MEMORIA/(31488:31488): cree estructuras
+[INFO] 06:33:14:459 LOGGER MEMORIA/(32041:32041): cree estructuras
+[INFO] 06:33:18:273 LOGGER MEMORIA/(32041:32067): escuchando a kernel
+[INFO] 06:33:21:688 LOGGER MEMORIA/(32041:32104): escuchando a kernel
+[INFO] 06:33:58:747 LOGGER MEMORIA/(32350:32350): cree estructuras
+[INFO] 06:41:31:156 LOGGER MEMORIA/(33059:33059): cree estructuras
+[INFO] 06:41:36:746 LOGGER MEMORIA/(33059:33092): escuchando a kernel
+[INFO] 06:41:40:986 LOGGER MEMORIA/(33059:33130): escuchando a kernel
+[INFO] 06:42:25:763 LOGGER MEMORIA/(33383:33383): cree estructuras
+[INFO] 06:44:44:624 LOGGER MEMORIA/(33794:33794): cree estructuras
+[INFO] 06:44:49:062 LOGGER MEMORIA/(33794:33841): escuchando a kernel
+[INFO] 06:44:53:011 LOGGER MEMORIA/(33794:33865): escuchando a kernel
+[INFO] 06:45:48:230 LOGGER MEMORIA/(34137:34137): cree estructuras
+[INFO] 07:11:07:496 LOGGER MEMORIA/(3965:3965): cree estructuras
+[INFO] 07:11:16:326 LOGGER MEMORIA/(3965:3997): escuchando a kernel
+[INFO] 07:11:29:584 LOGGER MEMORIA/(3965:4083): escuchando a kernel
+[INFO] 07:15:11:887 LOGGER MEMORIA/(4604:4604): cree estructuras
+[INFO] 07:19:12:227 LOGGER MEMORIA/(5211:5211): cree estructuras
+[INFO] 07:19:16:474 LOGGER MEMORIA/(5211:5243): escuchando a kernel
+[INFO] 07:19:22:818 LOGGER MEMORIA/(5211:5290): escuchando a kernel
+[INFO] 07:20:42:831 LOGGER MEMORIA/(5756:5756): cree estructuras
+[INFO] 07:21:34:142 LOGGER MEMORIA/(6033:6033): cree estructuras
+[INFO] 07:22:52:067 LOGGER MEMORIA/(6423:6423): cree estructuras
+[INFO] 07:22:56:788 LOGGER MEMORIA/(6423:6452): escuchando a kernel
+[INFO] 07:23:02:560 LOGGER MEMORIA/(6423:6495): escuchando a kernel
+[INFO] 07:23:44:920 LOGGER MEMORIA/(6784:6784): cree estructuras
+[INFO] 07:24:26:468 LOGGER MEMORIA/(7113:7113): cree estructuras
+[INFO] 19:40:40:456 LOGGER MEMORIA/(2959:2959): cree estructuras
+[INFO] 19:41:31:760 LOGGER MEMORIA/(2959:3056): escuchando a kernel
+[INFO] 19:41:39:834 LOGGER MEMORIA/(2959:3133): escuchando a kernel
+[INFO] 19:46:55:815 LOGGER MEMORIA/(3822:3822): cree estructuras
+[INFO] 20:17:35:033 LOGGER MEMORIA/(4565:4565): cree estructuras
+[INFO] 20:18:08:296 LOGGER MEMORIA/(4565:4598): escuchando a kernel
+[INFO] 20:18:13:244 LOGGER MEMORIA/(4565:4631): escuchando a kernel
+[INFO] 20:22:28:160 LOGGER MEMORIA/(5251:5251): cree estructuras
+[INFO] 20:35:52:948 LOGGER MEMORIA/(5934:5934): cree estructuras
+[INFO] 20:36:03:884 LOGGER MEMORIA/(5934:5966): escuchando a kernel
+[INFO] 20:36:07:892 LOGGER MEMORIA/(5934:5998): escuchando a kernel
+[INFO] 20:40:50:577 LOGGER MEMORIA/(6777:6777): cree estructuras
+[INFO] 20:40:55:783 LOGGER MEMORIA/(6777:6804): escuchando a kernel
+[INFO] 20:41:05:122 LOGGER MEMORIA/(6777:6865): escuchando a kernel
+[INFO] 20:56:45:158 LOGGER MEMORIA/(7493:7493): cree estructuras
+[INFO] 20:56:51:836 LOGGER MEMORIA/(7493:7525): escuchando a kernel
+[INFO] 20:56:56:008 LOGGER MEMORIA/(7493:7552): escuchando a kernel
+[INFO] 20:59:19:936 LOGGER MEMORIA/(8065:8065): cree estructuras
+[INFO] 21:02:16:530 LOGGER MEMORIA/(8554:8554): cree estructuras
+[INFO] 21:02:20:162 LOGGER MEMORIA/(8554:8583): escuchando a kernel
+[INFO] 21:02:23:801 LOGGER MEMORIA/(8554:8615): escuchando a kernel
+[INFO] 21:03:07:445 LOGGER MEMORIA/(8942:8942): cree estructuras
+[INFO] 21:03:16:259 LOGGER MEMORIA/(8942:8974): escuchando a kernel
+[INFO] 21:03:21:769 LOGGER MEMORIA/(8942:9016): escuchando a kernel
+[INFO] 21:07:11:492 LOGGER MEMORIA/(9510:9510): cree estructuras
+[INFO] 21:07:48:495 LOGGER MEMORIA/(9780:9780): cree estructuras
+[INFO] 21:09:40:864 LOGGER MEMORIA/(10267:10267): cree estructuras
+[INFO] 21:09:44:605 LOGGER MEMORIA/(10267:10284): escuchando a kernel
+[INFO] 21:09:46:872 LOGGER MEMORIA/(10267:10311): escuchando a kernel
+[INFO] 21:10:06:615 LOGGER MEMORIA/(10533:10533): cree estructuras
+[INFO] 21:10:44:097 LOGGER MEMORIA/(10818:10818): cree estructuras
+[INFO] 21:15:18:954 LOGGER MEMORIA/(11484:11484): cree estructuras
+[INFO] 21:15:21:934 LOGGER MEMORIA/(11484:11501): escuchando a kernel
+[INFO] 21:15:25:827 LOGGER MEMORIA/(11484:11533): escuchando a kernel
+[INFO] 21:18:01:776 LOGGER MEMORIA/(12761:12761): cree estructuras
+[INFO] 21:18:55:337 LOGGER MEMORIA/(13162:13162): cree estructuras
+[INFO] 21:19:27:554 LOGGER MEMORIA/(13422:13422): cree estructuras
+[INFO] 21:19:36:493 LOGGER MEMORIA/(13422:13507): escuchando a kernel
+[INFO] 21:19:38:625 LOGGER MEMORIA/(13422:13543): escuchando a kernel
+[INFO] 21:21:40:222 LOGGER MEMORIA/(13894:13894): cree estructuras
+[INFO] 21:21:44:002 LOGGER MEMORIA/(13894:13911): escuchando a kernel
+[INFO] 21:21:49:212 LOGGER MEMORIA/(13894:13943): escuchando a kernel
+[INFO] 22:03:58:745 LOGGER MEMORIA/(14392:14392): cree estructuras
+[INFO] 22:04:05:928 LOGGER MEMORIA/(14392:14439): escuchando a kernel
+[INFO] 22:04:15:189 LOGGER MEMORIA/(14392:14513): escuchando a kernel
+[INFO] 22:06:21:729 LOGGER MEMORIA/(14894:14894): cree estructuras
+[INFO] 22:13:57:582 LOGGER MEMORIA/(15593:15593): cree estructuras
+[INFO] 22:14:01:077 LOGGER MEMORIA/(15593:15610): escuchando a kernel
+[INFO] 22:14:06:395 LOGGER MEMORIA/(15593:15642): escuchando a kernel
+[INFO] 22:18:30:543 LOGGER MEMORIA/(16219:16219): cree estructuras
+[INFO] 22:21:03:989 LOGGER MEMORIA/(16723:16723): cree estructuras
+[INFO] 22:21:12:220 LOGGER MEMORIA/(16723:16755): escuchando a kernel
+[INFO] 22:21:18:705 LOGGER MEMORIA/(16723:16802): escuchando a kernel
+[INFO] 22:24:53:448 LOGGER MEMORIA/(17395:17395): cree estructuras
+[INFO] 22:38:40:301 LOGGER MEMORIA/(19222:19222): cree estructuras
+[INFO] 22:38:45:371 LOGGER MEMORIA/(19222:19239): escuchando a kernel
+[INFO] 22:38:51:835 LOGGER MEMORIA/(19222:19307): escuchando a kernel
+[INFO] 02:45:56:895 LOGGER MEMORIA/(12095:12095): cree estructuras
+[INFO] 02:46:02:237 LOGGER MEMORIA/(12095:12119): escuchando a kernel
+[INFO] 02:46:08:142 LOGGER MEMORIA/(12095:12182): escuchando a kernel
+[INFO] 02:50:09:717 LOGGER MEMORIA/(13121:13121): cree estructuras
+[INFO] 02:53:59:994 LOGGER MEMORIA/(14131:14131): cree estructuras
+[INFO] 02:54:04:158 LOGGER MEMORIA/(14131:14166): escuchando a kernel
+[INFO] 02:54:07:178 LOGGER MEMORIA/(14131:14201): escuchando a kernel
+[INFO] 02:57:24:785 LOGGER MEMORIA/(15106:15106): cree estructuras
+[ERROR] 15:45:58:497 LOGGER MEMORIA/(12478:12479): Cliente desconocido
+[ERROR] 15:47:00:332 LOGGER MEMORIA/(12727:12728): Cliente desconocido
+[INFO] 15:49:26:885 LOGGER MEMORIA/(12963:12963): 8002
+[INFO] 15:49:26:897 LOGGER MEMORIA/(12963:12963): 127.0.0.1
+[ERROR] 15:49:26:906 LOGGER MEMORIA/(12963:12964): Cliente desconocido
+[INFO] 15:51:06:705 LOGGER MEMORIA/(13152:13152): 8002
+[INFO] 15:51:06:717 LOGGER MEMORIA/(13152:13152): 127.0.0.1
+[ERROR] 15:51:06:746 LOGGER MEMORIA/(13152:13153): Cliente desconocido
+[INFO] 15:55:30:527 LOGGER MEMORIA/(14243:14243): 8002
+[INFO] 15:55:30:533 LOGGER MEMORIA/(14243:14243): 127.0.0.1
+[ERROR] 15:55:30:537 LOGGER MEMORIA/(14243:14244): Cliente desconocido
+[INFO] 15:57:28:177 LOGGER MEMORIA/(14413:14413): 8002
+[INFO] 15:57:28:183 LOGGER MEMORIA/(14413:14413): 127.0.0.1
+[ERROR] 15:57:28:194 LOGGER MEMORIA/(14413:14414): Cliente desconocido
+[INFO] 16:02:15:609 LOGGER MEMORIA/(15217:15217): 8002
+[INFO] 16:02:15:612 LOGGER MEMORIA/(15217:15217): 127.0.0.1
+[ERROR] 16:02:15:615 LOGGER MEMORIA/(15217:15218): Cliente desconocido
+[INFO] 16:05:37:189 LOGGER MEMORIA/(15605:15605): 8002
+[INFO] 16:05:37:200 LOGGER MEMORIA/(15605:15605): 127.0.0.1
+[ERROR] 16:05:37:202 LOGGER MEMORIA/(15605:15606): Cliente desconocido
+[INFO] 16:09:10:467 LOGGER MEMORIA/(15848:15848): 8002
+[INFO] 16:09:10:474 LOGGER MEMORIA/(15848:15848): 127.0.0.1
+[INFO] 16:09:57:845 LOGGER MEMORIA/(15985:15985): escuchando...
+[INFO] 16:11:58:246 LOGGER MEMORIA/(15985:16360): escuchando al filesystem
+[INFO] 16:28:35:715 LOGGER MEMORIA/(18049:18049): escuchando...
+[INFO] 16:30:41:296 LOGGER MEMORIA/(18916:18916): escuchando...
+[INFO] 16:30:55:547 LOGGER MEMORIA/(18916:18917): hola, soy filesystem
+[INFO] 16:30:55:549 LOGGER MEMORIA/(18916:19000): escuchando al filesystem
+[INFO] 16:36:13:994 LOGGER MEMORIA/(18916:18917): hola, soy filesystem
+[INFO] 16:36:14:006 LOGGER MEMORIA/(18916:19471): escuchando al filesystem
+[INFO] 16:36:31:950 LOGGER MEMORIA/(19581:19581): escuchando...
+[INFO] 16:37:41:296 LOGGER MEMORIA/(19775:19775): escuchando...
+[INFO] 16:38:01:895 LOGGER MEMORIA/(19775:19776): hola, soy filesystem
+[INFO] 16:38:01:911 LOGGER MEMORIA/(19775:19917): escuchando al filesystem
+[INFO] 16:38:16:372 LOGGER MEMORIA/(19775:19776): hola, soy cpu
+[INFO] 16:38:16:376 LOGGER MEMORIA/(19775:20012): Se conecto la cpu a la memoria
+[INFO] 16:40:31:734 LOGGER MEMORIA/(20394:20394): escuchando...
+[INFO] 16:43:54:333 LOGGER MEMORIA/(20709:20709): escuchando...
+[INFO] 16:43:59:499 LOGGER MEMORIA/(20709:20710): hola, soy filesystem
+[INFO] 16:43:59:507 LOGGER MEMORIA/(20709:20766): escuchando al filesystem
+[INFO] 16:44:04:636 LOGGER MEMORIA/(20709:20710): hola, soy cpu
+[INFO] 16:44:04:642 LOGGER MEMORIA/(20709:20811): Se conecto la cpu a la memoria
+[INFO] 16:44:14:519 LOGGER MEMORIA/(20709:20710): hola, soy kernel
+[INFO] 16:44:14:523 LOGGER MEMORIA/(20709:20880): escuchando a kernel
+[INFO] 16:44:40:819 LOGGER MEMORIA/(20709:20880): Creacion de Proceso PID: 1
+[INFO] 17:50:39:351 LOGGER MEMORIA/(3873:3873): escuchando...
+[INFO] 17:50:48:857 LOGGER MEMORIA/(3873:3898): hola, soy cpu
+[INFO] 17:50:48:863 LOGGER MEMORIA/(3873:3932): Se conecto la cpu a la memoria
+[INFO] 17:50:58:837 LOGGER MEMORIA/(3873:3898): hola, soy filesystem
+[INFO] 17:50:58:850 LOGGER MEMORIA/(3873:4023): escuchando al filesystem
+[INFO] 17:51:05:582 LOGGER MEMORIA/(3873:3898): hola, soy kernel
+[INFO] 17:51:05:592 LOGGER MEMORIA/(3873:4086): escuchando a kernel
+[INFO] 17:54:10:398 LOGGER MEMORIA/(3873:4086): Creacion de Proceso PID: 1
+[INFO] 17:59:35:494 LOGGER MEMORIA/(4893:4893): escuchando...
+[INFO] 18:00:45:066 LOGGER MEMORIA/(4893:4952): escuchando al filesystem
+[INFO] 18:00:55:021 LOGGER MEMORIA/(4893:5047): Se conecto la cpu a la memoria
+[INFO] 18:01:06:191 LOGGER MEMORIA/(4893:5111): escuchando a kernel
+[INFO] 18:02:27:517 LOGGER MEMORIA/(4893:5111): Creacion de Proceso PID: 1
+[INFO] 18:06:49:104 LOGGER MEMORIA/(5892:5892): escuchando...
+[INFO] 18:07:21:706 LOGGER MEMORIA/(6038:6038): escuchando...
+[INFO] 18:07:26:283 LOGGER MEMORIA/(6038:6069): escuchando al filesystem
+[INFO] 18:07:32:407 LOGGER MEMORIA/(6038:6122): Se conecto la cpu a la memoria
+[INFO] 18:07:53:772 LOGGER MEMORIA/(6038:6196): escuchando a kernel
+[INFO] 18:08:34:373 LOGGER MEMORIA/(6038:6196): Creacion de Proceso PID: 1
+[INFO] 18:13:56:834 LOGGER MEMORIA/(2264:2264): escuchando...
+[INFO] 18:14:04:086 LOGGER MEMORIA/(2264:2299): escuchando al filesystem
+[INFO] 18:14:38:175 LOGGER MEMORIA/(2264:2419): Se conecto la cpu a la memoria
+[INFO] 18:16:30:637 LOGGER MEMORIA/(2264:2530): escuchando a kernel
+[INFO] 18:18:34:345 LOGGER MEMORIA/(2264:2530): Creacion de Proceso PID: 1
+[INFO] 18:26:41:936 LOGGER MEMORIA/(2394:2394): escuchando...
+[INFO] 18:27:32:120 LOGGER MEMORIA/(2394:2509): escuchando al filesystem
+[INFO] 18:27:45:223 LOGGER MEMORIA/(2394:2627): Se conecto la cpu a la memoria
+[INFO] 18:28:09:774 LOGGER MEMORIA/(2394:2723): escuchando a kernel
+[INFO] 18:28:59:468 LOGGER MEMORIA/(2394:2723): Creacion de Proceso PID: 1
+[INFO] 18:32:16:630 LOGGER MEMORIA/(3274:3274): escuchando...
+[INFO] 18:32:40:159 LOGGER MEMORIA/(3411:3411): escuchando...
+[INFO] 18:32:55:259 LOGGER MEMORIA/(3411:3450): escuchando al filesystem
+[INFO] 18:33:00:184 LOGGER MEMORIA/(3411:3490): Se conecto la cpu a la memoria
+[INFO] 18:33:06:727 LOGGER MEMORIA/(3411:3565): escuchando a kernel
+[INFO] 18:33:42:996 LOGGER MEMORIA/(3411:3565): Creacion de Proceso PID: 1
+[INFO] 18:45:16:447 LOGGER MEMORIA/(2318:2318): escuchando...
+[INFO] 18:45:22:972 LOGGER MEMORIA/(2318:2357): escuchando al filesystem
+[INFO] 18:45:29:675 LOGGER MEMORIA/(2318:2422): Se conecto la cpu a la memoria
+[INFO] 18:46:29:147 LOGGER MEMORIA/(2318:2493): escuchando a kernel
+[INFO] 18:46:49:348 LOGGER MEMORIA/(2318:[INFO] 18:58:10:657 LOGGER MEMORIA/(2336:2336): escuchando...
+[INFO] 18:58:18:831 LOGGER MEMORIA/(2336:2391): Se conecto la cpu a la memoria
+[INFO] 18:58:26:884 LOGGER MEMORIA/(2336:2440): escuchando al filesystem
+[INFO] 18:58:33:973 LOGGER MEMORIA/(2336:2506): escuchando a kernel
+[INFO] 18:58:58:538 LOGGER MEMORIA/(2336:2506): Creacion de Proceso PID: 1
+[INFO] 19:10:03:621 LOGGER MEMORIA/(2487:2487): escuchando...
+[INFO] 19:10:14:506 LOGGER MEMORIA/(2487:2511): escuchando al filesystem
+[INFO] 19:11:14:034 LOGGER MEMORIA/(2487:2689): Se conecto la cpu a la memoria
+[INFO] 19:13:36:861 LOGGER MEMORIA/(2487:2996): escuchando a kernel
+[INFO] 19:15:30:559 LOGGER MEMORIA/(2487:2996): Creacion de Proceso PID: 1

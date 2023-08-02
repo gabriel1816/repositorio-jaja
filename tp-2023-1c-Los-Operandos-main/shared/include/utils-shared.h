@@ -58,10 +58,6 @@ typedef struct{
     int limite;
 } t_segmento;
 
-typedef struct {
-    t_segmento* segmentos;
-	pid_t pid;
-} t_tabla_segmentos;
 
 typedef enum {
 	SET,

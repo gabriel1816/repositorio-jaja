@@ -34,6 +34,7 @@ pid_t obtener_pid() {
 t_registro inicializar_registros()
 {
 	t_registro registro;
+
 	strcpy(registro.AX,  "\0");
 	strcpy(registro.BX,  "\0");
 	strcpy(registro.CX,  "\0");
@@ -46,6 +47,7 @@ t_registro inicializar_registros()
 	strcpy(registro.RBX, "\0");
 	strcpy(registro.RCX, "\0");
 	strcpy(registro.RDX, "\0");
+	
 	return registro;
 }
 
@@ -88,12 +90,12 @@ t_buffer *crear_buffer_pcb(t_pcb *pcb, t_log *logger)
     for(int i = 0; i < pcb->tamanio_tabla; i++)
     {
         t_segmento segmento = pcb->tabla_segmentos[i];
-        memcpy(stream + offset, &segmento.id, sizeof(int32_t));
-        offset += sizeof(int32_t);
-        memcpy(stream + offset, &segmento.base, sizeof(uint32_t));
-        offset += sizeof(uint32_t);
-        memcpy(stream + offset, &segmento.limite, sizeof(uint32_t));
-        offset += sizeof(uint32_t);
+        memcpy(stream + offset, &segmento.id, sizeof(int));
+        offset += sizeof(int);
+        memcpy(stream + offset, &segmento.base, sizeof(int));
+        offset += sizeof(int);
+        memcpy(stream + offset, &segmento.limite, sizeof(int));
+        offset += sizeof(int);
     }
     
 	memcpy(stream + offset, &pcb->registros, size_registros);
@@ -146,15 +148,15 @@ t_pcb* deserializar_buffer_pcb(t_buffer* buffer, t_log* logger)
     pcb->tabla_segmentos = malloc(sizeof(t_segmento) * pcb->tamanio_tabla);
     t_segmento* tabla_segmento = pcb->tabla_segmentos;
     for (int i = 0; i < pcb->tamanio_tabla; i++) {
-        memcpy(&(tabla_segmento[i].id), stream, sizeof(int32_t));
-        stream += sizeof(int32_t);
-		size_restante -= sizeof(int32_t);
-        memcpy(&(tabla_segmento[i].base), stream, sizeof(uint32_t));
-        stream += sizeof(uint32_t);
-		size_restante -= sizeof(uint32_t);
-        memcpy(&(tabla_segmento[i].limite), stream, sizeof(uint32_t));
-        stream += sizeof(uint32_t);
-		size_restante -= sizeof(uint32_t);
+        memcpy(&(tabla_segmento[i].id), stream, sizeof(int));
+        stream += sizeof(int);
+		size_restante -= sizeof(int);
+        memcpy(&(tabla_segmento[i].base), stream, sizeof(int));
+        stream += sizeof(int);
+		size_restante -= sizeof(int);
+        memcpy(&(tabla_segmento[i].limite), stream, sizeof(int));
+        stream += sizeof(int);
+		size_restante -= sizeof(int);
     }
 
 	memcpy(&(pcb->registros), stream, size_registros);

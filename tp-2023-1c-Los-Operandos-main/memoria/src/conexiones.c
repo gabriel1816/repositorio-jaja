@@ -56,10 +56,10 @@ void atender_cpu(void* conexion)
         t_instruccion* respuesta_memoria;
         switch (pedidoMemoria->identificador) {
             case MOV_IN:
-                tamanio_registro = (uint32_t)strtoul(pedidoMemoria->parametros[2], NULL, 10); 
+                tamanio_registro = (uint32_t)strtoul(pedidoMemoria->parametros[2], NULL, 10);
                 void* inicio_lectura = memoria_fisica + direccion_fisica;
                 memcpy(valor_registro, inicio_lectura, sizeof(char)*tamanio_registro);
-               
+                
                 list_add(parametros_respuesta, valor_registro);
                 respuesta_memoria = crear_instruccion(MOV_IN, parametros_respuesta);
                 buffer = crear_buffer_para_t_instruccion(respuesta_memoria);
@@ -107,44 +107,51 @@ void atender_kernel(void* conexion)
 		pid_t pid;
 		switch(instruccion->identificador){
 			case CREATE_SEGMENT:
-			t_segmento *nuevo_segmento;
-			t_list *huecos_libres;
-			int id_segmento = instruccion->parametros[0];
-			int tamanio_seg = instruccion->parametros[1];
-			int cant_huecos_nec = tamanio_seg / (tamanio_segmento_0);
-			if(hay_espacio(lista_huecos)){
+				t_segmento *nuevo_segmento;
+				t_list *huecos_libres;
+				int id_segmento = instruccion->parametros[0];
+				int tamanio_seg = instruccion->parametros[1];
+				int cant_huecos_nec = tamanio_seg / (tamanio_segmento_0);
+				if(hay_espacio(lista_huecos)){
 				//me fijo si hay la cant de hucos disponibles continuos que necesito 
-			if(hay_huecos_continuos(cant_huecos_nec, algoritmo, tamanio_seg, huecos_libres)){
+				if(hay_huecos_continuos(cant_huecos_nec, algoritmo, tamanio_seg, huecos_libres)){
 				for(int i = 0; i < cant_huecos_nec; i++){
 					t_segmento *hueco1 = list_get(huecos_libres, i);
 					nuevo_segmento = crear_segmento(hueco1->base, hueco1->limite, id_segmento, 0, pid);
 				}
-			}
-			else{
+				}
+				else{
 				//le mando a kernel que tengo que compactar
 				//kernel me manda que tengo que comparespuestar
 				//compactar(tablas_segmentos);
 				//le aviso a kernel que ya compacte y le mando como quda la nueva tabla de segmentos
 				//kernel me manda de nuevo la instruccion y ahora si voy a poder crear el segmento
-			}
+				}
 		
-			break;
+				break;
 			case DELETE_SEGMENT:
-				borrarSegmento(instruccion->parametros[0]);
+				int id_segment =(int)strtoul(instruccion->parametros[0], NULL, 10);
+                pid = (pid_t)(uint32_t)strtoul(instruccion->parametros[1], NULL, 10);
+                borrar_segmento(pid, id_segment, conexion_kernel);
 			break;
 			case CREAR_PROCESO:
 				pid = (pid_t)atoi(instruccion->parametros[0]);
 				crear_proceso_memoria(pid, conexion);
 			break;
 			case ELIMINAR_PROCESO:
-				//eliminar_proceso(pid);
+				eliminar_proceso(pid);
+			break;
+			default:
+				log_error(logger, "mensaje no reconocido");
+				return;
 			break;
 		}
 
 	}
 
-	close(conexion_kernel);
+	
 	}
+	close(conexion_kernel);
 }
 
 void atender_fs(void* conexion)

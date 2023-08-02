@@ -42,7 +42,7 @@ int main(){
 
 t_log* iniciar_logger(void) {
 	t_log *nuevo_logger;
-	nuevo_logger = log_create("cfg/CPU.log","LOGGER CPU", true, LOG_LEVEL_DEBUG);
+	nuevo_logger = log_create(LOG_PATH,"LOGGER CPU", true, LOG_LEVEL_DEBUG);
 
 	return nuevo_logger;
 }

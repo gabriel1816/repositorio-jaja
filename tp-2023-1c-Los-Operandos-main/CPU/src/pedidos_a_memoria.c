@@ -1,32 +1,38 @@
 #include "CPU.h"
 
 
-char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria){
-/*
-	// mandamos direccion a memoria
-	t_paquete* paquete = crear_paquete();
-	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
-	enviar_paquete(conexionConMemoria, paquete, logger);
-	eliminar_paquete(paquete);
+//RECORDAR CAMBIAR TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
-	// recibimos valor de memoria
-	recv(conexionConMemoria, &(paquete->codigo_operacion), sizeof(uint8_t), 0);
+char* MOV_IN_memoria(pid_t pid, uint32_t direccion_fisica, uint32_t registro) { 
+    t_list* parametros = list_create();
+	char* pidString = string_itoa((int)pid);
+    char* direccion_fisica_string = string_itoa(direccion_fisica);
+	list_add(parametros, pidString);
+	list_add(parametros, direccion_fisica_string);
+	list_add(parametros, registro);
+    t_instruccion* pedidoMemoria = crear_instruccion(MOV_IN, parametros);
+    pedir_memoria(pedidoMemoria, conexion_con_memoria, logger);
 
-	// deserializamos paquete
-	char valor;
-	void* stream = paquete->buffer->stream;
-	memcpy(&(valor), stream, sizeof(char));
-
-	return valor;
-	*/
+	t_paquete *paquete = recibir_paquete(conexion_con_memoria, logger);
+	int offset=0;
+    t_instruccion* respuestaMemoria = crear_instruccion_para_el_buffer(paquete->buffer,&offset);
+	return respuestaMemoria->parametros[0];
 }
 
-void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria){
+void MOV_OUT_memoria(pid_t pid, uint32_t direccion_fisica, char* valor_leido) {
 
-	/*t_paquete* paquete = crear_paquete();
-	agregar_a_paquete(paquete, (void*)direccion, sizeof(t_direc_fisica));
-	agregar_a_paquete(paquete, valor, strlen(valor));
-	enviar_paquete(socketMemoria, paquete, logger);
-	eliminar_paquete(paquete);*/
+	t_list* parametros = list_create();
+	char* pidString = string_itoa(pid);
+    char* direccion_fisica_string = string_itoa(direccion_fisica);
+	list_add(parametros, pidString);
+	list_add(parametros, direccion_fisica_string);
+	list_add(parametros, valor_leido);
+    t_instruccion* pedidoMemoria = crear_instruccion(MOV_OUT, parametros);
+    pedir_memoria(pedidoMemoria, conexion_con_memoria, logger);
 
+	t_paquete *paquete = recibir_paquete(conexion_con_memoria, logger);
+    if(paquete->codigo_operacion == MOV_OUT) log_info(logger, "El MOV_OUT resulto exitoso");
+    destruir_paquete(paquete);
+	return;
 }
+

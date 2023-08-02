@@ -14,37 +14,68 @@ t_segmento* crear_segmento(void* base, void* limite, int id, bool libre, pid_t p
 	return segmento;
 }
 
-void borrarSegmento(t_segmento* segmento)
+void borrarSegmento(t_tabla_memoria* tabla, int id) 
 {
-	memoria_libre += (segmento->limite - segmento->base);
-	t_segmento* hueco_nuevo = malloc(sizeof(t_segmento));
-	hueco_nuevo->base = segmento->base;
-	hueco_nuevo->limite = segmento->limite;
-	hueco_nuevo->id = 0;
-	segmento->base = NULL;
-	segmento->limite = NULL;
-	//insertar_ordenado(hueco_nuevo, lista_huecos, 1);
+	pid_t pid;
+    t_segmento* segmento_a_borrar = &tabla->tabla_segmentos[id];
+    log_info(logger, "PID: %u - Eliminar Segmento: %d - Base: %u - TAMAÑO: %u", tabla->pid, id, segmento_a_borrar->base, espacio_hueco(segmento_a_borrar));
+    agregar_hueco(segmento_a_borrar);
+    tabla->tabla_segmentos[id].id = -1;
 }
 
-t_tabla_segmentos* crearTabla(pid_t pid)
+uint32_t espacio_hueco(t_segmento* segmento)
 {
-	t_tabla_segmentos* tabla = malloc(sizeof(t_tabla_segmentos));
-	tabla->segmentos = list_create();
-	list_add(tablas_segmentos, tabla);
-	list_add_in_index(tabla->segmentos,0, &segmento_cero);
-	log_info(logger, "Creación de Proceso PID: %d", pid);
-	for(int i = 1; i < atoi(cantidad_segmentos); i++){
-		t_segmento* segmento = malloc(sizeof(t_segmento));
-		segmento = crear_segmento(NULL, NULL, i, 1, pid);
-		list_add_in_index(tabla->segmentos,i, segmento);
-	}
-	return tabla;
+	return segmento->limite - segmento->base;
 }
 
-void borrarTabla(t_tabla_segmentos* tabla)
+void agregar_hueco(t_segmento* segmento_a_borrar)
 {
-	for(int i = 1; i < atoi(cantidad_segmentos); i++){
-		t_segmento* segmento = list_get(tabla->segmentos,i);
-		//fin_segmento(segmento, i);
-	}
+    int j = 0;
+    for(int i = 0; i < list_size(lista_huecos); i++) {
+        t_segmento* hueco = list_get(lista_huecos, i); 
+        if(hueco->base == segmento_a_borrar->limite) {
+
+            hueco->base = segmento_a_borrar->base;
+            segmento_a_borrar->limite = hueco->limite;
+            j++;
+        }
+        else if (hueco->limite == segmento_a_borrar->base) {
+            hueco->limite = segmento_a_borrar->limite;
+            segmento_a_borrar->base = hueco->base;
+            j++;
+        }
+        if (j == 2) return;
+    }
+    list_add_sorted(lista_huecos, segmento_a_borrar, ordenar_segun_base);
+    return;
+}
+
+bool ordenar_segun_base(t_segmento* seg_1, t_segmento* seg_2)
+{
+	return seg_1->base < seg_2->base;
+}
+
+void borrar_segmento(pid_t pid, int idSegmento, int una_conexion) {
+    t_tabla_memoria* proceso;
+     for(int i = 0; i < list_size(procesos_en_memoria); i++) {
+        proceso = list_get(procesos_en_memoria, i);
+        if(proceso->pid == pid) {
+            break;
+
+            }
+     }
+    borrar_segmento_en_memoria(proceso, idSegmento);
+    enviar_proceso(proceso, una_conexion);
+}
+
+void borrar_segmento_en_memoria(t_tabla_memoria* proceso, int idSegmento) {
+    t_segmento* segmentoALiberar = &proceso->tabla_segmentos[idSegmento];
+    log_info(logger, "PID: %u - Eliminar Segmento: %d - Base: %u - TAMAÑO: %u", proceso->pid, idSegmento, segmentoALiberar->base, obtenerTamanioHueco(segmentoALiberar));
+    agregar_hueco(segmentoALiberar);
+    proceso->tabla_segmentos[idSegmento].id = -1;
+    //free(segmentoALiberar);
+}
+
+int obtenerTamanioHueco(t_segmento* huecoLibre) {
+    return huecoLibre->limite - huecoLibre->base;
 }

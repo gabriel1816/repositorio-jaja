@@ -28,6 +28,9 @@ int main(void) {
 	logger = log_create(LOG_PATH, "LOGGER MEMORIA", 1, LOG_LEVEL_DEBUG);
     levantar_config(CONFIG_PATH);
 	procesos_en_memoria = list_create();
+    lista_huecos = list_create();
+    tablas_segmentos = list_create();
+
     void inicializarMemoria();
 
     // Conexiones

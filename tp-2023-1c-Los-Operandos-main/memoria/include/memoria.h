@@ -6,8 +6,8 @@
 #include <commons/string.h>
 #include <commons/collections/list.h> 
 #include "utils-shared.h"
-#define LOG_PATH "./cfg/memoria.log"
-#define CONFIG_PATH "./cfg/memoria.config"
+#define LOG_PATH "../cfg/memoria.log"
+#define CONFIG_PATH "../cfg/memoria.config"
 
 //************ ESTRUCTURAS   ************//
 
@@ -80,10 +80,8 @@ void escucha_general(void* conexion);
 
 t_algoritmo asignar_algoritmo();
 t_segmento* crear_segmento(void* base, void* limite, int id, bool libre, pid_t pid);
-void borrarSegmento(t_segmento* segmento);
-t_tabla_segmentos* crearTabla(pid_t pid);
-void borrarTabla(t_tabla_segmentos* tabla);
-t_tabla_segmentos* crearTabla(pid_t pid);
+void eliminar_segmentos(t_tabla_memoria* tabla);
+void borrarSegmento(t_tabla_memoria* tabla, int id);
 bool hay_espacio(t_list* lista_huecos);
 bool hay_huecos_continuos(int cant_huecos_nec, t_algoritmo algoritmo, int tamanio_seg, t_list* huecos_libres);
 t_segmento* first_fit();
@@ -94,6 +92,10 @@ bool segmento_es_hueco(t_segmento *segmento, t_list* lista_huecos);
 void modificar_valores_segmento(t_segmento *segmento, t_list* tabla_seg);
 void unir_todos_los_huecos(t_list *tabla_segmentos);
 t_segmento* primer_hueco(t_list *tabla_segmentos);
+uint32_t espacio_hueco(t_segmento* segmento);
+void eliminar_segmentos(t_tabla_memoria* tabla);
+bool ordenar_segun_base(t_segmento* seg_1, t_segmento* seg_2);
+void agregar_hueco(t_segmento* segmento_a_borrar);
 
 //************* PROCESOS  *************//
 
@@ -105,6 +107,8 @@ bool hay_huecos_continuos(int cant_huecos_libres, t_algoritmo algoritmo_asignaci
 t_segmento* first_fit();
 t_segmento* best_fit(int tamanio_necesitado);
 t_segmento* worst_fit(int tamanio_necesitado);
-
+void eliminar_proceso(pid_t pid);
+void borrar_segmento(pid_t pid, int idSegmento, int una_conexion) ;
+int obtenerTamanioHueco(t_segmento* huecoLibre);
 
 #endif /* MEMORIA_H_ */

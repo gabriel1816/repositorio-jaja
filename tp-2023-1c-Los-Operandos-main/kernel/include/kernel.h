@@ -98,7 +98,7 @@ void iniciar_recursos();
 
 //**************    MEMORIA    **************//
 
-t_tabla_memoria* solicitar_proceso_memoria(pid_t pid);
+void solicitud_memoria(pid_t pid, t_estado solicitud);
 
 //************* INSTRUCCIONES  *************//
 
@@ -128,7 +128,6 @@ void cola_recursos_bloqueados_sacar(t_pcb* pcb);
 void cola_recursos_bloqueados_agregar(t_pcb* pcb);
 void cambiar_estado(t_pcb* pcb, t_estado nuevo_estado);
 char* pasar_a_string(t_estado estado);
-
 
 
 //*************** LISTAS  ***************//

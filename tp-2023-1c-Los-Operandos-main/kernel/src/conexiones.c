@@ -9,10 +9,11 @@ void atender_consola(void* conexion)
 	t_list* lista_instrucciones = crear_lista_instrucciones_para_el_buffer(paquete_instrucciones->buffer);
 	t_pcb* pcb = crear_pcb(conexion_consola, lista_instrucciones, NUEVO, kernel_config.initialEstimate); 
 
-	t_tabla_memoria* proceso_memoria = solicitar_proceso_memoria(pcb->pid);
+	solicitud_memoria(pcb->pid, CREAR_PROCESO);
+	t_tabla_memoria* proceso_memoria = recibir_memoria(memoria_socket, logger);
 	pcb->tabla_segmentos = proceso_memoria->tabla_segmentos;
 	pcb->tamanio_tabla = proceso_memoria->tam_tabla;
-	
+
 	log_info(logger, "Se crea el proceso %d en NEW", pcb->pid);
 	agregar_a_nuevos(pcb);
 }

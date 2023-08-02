@@ -27,7 +27,11 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[0]));
-			enviar_instrucciones(instruccion_a_ejecutar, conexion_con_memoria, logger);
+			uint32_t tam_registro = tamanio_registro(instruccion_a_ejecutar->parametros[0]);
+			char* valor_leido = MOV_IN_memoria(pcb->pid, pcb->direccion_fisica, tam_registro);
+			log_info(logger, "PID: %u - Acción: LEER - Segmento: %u - Direccion Fisica: %d - Valor: %s", pcb->pid, obtener_numero_segmento(instruccion_a_ejecutar->parametros[1]), pcb->direccion_fisica, valor_leido);
+			guardarRegistro(instruccion_a_ejecutar->parametros[0], instruccion_a_ejecutar->parametros[1], &pcb->registros);
+
 		break;    	
 		case MOV_OUT:
 			log_info(logger, "PID: %d - ejecutando MOV_OUT - %s %s", 
@@ -36,9 +40,11 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[1]);
 
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[0]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[1]));
-			instruccion_a_ejecutar->parametros[2] = tamanio_registro(instruccion_a_ejecutar->parametros[1]);
-			instruccion_a_ejecutar->cant_parametros++;
-			enviar_instrucciones(instruccion_a_ejecutar, conexion_con_memoria, logger);
+			char* valor_escrito = consultar_valor_registro(&(pcb->registros), instruccion_a_ejecutar->parametros[1]);
+			MOV_OUT_memoria(pcb->pid, pcb->direccion_fisica, valor_escrito);
+			log_info(logger, "PID: %u - Acción: ESCRIBIR - Segmento: %u - Direccion Fisica: %d - Valor: %s", pcb->pid, obtener_numero_segmento(atoi(instruccion_a_ejecutar->parametros[0])), pcb->direccion_fisica, valor_escrito);
+
+			//enviar_instrucciones(instruccion_a_ejecutar, conexion_con_memoria, logger);
 		break;
 		case F_READ: 
 			log_info(logger, "PID: %d - ejecutando F_READ -%d - %s %s", 

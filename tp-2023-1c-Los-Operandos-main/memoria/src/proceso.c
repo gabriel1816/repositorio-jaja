@@ -25,7 +25,28 @@ void enviar_proceso(t_tabla_memoria* nuevoProceso, int socket)
 	destruir_paquete(paquete);
 }
 
+void eliminar_proceso(pid_t pid)
+{
+    for(int i=0; i < list_size(procesos_en_memoria); i++){
+        t_tabla_memoria* tabla = list_get(procesos_en_memoria, i);
+        if(tabla->pid == pid){
+            eliminar_segmentos(tabla);
+            list_remove(procesos_en_memoria, i);
+        }
+    free(tabla->tabla_segmentos);
+    free(tabla);
+    }
+    log_info(logger, "Eliminacion de Proceso PID: %u", pid);
+}
 
 
-
+void eliminar_segmentos(t_tabla_memoria* tabla)
+{
+    for(int i=1; i < tabla->tam_tabla; i++){
+        int id = tabla->tabla_segmentos[i].id;
+        if(id != -1){
+            borrarSegmento(tabla, id);
+        }
+    }
+}
 

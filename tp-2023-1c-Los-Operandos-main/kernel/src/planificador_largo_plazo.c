@@ -21,9 +21,10 @@ void inicializar_planificador_largo(){
 }
 
 void terminar_proceso(t_pcb* pcb_actualizado, char* motivo){
-    pcb_actualizado->estado = TERMINADO;
+    cambiar_estado(pcb_actualizado, TERMINADO);
     log_info(logger, "finaliza el proceso PID: %d - motivo: %s", pcb_actualizado->pid, motivo);
     sem_post(&contador_multiprogramacion);
+    solicitud_memoria(pcb_actualizado->pid, ELIMINAR_PROCESO);
     send(pcb_actualizado->conexion, motivo, strlen(motivo), 0);
     destruir_pcb(pcb_actualizado);
 }

@@ -51,4 +51,9 @@ void comenzar_ciclo_de_instruccion(t_pcb* pcb, int conexion_con_kernel);
 t_instruccion* fetch(t_pcb * pcb);
 void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int conexion_con_kernel);
 
+//************** MEMORIA ********** //
+char* MOV_IN_memoria(pid_t pid, uint32_t direccion_fisica, uint32_t registro);
+void MOV_OUT_memoria(pid_t pid, uint32_t direccion_fisica, char* valor_leido);
+char* consultar_valor_registro(t_registro *registros, char *registro);
+
 #endif /* CPU_H_ */

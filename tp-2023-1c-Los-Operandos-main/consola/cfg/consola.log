@@ -12111,3 +12111,112 @@
 [INFO] 19:14:01:079 LOGGER CONSOLA/(3126:3126): No es null el archivo de config
 [INFO] 19:14:01:084 LOGGER CONSOLA/(3126:3126): Consola iniciada
 [INFO] 19:14:01:087 LOGGER CONSOLA/(3126:3126): Se puedo enviar las instrucciones
+[INFO] 22:33:44:469 LOGGER CONSOLA/(3232:3232): No es null el archivo de config
+[INFO] 22:33:44:474 LOGGER CONSOLA/(3232:3232): Consola iniciada
+[INFO] 22:33:44:477 LOGGER CONSOLA/(3232:3232): Se puedo enviar las instrucciones
+[INFO] 22:33:58:649 LOGGER CONSOLA/(3232:3232): motivo finalizacion de proceso: SUCCESS
+[INFO] 01:46:43:121 LOGGER CONSOLA/(2300:2300): No es null el archivo de config
+[INFO] 01:46:43:130 LOGGER CONSOLA/(2300:2300): Consola iniciada
+[INFO] 01:46:43:131 LOGGER CONSOLA/(2300:2300): Se puedo enviar las instrucciones
+[INFO] 01:46:57:344 LOGGER CONSOLA/(2300:2300): motivo finalizacion de proceso: SUCCESS
+[INFO] 01:51:26:803 LOGGER CONSOLA/(2984:2984): No es null el archivo de config
+[INFO] 01:51:26:809 LOGGER CONSOLA/(2984:2984): Consola iniciada
+[INFO] 01:51:26:811 LOGGER CONSOLA/(2984:2984): Se puedo enviar las instrucciones
+[INFO] 01:51:40:985 LOGGER CONSOLA/(2984:2984): motivo finalizacion de proceso: SUCCESS
+[INFO] 04:37:49:665 LOGGER CONSOLA/(10766:10766): No es null el archivo de config
+[INFO] 04:37:49:668 LOGGER CONSOLA/(10766:10766): Consola iniciada
+[INFO] 04:37:49:670 LOGGER CONSOLA/(10766:10766): Se puedo enviar las instrucciones
+[INFO] 04:38:03:893 LOGGER CONSOLA/(10766:10766): motivo finalizacion de proceso: SUCCESS
+[INFO] 04:43:01:657 LOGGER CONSOLA/(11532:11532): No es null el archivo de config
+[INFO] 04:43:01:666 LOGGER CONSOLA/(11532:11532): Consola iniciada
+[INFO] 04:43:01:668 LOGGER CONSOLA/(11532:11532): Se puedo enviar las instrucciones
+[INFO] 04:43:15:889 LOGGER CONSOLA/(11532:11532): motivo finalizacion de proceso: SUCCESS
+[INFO] 02:47:38:635 LOGGER CONSOLA/(2927:2927): No es null el archivo de config
+[INFO] 02:47:38:689 LOGGER CONSOLA/(2927:2927): Consola iniciada
+[INFO] 02:47:38:697 LOGGER CONSOLA/(2927:2927): Se puedo enviar las instrucciones
+[INFO] 02:53:53:612 LOGGER CONSOLA/(4311:4311): No es null el archivo de config
+[INFO] 02:53:53:619 LOGGER CONSOLA/(4311:4311): Consola iniciada
+[INFO] 02:53:53:623 LOGGER CONSOLA/(4311:4311): Se puedo enviar las instrucciones
+[INFO] 02:54:07:821 LOGGER CONSOLA/(4311:4311): motivo finalizacion de proceso: SUCCESS
+[INFO] 02:57:52:771 LOGGER CONSOLA/(4851:4851): No es null el archivo de config
+[INFO] 02:57:52:777 LOGGER CONSOLA/(4851:4851): Consola iniciada
+[INFO] 02:57:52:781 LOGGER CONSOLA/(4851:4851): Se puedo enviar las instrucciones
+[INFO] 02:58:06:982 LOGGER CONSOLA/(4851:4851): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:02:30:252 LOGGER CONSOLA/(6309:6309): No es null el archivo de config
+[INFO] 03:02:30:256 LOGGER CONSOLA/(6309:6309): Consola iniciada
+[INFO] 03:02:30:259 LOGGER CONSOLA/(6309:6309): Se puedo enviar las instrucciones
+[INFO] 03:02:44:414 LOGGER CONSOLA/(6309:6309): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:06:01:542 LOGGER CONSOLA/(6967:6967): No es null el archivo de config
+[INFO] 03:06:01:550 LOGGER CONSOLA/(6967:6967): Consola iniciada
+[INFO] 03:06:01:554 LOGGER CONSOLA/(6967:6967): Se puedo enviar las instrucciones
+[INFO] 03:06:15:772 LOGGER CONSOLA/(6967:6967): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:16:16:635 LOGGER CONSOLA/(7827:7827): No es null el archivo de config
+[INFO] 03:16:16:640 LOGGER CONSOLA/(7827:7827): Consola iniciada
+[INFO] 03:16:16:650 LOGGER CONSOLA/(7827:7827): Se puedo enviar las instrucciones
+[INFO] 03:16:30:765 LOGGER CONSOLA/(7827:7827): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:19:54:999 LOGGER CONSOLA/(8487:8487): No es null el archivo de config
+[INFO] 03:19:55:005 LOGGER CONSOLA/(8487:8487): Consola iniciada
+[INFO] 03:19:55:010 LOGGER CONSOLA/(8487:8487): Se puedo enviar las instrucciones
+[INFO] 03:20:09:929 LOGGER CONSOLA/(8487:8487): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:36:59:359 LOGGER CONSOLA/(9614:9614): No es null el archivo de config
+[INFO] 03:36:59:375 LOGGER CONSOLA/(9614:9614): Consola iniciada
+[INFO] 03:36:59:377 LOGGER CONSOLA/(9614:9614): Se puedo enviar las instrucciones
+[INFO] 03:37:13:544 LOGGER CONSOLA/(9614:9614): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:43:00:174 LOGGER CONSOLA/(10295:10295): No es null el archivo de config
+[INFO] 03:43:00:184 LOGGER CONSOLA/(10295:10295): Consola iniciada
+[INFO] 03:43:00:190 LOGGER CONSOLA/(10295:10295): Se puedo enviar las instrucciones
+[INFO] 03:43:14:292 LOGGER CONSOLA/(10295:10295): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:48:20:815 LOGGER CONSOLA/(10872:10872): No es null el archivo de config
+[INFO] 03:48:20:817 LOGGER CONSOLA/(10872:10872): Consola iniciada
+[INFO] 03:48:20:820 LOGGER CONSOLA/(10872:10872): Se puedo enviar las instrucciones
+[INFO] 03:48:34:964 LOGGER CONSOLA/(10872:10872): motivo finalizacion de proceso: SUCCESS
+[INFO] 03:56:32:469 LOGGER CONSOLA/(11609:11609): No es null el archivo de config
+[INFO] 03:56:32:477 LOGGER CONSOLA/(11609:11609): Consola iniciada
+[INFO] 03:56:32:479 LOGGER CONSOLA/(11609:11609): Se puedo enviar las instrucciones
+[INFO] 03:56:46:568 LOGGER CONSOLA/(11609:11609): motivo finalizacion de proceso: SUCCESS
+[INFO] 04:00:18:970 LOGGER CONSOLA/(12248:12248): No es null el archivo de config
+[INFO] 04:00:18:978 LOGGER CONSOLA/(12248:12248): Consola iniciada
+[INFO] 04:00:18:984 LOGGER CONSOLA/(12248:12248): Se puedo enviar las instrucciones
+[INFO] 04:00:33:162 LOGGER CONSOLA/(12248:12248): motivo finalizacion de proceso: SUCCESS
+[INFO] 04:11:25:087 LOGGER CONSOLA/(12952:12952): No es null el archivo de config
+[INFO] 04:11:25:089 LOGGER CONSOLA/(12952:12952): Consola iniciada
+[INFO] 04:11:25:092 LOGGER CONSOLA/(12952:12952): Se puedo enviar las instrucciones
+[INFO] 04:11:39:226 LOGGER CONSOLA/(12952:12952): motivo finalizacion de proceso: SUCCESS
+[INFO] 05:12:33:574 LOGGER CONSOLA/(5305:5305): No es null el archivo de config
+[INFO] 05:12:33:593 LOGGER CONSOLA/(5305:5305): Consola iniciada
+[INFO] 05:12:33:594 LOGGER CONSOLA/(5305:5305): Se puedo enviar las instrucciones
+[INFO] 05:16:10:357 LOGGER CONSOLA/(5925:5925): No es null el archivo de config
+[INFO] 05:16:10:382 LOGGER CONSOLA/(5925:5925): Consola iniciada
+[INFO] 05:16:10:383 LOGGER CONSOLA/(5925:5925): Se puedo enviar las instrucciones
+[INFO] 05:16:24:441 LOGGER CONSOLA/(5925:5925): motivo finalizacion de proceso: SUCCESS
+[INFO] 05:21:56:358 LOGGER CONSOLA/(6765:6765): No es null el archivo de config
+[INFO] 05:21:56:368 LOGGER CONSOLA/(6765:6765): Consola iniciada
+[INFO] 05:21:56:369 LOGGER CONSOLA/(6765:6765): Se puedo enviar las instrucciones
+[INFO] 05:44:02:851 LOGGER CONSOLA/(8279:8279): No es null el archivo de config
+[INFO] 05:44:02:854 LOGGER CONSOLA/(8279:8279): Consola iniciada
+[INFO] 05:44:02:864 LOGGER CONSOLA/(8279:8279): Se puedo enviar las instrucciones
+[INFO] 05:44:16:929 LOGGER CONSOLA/(8279:8279): motivo finalizacion de proceso: SUCCESS
+[INFO] 05:49:44:115 LOGGER CONSOLA/(9153:9153): No es null el archivo de config
+[INFO] 05:49:44:120 LOGGER CONSOLA/(9153:9153): Consola iniciada
+[INFO] 05:49:44:123 LOGGER CONSOLA/(9153:9153): Se puedo enviar las instrucciones
+[INFO] 05:53:31:276 LOGGER CONSOLA/(9153:9153): motivo finalizacion de proceso: SUCCESS
+[INFO] 05:56:41:730 LOGGER CONSOLA/(10107:10107): No es null el archivo de config
+[INFO] 05:56:41:733 LOGGER CONSOLA/(10107:10107): Consola iniciada
+[INFO] 05:56:41:734 LOGGER CONSOLA/(10107:10107): Se puedo enviar las instrucciones
+[INFO] 05:57:42:927 LOGGER CONSOLA/(10107:10107): motivo finalizacion de proceso: SUCCESS
+[INFO] 06:05:04:296 LOGGER CONSOLA/(11136:11136): No es null el archivo de config
+[INFO] 06:05:04:302 LOGGER CONSOLA/(11136:11136): Consola iniciada
+[INFO] 06:05:04:308 LOGGER CONSOLA/(11136:11136): Se puedo enviar las instrucciones
+[INFO] 06:05:36:256 LOGGER CONSOLA/(11136:11136): motivo finalizacion de proceso: SUCCESS
+[INFO] 06:08:40:851 LOGGER CONSOLA/(11935:11935): No es null el archivo de config
+[INFO] 06:08:40:854 LOGGER CONSOLA/(11935:11935): Consola iniciada
+[INFO] 06:08:40:857 LOGGER CONSOLA/(11935:11935): Se puedo enviar las instrucciones
+[INFO] 06:08:54:903 LOGGER CONSOLA/(11935:11935): motivo finalizacion de proceso: SUCCESS
+[INFO] 06:13:29:166 LOGGER CONSOLA/(12887:12887): No es null el archivo de config
+[INFO] 06:13:29:170 LOGGER CONSOLA/(12887:12887): Consola iniciada
+[INFO] 06:13:29:175 LOGGER CONSOLA/(12887:12887): Se puedo enviar las instrucciones
+[INFO] 06:14:00:778 LOGGER CONSOLA/(12887:12887): motivo finalizacion de proceso: SUCCESS
+[INFO] 06:21:02:937 LOGGER CONSOLA/(13952:13952): No es null el archivo de config
+[INFO] 06:21:02:969 LOGGER CONSOLA/(13952:13952): Consola iniciada
+[INFO] 06:21:02:981 LOGGER CONSOLA/(13952:13952): Se puedo enviar las instrucciones
+[INFO] 06:21:23:125 LOGGER CONSOLA/(13952:13952): motivo finalizacion de proceso: SUCCESS

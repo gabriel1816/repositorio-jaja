@@ -17,6 +17,7 @@ void inicializar_planificador_corto()
     if(! strcmp(kernel_config.schedulerAlgorithm, "FIFO")){
         ejecutar_con_fifo();
     }else if(! strcmp(kernel_config.schedulerAlgorithm, "HRRN")){
+
         ejecutar_con_hrrn();
     }else{
         log_error(logger, "algoritmo incorrecto !");

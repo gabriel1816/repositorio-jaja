@@ -26,12 +26,15 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					pcb->pid ,
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
+
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[0]));
+			if(pcb->direccion_fisica == -1){
+				return;
+			}
 			uint32_t tam_registro = tamanio_registro(instruccion_a_ejecutar->parametros[0]);
 			char* valor_leido = MOV_IN_memoria(pcb->pid, pcb->direccion_fisica, tam_registro);
 			log_info(logger, "PID: %u - Acción: LEER - Segmento: %u - Direccion Fisica: %d - Valor: %s", pcb->pid, obtener_numero_segmento(instruccion_a_ejecutar->parametros[1]), pcb->direccion_fisica, valor_leido);
-			guardarRegistro(instruccion_a_ejecutar->parametros[0], instruccion_a_ejecutar->parametros[1], &pcb->registros);
-
+			guardarRegistro(instruccion_a_ejecutar->parametros[0], valor_leido, &pcb->registros);
 		break;    	
 		case MOV_OUT:
 			log_info(logger, "PID: %d - ejecutando MOV_OUT - %s %s", 
@@ -40,6 +43,9 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[1]);
 
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[0]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[1]));
+			if(pcb->direccion_fisica == -1){
+				return;
+			}
 			char* valor_escrito = consultar_valor_registro(&(pcb->registros), instruccion_a_ejecutar->parametros[1]);
 			MOV_OUT_memoria(pcb->pid, pcb->direccion_fisica, valor_escrito);
 			log_info(logger, "PID: %u - Acción: ESCRIBIR - Segmento: %u - Direccion Fisica: %d - Valor: %s", pcb->pid, obtener_numero_segmento(atoi(instruccion_a_ejecutar->parametros[0])), pcb->direccion_fisica, valor_escrito);

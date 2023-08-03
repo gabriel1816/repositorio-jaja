@@ -19,21 +19,17 @@ int  retardo_compactacion;
 char* algoritmo_asignacion;
 char* ip_memoria;
 t_list* procesos_en_memoria;
-
 pthread_t hilo_de_escucha_kernel, hilo_de_escucha_cpu, hilo_de_escucha_fs;
+
+int conexion_kernel;
 
 
 int main(void) {
 	
 	logger = log_create(LOG_PATH, "LOGGER MEMORIA", 1, LOG_LEVEL_DEBUG);
     levantar_config(CONFIG_PATH);
-	procesos_en_memoria = list_create();
-    lista_huecos = list_create();
-    tablas_segmentos = list_create();
 
-    void inicializarMemoria();
-
-    // Conexiones
+    inicializarMemoria();
 
     int server_socket = iniciar_servidor(puerto, ip_memoria, logger);
 

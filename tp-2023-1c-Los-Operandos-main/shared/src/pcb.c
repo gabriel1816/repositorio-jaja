@@ -14,14 +14,13 @@ t_pcb* crear_pcb(int conexion, t_list* lista_instrucciones, t_estado estado, dou
 	t_pcb* pcb = malloc(sizeof(t_pcb));
     pcb->pid = obtener_pid();
 	pcb->conexion = conexion;
-    pcb->instrucciones = lista_instrucciones; // le paso por parámetro la lista de instrucciones
-	pcb->p_counter = 0; // ip comienza en 0 arbitrariamente
-	pcb->estado = estado; // pasa por parámetros de momento desconocemos origen
+    pcb->instrucciones = lista_instrucciones; 
+	pcb->p_counter = 0; // ip inicializado
+	pcb->estado = estado; 
     pcb->registros = inicializar_registros();
 	pcb->tabla_segmentos = NULL; 
 	pcb->tamanio_tabla = 0;
 	pcb->estimado_rafaga = estimado_rafaga; 
-    //pcb->tabla_archivos = list_create(); // ver, por ahora no es algo que sepamos bien la estructura
 	pcb->direccion_fisica = 0;
 	return pcb;
 }

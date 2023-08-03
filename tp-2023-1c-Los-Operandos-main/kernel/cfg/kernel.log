@@ -1905,3 +1905,635 @@
 [INFO] 06:21:21:122 kernel_logger/(13859:13861): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
 [INFO] 06:21:23:125 kernel_logger/(13859:13861): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
 [INFO] 06:21:23:125 kernel_logger/(13859:13861): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 07:06:02:617 kernel_logger/(5123:5123): No es null el archivo de config
+[INFO] 07:06:02:634 kernel_logger/(5123:5123): conecte con memoria
+[INFO] 07:06:02:645 kernel_logger/(5123:5123): conecte con filesystem
+[INFO] 07:08:06:405 kernel_logger/(5123:5612): escuchando a consola
+[INFO] 07:08:07:445 kernel_logger/(5123:5612): Se crea el proceso 1 en NEW
+[INFO] 07:08:07:445 kernel_logger/(5123:5124): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 07:08:07:445 kernel_logger/(5123:5124): ingreso proceso a listos
+[INFO] 07:08:07:445 kernel_logger/(5123:5125): conecte con cpu
+[INFO] 07:08:07:448 kernel_logger/(5123:5125): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 07:08:07:747 kernel_logger/(5123:5634): escuchando a consola
+[INFO] 07:08:07:755 kernel_logger/(5123:5634): Se crea el proceso 2 en NEW
+[INFO] 07:08:07:755 kernel_logger/(5123:5124): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 07:08:07:755 kernel_logger/(5123:5124): ingreso proceso a listos
+[INFO] 07:08:10:908 kernel_logger/(5123:5696): escuchando a consola
+[INFO] 14:50:38:441 kernel_logger/(5639:5639): No es null el archivo de config
+[INFO] 14:50:38:445 kernel_logger/(5639:5639): conecte con memoria
+[INFO] 14:50:38:447 kernel_logger/(5639:5639): conecte con filesystem
+[INFO] 14:50:50:887 kernel_logger/(5639:5732): escuchando a consola
+[INFO] 14:50:51:361 kernel_logger/(5639:5732): Se crea el proceso 1 en NEW
+[INFO] 14:50:51:362 kernel_logger/(5639:5640): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 14:50:51:362 kernel_logger/(5639:5640): ingreso proceso a listos
+[INFO] 14:50:51:363 kernel_logger/(5639:5641): conecte con cpu
+[INFO] 14:50:51:364 kernel_logger/(5639:5641): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:51:03:393 kernel_logger/(5639:5641): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 14:51:03:393 kernel_logger/(5639:5641): conecte con cpu
+[INFO] 14:51:03:394 kernel_logger/(5639:5641): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:51:05:417 kernel_logger/(5639:5641): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 14:51:05:417 kernel_logger/(5639:5641): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 14:56:32:365 kernel_logger/(6494:6494): No es null el archivo de config
+[INFO] 14:56:32:368 kernel_logger/(6494:6494): conecte con memoria
+[INFO] 14:56:32:369 kernel_logger/(6494:6494): conecte con filesystem
+[INFO] 14:56:44:429 kernel_logger/(6494:6553): escuchando a consola
+[INFO] 14:56:45:203 kernel_logger/(6494:6553): Se crea el proceso 1 en NEW
+[INFO] 14:56:45:204 kernel_logger/(6494:6495): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 14:56:45:204 kernel_logger/(6494:6495): ingreso proceso a listos
+[INFO] 14:56:45:204 kernel_logger/(6494:6496): conecte con cpu
+[INFO] 14:56:45:205 kernel_logger/(6494:6496): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:56:57:270 kernel_logger/(6494:6496): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 14:56:57:271 kernel_logger/(6494:6496): conecte con cpu
+[INFO] 14:56:57:271 kernel_logger/(6494:6496): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:56:59:299 kernel_logger/(6494:6496): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 14:56:59:299 kernel_logger/(6494:6496): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 14:58:32:792 kernel_logger/(7016:7016): No es null el archivo de config
+[INFO] 14:58:32:799 kernel_logger/(7016:7016): conecte con memoria
+[INFO] 14:58:32:801 kernel_logger/(7016:7016): conecte con filesystem
+[INFO] 14:58:42:017 kernel_logger/(7016:7141): escuchando a consola
+[INFO] 14:58:42:314 kernel_logger/(7016:7141): Se crea el proceso 1 en NEW
+[INFO] 14:58:42:314 kernel_logger/(7016:7017): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 14:58:42:315 kernel_logger/(7016:7017): ingreso proceso a listos
+[INFO] 14:58:42:315 kernel_logger/(7016:7018): conecte con cpu
+[INFO] 14:58:42:315 kernel_logger/(7016:7018): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:58:54:403 kernel_logger/(7016:7018): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 14:58:54:403 kernel_logger/(7016:7018): conecte con cpu
+[INFO] 14:58:54:403 kernel_logger/(7016:7018): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 14:58:56:427 kernel_logger/(7016:7018): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 14:58:56:427 kernel_logger/(7016:7018): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 15:02:30:337 kernel_logger/(7860:7860): No es null el archivo de config
+[INFO] 15:02:30:342 kernel_logger/(7860:7860): conecte con memoria
+[INFO] 15:02:30:344 kernel_logger/(7860:7860): conecte con filesystem
+[INFO] 15:02:37:820 kernel_logger/(7860:7946): escuchando a consola
+[INFO] 15:02:38:327 kernel_logger/(7860:7946): Se crea el proceso 1 en NEW
+[INFO] 15:02:38:327 kernel_logger/(7860:7861): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:02:38:327 kernel_logger/(7860:7861): ingreso proceso a listos
+[INFO] 15:02:38:327 kernel_logger/(7860:7862): conecte con cpu
+[INFO] 15:02:38:328 kernel_logger/(7860:7862): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:02:50:384 kernel_logger/(7860:7862): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:02:50:384 kernel_logger/(7860:7862): conecte con cpu
+[INFO] 15:02:50:384 kernel_logger/(7860:7862): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:02:52:403 kernel_logger/(7860:7862): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 15:02:52:403 kernel_logger/(7860:7862): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 15:07:14:037 kernel_logger/(8567:8567): No es null el archivo de config
+[INFO] 15:07:14:043 kernel_logger/(8567:8567): conecte con memoria
+[INFO] 15:07:14:046 kernel_logger/(8567:8567): conecte con filesystem
+[INFO] 15:07:19:520 kernel_logger/(8567:8633): escuchando a consola
+[INFO] 15:07:19:836 kernel_logger/(8567:8633): Se crea el proceso 1 en NEW
+[INFO] 15:07:19:837 kernel_logger/(8567:8568): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:07:19:837 kernel_logger/(8567:8568): ingreso proceso a listos
+[INFO] 15:07:19:837 kernel_logger/(8567:8569): conecte con cpu
+[INFO] 15:07:19:838 kernel_logger/(8567:8569): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:07:31:918 kernel_logger/(8567:8569): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:07:31:918 kernel_logger/(8567:8569): conecte con cpu
+[INFO] 15:07:31:919 kernel_logger/(8567:8569): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:07:33:943 kernel_logger/(8567:8569): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 15:07:33:943 kernel_logger/(8567:8569): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 15:10:28:635 kernel_logger/(9182:9182): No es null el archivo de config
+[INFO] 15:10:28:642 kernel_logger/(9182:9182): conecte con memoria
+[INFO] 15:10:28:644 kernel_logger/(9182:9182): conecte con filesystem
+[INFO] 15:10:38:398 kernel_logger/(9182:9263): escuchando a consola
+[INFO] 15:10:38:732 kernel_logger/(9182:9263): Se crea el proceso 1 en NEW
+[INFO] 15:10:38:733 kernel_logger/(9182:9183): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:10:38:733 kernel_logger/(9182:9183): ingreso proceso a listos
+[INFO] 15:10:38:733 kernel_logger/(9182:9184): conecte con cpu
+[INFO] 15:10:38:733 kernel_logger/(9182:9184): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:10:50:786 kernel_logger/(9182:9184): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:10:50:786 kernel_logger/(9182:9184): conecte con cpu
+[INFO] 15:10:50:786 kernel_logger/(9182:9184): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:10:52:814 kernel_logger/(9182:9184): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 15:10:52:814 kernel_logger/(9182:9184): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 15:12:08:032 kernel_logger/(9842:9842): No es null el archivo de config
+[INFO] 15:12:08:035 kernel_logger/(9842:9842): conecte con memoria
+[INFO] 15:12:08:036 kernel_logger/(9842:9842): conecte con filesystem
+[INFO] 15:12:14:846 kernel_logger/(9842:9940): escuchando a consola
+[INFO] 15:12:15:149 kernel_logger/(9842:9940): Se crea el proceso 1 en NEW
+[INFO] 15:12:15:150 kernel_logger/(9842:9843): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:12:15:150 kernel_logger/(9842:9843): ingreso proceso a listos
+[INFO] 15:12:15:150 kernel_logger/(9842:9844): conecte con cpu
+[INFO] 15:12:15:150 kernel_logger/(9842:9844): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:12:27:234 kernel_logger/(9842:9844): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:12:27:234 kernel_logger/(9842:9844): conecte con cpu
+[INFO] 15:12:27:234 kernel_logger/(9842:9844): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:12:29:273 kernel_logger/(9842:9844): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 15:12:29:274 kernel_logger/(9842:9844): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 15:25:11:313 kernel_logger/(11119:11119): No es null el archivo de config
+[INFO] 15:25:11:316 kernel_logger/(11119:11119): conecte con memoria
+[INFO] 15:25:11:318 kernel_logger/(11119:11119): conecte con filesystem
+[INFO] 16:49:02:223 kernel_logger/(2638:2638): No es null el archivo de config
+[INFO] 16:49:02:231 kernel_logger/(2638:2638): conecte con memoria
+[INFO] 16:49:02:233 kernel_logger/(2638:2638): conecte con filesystem
+[INFO] 16:49:40:038 kernel_logger/(2638:2785): escuchando a consola
+[INFO] 16:49:40:457 kernel_logger/(2638:2785): Se crea el proceso 1 en NEW
+[INFO] 16:49:40:458 kernel_logger/(2638:2639): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:49:40:458 kernel_logger/(2638:2639): ingreso proceso a listos
+[INFO] 16:49:40:458 kernel_logger/(2638:2640): conecte con cpu
+[INFO] 16:49:40:458 kernel_logger/(2638:2640): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:49:52:539 kernel_logger/(2638:2640): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:49:52:539 kernel_logger/(2638:2640): conecte con cpu
+[INFO] 16:49:52:540 kernel_logger/(2638:2640): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:49:54:572 kernel_logger/(2638:2640): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 16:49:54:572 kernel_logger/(2638:2640): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 16:52:55:763 kernel_logger/(3347:3347): No es null el archivo de config
+[INFO] 16:52:55:771 kernel_logger/(3347:3347): conecte con memoria
+[INFO] 16:52:55:773 kernel_logger/(3347:3347): conecte con filesystem
+[INFO] 16:53:00:153 kernel_logger/(3347:3406): escuchando a consola
+[INFO] 16:53:00:462 kernel_logger/(3347:3406): Se crea el proceso 1 en NEW
+[INFO] 16:53:00:463 kernel_logger/(3347:3348): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:53:00:463 kernel_logger/(3347:3348): ingreso proceso a listos
+[INFO] 16:53:00:463 kernel_logger/(3347:3349): conecte con cpu
+[INFO] 16:53:00:463 kernel_logger/(3347:3349): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:53:12:503 kernel_logger/(3347:3349): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:53:12:503 kernel_logger/(3347:3349): conecte con cpu
+[INFO] 16:53:12:503 kernel_logger/(3347:3349): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:53:14:524 kernel_logger/(3347:3349): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 16:53:14:524 kernel_logger/(3347:3349): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:04:47:356 kernel_logger/(5160:5160): No es null el archivo de config
+[INFO] 20:04:47:361 kernel_logger/(5160:5160): conecte con memoria
+[INFO] 20:04:47:361 kernel_logger/(5160:5160): conecte con filesystem
+[INFO] 20:05:28:123 kernel_logger/(5160:5290): escuchando a consola
+[INFO] 20:07:44:483 kernel_logger/(5160:5290): Se crea el proceso 1 en NEW
+[INFO] 20:07:44:485 kernel_logger/(5160:5161): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:07:44:485 kernel_logger/(5160:5161): ingreso proceso a listos
+[INFO] 20:07:44:488 kernel_logger/(5160:5162): conecte con cpu
+[INFO] 20:07:44:488 kernel_logger/(5160:5162): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:07:56:621 kernel_logger/(5160:5162): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:07:56:623 kernel_logger/(5160:5162): conecte con cpu
+[INFO] 20:07:56:627 kernel_logger/(5160:5162): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:07:58:648 kernel_logger/(5160:5162): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:07:58:648 kernel_logger/(5160:5162): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:10:41:219 kernel_logger/(6134:6134): No es null el archivo de config
+[INFO] 20:10:41:220 kernel_logger/(6134:6134): conecte con memoria
+[INFO] 20:10:41:220 kernel_logger/(6134:6134): conecte con filesystem
+[INFO] 20:10:49:020 kernel_logger/(6134:6200): escuchando a consola
+[INFO] 20:11:22:681 kernel_logger/(6134:6200): Se crea el proceso 1 en NEW
+[INFO] 20:11:22:684 kernel_logger/(6134:6135): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:11:22:684 kernel_logger/(6134:6135): ingreso proceso a listos
+[INFO] 20:11:22:684 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:11:22:684 kernel_logger/(6134:6136): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:11:34:727 kernel_logger/(6134:6136): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:11:34:727 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:11:34:727 kernel_logger/(6134:6136): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:11:36:749 kernel_logger/(6134:6136): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:11:36:749 kernel_logger/(6134:6136): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:13:52:633 kernel_logger/(6134:6777): escuchando a consola
+[INFO] 20:13:53:590 kernel_logger/(6134:6789): escuchando a consola
+[INFO] 20:13:56:693 kernel_logger/(6134:6861): escuchando a consola
+[INFO] 20:14:09:001 kernel_logger/(6134:6861): Se crea el proceso 4 en NEW
+[INFO] 20:14:09:002 kernel_logger/(6134:6135): PID: 4 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:14:09:002 kernel_logger/(6134:6135): ingreso proceso a listos
+[INFO] 20:14:09:002 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:09:002 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:11:079 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:11:079 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:11:079 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:13:111 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:13:111 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:13:111 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:15:128 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:15:128 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:15:130 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:17:151 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:17:151 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:17:152 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:19:168 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:19:168 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:19:168 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:20:485 kernel_logger/(6134:6777): Se crea el proceso 2 en NEW
+[INFO] 20:14:20:485 kernel_logger/(6134:6135): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:14:20:485 kernel_logger/(6134:6135): ingreso proceso a listos
+[INFO] 20:14:20:487 kernel_logger/(6134:6789): Se crea el proceso 3 en NEW
+[INFO] 20:14:20:487 kernel_logger/(6134:6135): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:14:20:487 kernel_logger/(6134:6135): ingreso proceso a listos
+[INFO] 20:14:21:181 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:21:181 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:21:182 kernel_logger/(6134:6136): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:33:220 kernel_logger/(6134:6136): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:33:220 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:33:220 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:35:246 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:35:246 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:35:246 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:37:262 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:37:262 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:37:262 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:39:277 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:39:277 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:39:277 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:40:278 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:40:278 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:40:278 kernel_logger/(6134:6136): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:42:293 kernel_logger/(6134:6136): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:14:42:293 kernel_logger/(6134:6136): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 20:14:42:293 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:42:294 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:44:310 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:44:311 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:44:311 kernel_logger/(6134:6136): PID: 4 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:45:336 kernel_logger/(6134:6136): PID: 4 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:14:45:336 kernel_logger/(6134:6136): finaliza el proceso PID: 4 - motivo: SUCCESS
+[INFO] 20:14:45:336 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:45:337 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:47:376 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:47:377 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:47:378 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:49:390 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:49:390 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:49:390 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:51:406 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:51:406 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:51:406 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:53:423 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:53:423 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:53:423 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:54:434 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:14:54:434 kernel_logger/(6134:6136): conecte con cpu
+[INFO] 20:14:54:434 kernel_logger/(6134:6136): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:14:55:452 kernel_logger/(6134:6136): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:14:55:452 kernel_logger/(6134:6136): finaliza el proceso PID: 3 - motivo: SUCCESS
+[INFO] 20:18:31:362 kernel_logger/(7917:7917): No es null el archivo de config
+[INFO] 20:18:31:368 kernel_logger/(7917:7917): conecte con memoria
+[INFO] 20:18:31:369 kernel_logger/(7917:7917): conecte con filesystem
+[INFO] 20:18:37:061 kernel_logger/(7917:7977): escuchando a consola
+[INFO] 20:18:37:071 kernel_logger/(7917:7977): Se crea el proceso 1 en NEW
+[INFO] 20:18:37:072 kernel_logger/(7917:7918): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:18:37:072 kernel_logger/(7917:7918): ingreso proceso a listos
+[INFO] 20:18:37:072 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:37:072 kernel_logger/(7917:7919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:38:139 kernel_logger/(7917:7990): escuchando a consola
+[INFO] 20:18:38:141 kernel_logger/(7917:7990): Se crea el proceso 2 en NEW
+[INFO] 20:18:38:142 kernel_logger/(7917:7918): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:18:38:142 kernel_logger/(7917:7918): ingreso proceso a listos
+[INFO] 20:18:39:475 kernel_logger/(7917:8029): escuchando a consola
+[INFO] 20:18:39:477 kernel_logger/(7917:8029): Se crea el proceso 3 en NEW
+[INFO] 20:18:39:478 kernel_logger/(7917:7918): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:18:39:478 kernel_logger/(7917:7918): ingreso proceso a listos
+[INFO] 20:18:49:083 kernel_logger/(7917:7919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:18:49:084 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:49:084 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:51:098 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:18:51:098 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:51:098 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:53:115 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:18:53:115 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:53:115 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:55:131 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:18:55:131 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:55:131 kernel_logger/(7917:7919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:57:152 kernel_logger/(7917:7919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:18:57:152 kernel_logger/(7917:7919): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:18:57:153 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:57:154 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:18:59:166 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:18:59:166 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:18:59:166 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:01:187 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:01:187 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:01:187 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:03:218 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:03:219 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:03:219 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:05:232 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:05:233 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:05:233 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:07:250 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:07:250 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:07:250 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:09:261 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:09:261 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:09:261 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:11:280 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:11:280 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:11:280 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:13:303 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:13:304 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:13:304 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:15:316 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:15:316 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:15:316 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:17:348 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:17:348 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:17:348 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:19:368 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:19:368 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:19:368 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:20:398 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:20:398 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:20:398 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:21:420 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:19:21:420 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:21:420 kernel_logger/(7917:7919): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:22:433 kernel_logger/(7917:7919): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:19:22:433 kernel_logger/(7917:7919): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 20:19:22:434 kernel_logger/(7917:7919): conecte con cpu
+[INFO] 20:19:22:435 kernel_logger/(7917:7919): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:19:23:450 kernel_logger/(7917:7919): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:19:23:450 kernel_logger/(7917:7919): finaliza el proceso PID: 3 - motivo: SUCCESS
+[INFO] 20:26:52:049 kernel_logger/(9250:9250): No es null el archivo de config
+[INFO] 20:26:52:064 kernel_logger/(9250:9250): conecte con memoria
+[INFO] 20:26:52:065 kernel_logger/(9250:9250): conecte con filesystem
+[INFO] 20:27:05:724 kernel_logger/(9250:9396): escuchando a consola
+[INFO] 20:27:05:726 kernel_logger/(9250:9396): Se crea el proceso 1 en NEW
+[INFO] 20:27:05:726 kernel_logger/(9250:9255): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:27:05:726 kernel_logger/(9250:9255): ingreso proceso a listos
+[INFO] 20:27:12:781 kernel_logger/(9250:9500): escuchando a consola
+[INFO] 20:27:21:400 kernel_logger/(9250:9500): Se crea el proceso 2 en NEW
+[INFO] 20:27:21:400 kernel_logger/(9250:9255): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:27:21:417 kernel_logger/(9250:9534): escuchando a consola
+[INFO] 20:27:37:469 kernel_logger/(9250:9534): Se crea el proceso 3 en NEW
+[INFO] 20:27:45:782 kernel_logger/(9250:9255): ingreso proceso a listos
+[INFO] 20:27:45:784 kernel_logger/(9250:9255): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:27:45:784 kernel_logger/(9250:9255): ingreso proceso a listos
+[INFO] 20:28:08:645 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:28:08:646 kernel_logger/(9250:9256): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:29:22:538 kernel_logger/(9250:9256): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:31:40:521 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:31:40:524 kernel_logger/(9250:9256): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:32:30:951 kernel_logger/(9250:9256): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:33:35:565 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:33:35:566 kernel_logger/(9250:9256): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:34:07:416 kernel_logger/(9250:9256): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:35:24:538 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:35:24:541 kernel_logger/(9250:9256): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:36:06:554 kernel_logger/(9250:9256): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:38:08:397 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:38:08:399 kernel_logger/(9250:9256): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:38:22:281 kernel_logger/(9250:9256): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:39:09:505 kernel_logger/(9250:9256): conecte con cpu
+[INFO] 20:39:09:510 kernel_logger/(9250:9256): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:39:14:578 kernel_logger/(9250:9256): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:39:14:580 kernel_logger/(9250:9256): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:43:01:060 kernel_logger/(11138:11138): No es null el archivo de config
+[INFO] 20:43:01:063 kernel_logger/(11138:11138): conecte con memoria
+[INFO] 20:43:01:066 kernel_logger/(11138:11138): conecte con filesystem
+[INFO] 20:43:11:324 kernel_logger/(11138:11256): escuchando a consola
+[INFO] 20:43:11:327 kernel_logger/(11138:11256): Se crea el proceso 1 en NEW
+[INFO] 20:43:11:328 kernel_logger/(11138:11139): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:43:11:328 kernel_logger/(11138:11139): ingreso proceso a listos
+[INFO] 20:43:11:328 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:11:328 kernel_logger/(11138:11140): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:12:294 kernel_logger/(11138:11262): escuchando a consola
+[INFO] 20:43:12:302 kernel_logger/(11138:11262): Se crea el proceso 2 en NEW
+[INFO] 20:43:12:303 kernel_logger/(11138:11139): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:43:12:303 kernel_logger/(11138:11139): ingreso proceso a listos
+[INFO] 20:43:13:290 kernel_logger/(11138:11304): escuchando a consola
+[INFO] 20:43:13:294 kernel_logger/(11138:11304): Se crea el proceso 3 en NEW
+[INFO] 20:43:13:294 kernel_logger/(11138:11139): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:43:13:294 kernel_logger/(11138:11139): ingreso proceso a listos
+[INFO] 20:43:23:361 kernel_logger/(11138:11140): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:23:361 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:23:361 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:25:366 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:25:366 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:25:366 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:27:380 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:27:380 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:27:380 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:29:383 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:29:383 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:29:383 kernel_logger/(11138:11140): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:31:391 kernel_logger/(11138:11140): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:43:31:391 kernel_logger/(11138:11140): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 20:43:31:391 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:31:392 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:33:404 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:33:404 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:33:404 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:35:418 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:35:418 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:35:418 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:37:441 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:37:441 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:37:441 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:39:463 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:39:463 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:39:463 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:41:482 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:41:482 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:41:482 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:43:496 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:43:496 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:43:496 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:45:505 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:45:505 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:45:505 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:47:524 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:47:524 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:47:524 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:49:548 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:49:548 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:49:548 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:51:570 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:51:571 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:51:571 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:53:611 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:53:611 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:53:611 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:54:627 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:54:628 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:54:628 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:55:658 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 20:43:55:659 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:55:659 kernel_logger/(11138:11140): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:56:690 kernel_logger/(11138:11140): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:43:56:690 kernel_logger/(11138:11140): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 20:43:56:690 kernel_logger/(11138:11140): conecte con cpu
+[INFO] 20:43:56:691 kernel_logger/(11138:11140): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:43:57:741 kernel_logger/(11138:11140): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 20:43:57:742 kernel_logger/(11138:11140): finaliza el proceso PID: 3 - motivo: SUCCESS
+[INFO] 20:46:31:457 kernel_logger/(12098:12098): No es null el archivo de config
+[INFO] 20:46:31:460 kernel_logger/(12098:12098): conecte con memoria
+[INFO] 20:46:31:464 kernel_logger/(12098:12098): conecte con filesystem
+[INFO] 20:47:14:616 kernel_logger/(12098:12276): escuchando a consola
+[INFO] 20:47:14:622 kernel_logger/(12098:12276): Se crea el proceso 1 en NEW
+[INFO] 20:47:14:622 kernel_logger/(12098:12099): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:47:14:622 kernel_logger/(12098:12099): ingreso proceso a listos
+[INFO] 20:47:15:503 kernel_logger/(12098:12286): escuchando a consola
+[INFO] 20:47:15:505 kernel_logger/(12098:12286): Se crea el proceso 2 en NEW
+[INFO] 20:47:15:505 kernel_logger/(12098:12099): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:47:16:569 kernel_logger/(12098:12318): escuchando a consola
+[INFO] 20:47:16:570 kernel_logger/(12098:12318): Se crea el proceso 3 en NEW
+[INFO] 20:50:52:410 kernel_logger/(12949:12949): No es null el archivo de config
+[INFO] 20:50:52:414 kernel_logger/(12949:12949): conecte con memoria
+[INFO] 20:50:52:417 kernel_logger/(12949:12949): conecte con filesystem
+[INFO] 20:51:05:853 kernel_logger/(12949:13056): escuchando a consola
+[INFO] 20:51:05:860 kernel_logger/(12949:13056): Se crea el proceso 1 en NEW
+[INFO] 20:51:05:860 kernel_logger/(12949:12950): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:51:05:860 kernel_logger/(12949:12950): ingreso proceso a listos
+[INFO] 20:51:07:053 kernel_logger/(12949:13072): escuchando a consola
+[INFO] 20:51:07:055 kernel_logger/(12949:13072): Se crea el proceso 2 en NEW
+[INFO] 20:51:07:056 kernel_logger/(12949:12950): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:51:08:342 kernel_logger/(12949:13115): escuchando a consola
+[INFO] 20:51:08:350 kernel_logger/(12949:13115): Se crea el proceso 3 en NEW
+[INFO] 21:03:01:377 kernel_logger/(13716:13716): No es null el archivo de config
+[INFO] 21:03:01:394 kernel_logger/(13716:13716): conecte con memoria
+[INFO] 21:03:01:395 kernel_logger/(13716:13716): conecte con filesystem
+[INFO] 21:03:12:693 kernel_logger/(13716:13823): escuchando a consola
+[INFO] 21:03:12:700 kernel_logger/(13716:13823): Se crea el proceso 1 en NEW
+[INFO] 21:03:12:707 kernel_logger/(13716:13717): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:03:12:707 kernel_logger/(13716:13717): ingreso proceso a listos
+[INFO] 21:03:12:708 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:12:708 kernel_logger/(13716:13718): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:13:648 kernel_logger/(13716:13830): escuchando a consola
+[INFO] 21:03:13:653 kernel_logger/(13716:13830): Se crea el proceso 2 en NEW
+[INFO] 21:03:13:654 kernel_logger/(13716:13717): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:03:13:654 kernel_logger/(13716:13717): ingreso proceso a listos
+[INFO] 21:03:14:675 kernel_logger/(13716:13871): escuchando a consola
+[INFO] 21:03:14:678 kernel_logger/(13716:13871): Se crea el proceso 3 en NEW
+[INFO] 21:03:14:680 kernel_logger/(13716:13717): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:03:14:680 kernel_logger/(13716:13717): ingreso proceso a listos
+[INFO] 21:03:24:735 kernel_logger/(13716:13718): 6009.500000
+[INFO] 21:03:24:735 kernel_logger/(13716:13718): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:24:735 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:24:735 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:26:746 kernel_logger/(13716:13718): 2000.500000
+[INFO] 21:03:26:746 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:26:746 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:26:746 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:28:774 kernel_logger/(13716:13718): 2002.500000
+[INFO] 21:03:28:774 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:28:774 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:28:774 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:30:796 kernel_logger/(13716:13718): 2002.000000
+[INFO] 21:03:30:796 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:30:796 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:30:797 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:32:809 kernel_logger/(13716:13718): 2001.750000
+[INFO] 21:03:32:809 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:32:810 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:32:810 kernel_logger/(13716:13718): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:34:823 kernel_logger/(13716:13718): 2002.250000
+[INFO] 21:03:34:823 kernel_logger/(13716:13718): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:03:34:823 kernel_logger/(13716:13718): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 21:03:34:823 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:34:824 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:36:831 kernel_logger/(13716:13718): 4005.750000
+[INFO] 21:03:36:831 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:36:832 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:36:832 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:38:854 kernel_logger/(13716:13718): 2004.000000
+[INFO] 21:03:38:854 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:38:854 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:38:854 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:40:877 kernel_logger/(13716:13718): 2003.875000
+[INFO] 21:03:40:877 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:40:877 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:40:877 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:42:900 kernel_logger/(13716:13718): 3007.375000
+[INFO] 21:03:42:900 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:42:900 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:42:901 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:44:918 kernel_logger/(13716:13718): 2004.500000
+[INFO] 21:03:44:918 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:44:918 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:44:918 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:46:938 kernel_logger/(13716:13718): 2006.437500
+[INFO] 21:03:46:938 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:46:938 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:46:938 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:48:963 kernel_logger/(13716:13718): 2507.187500
+[INFO] 21:03:48:963 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:48:963 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:48:964 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:50:981 kernel_logger/(13716:13718): 2005.250000
+[INFO] 21:03:50:981 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:50:982 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:50:982 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:53:004 kernel_logger/(13716:13718): 2005.218750
+[INFO] 21:03:53:004 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:53:004 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:53:004 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:55:024 kernel_logger/(13716:13718): 2257.593750
+[INFO] 21:03:55:025 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:55:025 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:55:025 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:56:040 kernel_logger/(13716:13718): 1506.125000
+[INFO] 21:03:56:040 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:56:040 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:56:040 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:57:061 kernel_logger/(13716:13718): 1505.109375
+[INFO] 21:03:57:061 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:03:57:061 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:57:061 kernel_logger/(13716:13718): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:58:079 kernel_logger/(13716:13718): 1631.796875
+[INFO] 21:03:58:079 kernel_logger/(13716:13718): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:03:58:079 kernel_logger/(13716:13718): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 21:03:58:079 kernel_logger/(13716:13718): conecte con cpu
+[INFO] 21:03:58:081 kernel_logger/(13716:13718): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:03:59:104 kernel_logger/(13716:13718): 1253.062500
+[INFO] 21:03:59:105 kernel_logger/(13716:13718): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:03:59:105 kernel_logger/(13716:13718): finaliza el proceso PID: 3 - motivo: SUCCESS
+[INFO] 21:06:45:784 kernel_logger/(14795:14795): No es null el archivo de config
+[INFO] 21:06:45:797 kernel_logger/(14795:14795): conecte con memoria
+[INFO] 21:06:45:809 kernel_logger/(14795:14795): conecte con filesystem
+[INFO] 21:06:55:489 kernel_logger/(14795:14900): escuchando a consola
+[INFO] 21:06:55:496 kernel_logger/(14795:14900): Se crea el proceso 1 en NEW
+[INFO] 21:06:55:497 kernel_logger/(14795:14796): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:06:55:497 kernel_logger/(14795:14796): ingreso proceso a listos
+[INFO] 21:06:55:498 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:06:55:498 kernel_logger/(14795:14797): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:06:56:269 kernel_logger/(14795:14903): escuchando a consola
+[INFO] 21:06:56:273 kernel_logger/(14795:14903): Se crea el proceso 2 en NEW
+[INFO] 21:06:56:279 kernel_logger/(14795:14796): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:06:56:279 kernel_logger/(14795:14796): ingreso proceso a listos
+[INFO] 21:06:57:278 kernel_logger/(14795:14945): escuchando a consola
+[INFO] 21:06:57:281 kernel_logger/(14795:14945): Se crea el proceso 3 en NEW
+[INFO] 21:06:57:282 kernel_logger/(14795:14796): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:06:57:282 kernel_logger/(14795:14796): ingreso proceso a listos
+[INFO] 21:07:07:512 kernel_logger/(14795:14797): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:07:512 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:07:513 kernel_logger/(14795:14797): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:09:522 kernel_logger/(14795:14797): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:09:522 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:09:522 kernel_logger/(14795:14797): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:11:538 kernel_logger/(14795:14797): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:11:538 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:11:538 kernel_logger/(14795:14797): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:13:559 kernel_logger/(14795:14797): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:13:559 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:13:559 kernel_logger/(14795:14797): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:15:563 kernel_logger/(14795:14797): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:15:564 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:15:564 kernel_logger/(14795:14797): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:17:581 kernel_logger/(14795:14797): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:07:17:581 kernel_logger/(14795:14797): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 21:07:17:581 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:17:582 kernel_logger/(14795:14797): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:19:594 kernel_logger/(14795:14797): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:19:594 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:19:595 kernel_logger/(14795:14797): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:21:612 kernel_logger/(14795:14797): PID: 3 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:21:612 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:21:612 kernel_logger/(14795:14797): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:07:23:634 kernel_logger/(14795:14797): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:07:23:634 kernel_logger/(14795:14797): conecte con cpu
+[INFO] 21:07:23:634 kernel_logger/(14795:14797): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:13:01:306 kernel_logger/(15568:15568): No es null el archivo de config
+[INFO] 21:13:01:310 kernel_logger/(15568:15568): conecte con memoria
+[INFO] 21:13:01:312 kernel_logger/(15568:15568): conecte con filesystem
+[INFO] 21:16:16:395 kernel_logger/(15842:15842): No es null el archivo de config
+[INFO] 21:16:16:399 kernel_logger/(15842:15842): conecte con memoria
+[INFO] 21:16:16:407 kernel_logger/(15842:15842): conecte con filesystem
+[INFO] 21:17:39:577 kernel_logger/(15842:16239): escuchando a consola
+[INFO] 21:17:39:582 kernel_logger/(15842:16239): Se crea el proceso 1 en NEW
+[INFO] 21:17:39:583 kernel_logger/(15842:15843): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:17:39:583 kernel_logger/(15842:15843): ingreso proceso a listos
+[INFO] 21:17:39:583 kernel_logger/(15842:15844): conecte con cpu
+[INFO] 21:17:39:583 kernel_logger/(15842:15844): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:17:40:500 kernel_logger/(15842:16246): escuchando a consola
+[INFO] 21:17:40:504 kernel_logger/(15842:16246): Se crea el proceso 2 en NEW
+[INFO] 21:17:40:504 kernel_logger/(15842:15843): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:17:40:504 kernel_logger/(15842:15843): ingreso proceso a listos
+[INFO] 21:17:40:594 kernel_logger/(15842:15844): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:17:40:594 kernel_logger/(15842:15844): finaliza el proceso PID: 1 - motivo: No existe el recurso solicitado por wait
+[INFO] 21:17:40:594 kernel_logger/(15842:15844): conecte con cpu
+[INFO] 21:17:40:595 kernel_logger/(15842:15844): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:17:41:610 kernel_logger/(15842:15844): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 21:17:41:610 kernel_logger/(15842:15844): finaliza el proceso PID: 2 - motivo: No existe el recurso solicitado por signal
+[INFO] 21:17:42:599 kernel_logger/(15842:16323): escuchando a consola
+[INFO] 21:17:42:630 kernel_logger/(15842:16323): Se crea el proceso 3 en NEW
+[INFO] 21:17:42:630 kernel_logger/(15842:15843): PID: 3 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:17:42:630 kernel_logger/(15842:15843): ingreso proceso a listos
+[INFO] 21:17:42:630 kernel_logger/(15842:15844): conecte con cpu
+[INFO] 21:17:42:631 kernel_logger/(15842:15844): PID: 3 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:17:43:363 kernel_logger/(15842:16331): escuchando a consola

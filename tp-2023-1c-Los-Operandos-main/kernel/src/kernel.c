@@ -22,11 +22,14 @@ pthread_t threadCPU;
 pthread_t threadMemoria;
 pthread_t threadFileSystem; 
 
+pthread_mutex_t procesosEnSistemaMutex; 
+
 sem_t contador_multiprogramacion;
 sem_t sem_nuevos;
 sem_t sem_ready;
 
 t_pcb* pcb_a_ejecutar;
+t_list* cola_procesos; 
 
 
 int main(void) {
@@ -73,7 +76,7 @@ int main(void) {
 void startUp(void){
 
 	// Inicializo logger
-	logger = log_create(LOG_PATH,"kernel_logger", true, LOG_LEVEL_INFO);	
+	logger = log_create(LOG_PATH,"kernel_logger", true, LOG_LEVEL_DEBUG);	
 	
 	// Inicializo archivo de configuracion.
 	kernel_config =	levantar_config();

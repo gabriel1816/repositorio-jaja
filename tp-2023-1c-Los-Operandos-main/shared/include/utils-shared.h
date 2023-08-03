@@ -30,6 +30,8 @@
 #define CODIGO_INSTRUCCION 20
 #define CODIGO_PCB 80
 #define CODIGO_INSTRUCCION_MEMORIA 65
+#define ERROR_MEMORIA 404
+#define INFO_FS 75
 
 extern t_log* logger;
 
@@ -78,7 +80,10 @@ typedef enum {
 	EXIT,
 	CONTEXTO,
 	CREAR_PROCESO,
-	ELIMINAR_PROCESO
+	ELIMINAR_PROCESO,
+	ERROR,
+	COMPACTACION,
+	F_READ_OK
 }t_identificador;
 
 typedef struct{
@@ -137,6 +142,13 @@ typedef struct
 }t_direc_fisica;
 
 
+typedef struct 
+{
+    pid_t pid;
+    int32_t direccion_fisica;
+    t_instruccion* instruccion;
+}t_fs_pedido;
+
 
 int crear_conexion(char* ip, char* puerto);
 t_paquete* crear_super_paquete(void);
@@ -179,5 +191,13 @@ t_tabla_memoria* deserializar_buffer_para_tabla_memoria(t_buffer* buffer);
 void pedir_memoria(t_instruccion* pedido, int socket, t_log* logger);
 t_tabla_memoria* recibir_memoria(int socket, t_log* logger);
 t_buffer* crear_buffer_tabla_memoria(t_tabla_memoria* nuevo_proceso);
+void enviar_procesos(int conexion);
+
+t_buffer* crear_buffer_para_t_fs_pedido(t_fs_pedido* fs_pedido);
+void enviar_fs_pedido(t_fs_pedido* fs_pedido, int conexion, t_log* logger);
+t_fs_pedido* crear_pedido_para_buffer_fs(t_buffer* buffer);
+void enviar_fs_pedido(t_fs_pedido* fs_pedido, int conexion, t_log* logger);
+t_fs_pedido* crear_pedido_para_buffer_fs(t_buffer* buffer);
+
 
 #endif

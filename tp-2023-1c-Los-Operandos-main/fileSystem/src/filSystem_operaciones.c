@@ -1,5 +1,4 @@
 #include "fileSystem.h"
-#include "fileSystem_estructuras.c"
 
 
 // funciones de archivos
@@ -139,9 +138,9 @@ t_fcb* obtenerFcb(char *nombre_archivo){
   int tamanio = sizeof(lista_fcbs) / sizeof(lista_fcbs[0]);
 
     for(int i = 0; i  < tamanio; i++){  // no se como obtener el tamanio de la lista
-      
-        if(lista_fcbs[i]->fcb->nombre_archivo == nombre_archivo){
-            *fcb = *lista_fcbs[i]->fcb;
+        t_fcb* un_fcb = list_get(lista_fcbs, i);
+        if(un_fcb->nombre_archivo == nombre_archivo){
+            fcb = un_fcb;
         }
     }
     

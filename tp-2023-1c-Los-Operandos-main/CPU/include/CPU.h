@@ -55,5 +55,11 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 char* MOV_IN_memoria(pid_t pid, uint32_t direccion_fisica, uint32_t registro);
 void MOV_OUT_memoria(pid_t pid, uint32_t direccion_fisica, char* valor_leido);
 char* consultar_valor_registro(t_registro *registros, char *registro);
+void crear_segmento(t_instruccion* instruccion, t_pcb* pcb, int64_t temporizador);
+void eliminar_segmento(t_instruccion* instruccion, t_pcb* pcb, int64_t temporizador);
+void recibir_creacion(t_pcb* pcb, int64_t temporizador, t_instruccion* instruccion_pedido);
+void actualizar_tabla(t_paquete paquete, t_pcb* pcb);
+
+
 
 #endif /* CPU_H_ */

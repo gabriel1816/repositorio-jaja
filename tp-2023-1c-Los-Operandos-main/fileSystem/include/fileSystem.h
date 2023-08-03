@@ -21,11 +21,6 @@ typedef struct{
 	uint32_t puntero_indirecto;
 }t_fcb;
 
-typedef struct{
-	t_fcb* fcb;
-	t_fcb* siguiente_fcb;
-}t_lista_fcb;
-
 typedef enum {
 		LSB_FIRST,
 		MSB_FIRST
@@ -56,22 +51,21 @@ extern char *retardo_acceso_bloque;
 extern int tamanio_bloque;
 extern int cant_bloques; 
 extern int tam_max_segmento;
-extern t_lista_fcb* lista_fcbs[25];
+extern char* ipFs;
 
+extern t_list* lista_fcbs;
 
+//************* ---------- *************//
 
-t_log* iniciar_logger(void);
-t_config* iniciar_config(void);
+void iniciar_logger(void);
+void iniciar_config(void);
 void terminar_programa(int conexion, t_log *logger, t_config *config);
-t_log* iniciar_logger(void);
 void levantar_estructuras();
-
+void atender_kernel(void* socket_kernel);
+char pedir_a_memoria(t_instruccion* instruccion, int conexionConMemoria);
 //************* MEMORIA *************//
-
-char pedir_a_memoria(t_direc_fisica* direccion, int conexionConMemoria, t_instruccion *instruccion);
 void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria, t_instruccion *instruccion);
 t_direc_fisica* traducir_direccion(int direc_logica);
-void atender_instruccion(t_instruccion *instruccion, int socket_kernel);
 
 //************* BLOQUES *************//
 
@@ -82,7 +76,6 @@ int bloqueLogicoAFisico(t_fcb* fcb, int num_bloque);
 void borrar_bloques(int bloques_ocupados, int cant_bloques_a_borrar, t_fcb *fcb);
 void agregar_bloques(int bloques_ocupados, int cant_bloques_a_agregar, t_fcb *fcb);
 uint32_t asignar_bloque_libre();
-t_lista_fcb* agregar_a_Lista(t_lista_fcb* lista, t_fcb* fcb_a_agregar);
 
 //************* ARCHIVOS *************//
 

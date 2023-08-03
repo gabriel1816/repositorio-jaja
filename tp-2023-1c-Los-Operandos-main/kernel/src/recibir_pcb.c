@@ -47,6 +47,18 @@ void recibir_pcb_de_cpu(int cpu_socket)
             destruir_pcb(pcb_en_ejecucion);
             ejecutar_wait(pcb_actualizado, ultima_instruccion);
         break;
+        case CREATE_SEGMENT:
+            pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+            ejecutar(pcb_actualizado);
+            crear_segmento(ultima_instruccion, pcb_actualizado);
+            destruir_pcb(pcb_en_ejecucion);
+        break;
+            case DELETE_SEGMENT:
+            pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+            ejecutar(pcb_actualizado);
+            eliminar_segmento(ultima_instruccion, pcb_actualizado);
+            destruir_pcb(pcb_en_ejecucion);
+
     }
 }
 

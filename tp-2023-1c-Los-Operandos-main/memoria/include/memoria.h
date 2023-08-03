@@ -6,8 +6,8 @@
 #include <commons/string.h>
 #include <commons/collections/list.h> 
 #include "utils-shared.h"
-#define LOG_PATH "../cfg/memoria.log"
-#define CONFIG_PATH "../cfg/memoria.config"
+#define LOG_PATH "./cfg/memoria.log"
+#define CONFIG_PATH "./cfg/memoria.config"
 
 //************ ESTRUCTURAS   ************//
 
@@ -17,21 +17,10 @@ typedef struct{
 } t_new_procesos;
 
 typedef enum{
-    BEST_FIT,
-    WORST_FIT,
-    FIRST_FIT
+    BEST,
+    WORST,
+    FIRST
 }t_algoritmo;
-
-typedef enum {
-	LSB_FIRST,
-	MSB_FIRST
-} bit_numbering_t;
-
-typedef struct {
-	char *bitarray;
-	size_t size;
-	bit_numbering_t mode;
-} t_bitarray;
 
 //************* VARIABLES  *************//
 //************* GLOBALES   *************//
@@ -57,7 +46,9 @@ extern pthread_t hilo_de_escucha_fs;
 extern pthread_t hilo_de_escucha_kernel; 
 extern t_list* procesos_en_memoria;
 extern t_segmento segmento_cero;
-extern t_segmento segmento_vacio;
+extern t_segmento segmento_vacio; 
+
+extern int conexion_kernel;
 
 //************* -----------  *************//
 
@@ -79,36 +70,44 @@ void escucha_general(void* conexion);
 //************* SEGMENTOS  *************//
 
 t_algoritmo asignar_algoritmo();
-t_segmento* crear_segmento(void* base, void* limite, int id, bool libre, pid_t pid);
+void crear_segmento(pid_t pid, int id, int tam_segmento, int conexion);
 void eliminar_segmentos(t_tabla_memoria* tabla);
 void borrarSegmento(t_tabla_memoria* tabla, int id);
-bool hay_espacio(t_list* lista_huecos);
-bool hay_huecos_continuos(int cant_huecos_nec, t_algoritmo algoritmo, int tamanio_seg, t_list* huecos_libres);
-t_segmento* first_fit();
-t_segmento* worst_fit(int tamanio_necesitado);
-t_segmento* best_fit(int tamanio_necesitado);
-void compactar(t_list* tabla_segmentos);
-bool segmento_es_hueco(t_segmento *segmento, t_list* lista_huecos);
-void modificar_valores_segmento(t_segmento *segmento, t_list* tabla_seg);
-void unir_todos_los_huecos(t_list *tabla_segmentos);
-t_segmento* primer_hueco(t_list *tabla_segmentos);
-uint32_t espacio_hueco(t_segmento* segmento);
+int espacio_hueco(t_segmento* segmento);
 void eliminar_segmentos(t_tabla_memoria* tabla);
 bool ordenar_segun_base(t_segmento* seg_1, t_segmento* seg_2);
 void agregar_hueco(t_segmento* segmento_a_borrar);
+void borrar_segmento(pid_t pid, int id, int conexion);
+void error_falta_memoria(int conexion);
+void borrar_segmento_en_memoria(t_tabla_memoria* proceso, int id);
+
+////************* HUECO  *************//
+
+t_segmento buscar_hueco(int tam_segmento);
+t_segmento modificar_lista_huecos(t_segmento* hueco, int tam_segmento, int index);
+void crear_hueco(int limite, int base);
+int tamanio_hueco(t_segmento* hueco);
+bool tam_mas_grande(t_segmento* h_1, t_segmento* h_2);
+bool tam_mas_chico(t_segmento* h_1, t_segmento* h_2);
+bool base_menor(t_segmento* h_1, t_segmento* h_2);
+int calcular_total();
+
 
 //************* PROCESOS  *************//
 
 void crear_proceso_memoria(pid_t pid, int conexion_cpu);
 void enviar_proceso(t_tabla_memoria* nuevoProceso, int socket);
-bool hay_espacio(t_list *segmentos_vacios);
+bool hay_espacio_libre(t_list *segmentos_vacios);
 int obtener_tam_segmento(t_segmento *segmento);
-bool hay_huecos_continuos(int cant_huecos_libres, t_algoritmo algoritmo_asignacion, int tamanio, t_list *huecos_disponibles);
-t_segmento* first_fit();
-t_segmento* best_fit(int tamanio_necesitado);
-t_segmento* worst_fit(int tamanio_necesitado);
 void eliminar_proceso(pid_t pid);
-void borrar_segmento(pid_t pid, int idSegmento, int una_conexion) ;
-int obtenerTamanioHueco(t_segmento* huecoLibre);
+t_tabla_memoria* buscar_proceso(pid_t pid);
+
+//************* COMPACTAR  *************//
+
+void modificar_contiguo (t_segmento* hueco);
+void resultado_compactacion();
+void compactar_memoria();
+void pedir_compactacion(int conexion);
+void recibo_respuesta(int una_conexion);
 
 #endif /* MEMORIA_H_ */

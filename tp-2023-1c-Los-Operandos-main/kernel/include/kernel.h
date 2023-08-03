@@ -78,12 +78,14 @@ extern pthread_mutex_t mutex_cola_listos;
 extern pthread_mutex_t mutex_cola_bloqueados;
 extern pthread_mutex_t mutex_pcb_a_ejecutar;
 extern pthread_mutex_t mutex_cambio_estado;
+extern pthread_mutex_t procesosEnSistemaMutex; 
 extern sem_t contador_multiprogramacion;
 extern sem_t sem_nuevos;
 extern sem_t sem_ready;
 
 extern t_dictionary* diccionario_recursos;
 extern t_list* cola_recursos_bloqueados;
+extern t_list* cola_procesos;
 
 //************* ---------------  *************//
 void startUp(void);
@@ -99,6 +101,10 @@ void iniciar_recursos();
 //**************    MEMORIA    **************//
 
 void solicitud_memoria(pid_t pid, t_estado solicitud);
+void crear_segmento(t_instruccion* instruccion, t_pcb* pcb);
+void eliminar_segmento(t_instruccion* instruccion, t_pcb* pcb);
+void recibir_creacion(t_pcb* pcb, t_instruccion* instruccion_pedido);
+void actualizar_tabla(t_paquete* paquete, t_pcb* pcb);
 
 //************* INSTRUCCIONES  *************//
 
@@ -128,7 +134,12 @@ void cola_recursos_bloqueados_sacar(t_pcb* pcb);
 void cola_recursos_bloqueados_agregar(t_pcb* pcb);
 void cambiar_estado(t_pcb* pcb, t_estado nuevo_estado);
 char* pasar_a_string(t_estado estado);
-
+void actualizar_procesos_recibidos() ;
+void actualizar_tabla(t_paquete* paquete, t_pcb* pcb);
+void recibir_creacion(t_pcb* pcb, t_instruccion* instruccion_pedido);
+void eliminar_segmento(t_instruccion* instruccion, t_pcb* pcb);
+void crear_segmento(t_instruccion* instruccion, t_pcb* pcb);
+bool mismo_pcb(t_pcb* pcb);
 
 //*************** LISTAS  ***************//
 void agregar_a_listos(t_pcb* pcb);
@@ -137,6 +148,7 @@ void agregar_a_bloqueados(t_pcb* pcb);
 t_pcb* sacar_de_bloqueados();
 void agregar_a_nuevos(t_pcb* pcb);
 t_pcb* sacar_de_nuevos();
+t_pcb* buscar_pcb(pid_t* pid);
 
 
 #endif /* KERNEL_H_ */

@@ -1,88 +1,110 @@
 #include "memoria.h"
-/*
-void compactar(t_list* tabla_segmentos){
-    //recorro la tabla de segmentos
-    for(int i = 0; i < list_size(tabla_segmentos); i++){
-        t_segmento *segmento = list_get(tabla_segmentos, i);
 
-        //me fijo si ese segmento pertenece a la lista de huecos
-        if(segmento_es_hueco(segmento, lista_huecos)){
-            list_remove(tabla_segmentos, i); //lo remuevo y lo vuelvo a poner al final de la lista
-            list_add(tabla_segmentos, segmento);  
-            modificar_valores_segmento(segmento, tabla_segmentos); //hay que cambiar el valor de la base y limite de todos      
-        }
-
+void compactar_memoria() 
+{
+    list_sort(lista_huecos, base_menor);
+    t_segmento* hueco = list_get(lista_huecos, 0);
+    while(hueco->limite != tamanio_memoria) {
+        modificar_contiguo(hueco);
+        hueco = list_get(lista_huecos, 0);
     }
-    //ahora tengo a todos los huecos al final de la tabla
-    //obtengo la base del primero y en el limite lepongo el limite del ultimo y borro todos los otros
-    unir_todos_los_huecos(tabla_segmentos);
-
+    return;
 }
 
-bool segmento_es_hueco(t_segmento *segmento, t_list* lista_huecos){
-    bool es_hueco = false;
-    for(int i = 0; i < list_size(lista_huecos); i++){
-        t_segmento *segmento_i = list_get(lista_huecos, i);
+void pedir_compactacion(int conexion)
+{
+    t_list* parametros = list_create();
+    t_instruccion* instruccion_compactar = crear_instruccion(COMPACTACION, parametros);
 
-        if(segmento == segmento_i){
-            es_hueco = true;       
-         }
-    }
-
-    return es_hueco;
+    t_buffer* buffer = crear_buffer_para_t_instruccion(instruccion_compactar); 
+    t_paquete* paquete = crear_paquete(buffer, COMPACTACION);
+    enviar_paquete(conexion, paquete, logger);
+    destruir_paquete(paquete);
+    destruir_instruccion(instruccion_compactar);
+    return;
 }
 
-//void modificar_valores_segmento(t_segmento *segmento, t_list* tabla_seg){
-//     for(int i = 0; i < list_size(lista_huecos); i++){
-//        t_segmento *seg1 = list_get(tabla_seg, i);
-//        t_segmento *seg2 = list_get(tabla_seg, i+1);
-//
-//        if(i = 1){
-//            seg1->base = 0;
-//            seg1->limite = seg1->base + seg1->limite;
-//        }
-//        else{
-//            seg2->base = seg1->limite;
-//            seg2->limite = seg2->base + seg2->li;
-//        }
-//     }
-//}
-
-void unir_todos_los_huecos(t_list *tabla_segmentos){
-    //encuentro al primer hueco
-    t_segmento *hueco1 = primer_hueco(tabla_segmentos);
-
-    int pos_primer_hueco;
-    int ultima_posicion = list_size(tabla_segmentos);
-
-    for(int i = 0; i < list_size(tabla_segmentos); i++){
-         t_segmento *segmento = list_get(tabla_segmentos, i);
-
-        if(segmento == hueco1){
-            pos_primer_hueco = i;       
-         }
-
-         if(i > pos_primer_hueco){
-            list_remove(tabla_segmentos, i); //voy removiendo todos los huecos para que solo me quede 1
-         }
-    }
-
-    hueco1->limite = ultima_posicion;
-  
+void recibo_respuesta(int una_conexion)
+{
+    t_paquete* paquete = recibir_paquete(una_conexion, logger);
+    destruir_paquete(paquete);
+    return;
 }
 
-t_segmento* primer_hueco(t_list *tabla_segmentos){
-     t_segmento *hueco;
-    int i = 0;
-    bool es_hueco = false;
-    while(es_hueco == false){
-        t_segmento *segmento = list_get(tabla_segmentos, i);
-        if(segmento_es_hueco(segmento, lista_huecos)){
-            es_hueco = true;
-            hueco = segmento;
+void resultado_compactacion() 
+{
+    log_info(logger, "------------------------------------------");
+    for(int i = 0; i < list_size(procesos_en_memoria); i++) {
+        t_tabla_memoria* proceso = list_get(procesos_en_memoria, i);
+        t_segmento* segmentos = proceso->tabla_segmentos;
+        int indiceTabla = 0;
+        while(indiceTabla < proceso->tam_tabla) {
+            if(segmentos[indiceTabla].id != -1) {  
+                t_segmento segmento = segmentos[indiceTabla];
+                log_info(logger, "PID: %d - Segmento: %d - Base: %u - Tamaño %d", proceso->pid, segmento.id, segmento.base, tamanio_hueco(&segmento));
+            } 
+            indiceTabla++;
         }
     }
-
-    return hueco;
 }
-*/
+
+void modificar_contiguo (t_segmento* hueco) 
+{
+    int indice = 0;
+    t_tabla_memoria* proceso;
+    while(indice < list_size(procesos_en_memoria)) {
+        proceso  = list_get(procesos_en_memoria, indice);
+        t_segmento* segmentos = proceso->tabla_segmentos;
+        int indiceTabla = 0;
+        while(indiceTabla < proceso->tam_tabla){
+            if(segmentos[indiceTabla].id != -1 && segmentos[indiceTabla].base == hueco->limite){  
+                int tam_segmento = segmentos[indiceTabla].limite - segmentos[indiceTabla].base;
+                int anterior_limite = segmentos[indiceTabla].limite;
+                int anterior_base = segmentos[indiceTabla].base;
+                segmentos[indiceTabla].base = hueco->base;
+                segmentos[indiceTabla].limite = segmentos[indiceTabla].base + tam_segmento;
+                void* destino = memoria_fisica + segmentos[indiceTabla].base; //pregunta
+                void* origen  = memoria_fisica + anterior_base;
+                // actualizo segento
+                memmove(destino, origen, tam_segmento); 
+                list_remove_element(lista_huecos, hueco);
+                crear_hueco(anterior_limite, segmentos[indiceTabla].limite);
+                return;
+            }
+            indiceTabla++;
+        }
+        indice++;
+    }
+    return;
+}
+
+void enviar_procesos(int una_conexion)
+{
+    t_buffer *buffer = malloc(sizeof(t_buffer));
+    uint32_t size_total = 0;
+    for (int i = 0; i < list_size(procesos_en_memoria); i++)
+    {
+        t_buffer *buffer_proceso = crear_buffer_tabla_memoria(list_get(procesos_en_memoria, i));
+        size_total += buffer_proceso->size;
+        destruir_buffer(buffer_proceso);
+    }
+
+    // creo el stream y copio los datos de cada buffer
+    void *stream = malloc(size_total);
+    buffer->size = size_total;
+    uint32_t offset = 0;
+    for (int i = 0; i < list_size(procesos_en_memoria); i++)
+    {
+        t_buffer *buffer_proceso = crear_buffer_tabla_memoria(list_get(procesos_en_memoria, i));
+        uint32_t size = buffer_proceso->size;
+        void *stream_proceso = buffer_proceso->stream;
+        memcpy(stream + offset, stream_proceso, size);
+        offset += size;
+        destruir_buffer(buffer_proceso);
+    }
+    buffer->stream = stream;
+    t_paquete* paquete = crear_paquete(buffer, COMPACTACION);
+    enviar_paquete(una_conexion, paquete, logger);
+    destruir_paquete(paquete);
+    return;
+}

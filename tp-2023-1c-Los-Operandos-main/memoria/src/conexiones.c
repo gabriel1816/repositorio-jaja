@@ -30,17 +30,17 @@ void escuchar(int puerto_escucha) {
     pthread_join(thread_filesystem, NULL);
     pthread_join(thread_kernel, NULL);
 
-    return NULL;
+    return;
 }
 
 
 void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int) conexion;
-	log_info(logger, "Se conecto la cpu a la memoria");
-    bool continuar = true;
+	log_info(logger, "Sescuchando a memoria");
+
     t_paquete* paquete;
-    while (continuar)
+    while (1)
     {
         paquete = recibir_paquete(conexion_cpu, logger);
         uint32_t offset = 0;
@@ -97,44 +97,33 @@ void atender_cpu(void* conexion)
 
 void atender_kernel(void* conexion)
 {
-	int conexion_kernel = (int)conexion;
+	conexion_kernel = (int)conexion;
 	log_info(logger, "escuchando a kernel");
 
 	while(1){
+        log_info(logger, "llegue");
 		t_paquete *paquete = recibir_paquete(conexion_kernel, logger); 
 		uint32_t offset = 0;
 		t_instruccion *instruccion =  crear_instruccion_para_el_buffer(paquete->buffer, &offset); 
 		pid_t pid;
+		int id;
+        int tam_segmento;
+        log_info(logger, "instruccion %d", instruccion->identificador);
 		switch(instruccion->identificador){
 			case CREATE_SEGMENT:
-				t_segmento *nuevo_segmento;
-				t_list *huecos_libres;
-				int id_segmento = instruccion->parametros[0];
-				int tamanio_seg = instruccion->parametros[1];
-				int cant_huecos_nec = tamanio_seg / (tamanio_segmento_0);
-				if(hay_espacio(lista_huecos)){
-				//me fijo si hay la cant de hucos disponibles continuos que necesito 
-				if(hay_huecos_continuos(cant_huecos_nec, algoritmo, tamanio_seg, huecos_libres)){
-				for(int i = 0; i < cant_huecos_nec; i++){
-					t_segmento *hueco1 = list_get(huecos_libres, i);
-					nuevo_segmento = crear_segmento(hueco1->base, hueco1->limite, id_segmento, 0, pid);
-				}
-				}
-				else{
-				//le mando a kernel que tengo que compactar
-				//kernel me manda que tengo que comparespuestar
-				//compactar(tablas_segmentos);
-				//le aviso a kernel que ya compacte y le mando como quda la nueva tabla de segmentos
-				//kernel me manda de nuevo la instruccion y ahora si voy a poder crear el segmento
-				}
-		
+				id = strtoul(instruccion->parametros[0], NULL, 10);
+                tam_segmento = strtoul(instruccion->parametros[1], NULL, 10);
+                pid = (pid_t)(uint32_t)strtoul(instruccion->parametros[2], NULL, 10);
+                crear_segmento(pid, id, tam_segmento, conexion_kernel);
 				break;
 			case DELETE_SEGMENT:
-				int id_segment =(int)strtoul(instruccion->parametros[0], NULL, 10);
+				id  = strtoul(instruccion->parametros[0], NULL, 10);
                 pid = (pid_t)(uint32_t)strtoul(instruccion->parametros[1], NULL, 10);
-                borrar_segmento(pid, id_segment, conexion_kernel);
+                borrar_segmento(pid, id, conexion_kernel);
+                break;
 			break;
 			case CREAR_PROCESO:
+                log_info(logger, "habemus proceso");
 				pid = (pid_t)atoi(instruccion->parametros[0]);
 				crear_proceso_memoria(pid, conexion);
 			break;
@@ -146,132 +135,85 @@ void atender_kernel(void* conexion)
 				return;
 			break;
 		}
-
-	}
-
-	
-	}
+	 	destruir_paquete(paquete);
+        destruir_instruccion(instruccion);
+    }
+    log_info(logger, "cierro conexion con kernel");
+    
 	close(conexion_kernel);
 }
+	
+
 
 void atender_fs(void* conexion)
 {
 	int conexion_fs = (int)conexion;
-	log_info(logger, "escuchando al filesystem");
+	log_info(logger, "escuchando a filesystem");
 	t_pcb* pcb = recibir_pcb(conexion_fs, logger);
 	//recibo algo
 	t_paquete *paquete = recibir_paquete(conexion_fs, logger); 
-	t_instruccion *instruccion =  crear_instruccion_para_el_buffer(paquete->buffer, 0); //la cpu le manda las instrucciones que tienen que ver con memoria
-	log_info(logger, "recibi algo");
+	while(1)
+    {
+        paquete = recibir_paquete(conexion_fs, logger);
+        t_fs_pedido* fs_pedido = crear_pedido_para_buffer_fs(paquete->buffer);
+        pid_t pid = fs_pedido->pid;
+        int32_t direccion_fisica = fs_pedido->direccion_fisica;
+        t_paquete* paquete_rta;
+        uint32_t lectura;
+        t_instruccion* instr_respuesta;
+        t_list* parametros = list_create();
+        t_buffer* buffer;
+    
+        switch (fs_pedido->instruccion->identificador) {
+            case F_READ: 
+                char* archivo = malloc(sizeof(fs_pedido->instruccion->parametros[0])); 
+                archivo = fs_pedido->instruccion->parametros[0];          
+                lectura = sizeof(char)*strlen(archivo);
+                memcpy((memoria_fisica+direccion_fisica), archivo, lectura); 
+                //pasarle el valor
+                instr_respuesta = crear_instruccion(F_READ, parametros);
+                buffer = crear_buffer_para_t_instruccion(instr_respuesta);
+                paquete_rta = crear_paquete(buffer, F_READ_OK);
+                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
+                archivo = ""; // inicializo para proxima
+                break;
+            case F_WRITE: 
+                lectura = (uint32_t)strtoul(fs_pedido->instruccion->parametros[2], NULL, 10);
+                char* escritura = malloc(lectura);
+                void* inicio_escritura = memoria_fisica + direccion_fisica;
+                memcpy(escritura, inicio_escritura, sizeof(char)*lectura); 
+                list_add(parametros, escritura);
+                instr_respuesta = crear_instruccion(F_WRITE, parametros);
+                buffer = crear_buffer_para_t_instruccion(instr_respuesta);
+                paquete_rta = crear_paquete(buffer, CODIGO_INSTRUCCION_MEMORIA);
+                log_info(logger, "PID: %u - Acción: LEER - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
+                break;
+            default:
+                log_info(logger, "Mensaje no reconocido");
+                break;
+        }
+        
+        usleep(retardo_memoria*1000);
+        enviar_paquete(conexion_fs, paquete_rta, logger);
+	    destruir_paquete(paquete_rta);
+        destruir_paquete(paquete);
+    }
 
-	// uso ese algo y lo destruyo 
-	close(conexion_fs);
+    log_info(logger, "Cierro conexion con fs");
+    close(conexion_fs);   
+    } 
 
-}
-
-
-
-
-bool hay_espacio(t_list *segmentos_vacios)
+bool hay_espacio_libre(t_list *segmentos_vacios)
 {
-	int espacio_total;
+	int espacio_total = 0;
 	for(int i = 0; i < list_size(segmentos_vacios); i++){
 		t_segmento *segmento = list_get(segmentos_vacios, i);
 		espacio_total += obtener_tam_segmento(segmento);
 	}
+	return espacio_total > 0;
 }
 
 int obtener_tam_segmento(t_segmento *segmento)
 {
 	return segmento->limite - segmento->base;
 }
-
-bool hay_huecos_continuos(int cant_huecos_libres, t_algoritmo algoritmo_asignacion, int tamanio, t_list *huecos_disponibles){
-	//me fijo si hay x cant de huecos libres e
-	bool hay_huecos_disp = true;
-
-	if(algoritmo_asignacion == FIRST_FIT){
-		for(int i = 0; i < cant_huecos_libres; i++){
-			list_add(huecos_disponibles, first_fit()); //me da x cant de huecos disp
-		}
-	}
-	if(algoritmo_asignacion == BEST_FIT){
-		for(int i = 0; i < cant_huecos_libres; i++){
-			list_add(huecos_disponibles, best_fit(tamanio)); //me da x cant de huecos disp
-		}
-	}
-	if(algoritmo_asignacion == WORST_FIT){
-		for(int i = 0; i < cant_huecos_libres; i++){
-			list_add(huecos_disponibles, worst_fit(tamanio)); //me da x cant de huecos disp
-		}
-	}
-
-//ahora me fijo si son continuos esos huecos
-	for(int i = 0; i < list_size(huecos_disponibles); i++){
-	 t_segmento *hueco1 = list_get(huecos_disponibles, i);
-	 t_segmento *hueco2 = list_get(huecos_disponibles, i+1);
-	 
-	 int limite_hueco1 = hueco1->limite;
-	 int base_hueco2 = hueco2->limite;
-
-	 if(base_hueco2 - limite_hueco1 == 1){
-		//son continuas
-	 }
-	 else{
-		hay_huecos_disp = false;
-	 }
-	
-	}
-
-	return hay_huecos_disp;
-}
-
-
-t_segmento* first_fit()
-{ //me devuelven el numero del hueco
-	//busca el primer hueco disponible
-	t_segmento *hueco_libre = list_get(lista_huecos, 0);
-
-	return hueco_libre;
-}
-
-t_segmento* best_fit(int tamanio_necesitado)
-{
-	//buca el hueco mas chico en el que entre el segmento
-	t_segmento *hueco;
-	for(int i = 0; i < list_size(lista_huecos); i++){
-		
-		t_segmento *hueco_libre = list_get(lista_huecos, i);
-		int tam_hueco = hueco_libre->limite - hueco_libre->base;
-	
-		int min = 100;
-		if(tamanio_necesitado <= tam_hueco && tam_hueco <= min){
-			hueco = list_get(lista_huecos, i);
-			min = tam_hueco;
-		}
-	}
-
-	return hueco;
-}
-
-t_segmento* worst_fit(int tamanio_necesitado)
-{
-	//busca el hueco mas grande en el que entre 
-	t_segmento *hueco;
-	for(int i = 0; i < list_size(lista_huecos); i++){
-		
-		t_segmento *hueco_libre = list_get(lista_huecos, i);
-		int tam_hueco = hueco_libre->limite - hueco_libre->base;
-	
-		int max = 0;
-		if(tamanio_necesitado <= tam_hueco && tam_hueco >= max){
-			hueco = list_get(lista_huecos, i);
-			max = tam_hueco;
-		}
-	}
-	return hueco;
-}
-
-
-
-

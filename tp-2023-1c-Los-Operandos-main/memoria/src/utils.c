@@ -16,31 +16,21 @@ void levantar_config(char* path)
 void inicializarMemoria() 
 {
     memoria_fisica = calloc(tamanio_memoria, sizeof(uint32_t)); 
-    //procesosEnMemoria = list_create();
-    lista_huecos = list_create();
+    // inicializo seg_cero...
     segmento_cero.id = 0;
     segmento_cero.base = 0;
     segmento_cero.limite = tamanio_segmento_0;
-    inicializar_lista_huecos(tablas_segmentos);
+    //inicializo listas... 
+    lista_huecos = list_create();
+    procesos_en_memoria = list_create();
+    tablas_segmentos = list_create();
+    //inicializar_lista_huecos(tablas_segmentos);
+    //inicializo seg_vacio...
     segmento_vacio.id = -1;
     segmento_vacio.base = 0;
     segmento_vacio.limite = 0;
-
+    algoritmo = asignar_algoritmo();
 }
-
-//void crear_estructuras()
-//{
-//    memoria_libre = atoi(tamanio_memoria);
-//    tablas_segmentos = list_create();
-//    lista_huecos = list_create();
-//    algoritmo = asignar_algoritmo();
-//
-//    
-//    //creo el bit array que me dice que segmento esta ocupado y cual no(no se si va aca esto)
-//    char* bloque_memoria = (char *) atoi(tamanio_memoria);
-//    t_bitarray *bitmap_memoria = bitarray_create(bloque_memoria, atoi(tamanio_memoria)); //supongo que cuando lo creo empieza con todos ceros
-//   
-//}
 
 
 int asignar_espacio_en_memoria()
@@ -51,26 +41,26 @@ int asignar_espacio_en_memoria()
 t_algoritmo asignar_algoritmo()
 {
     if(string_equals_ignore_case(algoritmo_asignacion, "FIRST")){
-        return FIRST_FIT;
+        return FIRST;
     }
     if(string_equals_ignore_case(algoritmo_asignacion, "WORST")){
-        return WORST_FIT;
+        return WORST;
     }
     if(string_equals_ignore_case(algoritmo_asignacion, "BEST")){
-        return BEST_FIT;
+        return BEST;
     }
     log_error(logger, "Algoritmo invalido");
     return;
 }
-
+/*
 void inicializar_lista_huecos(t_list* tablas_segmentos){
     for(int i = 0; i < list_size(tablas_segmentos); i++){
         // agrego segmentos libres
         t_segmento *segmento = list_get(tablas_segmentos, i);
 
-        if(segmento){ /////////!!!!!!!!!!!!!!!!!!
+        if(segmento){
             list_add(lista_huecos, segmento);  
         }
 
     }
-}
+}*/

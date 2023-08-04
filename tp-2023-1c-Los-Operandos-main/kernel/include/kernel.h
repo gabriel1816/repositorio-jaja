@@ -42,17 +42,18 @@ typedef struct
 
 } t_kernel_config;
 
+typedef struct {
+    t_recurso *archivo;
+    char* nombre_archivo;
+    int puntero;
+} archivo_abierto;
+
 extern t_kernel_config kernel_config;
 
 extern pthread_t threadCPU;
 extern pthread_t threadMemoria;
 extern pthread_t threadFileSystem; 
 
-typedef enum
-{
-	FIFO = 0,
-	HRRN = 1
-}sortingAlgorithm;
 
 //************* VARIABLES  *************//
 //************* GLOBALES   *************//
@@ -79,13 +80,17 @@ extern pthread_mutex_t mutex_cola_bloqueados;
 extern pthread_mutex_t mutex_pcb_a_ejecutar;
 extern pthread_mutex_t mutex_cambio_estado;
 extern pthread_mutex_t procesosEnSistemaMutex; 
+extern pthread_mutex_t procesosBloqueadosFileSystemMutex;
 extern sem_t contador_multiprogramacion;
 extern sem_t sem_nuevos;
 extern sem_t sem_ready;
 
 extern t_dictionary* diccionario_recursos;
+extern t_dictionary* diccionario_archivos;
+extern t_list* tabla_global_archivos;
 extern t_list* cola_recursos_bloqueados;
 extern t_list* cola_procesos;
+extern t_list* cola_bloqueados_archivos;
 
 //************* ---------------  *************//
 void startUp(void);
@@ -160,5 +165,29 @@ void solicitar_creacion(t_instruccion* instruccion);
 void solicitar_truncamiento(t_pcb* pcb);
 void leer(t_pcb* pcb);
 void escribir(t_pcb* pcb);
+
+
+//*************** TABLA ARCHIVOS  ***************//
+
+void agregar_a_tabla_global(char* NombreArchivo);
+void agregar_a_tabla_proceso(t_pcb* pcb, char* Nombrearchivo);
+bool esta_en_tabla(char* Nombrearchivo);
+void sacar_de_tabla_proceso(t_pcb* pcb, char* archivo);
+void sacar_de_tabla_global(t_pcb* pcb_actualizado, char* archivo);
+void eliminar_archivo_por_nombre(t_list* lista, char* nombre);
+void actualizar_puntero_tabla_global(char* nombre_archivo, char* puntero);
+void desbloquear_proceso(t_pcb* pcb, char* key_archivo); 
+bool hay_procesos_en_espera(t_pcb* pcb, char* key_archivo);
+void atender_signal_archivo(t_pcb* pcb, char* key_archivo);
+void atender_wait_archivo(t_pcb* pcb, char* key_archivo);
+void agregar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb); 
+void sacar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb);
+t_recurso* crear_recurso(int instancias);
+
+
+
+
+
+
 
 #endif /* KERNEL_H_ */

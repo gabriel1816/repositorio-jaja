@@ -27,6 +27,7 @@ void iniciar_colas(){
     cola_running = list_create();
     cola_blocked = list_create();
 	cola_procesos = list_create();
+	cola_bloqueados_archivos = list_create();
 }
 
 
@@ -38,6 +39,8 @@ void iniciar_semaforos(){
 	pthread_mutex_init(&mutex_pcb_a_ejecutar, NULL);
 	pthread_mutex_init(&mutex_cambio_estado, NULL);
 	pthread_mutex_init(&procesosEnSistemaMutex, NULL);
+	pthread_mutex_init(&procesosBloqueadosFileSystemMutex, NULL);
+	
 	
 
 	sem_init(&sem_nuevos, 0, 0);

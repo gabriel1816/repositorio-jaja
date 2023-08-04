@@ -852,3 +852,24 @@
 [INFO] 08:39:38:073 LOGGER FILESYSTEM/(66395:66395): Servidor listo para recibir al cliente
 [INFO] 08:40:11:837 LOGGER FILESYSTEM/(66395:66451): Abrir Archivo: MORIS
 [INFO] 08:40:56:320 LOGGER FILESYSTEM/(66395:66451): Truncar Archivo: MORIS - Tamaño: 128
+[INFO] 15:50:33:607 LOGGER FILESYSTEM/(11356:11356): Se levantaron correctamente las estructuras
+[INFO] 15:50:33:613 LOGGER FILESYSTEM/(11356:11356): conecte con memoria
+[INFO] 15:50:33:613 LOGGER FILESYSTEM/(11356:11356): Servidor listo para recibir al cliente
+[INFO] 15:57:55:880 LOGGER FILESYSTEM/(12747:12747): Se levantaron correctamente las estructuras
+[INFO] 15:57:55:882 LOGGER FILESYSTEM/(12747:12747): conecte con memoria
+[INFO] 15:57:55:883 LOGGER FILESYSTEM/(12747:12747): Servidor listo para recibir al cliente
+[INFO] 16:00:25:668 LOGGER FILESYSTEM/(13392:13392): Se levantaron correctamente las estructuras
+[INFO] 16:00:25:677 LOGGER FILESYSTEM/(13392:13392): conecte con memoria
+[INFO] 16:00:25:678 LOGGER FILESYSTEM/(13392:13392): Servidor listo para recibir al cliente
+[INFO] 16:16:30:418 LOGGER FILESYSTEM/(2988:2988): Se levantaron correctamente las estructuras
+[INFO] 16:16:30:435 LOGGER FILESYSTEM/(2988:2988): conecte con memoria
+[INFO] 16:16:30:435 LOGGER FILESYSTEM/(2988:2988): Servidor listo para recibir al cliente
+[INFO] 16:54:59:601 LOGGER FILESYSTEM/(4831:4831): Se levantaron correctamente las estructuras
+[INFO] 16:54:59:604 LOGGER FILESYSTEM/(4831:4831): conecte con memoria
+[INFO] 16:54:59:605 LOGGER FILESYSTEM/(4831:4831): Servidor listo para recibir al cliente
+[INFO] 17:02:16:911 LOGGER FILESYSTEM/(6774:6774): Se levantaron correctamente las estructuras
+[INFO] 17:02:16:914 LOGGER FILESYSTEM/(6774:6774): conecte con memoria
+[INFO] 17:02:16:915 LOGGER FILESYSTEM/(6774:6774): Servidor listo para recibir al cliente
+[INFO] 17:13:12:391 LOGGER FILESYSTEM/(9192:9192): Se levantaron correctamente las estructuras
+[INFO] 17:13:12:395 LOGGER FILESYSTEM/(9192:9192): conecte con memoria
+[INFO] 17:13:12:397 LOGGER FILESYSTEM/(9192:9192): Servidor listo para recibir al cliente

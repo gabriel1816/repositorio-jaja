@@ -44,10 +44,10 @@ t_segmento buscar_hueco(int tam_segmento)
 
 void inicializar_lista_huecos()
 {
-    t_segmento* huecoLibre = malloc(sizeof(t_segmento));
-    huecoLibre->base = segmento_cero.limite;
-    huecoLibre->limite = tamanio_memoria;
-    list_add(lista_huecos, huecoLibre);
+    t_segmento* hueco = malloc(sizeof(t_segmento));
+    hueco->base = segmento_cero.limite;
+    hueco->limite = tamanio_memoria;
+    list_add(lista_huecos, hueco);
 }
 
 t_segmento modificar_lista_huecos(t_segmento* hueco, int tam_segmento, int index) 

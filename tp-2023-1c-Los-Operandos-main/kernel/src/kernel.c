@@ -30,6 +30,10 @@ sem_t sem_ready;
 
 t_pcb* pcb_a_ejecutar;
 t_list* cola_procesos; 
+t_dictionary* diccionario_archivos;
+t_list* tabla_global_archivos;
+pthread_mutex_t procesosBloqueadosFileSystemMutex;
+t_list* cola_bloqueados_archivos;
 
 
 int main(void) {

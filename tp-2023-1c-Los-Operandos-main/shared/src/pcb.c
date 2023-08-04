@@ -1,6 +1,6 @@
 #include "utils-shared.h"
 
-int size_registros = sizeof(char[4]) * 4 + sizeof(char[8])* 4 + sizeof(char[16]) * 4; 
+int size_registros = sizeof(char[5]) * 4 + sizeof(char[9])* 4 + sizeof(char[17]) * 4; 
 
 void enviar_pcb(t_pcb* pcb, int socket, t_log* logger){
 	t_buffer* buffer = crear_buffer_pcb(pcb, logger);
@@ -55,13 +55,15 @@ t_buffer *crear_buffer_pcb(t_pcb *pcb, t_log *logger)
 	t_buffer* buffer = crear_buffer();
 	t_buffer* buffer_instrucciones = crear_buffer__para_t_lista_instrucciones(pcb->instrucciones);
 
-	uint32_t size_total = sizeof(uint32_t)*3    // direc_fisica y tamanio tabla
+	uint32_t size_total = sizeof(uint32_t)    // tamanio tabla
 						+ sizeof(int)*2         // conexion, p_counter
 						+ sizeof(pid_t)  		// pid
-						//+ sizeof(int32_t)*2   // 
+						+ sizeof(int32_t)   // direcfisica
 						+ size_registros		//
 						+ sizeof(int64_t)		// tiempo ejecucion
-						+ (sizeof(int32_t) + sizeof(uint32_t) * 2) * pcb->tamanio_tabla  
+						+ (sizeof(int)*3) * pcb->tamanio_tabla
+						+ sizeof(t_estado)
+
 						// (id + base + segmento) * cuan grande es la tabla 
 						// ^^^^ esta bien ?? ^^^^
 						+ buffer_instrucciones->size; 
@@ -78,8 +80,8 @@ t_buffer *crear_buffer_pcb(t_pcb *pcb, t_log *logger)
 	offset += sizeof(pid_t);
 	memcpy(stream + offset, &pcb->p_counter, sizeof(int));
 	offset += sizeof(int);
-	memcpy(stream + offset, &pcb->estado, sizeof(uint32_t));
-	offset += sizeof(uint32_t);
+	memcpy(stream + offset, &pcb->estado, sizeof(t_estado));
+	offset += sizeof(t_estado);
 	memcpy(stream + offset, &pcb->direccion_fisica, sizeof(int32_t));
 	offset += sizeof(int32_t);
 	memcpy(stream + offset, &pcb->tiempo_ejecucion, sizeof(int64_t));
@@ -132,9 +134,9 @@ t_pcb* deserializar_buffer_pcb(t_buffer* buffer, t_log* logger)
     memcpy(&(pcb->p_counter), stream, sizeof(int));
 	stream += sizeof(int);
 	size_restante -= sizeof(int);
-    memcpy(&(pcb->estado), stream, sizeof(uint32_t));
-	stream += sizeof(uint32_t);
-	size_restante -= sizeof(uint32_t);
+    memcpy(&(pcb->estado), stream, sizeof(t_estado));
+	stream += sizeof(t_estado);
+	size_restante -= sizeof(t_estado);
 	memcpy(&(pcb->direccion_fisica), stream, sizeof(int32_t));
 	stream += sizeof(int32_t);
 	size_restante -= sizeof(int32_t);

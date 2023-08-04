@@ -47,23 +47,25 @@ void levantar_superbloque() {
 	config_destroy(superbloque_config); 
 }
 void levantar_bitmap() {
-	int tamano_bitmap = ceil(superbloque->cantidad_bloques / 8); 
+    // calculo tamanio -->        cant_bloques           / 1byte
+	int bit_map_tam = ceil(superbloque->cantidad_bloques / 8); 
 
-    int archivo_bitmap = open(path_bitmap, O_CREAT | O_RDWR, 0644);
-    ftruncate(archivo_bitmap, sizeof(t_superbloque) + tamano_bitmap);
+    //                                          permisos
+    int bitmap = open(path_bitmap, O_CREAT | O_RDWR, 0644);
+    ftruncate(bitmap, sizeof(t_superbloque) + bit_map_tam);
 
-    void *mmapBitmap = mmap(NULL, sizeof(t_superbloque) + tamano_bitmap, PROT_READ | PROT_WRITE, MAP_SHARED, archivo_bitmap, 0);
-    bitmap = bitarray_create_with_mode(mmapBitmap + sizeof(t_superbloque), tamano_bitmap, LSB_FIRST);
+    void *mmap_bitmap = mmap(NULL, sizeof(t_superbloque) + bit_map_tam, PROT_READ | PROT_WRITE, MAP_SHARED, bitmap, 0);
+    bitmap = bitarray_create_with_mode(mmap_bitmap + sizeof(t_superbloque), bit_map_tam, LSB_FIRST);
 
-    if (lseek(archivo_bitmap, 0, SEEK_END) == 0) { 
+    if (lseek(bitmap, 0, SEEK_END) == 0) { 
         for(int i = 0; i < bitarray_get_max_bit(bitmap); i++) {
             bitarray_clean_bit(bitmap, i); 
         }
     }
 
-    msync(mmapBitmap, sizeof(t_superbloque) + tamano_bitmap, MS_SYNC);
+    msync(mmap_bitmap, sizeof(t_superbloque) + bit_map_tam, MS_SYNC);
 
-    close(archivo_bitmap);
+    close(bitmap);
 
 }
 
@@ -78,12 +80,12 @@ void levantar_bloques() {
 void levantar_fcbs() {
 
 	lista_fcbs = list_create();
-    DIR *dir = opendir(path_fcb);
+    DIR *directorio = opendir(path_fcb);
     struct dirent *ent;
 
-    if (dir != NULL)
+    if (directorio != NULL)
     {
-        while ((ent = readdir(dir)) != NULL)
+        while ((ent = readdir(directorio)) != NULL)
         {
             if (ent->d_type == DT_REG)
             { 
@@ -91,14 +93,14 @@ void levantar_fcbs() {
                 sprintf(ruta_completa, "%s/%s", path_fcb, ent->d_name);
                 t_config *fcb_config = config_create(ruta_completa);
                 t_fcb *fcb = malloc(sizeof(t_fcb));
-                fcb->nombre_archivo = config_get_string_value(fcb_config, "NOMBRE_ARCHIVO");
+                fcb->archivo = config_get_string_value(fcb_config, "NOMBRE_ARCHIVO");
                 fcb->tam_archivo = config_get_int_value(fcb_config, "TAMANIO_ARCHIVO");
                 fcb->puntero_directo = config_get_int_value(fcb_config, "PUNTERO_DIRECTO");
                 fcb->puntero_indirecto = config_get_int_value(fcb_config, "PUNTERO_INDIRECTO");
                 list_add(lista_fcbs, fcb);
             }
         }
-        closedir(dir);
+        closedir(directorio);
     }
     return lista_fcbs;
 

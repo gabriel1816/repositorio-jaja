@@ -7,6 +7,7 @@ t_list* cola_recursos_bloqueados;
 void iniciar_recursos()
 {
     diccionario_recursos = dictionary_create();
+    diccionario_archivos = dictionary_create();
     for(int i=0; i < string_array_size(kernel_config.recursos); i++){
 
         t_recurso* recurso = malloc(sizeof(t_recurso));
@@ -34,6 +35,7 @@ void ejecutar_signal(t_pcb* pcb, t_instruccion* instruccion)
         cola_recursos_bloqueados_sacar(pcb);
         agregar_a_listos(pcb);
     }
+    log_info(logger, "PID: %d- Signal: %s- Instancias: %d", pcb->pid, instruccion->parametros[0],recurso->instancias);
     ejecutar(pcb);
 
 }

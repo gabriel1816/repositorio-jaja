@@ -48,21 +48,6 @@ void atender_kernel(void* socket_kernel)
 	close(socket_kernel);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 char pedir_a_memoria(t_instruccion* instruccion, int conexionConMemoria){
 	t_buffer *buffer = malloc(sizeof(t_buffer));
 	buffer = crear_buffer_para_t_instruccion(instruccion);

@@ -8375,3 +8375,582 @@
 [INFO] 08:40:00:368 LOGGER CPU/(66282:66596): PID: 1 - ejecutando F_TRUNCATE - MORIS 128
 [INFO] 08:40:00:369 LOGGER CPU/(66282:66596): Actualización del Program Counter
 [INFO] 08:40:00:369 LOGGER CPU/(66282:66596): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:47:00:574 LOGGER CPU/(10539:10539): conecte con memoria
+[DEBUG] 15:47:00:585 LOGGER CPU/(10539:10539): Escuchando kernel
+[INFO] 15:50:36:602 LOGGER CPU/(11384:11384): conecte con memoria
+[DEBUG] 15:50:36:609 LOGGER CPU/(11384:11384): Escuchando kernel
+[INFO] 15:51:49:555 LOGGER CPU/(11384:11762): escuchando al kernel
+[INFO] 15:51:49:562 LOGGER CPU/(11384:11762): recibi pcb
+[INFO] 15:51:49:562 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:49:562 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 15:51:50:564 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:50:566 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:50:566 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 15:51:51:575 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:51:575 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:51:575 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 15:51:52:588 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:52:589 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:52:589 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 15:51:53:590 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:53:591 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:53:591 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 15:51:54:592 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:54:592 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:54:592 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 15:51:55:592 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:55:592 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:55:592 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 15:51:56:598 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:56:598 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:56:598 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 15:51:57:598 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:57:598 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:57:598 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 15:51:58:604 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:58:650 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:58:652 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 15:51:59:653 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:51:59:654 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:51:59:654 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 15:52:00:655 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:52:00:656 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:52:00:664 LOGGER CPU/(11384:11762): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 15:52:01:708 LOGGER CPU/(11384:11762): Actualización del Program Counter
+[INFO] 15:52:01:710 LOGGER CPU/(11384:11762): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:52:01:712 LOGGER CPU/(11384:11762): PID: 1 - ejecutando YIELD
+[INFO] 15:52:01:717 LOGGER CPU/(11384:11995): escuchando al kernel
+[INFO] 15:52:01:721 LOGGER CPU/(11384:11995): recibi pcb
+[INFO] 15:52:01:722 LOGGER CPU/(11384:11995): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:52:01:723 LOGGER CPU/(11384:11995): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 15:52:02:730 LOGGER CPU/(11384:11995): Actualización del Program Counter
+[INFO] 15:52:02:731 LOGGER CPU/(11384:11995): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:52:02:731 LOGGER CPU/(11384:11995): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 15:52:03:733 LOGGER CPU/(11384:11995): Actualización del Program Counter
+[INFO] 15:52:03:741 LOGGER CPU/(11384:11995): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:52:03:741 LOGGER CPU/(11384:11995): PID: 2 - ejecutando YIELD
+[INFO] 15:52:03:764 LOGGER CPU/(11384:12011): escuchando al kernel
+[INFO] 15:52:03:770 LOGGER CPU/(11384:12011): recibi pcb
+[INFO] 15:52:03:770 LOGGER CPU/(11384:12011): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:52:03:770 LOGGER CPU/(11384:12011): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 15:52:04:775 LOGGER CPU/(11384:12011): Actualización del Program Counter
+[INFO] 15:52:04:779 LOGGER CPU/(11384:12011): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:52:04:779 LOGGER CPU/(11384:12011): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 15:52:05:786 LOGGER CPU/(11384:12011): Actualización del Program Counter
+[INFO] 15:52:05:788 LOGGER CPU/(11384:12011): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:00:299 LOGGER CPU/(12785:12785): conecte con memoria
+[DEBUG] 15:58:00:306 LOGGER CPU/(12785:12785): Escuchando kernel
+[INFO] 15:58:20:796 LOGGER CPU/(12785:12957): escuchando al kernel
+[INFO] 15:58:20:813 LOGGER CPU/(12785:12957): recibi pcb
+[INFO] 15:58:20:813 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:20:833 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 15:58:21:839 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:21:840 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:21:840 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 15:58:22:841 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:22:842 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:22:842 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 15:58:23:843 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:23:845 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:23:845 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 15:58:24:845 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:24:847 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:24:847 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 15:58:25:850 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:25:851 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:25:852 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 15:58:26:853 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:26:857 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:26:857 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 15:58:27:857 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:27:859 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:27:864 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 15:58:28:872 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:28:873 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:28:873 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 15:58:29:884 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:29:891 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:29:892 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 15:58:30:896 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:30:905 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:30:905 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 15:58:31:917 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:31:917 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:31:917 LOGGER CPU/(12785:12957): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 15:58:32:923 LOGGER CPU/(12785:12957): Actualización del Program Counter
+[INFO] 15:58:32:924 LOGGER CPU/(12785:12957): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:32:924 LOGGER CPU/(12785:12957): PID: 1 - ejecutando YIELD
+[INFO] 15:58:32:947 LOGGER CPU/(12785:13117): escuchando al kernel
+[INFO] 15:58:32:947 LOGGER CPU/(12785:13117): recibi pcb
+[INFO] 15:58:32:948 LOGGER CPU/(12785:13117): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:58:32:948 LOGGER CPU/(12785:13117): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 15:58:33:953 LOGGER CPU/(12785:13117): Actualización del Program Counter
+[INFO] 15:58:33:954 LOGGER CPU/(12785:13117): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:58:33:956 LOGGER CPU/(12785:13117): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 15:58:34:957 LOGGER CPU/(12785:13117): Actualización del Program Counter
+[INFO] 15:58:34:959 LOGGER CPU/(12785:13117): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 15:58:34:959 LOGGER CPU/(12785:13117): PID: 2 - ejecutando YIELD
+[INFO] 15:58:34:962 LOGGER CPU/(12785:13139): escuchando al kernel
+[INFO] 15:58:34:967 LOGGER CPU/(12785:13139): recibi pcb
+[INFO] 15:58:34:981 LOGGER CPU/(12785:13139): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:34:982 LOGGER CPU/(12785:13139): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 15:58:35:984 LOGGER CPU/(12785:13139): Actualización del Program Counter
+[INFO] 15:58:35:986 LOGGER CPU/(12785:13139): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 15:58:35:987 LOGGER CPU/(12785:13139): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 15:58:36:987 LOGGER CPU/(12785:13139): Actualización del Program Counter
+[INFO] 15:58:36:989 LOGGER CPU/(12785:13139): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:29:797 LOGGER CPU/(13430:13430): conecte con memoria
+[DEBUG] 16:00:29:813 LOGGER CPU/(13430:13430): Escuchando kernel
+[INFO] 16:00:50:751 LOGGER CPU/(13430:13630): escuchando al kernel
+[INFO] 16:00:50:752 LOGGER CPU/(13430:13630): recibi pcb
+[INFO] 16:00:50:768 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:50:769 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 16:00:51:770 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:51:771 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:51:771 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 16:00:52:777 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:52:804 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:52:804 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 16:00:53:815 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:53:816 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:53:817 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 16:00:54:820 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:54:822 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:54:822 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 16:00:55:827 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:55:831 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:55:831 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 16:00:56:834 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:56:835 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:56:837 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 16:00:57:841 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:57:858 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:57:858 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 16:00:58:858 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:58:859 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:58:859 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 16:00:59:863 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:00:59:866 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:00:59:866 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 16:01:00:866 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:01:00:866 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:01:00:866 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 16:01:01:867 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:01:01:870 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:01:01:870 LOGGER CPU/(13430:13630): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 16:01:02:871 LOGGER CPU/(13430:13630): Actualización del Program Counter
+[INFO] 16:01:02:871 LOGGER CPU/(13430:13630): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:01:02:871 LOGGER CPU/(13430:13630): PID: 1 - ejecutando YIELD
+[INFO] 16:01:02:881 LOGGER CPU/(13430:13813): escuchando al kernel
+[INFO] 16:01:02:883 LOGGER CPU/(13430:13813): recibi pcb
+[INFO] 16:01:02:886 LOGGER CPU/(13430:13813): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:01:02:889 LOGGER CPU/(13430:13813): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 16:01:03:898 LOGGER CPU/(13430:13813): Actualización del Program Counter
+[INFO] 16:01:03:898 LOGGER CPU/(13430:13813): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:01:03:898 LOGGER CPU/(13430:13813): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 16:01:04:898 LOGGER CPU/(13430:13813): Actualización del Program Counter
+[INFO] 16:01:04:898 LOGGER CPU/(13430:13813): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:01:04:898 LOGGER CPU/(13430:13813): PID: 2 - ejecutando YIELD
+[INFO] 16:01:04:902 LOGGER CPU/(13430:13824): escuchando al kernel
+[INFO] 16:01:04:909 LOGGER CPU/(13430:13824): recibi pcb
+[INFO] 16:01:04:910 LOGGER CPU/(13430:13824): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:01:04:923 LOGGER CPU/(13430:13824): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 16:01:05:937 LOGGER CPU/(13430:13824): Actualización del Program Counter
+[INFO] 16:01:05:941 LOGGER CPU/(13430:13824): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:01:05:943 LOGGER CPU/(13430:13824): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 16:01:06:945 LOGGER CPU/(13430:13824): Actualización del Program Counter
+[INFO] 16:01:06:954 LOGGER CPU/(13430:13824): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:17:03:249 LOGGER CPU/(3120:3120): conecte con memoria
+[DEBUG] 16:17:03:264 LOGGER CPU/(3120:3120): Escuchando kernel
+[INFO] 16:18:33:849 LOGGER CPU/(3120:3442): escuchando al kernel
+[INFO] 16:18:33:887 LOGGER CPU/(3120:3442): recibi pcb
+[INFO] 16:18:33:887 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:18:47:688 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 16:18:52:405 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:18:53:496 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:18:59:022 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 16:19:04:366 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:06:236 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:12:080 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 16:19:16:637 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:24:389 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:26:370 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 16:19:27:371 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:29:039 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:30:763 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 16:19:31:766 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:33:800 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:36:060 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 16:19:37:061 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:39:376 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:40:808 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 16:19:41:809 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:19:43:660 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:19:45:566 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 16:19:46:571 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:20:13:530 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:15:580 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 16:20:16:582 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:20:19:188 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:20:589 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 16:20:21:591 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:20:22:844 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:24:818 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 16:20:25:818 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:20:27:271 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:28:914 LOGGER CPU/(3120:3442): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 16:20:29:914 LOGGER CPU/(3120:3442): Actualización del Program Counter
+[INFO] 16:20:32:571 LOGGER CPU/(3120:3442): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:34:274 LOGGER CPU/(3120:3442): PID: 1 - ejecutando YIELD
+[INFO] 16:20:34:311 LOGGER CPU/(3120:3987): escuchando al kernel
+[INFO] 16:20:34:313 LOGGER CPU/(3120:3987): recibi pcb
+[INFO] 16:20:34:314 LOGGER CPU/(3120:3987): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:20:38:614 LOGGER CPU/(3120:3987): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 16:20:39:619 LOGGER CPU/(3120:3987): Actualización del Program Counter
+[INFO] 16:20:40:903 LOGGER CPU/(3120:3987): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:20:42:429 LOGGER CPU/(3120:3987): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 16:20:43:431 LOGGER CPU/(3120:3987): Actualización del Program Counter
+[INFO] 16:20:45:341 LOGGER CPU/(3120:3987): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:20:47:314 LOGGER CPU/(3120:3987): PID: 2 - ejecutando YIELD
+[INFO] 16:20:47:321 LOGGER CPU/(3120:4067): escuchando al kernel
+[INFO] 16:20:47:328 LOGGER CPU/(3120:4067): recibi pcb
+[INFO] 16:20:47:330 LOGGER CPU/(3120:4067): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:20:56:009 LOGGER CPU/(3120:4067): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 16:21:01:527 LOGGER CPU/(3120:4067): Actualización del Program Counter
+[INFO] 16:21:03:369 LOGGER CPU/(3120:4067): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:21:09:453 LOGGER CPU/(3120:4067): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 16:21:16:741 LOGGER CPU/(3120:4067): Actualización del Program Counter
+[INFO] 16:21:18:892 LOGGER CPU/(3120:4067): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:55:17:827 LOGGER CPU/(4919:4919): conecte con memoria
+[DEBUG] 16:55:17:831 LOGGER CPU/(4919:4919): Escuchando kernel
+[INFO] 16:55:37:224 LOGGER CPU/(4919:5083): escuchando al kernel
+[INFO] 16:55:37:234 LOGGER CPU/(4919:5083): recibi pcb
+[INFO] 16:55:37:243 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:01:752 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 16:56:04:874 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:06:607 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:08:030 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 16:56:09:032 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:10:327 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:14:180 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 16:56:15:183 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:16:555 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:18:655 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 16:56:19:657 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:20:588 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:22:693 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 16:56:23:696 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:25:525 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:27:507 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 16:56:28:508 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:29:788 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:32:289 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 16:56:33:291 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:36:926 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:39:025 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 16:56:40:028 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:41:274 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:43:073 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 16:56:44:075 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:45:195 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:47:071 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 16:56:48:074 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:49:479 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:51:475 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 16:56:52:476 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:53:862 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:56:56:141 LOGGER CPU/(4919:5083): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 16:56:57:142 LOGGER CPU/(4919:5083): Actualización del Program Counter
+[INFO] 16:56:58:979 LOGGER CPU/(4919:5083): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:57:04:940 LOGGER CPU/(4919:5083): PID: 1 - ejecutando YIELD
+[INFO] 16:57:11:027 LOGGER CPU/(4919:5544): escuchando al kernel
+[INFO] 16:57:11:029 LOGGER CPU/(4919:5544): recibi pcb
+[INFO] 16:57:11:029 LOGGER CPU/(4919:5544): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:57:13:768 LOGGER CPU/(4919:5544): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 16:57:14:771 LOGGER CPU/(4919:5544): Actualización del Program Counter
+[INFO] 16:57:15:996 LOGGER CPU/(4919:5544): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:57:17:539 LOGGER CPU/(4919:5544): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 16:57:18:541 LOGGER CPU/(4919:5544): Actualización del Program Counter
+[INFO] 16:57:22:469 LOGGER CPU/(4919:5544): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 16:57:33:100 LOGGER CPU/(4919:5544): PID: 2 - ejecutando YIELD
+[INFO] 16:57:33:124 LOGGER CPU/(4919:5660): escuchando al kernel
+[INFO] 16:57:33:129 LOGGER CPU/(4919:5660): recibi pcb
+[INFO] 16:57:33:132 LOGGER CPU/(4919:5660): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:57:39:425 LOGGER CPU/(4919:5660): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 16:57:40:426 LOGGER CPU/(4919:5660): Actualización del Program Counter
+[INFO] 16:57:42:320 LOGGER CPU/(4919:5660): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 16:57:44:229 LOGGER CPU/(4919:5660): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 16:57:45:230 LOGGER CPU/(4919:5660): Actualización del Program Counter
+[INFO] 16:57:46:809 LOGGER CPU/(4919:5660): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:03:24:557 LOGGER CPU/(6864:6864): conecte con memoria
+[DEBUG] 17:03:24:570 LOGGER CPU/(6864:6864): Escuchando kernel
+[INFO] 17:03:47:153 LOGGER CPU/(6864:7057): escuchando al kernel
+[INFO] 17:03:47:154 LOGGER CPU/(6864:7057): recibi pcb
+[INFO] 17:03:47:154 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:03:53:321 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 17:03:54:324 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:03:58:893 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:01:971 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 17:04:02:973 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:04:735 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:06:905 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 17:04:07:906 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:09:978 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:11:188 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 17:04:12:189 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:13:866 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:21:332 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 17:04:22:334 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:24:226 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:28:274 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 17:04:29:275 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:30:794 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:32:851 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 17:04:33:854 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:37:107 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:39:027 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 17:04:40:029 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:42:506 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:45:663 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 17:04:46:664 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:47:861 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:49:930 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 17:04:50:930 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:04:55:829 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:04:58:431 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 17:04:59:431 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:05:00:952 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:05:02:699 LOGGER CPU/(6864:7057): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 17:05:03:700 LOGGER CPU/(6864:7057): Actualización del Program Counter
+[INFO] 17:05:49:220 LOGGER CPU/(6864:7057): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:05:51:207 LOGGER CPU/(6864:7057): PID: 1 - ejecutando YIELD
+[INFO] 17:05:51:248 LOGGER CPU/(6864:7555): escuchando al kernel
+[INFO] 17:05:51:250 LOGGER CPU/(6864:7555): recibi pcb
+[INFO] 17:05:51:250 LOGGER CPU/(6864:7555): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:05:54:388 LOGGER CPU/(6864:7555): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 17:05:55:391 LOGGER CPU/(6864:7555): Actualización del Program Counter
+[INFO] 17:05:56:724 LOGGER CPU/(6864:7555): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:05:58:696 LOGGER CPU/(6864:7555): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:05:59:701 LOGGER CPU/(6864:7555): Actualización del Program Counter
+[INFO] 17:06:02:689 LOGGER CPU/(6864:7555): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:06:06:495 LOGGER CPU/(6864:7555): PID: 2 - ejecutando YIELD
+[INFO] 17:06:06:510 LOGGER CPU/(6864:7661): escuchando al kernel
+[INFO] 17:06:06:512 LOGGER CPU/(6864:7661): recibi pcb
+[INFO] 17:06:06:513 LOGGER CPU/(6864:7661): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:06:12:290 LOGGER CPU/(6864:7661): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 17:06:13:290 LOGGER CPU/(6864:7661): Actualización del Program Counter
+[INFO] 17:06:14:888 LOGGER CPU/(6864:7661): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:06:17:314 LOGGER CPU/(6864:7661): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 17:06:18:316 LOGGER CPU/(6864:7661): Actualización del Program Counter
+[INFO] 17:06:20:398 LOGGER CPU/(6864:7661): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:06:32:037 LOGGER CPU/(6864:7661): PID: 1 - ejecutando EXIT
+[INFO] 17:06:32:064 LOGGER CPU/(6864:7762): escuchando al kernel
+[INFO] 17:06:32:064 LOGGER CPU/(6864:7762): recibi pcb
+[INFO] 17:06:32:064 LOGGER CPU/(6864:7762): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:13:928 LOGGER CPU/(6864:7762): PID: 2 - ejecutando SET - AX ARG1
+[INFO] 17:07:14:931 LOGGER CPU/(6864:7762): Actualización del Program Counter
+[INFO] 17:07:16:307 LOGGER CPU/(6864:7762): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:17:423 LOGGER CPU/(6864:7762): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:07:18:424 LOGGER CPU/(6864:7762): Actualización del Program Counter
+[INFO] 17:07:19:369 LOGGER CPU/(6864:7762): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:21:004 LOGGER CPU/(6864:7762): PID: 2 - ejecutando YIELD
+[INFO] 17:07:21:017 LOGGER CPU/(6864:7924): escuchando al kernel
+[INFO] 17:07:21:021 LOGGER CPU/(6864:7924): recibi pcb
+[INFO] 17:07:21:026 LOGGER CPU/(6864:7924): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:23:331 LOGGER CPU/(6864:7924): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:07:24:332 LOGGER CPU/(6864:7924): Actualización del Program Counter
+[INFO] 17:07:26:151 LOGGER CPU/(6864:7924): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:27:256 LOGGER CPU/(6864:7924): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:07:28:257 LOGGER CPU/(6864:7924): Actualización del Program Counter
+[INFO] 17:07:33:954 LOGGER CPU/(6864:7924): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:36:283 LOGGER CPU/(6864:7924): PID: 2 - ejecutando YIELD
+[INFO] 17:07:36:311 LOGGER CPU/(6864:8012): escuchando al kernel
+[INFO] 17:07:36:317 LOGGER CPU/(6864:8012): recibi pcb
+[INFO] 17:07:36:318 LOGGER CPU/(6864:8012): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:39:286 LOGGER CPU/(6864:8012): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:07:40:287 LOGGER CPU/(6864:8012): Actualización del Program Counter
+[INFO] 17:07:43:566 LOGGER CPU/(6864:8012): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:45:794 LOGGER CPU/(6864:8012): PID: 2 - ejecutando SET - BX FRA1
+[INFO] 17:07:46:794 LOGGER CPU/(6864:8012): Actualización del Program Counter
+[INFO] 17:07:50:255 LOGGER CPU/(6864:8012): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:52:442 LOGGER CPU/(6864:8012): PID: 2 - ejecutando YIELD
+[INFO] 17:07:52:466 LOGGER CPU/(6864:8109): escuchando al kernel
+[INFO] 17:07:52:472 LOGGER CPU/(6864:8109): recibi pcb
+[INFO] 17:07:52:473 LOGGER CPU/(6864:8109): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:07:55:006 LOGGER CPU/(6864:8109): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:07:56:008 LOGGER CPU/(6864:8109): Actualización del Program Counter
+[INFO] 17:08:01:973 LOGGER CPU/(6864:8109): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:04:907 LOGGER CPU/(6864:8109): PID: 2 - ejecutando SET - BX FRA2
+[INFO] 17:08:05:908 LOGGER CPU/(6864:8109): Actualización del Program Counter
+[INFO] 17:08:08:269 LOGGER CPU/(6864:8109): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:11:307 LOGGER CPU/(6864:8109): PID: 2 - ejecutando YIELD
+[INFO] 17:08:11:323 LOGGER CPU/(6864:8227): escuchando al kernel
+[INFO] 17:08:11:328 LOGGER CPU/(6864:8227): recibi pcb
+[INFO] 17:08:11:330 LOGGER CPU/(6864:8227): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:16:213 LOGGER CPU/(6864:8227): PID: 2 - ejecutando SET - AX ARG3
+[INFO] 17:08:17:214 LOGGER CPU/(6864:8227): Actualización del Program Counter
+[INFO] 17:08:19:660 LOGGER CPU/(6864:8227): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:31:433 LOGGER CPU/(6864:8227): PID: 2 - ejecutando SET - BX FRA2
+[INFO] 17:08:32:436 LOGGER CPU/(6864:8227): Actualización del Program Counter
+[INFO] 17:08:37:036 LOGGER CPU/(6864:8227): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:39:205 LOGGER CPU/(6864:8227): PID: 2 - ejecutando YIELD
+[INFO] 17:08:39:214 LOGGER CPU/(6864:8366): escuchando al kernel
+[INFO] 17:08:39:214 LOGGER CPU/(6864:8366): recibi pcb
+[INFO] 17:08:39:214 LOGGER CPU/(6864:8366): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:42:291 LOGGER CPU/(6864:8366): PID: 2 - ejecutando SET - AX ARG3
+[INFO] 17:08:43:293 LOGGER CPU/(6864:8366): Actualización del Program Counter
+[INFO] 17:08:46:658 LOGGER CPU/(6864:8366): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:48:957 LOGGER CPU/(6864:8366): PID: 2 - ejecutando SET - BX FRA3
+[INFO] 17:08:49:958 LOGGER CPU/(6864:8366): Actualización del Program Counter
+[INFO] 17:08:52:511 LOGGER CPU/(6864:8366): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:54:836 LOGGER CPU/(6864:8366): PID: 2 - ejecutando YIELD
+[INFO] 17:08:54:860 LOGGER CPU/(6864:8446): escuchando al kernel
+[INFO] 17:08:54:864 LOGGER CPU/(6864:8446): recibi pcb
+[INFO] 17:08:54:865 LOGGER CPU/(6864:8446): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:08:57:783 LOGGER CPU/(6864:8446): PID: 2 - ejecutando SET - RDX VAMOSALOSPENALES
+[INFO] 17:08:58:785 LOGGER CPU/(6864:8446): Actualización del Program Counter
+[INFO] 17:09:01:251 LOGGER CPU/(6864:8446): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:09:03:712 LOGGER CPU/(6864:8446): PID: 2 - ejecutando YIELD
+[INFO] 17:09:03:729 LOGGER CPU/(6864:8500): escuchando al kernel
+[INFO] 17:09:03:729 LOGGER CPU/(6864:8500): recibi pcb
+[INFO] 17:09:03:729 LOGGER CPU/(6864:8500): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:09:25:353 LOGGER CPU/(6864:8500): PID: 2 - ejecutando SET - RAX ARGENTINACAMPEON
+[INFO] 17:09:26:355 LOGGER CPU/(6864:8500): Actualización del Program Counter
+[INFO] 17:09:26:358 LOGGER CPU/(6864:8500): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:09:26:358 LOGGER CPU/(6864:8500): PID: 2 - ejecutando EXIT
+[INFO] 17:13:38:356 LOGGER CPU/(9340:9340): conecte con memoria
+[DEBUG] 17:13:38:359 LOGGER CPU/(9340:9340): Escuchando kernel
+[INFO] 17:13:57:986 LOGGER CPU/(9340:9481): escuchando al kernel
+[INFO] 17:13:57:986 LOGGER CPU/(9340:9481): recibi pcb
+[INFO] 17:13:57:987 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:13:57:987 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - AX AAAA
+[INFO] 17:13:58:987 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:13:58:988 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:13:58:988 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - BX BBBB
+[INFO] 17:13:59:988 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:13:59:993 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:13:59:993 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - CX CCCC
+[INFO] 17:14:00:994 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:01:000 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:01:000 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - DX DDDD
+[INFO] 17:14:02:000 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:02:000 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:02:000 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - EAX AAAAAAAA
+[INFO] 17:14:03:001 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:03:001 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:03:001 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - EBX BBBBBBBB
+[INFO] 17:14:04:001 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:04:002 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:04:002 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - ECX CCCCCCCC
+[INFO] 17:14:05:002 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:05:002 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:05:002 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - EDX DDDDDDDD
+[INFO] 17:14:06:003 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:06:003 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:06:004 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - RAX AAAAAAAAAAAAAAAA
+[INFO] 17:14:07:004 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:07:004 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:07:004 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - RBX BBBBBBBBBBBBBBBB
+[INFO] 17:14:08:005 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:08:006 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:08:006 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - RCX CCCCCCCCCCCCCCCC
+[INFO] 17:14:09:006 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:09:007 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:09:007 LOGGER CPU/(9340:9481): PID: 1 - ejecutando SET - RDX DDDDDDDDDDDDDDDD
+[INFO] 17:14:10:007 LOGGER CPU/(9340:9481): Actualización del Program Counter
+[INFO] 17:14:10:008 LOGGER CPU/(9340:9481): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:10:008 LOGGER CPU/(9340:9481): PID: 1 - ejecutando YIELD
+[INFO] 17:14:10:017 LOGGER CPU/(9340:9629): escuchando al kernel
+[INFO] 17:14:10:019 LOGGER CPU/(9340:9629): recibi pcb
+[INFO] 17:14:10:020 LOGGER CPU/(9340:9629): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:10:021 LOGGER CPU/(9340:9629): PID: 2 - ejecutando SET - AX ARG0
+[INFO] 17:14:11:024 LOGGER CPU/(9340:9629): Actualización del Program Counter
+[INFO] 17:14:11:024 LOGGER CPU/(9340:9629): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:11:025 LOGGER CPU/(9340:9629): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:14:12:025 LOGGER CPU/(9340:9629): Actualización del Program Counter
+[INFO] 17:14:12:026 LOGGER CPU/(9340:9629): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:12:026 LOGGER CPU/(9340:9629): PID: 2 - ejecutando YIELD
+[INFO] 17:14:12:058 LOGGER CPU/(9340:9654): escuchando al kernel
+[INFO] 17:14:12:063 LOGGER CPU/(9340:9654): recibi pcb
+[INFO] 17:14:12:068 LOGGER CPU/(9340:9654): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:12:068 LOGGER CPU/(9340:9654): PID: 1 - ejecutando SET - RAX TCHOUAMENIAFUERA
+[INFO] 17:14:13:070 LOGGER CPU/(9340:9654): Actualización del Program Counter
+[INFO] 17:14:13:071 LOGGER CPU/(9340:9654): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:13:071 LOGGER CPU/(9340:9654): PID: 1 - ejecutando SET - RBX SEGUNDO_FRANCIA_
+[INFO] 17:14:14:072 LOGGER CPU/(9340:9654): Actualización del Program Counter
+[INFO] 17:14:14:072 LOGGER CPU/(9340:9654): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 17:14:14:073 LOGGER CPU/(9340:9654): PID: 1 - ejecutando EXIT
+[INFO] 17:14:14:088 LOGGER CPU/(9340:9668): escuchando al kernel
+[INFO] 17:14:14:088 LOGGER CPU/(9340:9668): recibi pcb
+[INFO] 17:14:14:088 LOGGER CPU/(9340:9668): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:14:088 LOGGER CPU/(9340:9668): PID: 2 - ejecutando SET - AX ARG1
+[INFO] 17:14:15:088 LOGGER CPU/(9340:9668): Actualización del Program Counter
+[INFO] 17:14:15:089 LOGGER CPU/(9340:9668): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:15:089 LOGGER CPU/(9340:9668): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:14:16:089 LOGGER CPU/(9340:9668): Actualización del Program Counter
+[INFO] 17:14:16:089 LOGGER CPU/(9340:9668): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:16:089 LOGGER CPU/(9340:9668): PID: 2 - ejecutando YIELD
+[INFO] 17:14:16:098 LOGGER CPU/(9340:9708): escuchando al kernel
+[INFO] 17:14:16:100 LOGGER CPU/(9340:9708): recibi pcb
+[INFO] 17:14:16:104 LOGGER CPU/(9340:9708): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:16:107 LOGGER CPU/(9340:9708): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:14:17:112 LOGGER CPU/(9340:9708): Actualización del Program Counter
+[INFO] 17:14:17:113 LOGGER CPU/(9340:9708): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:17:113 LOGGER CPU/(9340:9708): PID: 2 - ejecutando SET - BX FRA0
+[INFO] 17:14:18:114 LOGGER CPU/(9340:9708): Actualización del Program Counter
+[INFO] 17:14:18:117 LOGGER CPU/(9340:9708): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:18:117 LOGGER CPU/(9340:9708): PID: 2 - ejecutando YIELD
+[INFO] 17:14:18:131 LOGGER CPU/(9340:9722): escuchando al kernel
+[INFO] 17:14:18:134 LOGGER CPU/(9340:9722): recibi pcb
+[INFO] 17:14:18:135 LOGGER CPU/(9340:9722): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:18:152 LOGGER CPU/(9340:9722): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:14:19:155 LOGGER CPU/(9340:9722): Actualización del Program Counter
+[INFO] 17:14:19:158 LOGGER CPU/(9340:9722): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:19:159 LOGGER CPU/(9340:9722): PID: 2 - ejecutando SET - BX FRA1
+[INFO] 17:14:20:159 LOGGER CPU/(9340:9722): Actualización del Program Counter
+[INFO] 17:14:20:159 LOGGER CPU/(9340:9722): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:20:159 LOGGER CPU/(9340:9722): PID: 2 - ejecutando YIELD
+[INFO] 17:14:20:178 LOGGER CPU/(9340:9737): escuchando al kernel
+[INFO] 17:14:20:181 LOGGER CPU/(9340:9737): recibi pcb
+[INFO] 17:14:20:182 LOGGER CPU/(9340:9737): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:20:185 LOGGER CPU/(9340:9737): PID: 2 - ejecutando SET - AX ARG2
+[INFO] 17:14:21:189 LOGGER CPU/(9340:9737): Actualización del Program Counter
+[INFO] 17:14:21:191 LOGGER CPU/(9340:9737): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:21:191 LOGGER CPU/(9340:9737): PID: 2 - ejecutando SET - BX FRA2
+[INFO] 17:14:22:192 LOGGER CPU/(9340:9737): Actualización del Program Counter
+[INFO] 17:14:22:195 LOGGER CPU/(9340:9737): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:22:196 LOGGER CPU/(9340:9737): PID: 2 - ejecutando YIELD
+[INFO] 17:14:22:200 LOGGER CPU/(9340:9763): escuchando al kernel
+[INFO] 17:14:22:213 LOGGER CPU/(9340:9763): recibi pcb
+[INFO] 17:14:22:214 LOGGER CPU/(9340:9763): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:22:215 LOGGER CPU/(9340:9763): PID: 2 - ejecutando SET - AX ARG3
+[INFO] 17:14:23:217 LOGGER CPU/(9340:9763): Actualización del Program Counter
+[INFO] 17:14:23:218 LOGGER CPU/(9340:9763): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:23:218 LOGGER CPU/(9340:9763): PID: 2 - ejecutando SET - BX FRA2
+[INFO] 17:14:24:218 LOGGER CPU/(9340:9763): Actualización del Program Counter
+[INFO] 17:14:24:224 LOGGER CPU/(9340:9763): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:24:225 LOGGER CPU/(9340:9763): PID: 2 - ejecutando YIELD
+[INFO] 17:14:24:256 LOGGER CPU/(9340:9777): escuchando al kernel
+[INFO] 17:14:24:260 LOGGER CPU/(9340:9777): recibi pcb
+[INFO] 17:14:24:262 LOGGER CPU/(9340:9777): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:24:262 LOGGER CPU/(9340:9777): PID: 2 - ejecutando SET - AX ARG3
+[INFO] 17:14:25:263 LOGGER CPU/(9340:9777): Actualización del Program Counter
+[INFO] 17:14:25:267 LOGGER CPU/(9340:9777): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:25:267 LOGGER CPU/(9340:9777): PID: 2 - ejecutando SET - BX FRA3
+[INFO] 17:14:26:267 LOGGER CPU/(9340:9777): Actualización del Program Counter
+[INFO] 17:14:26:268 LOGGER CPU/(9340:9777): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:26:268 LOGGER CPU/(9340:9777): PID: 2 - ejecutando YIELD
+[INFO] 17:14:26:271 LOGGER CPU/(9340:9793): escuchando al kernel
+[INFO] 17:14:26:275 LOGGER CPU/(9340:9793): recibi pcb
+[INFO] 17:14:26:278 LOGGER CPU/(9340:9793): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:26:278 LOGGER CPU/(9340:9793): PID: 2 - ejecutando SET - RDX VAMOSALOSPENALES
+[INFO] 17:14:27:278 LOGGER CPU/(9340:9793): Actualización del Program Counter
+[INFO] 17:14:27:279 LOGGER CPU/(9340:9793): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:27:279 LOGGER CPU/(9340:9793): PID: 2 - ejecutando YIELD
+[INFO] 17:14:27:282 LOGGER CPU/(9340:9799): escuchando al kernel
+[INFO] 17:14:27:285 LOGGER CPU/(9340:9799): recibi pcb
+[INFO] 17:14:27:287 LOGGER CPU/(9340:9799): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:27:298 LOGGER CPU/(9340:9799): PID: 2 - ejecutando SET - RAX ARGENTINACAMPEON
+[INFO] 17:14:28:299 LOGGER CPU/(9340:9799): Actualización del Program Counter
+[INFO] 17:14:28:300 LOGGER CPU/(9340:9799): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 17:14:28:300 LOGGER CPU/(9340:9799): PID: 2 - ejecutando EXIT

@@ -30,8 +30,8 @@ void recibir_pcb_de_cpu(int cpu_socket)
             agregar_a_listos(pcb_actualizado);
         break;
         case I_O:
-            log_info(logger,"PID: %d - Bloqueado por: %s", ultima_instruccion->parametros[0]);
             pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+            log_info(logger,"PID: %d - Bloqueado por: IO", pcb_en_ejecucion->pid);
             destruir_pcb(pcb_en_ejecucion);
             ejecutar_IO(pcb_actualizado, ultima_instruccion);
         break;
@@ -39,8 +39,6 @@ void recibir_pcb_de_cpu(int cpu_socket)
             pcb_en_ejecucion = sacar_pcb_de_ejecucion();
             destruir_pcb(pcb_en_ejecucion);
             ejecutar_signal(pcb_actualizado, ultima_instruccion);
-            //log_info(logger,"PID: %d - Signal: %s - Instancias: %d", ultima_instruccion->parametros[0], );
-            // esto se hace despues ^^^^^^
         break;
         case WAIT:
             pcb_en_ejecucion = sacar_pcb_de_ejecucion();
@@ -78,14 +76,20 @@ void recibir_pcb_de_cpu(int cpu_socket)
         break;
         case F_SEEK://pendiente
 
+        log_info(logger, "PID: %d- Actualizar puntero Archivo: %s - Puntero <PUNTERO>", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
         break;
         case F_READ: //INCOMPLETO
             leer(pcb_actualizado);
+            //log_info(logger, "PID: %d - Leer Archivo: %s - Puntero % - Dirección Memoria %u- Tamaño %s", pcb_actualizado->pid, ultima_instruccion->parametros[0], ,direccion_fisica, ultima_instruccion->parametros[2]);
+       
         break;
         case F_WRITE: //INCOMPLETO
             escribir(pcb_actualizado);
+            //log_info(logger, "PID: %d - Escribir Archivo: %s - Puntero % - Dirección Memoria %u- Tamaño %s", pcb_actualizado->pid, ultima_instruccion->parametros[0], ,direccion_fisica, ultima_instruccion->parametros[2]);
         break;
         case F_CLOSE: //pendiente
+        log_info(logger, "PID: %d - Cerrar Archivo: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+        break;
     }
 }
 
@@ -102,9 +106,9 @@ t_pcb* sacar_pcb_de_ejecucion()
 void ejecutar_IO(t_pcb* pcb, t_instruccion* instruccion)
 {
     agregar_bloqueados_IO(pcb);
+    log_info(logger, "PID: %d - Ejecuta IO: %d", pcb->pid, atoi(instruccion->parametros[0]));
     pthread_create(&hilo_IO, NULL, (void*)pasar_a_IO, (void*)atoi(instruccion->parametros[0]));
     pthread_detach(hilo_IO);
-
 }
 
 void pasar_a_IO(int tiempo)

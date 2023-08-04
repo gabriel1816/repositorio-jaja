@@ -3,31 +3,31 @@
 int calcular_bloques_adicionales(uint32_t nuevo_tamanio, t_fcb *fcb)
 {
 
-    double tamanio_archivo = (double)fcb->tam_archivo;
+    double archivo_tam = (double)fcb->tam_archivo;
     double nuevo_tam = (double)nuevo_tamanio;
-    double tamanio_bloque = (double)superbloque->tam_bloque;
+    double bloque_tam = (double)superbloque->tam_bloque;
 
-    int bloques_actuales = (int)ceil(tamanio_archivo / tamanio_bloque);
-    int bloques_nuevos = (int)ceil(nuevo_tam / tamanio_bloque);
+    int actuales = (int)ceil(archivo_tam / bloque_tam);
+    int nuevos = (int)ceil(nuevo_tam / bloque_tam);
 
-    int bloquesAdicionales = bloques_nuevos - bloques_actuales;
+    int bloques_ad = nuevos - actuales;
 
-    return bloquesAdicionales;
+    return bloques_ad;
 }
 
-int calcular_bloques_a_liberar(uint32_t nuevo_tamanio, t_fcb *fcb)
+int calcular_bloques_de_mas(uint32_t nuevo_tamanio, t_fcb *fcb)
 {
 
-    double tamanio_archivo = (double)fcb->tam_archivo;
+    double archivo_tam = (double)fcb->tam_archivo;
     double nuevo_tam = (double)nuevo_tamanio;
-    double tamanio_bloque = (double)superbloque->tam_bloque;
+    double bloque_tam = (double)superbloque->tam_bloque;
 
-    int bloques_actuales = (int)ceil(tamanio_archivo / tamanio_bloque);
-    int bloques_nuevos = (int)ceil(nuevo_tam / tamanio_bloque);
+    int actuales = (int)ceil(archivo_tam / bloque_tam);
+    int nuevos = (int)ceil(nuevo_tam / bloque_tam);
 
-    int bloques_a_liberar = bloques_actuales - bloques_nuevos;
+    int bloques_de_mas = actuales - nuevos;
 
-    return bloques_a_liberar;
+    return bloques_de_mas;
 }
 
 uint32_t buscar_bloque_libre(t_bitarray *bitmap)
@@ -51,35 +51,35 @@ uint32_t buscar_bloque_libre(t_bitarray *bitmap)
     return bloque_libre;
 }
 
-void liberar_bloques(t_fcb *fcb, int bloques_a_liberar)
+void liberar_bloques(t_fcb *fcb, int bloques_para_liberar)
 {
-    int cant_bloques_fcb = ceil(fcb->tam_archivo/superbloque->tam_bloque);
+    int bloques_totales_cant = ceil(fcb->tam_archivo/superbloque->tam_bloque);
     int archivo_bloques = open(path_bloques, O_RDWR);
 
-    while (bloques_a_liberar > 0 && cant_bloques_fcb > 1)
+    while (bloques_para_liberar > 0 && bloques_totales_cant > 1)
     {
-        uint32_t bloque_leido;
-        lseek(archivo_bloques, (int)fcb->puntero_indirecto * superbloque->tam_bloque + (cant_bloques_fcb - 1) * sizeof(uint32_t), SEEK_SET); 
-        read(archivo_bloques, &bloque_leido, sizeof(uint32_t));
+        uint32_t leido;
+        lseek(archivo_bloques, (int)fcb->puntero_indirecto * superbloque->tam_bloque + (bloques_totales_cant - 1) * sizeof(uint32_t), SEEK_SET); 
+        read(archivo_bloques, &leido, sizeof(uint32_t));
         sleep(retardo_acceso_bloque / 1000);
-        liberar_bloque_bitmap(bloque_leido);
-        cant_bloques_fcb--;
-        bloques_a_liberar--;
+        liberar_bloque_bitmap(leido);
+        bloques_totales_cant--;
+        bloques_para_liberar--;
     }
-    if (cant_bloques_fcb == 1 && bloques_a_liberar == 1)
+    if (bloques_totales_cant == 1 && bloques_para_liberar == 1)
     {
         liberar_bloque_bitmap(fcb->puntero_directo);
         liberar_bloque_bitmap(fcb->puntero_indirecto);
     }
 }
 
-int liberar_bloque_bitmap(uint32_t bloque_a_liberar)
+int liberar_bloque_bitmap(uint32_t bloque)
 {
-    log_info(logger, "Acceso a Bitmap - Bloque: %u - Estado: %d", bloque_a_liberar, bitarray_test_bit(bitmap, bloque_a_liberar));
-    bitarray_clean_bit(bitmap, bloque_a_liberar);
+    log_info(logger, "Acceso a Bitmap - Bloque: %u - Estado: %d", bloque, bitarray_test_bit(bitmap, bloque));
+    bitarray_clean_bit(bitmap, bloque);
 }
 
-void asignar_bloques(t_fcb *fcb, uint32_t bloques_adicionales)
+void asignar_bloque(t_fcb *fcb, uint32_t bloques_adicionales)
 {
     uint32_t bloques_asignados = ceil(fcb->tam_archivo/superbloque->tam_bloque);
     for (uint32_t i = 0; i < bloques_adicionales; i++)
@@ -98,19 +98,19 @@ void asignar_bloques(t_fcb *fcb, uint32_t bloques_adicionales)
     bloques_asignados += bloques_adicionales;
 }
 
-void escribir_bloque_en_archivo(uint32_t bloque, uint32_t pos_en_bloque, uint32_t valor)
+void escribir_bloque_en_archivo(uint32_t bloque, uint32_t posicion, uint32_t valor)
 {
-    int archivoBloques = open(path_bloques, O_RDWR); // Abre el archivo para lectura y escritura
+    int archivo_bloques = open(path_bloques, O_RDWR); //=~ rb+
 
-    if (archivoBloques == -1)
+    if (archivo_bloques == -1)
     {
         log_error(logger, "No se pudo abrir el archivo de bloques");
         return;
     }
 
-    lseek(archivoBloques, bloque * superbloque->tam_bloque + pos_en_bloque * sizeof(uint32_t), SEEK_SET); // Busca la posición correcta en el bloque
+    lseek(archivo_bloques, bloque * superbloque->tam_bloque + posicion * sizeof(uint32_t), SEEK_SET); //m muevo
     sleep(retardo_acceso_bloque / 1000);
-    write(archivoBloques, &valor, sizeof(uint32_t));
+    write(archivo_bloques, &valor, sizeof(uint32_t));
 
-    close(archivoBloques);
+    close(archivo_bloques);
 }

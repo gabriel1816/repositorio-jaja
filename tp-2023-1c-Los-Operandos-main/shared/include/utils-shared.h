@@ -78,8 +78,8 @@ typedef enum {
 	F_READ,
 	F_CREATE,
 	DELETE_SEGMENT,
-	F_CLOSE,
 	EXIT,
+	F_CLOSE,
 	CONTEXTO,
 	CREAR_PROCESO,
 	ELIMINAR_PROCESO,
@@ -126,8 +126,8 @@ typedef struct{
 	double estimado_rafaga; 
 	t_segmento* tabla_segmentos;
 	uint32_t tamanio_tabla;
-	//archivos
-	uint32_t direccion_fisica;
+	t_list* archivos_abiertos;
+	int32_t direccion_fisica;
 }t_pcb;
 
 typedef struct{
@@ -184,6 +184,10 @@ void destruir_instruccion(t_instruccion *instruccion);
 t_registro inicializar_registros();
 pid_t obtener_pid();
 
+
+t_buffer* crear_buffer_para_t_fs_pedido(t_fs_pedido* fs_pedido);
+void enviar_fs_pedido(t_fs_pedido* fs_pedido, int conexion, t_log* logger);
+t_fs_pedido* crear_pedido_para_buffer_fs(t_buffer* buffer);
 
 t_instruccion* crear_instruccion(t_identificador identificador, t_list* parametros);
 void agregar_parametro_a_instruccion(t_list *parametros, t_instruccion *instruccion);

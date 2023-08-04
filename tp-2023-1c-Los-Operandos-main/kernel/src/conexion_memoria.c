@@ -55,13 +55,14 @@ void recibir_creacion(t_pcb* pcb, t_instruccion* instruccion_pedido)
         break;
         case COMPACTACION:
             t_list* parametros = list_create();
+            log_info(logger, "Compactación: Se solicitó compactación");
             t_instruccion* pedidoCompactacion = crear_instruccion(COMPACTACION, parametros);
             log_info(logger, "Esperando fin de Filesystem");
             //esperar_fin_FS();
             log_info(logger, "Cantidad procesos en sistema %u", list_size(cola_procesos));
             pedir_memoria(pedidoCompactacion, memoria_socket, logger); 
             actualizar_procesos_recibidos(memoria_socket);
-            log_debug(logger, "FIN compactacion");
+            log_debug(logger, "Se finalizó el proceso de compactación");
             pedir_memoria(instruccion_pedido, memoria_socket, logger); 
             recibir_creacion(pcb, instruccion_pedido);
         break;

@@ -4611,3 +4611,257 @@
 [INFO] 08:40:00:348 kernel_logger/(66447:66449): conecte con cpu
 [INFO] 08:40:00:348 kernel_logger/(66447:66449): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
 [INFO] 08:40:00:368 kernel_logger/(66447:66449): PID: 1 - Archivo: MORIS - Tama√±o: 128 
+[INFO] 15:50:39:689 kernel_logger/(11419:11419): No es null el archivo de config
+[INFO] 15:50:39:693 kernel_logger/(11419:11419): conecte con memoria
+[INFO] 15:50:39:693 kernel_logger/(11419:11419): conecte con filesystem
+[INFO] 15:51:49:550 kernel_logger/(11419:11760): escuchando a consola
+[INFO] 15:51:49:550 kernel_logger/(11419:11760): Se crea el proceso 1 en NEW
+[INFO] 15:51:49:550 kernel_logger/(11419:11760): Se crea proceso 1 en NEW
+[INFO] 15:51:49:550 kernel_logger/(11419:11420): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:51:49:550 kernel_logger/(11419:11420): Cola ready FIFO [ 
+[INFO] 15:51:49:550 kernel_logger/(11419:11420): 1
+[INFO] 15:51:49:550 kernel_logger/(11419:11420): ]
+[INFO] 15:51:49:550 kernel_logger/(11419:11420): ingreso proceso a listos
+[INFO] 15:51:49:550 kernel_logger/(11419:11421): conecte con cpu
+[INFO] 15:51:49:550 kernel_logger/(11419:11421): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:51:49:863 kernel_logger/(11419:11768): escuchando a consola
+[INFO] 15:51:49:863 kernel_logger/(11419:11768): Se crea el proceso 2 en NEW
+[INFO] 15:51:49:863 kernel_logger/(11419:11768): Se crea proceso 2 en NEW
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): Cola ready FIFO [ 
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): 1
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): 2
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): ]
+[INFO] 15:51:49:863 kernel_logger/(11419:11420): ingreso proceso a listos
+[INFO] 15:52:01:712 kernel_logger/(11419:11421): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): Cola ready FIFO [ 
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): 2
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): 1
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): ]
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): conecte con cpu
+[INFO] 15:52:01:713 kernel_logger/(11419:11421): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:52:03:745 kernel_logger/(11419:11421): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:52:03:748 kernel_logger/(11419:11421): Cola ready FIFO [ 
+[INFO] 15:52:03:748 kernel_logger/(11419:11421): 1
+[INFO] 15:52:03:748 kernel_logger/(11419:11421): 2
+[INFO] 15:52:03:748 kernel_logger/(11419:11421): ]
+[INFO] 15:52:03:748 kernel_logger/(11419:11421): conecte con cpu
+[INFO] 15:52:03:752 kernel_logger/(11419:11421): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:58:09:620 kernel_logger/(12875:12875): No es null el archivo de config
+[INFO] 15:58:09:626 kernel_logger/(12875:12875): conecte con memoria
+[INFO] 15:58:09:628 kernel_logger/(12875:12875): conecte con filesystem
+[INFO] 15:58:20:769 kernel_logger/(12875:12956): escuchando a consola
+[INFO] 15:58:20:771 kernel_logger/(12875:12956): Se crea el proceso 1 en NEW
+[INFO] 15:58:20:772 kernel_logger/(12875:12956): Se crea proceso 1 en NEW
+[INFO] 15:58:20:772 kernel_logger/(12875:12876): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:58:20:772 kernel_logger/(12875:12876): Cola ready FIFO [0^G|Ä1, ]
+[INFO] 15:58:20:772 kernel_logger/(12875:12876): ingreso proceso a listos
+[INFO] 15:58:20:772 kernel_logger/(12875:12877): conecte con cpu
+[INFO] 15:58:20:774 kernel_logger/(12875:12877): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:58:21:447 kernel_logger/(12875:12959): escuchando a consola
+[INFO] 15:58:21:447 kernel_logger/(12875:12959): Se crea el proceso 2 en NEW
+[INFO] 15:58:21:447 kernel_logger/(12875:12959): Se crea proceso 2 en NEW
+[INFO] 15:58:21:447 kernel_logger/(12875:12876): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 15:58:21:447 kernel_logger/(12875:12876): Cola ready FIFO [0^G|Ä1, 2, ]
+[INFO] 15:58:21:447 kernel_logger/(12875:12876): ingreso proceso a listos
+[INFO] 15:58:32:925 kernel_logger/(12875:12877): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:58:32:925 kernel_logger/(12875:12877): Cola ready FIFO [¿M«{Ä2, 1, ]
+[INFO] 15:58:32:925 kernel_logger/(12875:12877): conecte con cpu
+[INFO] 15:58:32:926 kernel_logger/(12875:12877): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 15:58:34:959 kernel_logger/(12875:12877): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 15:58:34:959 kernel_logger/(12875:12877): Cola ready FIFO [¿M«{Ä1, 2, ]
+[INFO] 15:58:34:959 kernel_logger/(12875:12877): conecte con cpu
+[INFO] 15:58:34:959 kernel_logger/(12875:12877): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:00:41:920 kernel_logger/(13536:13536): No es null el archivo de config
+[INFO] 16:00:41:929 kernel_logger/(13536:13536): conecte con memoria
+[INFO] 16:00:41:932 kernel_logger/(13536:13536): conecte con filesystem
+[INFO] 16:00:50:739 kernel_logger/(13536:13629): escuchando a consola
+[INFO] 16:00:50:741 kernel_logger/(13536:13629): Se crea el proceso 1 en NEW
+[INFO] 16:00:50:742 kernel_logger/(13536:13629): Se crea proceso 1 en NEW
+[INFO] 16:00:50:742 kernel_logger/(13536:13537): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:00:50:744 kernel_logger/(13536:13537): Cola ready FIFO [1, ]
+[INFO] 16:00:50:744 kernel_logger/(13536:13537): ingreso proceso a listos
+[INFO] 16:00:50:744 kernel_logger/(13536:13538): conecte con cpu
+[INFO] 16:00:50:746 kernel_logger/(13536:13538): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:00:52:259 kernel_logger/(13536:13649): escuchando a consola
+[INFO] 16:00:52:260 kernel_logger/(13536:13649): Se crea el proceso 2 en NEW
+[INFO] 16:00:52:260 kernel_logger/(13536:13649): Se crea proceso 2 en NEW
+[INFO] 16:00:52:260 kernel_logger/(13536:13537): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:00:52:261 kernel_logger/(13536:13537): Cola ready FIFO [1, 2, ]
+[INFO] 16:00:52:261 kernel_logger/(13536:13537): ingreso proceso a listos
+[INFO] 16:01:02:872 kernel_logger/(13536:13538): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:01:02:872 kernel_logger/(13536:13538): Cola ready FIFO [2, 1, ]
+[INFO] 16:01:02:872 kernel_logger/(13536:13538): conecte con cpu
+[INFO] 16:01:02:872 kernel_logger/(13536:13538): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:01:04:899 kernel_logger/(13536:13538): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:01:04:899 kernel_logger/(13536:13538): Cola ready FIFO [1, 2, ]
+[INFO] 16:01:04:899 kernel_logger/(13536:13538): conecte con cpu
+[INFO] 16:01:04:899 kernel_logger/(13536:13538): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:17:45:522 kernel_logger/(3193:3193): No es null el archivo de config
+[INFO] 16:17:45:542 kernel_logger/(3193:3193): conecte con memoria
+[INFO] 16:17:45:542 kernel_logger/(3193:3193): conecte con filesystem
+[INFO] 16:18:33:663 kernel_logger/(3193:3441): escuchando a consola
+[INFO] 16:18:33:686 kernel_logger/(3193:3441): Se crea el proceso 1 en NEW
+[INFO] 16:18:33:686 kernel_logger/(3193:3441): Se crea proceso 1 en NEW
+[INFO] 16:18:33:686 kernel_logger/(3193:3194): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:18:33:686 kernel_logger/(3193:3194): Cola ready FIFO [1, ]
+[INFO] 16:18:33:686 kernel_logger/(3193:3194): ingreso proceso a listos
+[INFO] 16:18:33:686 kernel_logger/(3193:3195): conecte con cpu
+[INFO] 16:18:33:687 kernel_logger/(3193:3195): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:18:34:838 kernel_logger/(3193:3457): escuchando a consola
+[INFO] 16:18:34:840 kernel_logger/(3193:3457): Se crea el proceso 2 en NEW
+[INFO] 16:18:34:840 kernel_logger/(3193:3457): Se crea proceso 2 en NEW
+[INFO] 16:18:34:840 kernel_logger/(3193:3194): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:18:34:840 kernel_logger/(3193:3194): Cola ready FIFO [1, 2, ]
+[INFO] 16:18:34:840 kernel_logger/(3193:3194): ingreso proceso a listos
+[INFO] 16:20:34:277 kernel_logger/(3193:3195): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:20:34:278 kernel_logger/(3193:3195): Cola ready FIFO [2, 1, ]
+[INFO] 16:20:34:278 kernel_logger/(3193:3195): conecte con cpu
+[INFO] 16:20:34:278 kernel_logger/(3193:3195): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:20:47:315 kernel_logger/(3193:3195): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:20:47:315 kernel_logger/(3193:3195): Cola ready FIFO [1, 2, ]
+[INFO] 16:20:47:315 kernel_logger/(3193:3195): conecte con cpu
+[INFO] 16:20:47:315 kernel_logger/(3193:3195): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:55:27:776 kernel_logger/(5020:5020): No es null el archivo de config
+[INFO] 16:55:27:786 kernel_logger/(5020:5020): conecte con memoria
+[INFO] 16:55:27:789 kernel_logger/(5020:5020): conecte con filesystem
+[INFO] 16:55:37:192 kernel_logger/(5020:5082): escuchando a consola
+[INFO] 16:55:37:200 kernel_logger/(5020:5082): Se crea el proceso 1 en NEW
+[INFO] 16:55:37:202 kernel_logger/(5020:5082): Se crea proceso 1 en NEW
+[INFO] 16:55:37:202 kernel_logger/(5020:5021): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:55:37:202 kernel_logger/(5020:5021): Cola ready FIFO [1, ]
+[INFO] 16:55:37:202 kernel_logger/(5020:5021): ingreso proceso a listos
+[INFO] 16:55:37:203 kernel_logger/(5020:5022): conecte con cpu
+[INFO] 16:55:37:203 kernel_logger/(5020:5022): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:55:38:222 kernel_logger/(5020:5088): escuchando a consola
+[INFO] 16:55:38:223 kernel_logger/(5020:5088): Se crea el proceso 2 en NEW
+[INFO] 16:55:38:223 kernel_logger/(5020:5088): Se crea proceso 2 en NEW
+[INFO] 16:55:38:223 kernel_logger/(5020:5021): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 16:55:38:223 kernel_logger/(5020:5021): Cola ready FIFO [1, 2, ]
+[INFO] 16:55:38:223 kernel_logger/(5020:5021): ingreso proceso a listos
+[INFO] 16:57:09:891 kernel_logger/(5020:5022): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:57:09:893 kernel_logger/(5020:5022): Cola ready FIFO [2, 1, ]
+[INFO] 16:57:09:895 kernel_logger/(5020:5022): conecte con cpu
+[INFO] 16:57:09:897 kernel_logger/(5020:5022): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 16:57:33:102 kernel_logger/(5020:5022): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 16:57:33:102 kernel_logger/(5020:5022): Cola ready FIFO [1, 2, ]
+[INFO] 16:57:33:102 kernel_logger/(5020:5022): conecte con cpu
+[INFO] 16:57:33:102 kernel_logger/(5020:5022): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:03:33:851 kernel_logger/(6940:6940): No es null el archivo de config
+[INFO] 17:03:33:867 kernel_logger/(6940:6940): conecte con memoria
+[INFO] 17:03:33:868 kernel_logger/(6940:6940): conecte con filesystem
+[INFO] 17:03:47:137 kernel_logger/(6940:7056): escuchando a consola
+[INFO] 17:03:47:141 kernel_logger/(6940:7056): Se crea el proceso 1 en NEW
+[INFO] 17:03:47:144 kernel_logger/(6940:7056): Se crea proceso 1 en NEW
+[INFO] 17:03:47:145 kernel_logger/(6940:6941): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 17:03:47:146 kernel_logger/(6940:6941): Cola ready FIFO [1, ]
+[INFO] 17:03:47:146 kernel_logger/(6940:6941): ingreso proceso a listos
+[INFO] 17:03:47:146 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:03:47:147 kernel_logger/(6940:6942): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:03:48:166 kernel_logger/(6940:7072): escuchando a consola
+[INFO] 17:03:48:167 kernel_logger/(6940:7072): Se crea el proceso 2 en NEW
+[INFO] 17:03:48:170 kernel_logger/(6940:7072): Se crea proceso 2 en NEW
+[INFO] 17:03:48:170 kernel_logger/(6940:6941): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 17:03:48:170 kernel_logger/(6940:6941): Cola ready FIFO [1, 2, ]
+[INFO] 17:03:48:170 kernel_logger/(6940:6941): ingreso proceso a listos
+[INFO] 17:05:51:210 kernel_logger/(6940:6942): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:05:51:211 kernel_logger/(6940:6942): Cola ready FIFO [2, 1, ]
+[INFO] 17:05:51:212 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:05:51:213 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:06:06:497 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:06:06:497 kernel_logger/(6940:6942): Cola ready FIFO [1, 2, ]
+[INFO] 17:06:06:497 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:06:06:497 kernel_logger/(6940:6942): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:06:32:038 kernel_logger/(6940:6942): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 17:06:32:039 kernel_logger/(6940:6942): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 17:06:32:039 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:06:32:042 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:07:21:004 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:07:21:005 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:07:21:006 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:07:21:006 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:07:36:284 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:07:36:285 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:07:36:285 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:07:36:288 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:07:52:443 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:07:52:443 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:07:52:446 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:07:52:446 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:08:11:310 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:08:11:310 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:08:11:310 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:08:11:311 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:08:39:206 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:08:39:206 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:08:39:206 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:08:39:207 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:08:54:837 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:08:54:838 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:08:54:838 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:08:54:838 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:09:03:713 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:09:03:713 kernel_logger/(6940:6942): Cola ready FIFO [2, ]
+[INFO] 17:09:03:716 kernel_logger/(6940:6942): conecte con cpu
+[INFO] 17:09:03:716 kernel_logger/(6940:6942): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:09:26:366 kernel_logger/(6940:6942): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 17:09:26:366 kernel_logger/(6940:6942): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 17:13:45:717 kernel_logger/(9405:9405): No es null el archivo de config
+[INFO] 17:13:45:719 kernel_logger/(9405:9405): conecte con memoria
+[INFO] 17:13:45:724 kernel_logger/(9405:9405): conecte con filesystem
+[INFO] 17:13:57:973 kernel_logger/(9405:9480): escuchando a consola
+[INFO] 17:13:57:975 kernel_logger/(9405:9480): Se crea el proceso 1 en NEW
+[INFO] 17:13:57:977 kernel_logger/(9405:9480): Se crea proceso 1 en NEW
+[INFO] 17:13:57:979 kernel_logger/(9405:9406): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 17:13:57:979 kernel_logger/(9405:9406): Cola ready FIFO [1, ]
+[INFO] 17:13:57:979 kernel_logger/(9405:9406): ingreso proceso a listos
+[INFO] 17:13:57:979 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:13:57:979 kernel_logger/(9405:9407): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:00:015 kernel_logger/(9405:9523): escuchando a consola
+[INFO] 17:14:00:018 kernel_logger/(9405:9523): Se crea el proceso 2 en NEW
+[INFO] 17:14:00:022 kernel_logger/(9405:9523): Se crea proceso 2 en NEW
+[INFO] 17:14:00:023 kernel_logger/(9405:9406): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 17:14:00:023 kernel_logger/(9405:9406): Cola ready FIFO [1, 2, ]
+[INFO] 17:14:00:023 kernel_logger/(9405:9406): ingreso proceso a listos
+[INFO] 17:14:10:009 kernel_logger/(9405:9407): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:10:009 kernel_logger/(9405:9407): Cola ready FIFO [2, 1, ]
+[INFO] 17:14:10:009 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:10:012 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:12:026 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:12:027 kernel_logger/(9405:9407): Cola ready FIFO [1, 2, ]
+[INFO] 17:14:12:027 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:12:027 kernel_logger/(9405:9407): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:14:073 kernel_logger/(9405:9407): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 17:14:14:073 kernel_logger/(9405:9407): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 17:14:14:075 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:14:076 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:16:089 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:16:089 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:16:090 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:16:090 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:18:117 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:18:117 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:18:117 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:18:117 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:20:159 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:20:159 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:20:159 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:20:159 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:22:196 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:22:196 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:22:196 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:22:197 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:24:226 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:24:226 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:24:226 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:24:226 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:26:269 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:26:269 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:26:269 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:26:269 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:27:279 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 17:14:27:280 kernel_logger/(9405:9407): Cola ready FIFO [2, ]
+[INFO] 17:14:27:280 kernel_logger/(9405:9407): conecte con cpu
+[INFO] 17:14:27:280 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 17:14:28:300 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 17:14:28:300 kernel_logger/(9405:9407): finaliza el proceso PID: 2 - motivo: SUCCESS

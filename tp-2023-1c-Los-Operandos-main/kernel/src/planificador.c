@@ -13,6 +13,17 @@ void agregar_a_listos(t_pcb* pcb)
     pcb->tiempo_llegada = temporal_create();
     pthread_mutex_unlock(&mutex_cola_listos);
     agregar_a_cola_procesos(pcb);
+    char pid[20];
+    strcpy(pid, "");
+    for(int i=0; i < list_size(cola_procesos); i++){
+        t_pcb* pcb_aux = list_get(cola_procesos, i);
+        strcat(pid, string_itoa(pcb_aux->pid));
+        if(i == list_size(cola_procesos)){
+            break;
+        }
+        strcat(pid, ", ");
+    }
+    log_info(logger, "Cola ready %s [%s]", kernel_config.schedulerAlgorithm, pid);
     sem_post(&sem_ready);
     //log_info(logger, "Cola Ready %d:  %???", kernel_config.schedulerAlgorithm, ???)
 }
@@ -52,6 +63,7 @@ void agregar_a_nuevos(t_pcb* pcb)
     list_add(cola_new, pcb);
     pthread_mutex_unlock(&mutex_cola_nuevos);
     agregar_a_cola_procesos(pcb);
+    log_info(logger, "Se crea proceso %d en NEW", pcb->pid);
     sem_post(&sem_nuevos);
 }
 
@@ -112,4 +124,23 @@ void agregar_a_cola_procesos(t_pcb* proceso)
     pthread_mutex_lock(&procesosEnSistemaMutex);
     list_add(cola_procesos, proceso); 
     pthread_mutex_unlock(&procesosEnSistemaMutex);
+}
+
+void agregar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb) 
+{
+    pthread_mutex_lock(&procesosBloqueadosFileSystemMutex);
+    list_add(cola_bloqueados_archivos, pcb);
+    cambiar_estado(pcb, BLOQUEADO);
+    agregar_a_cola_procesos(pcb);
+    pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
+}
+
+
+void  sacar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb)
+{
+    pthread_mutex_lock(&procesosBloqueadosFileSystemMutex);
+    list_remove_element(cola_bloqueados_archivos, pcb);
+    sacar_de_cola_procesos(pcb);
+    pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
+    return;
 }

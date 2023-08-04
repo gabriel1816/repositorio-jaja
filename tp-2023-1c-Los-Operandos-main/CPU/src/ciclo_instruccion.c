@@ -27,7 +27,7 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
 
-			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[0]));
+			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[0])+1);
 			if(pcb->direccion_fisica == -1){
 				return;
 			}
@@ -42,7 +42,7 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
 
-			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[0]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[1]));
+			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[0]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[1]) + 1);
 			if(pcb->direccion_fisica == -1){
 				return;
 			}
@@ -58,7 +58,7 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1],
 					instruccion_a_ejecutar->parametros[2]);
-
+			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[2]) + 1);
 			enviar_pcb(pcb, conexion_con_kernel, logger);
 		break;
 		case F_WRITE: 
@@ -67,6 +67,7 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1],
 					instruccion_a_ejecutar->parametros[2]);
+			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[2]) + 1);
 
 			enviar_pcb(pcb, conexion_con_kernel, logger);
 		break;

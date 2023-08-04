@@ -3,67 +3,65 @@
 
 void atender_kernel(void* socket_kernel)
 {
+	int conexion_kernel = (int)socket_kernel;
+ while(1) {	
 	
-	t_pcb* pcb = recibir_pcb((int)socket_kernel, logger);/*
-	t_instru
+	t_paquete* paquete = recibir_paquete(conexion_kernel, logger);
+	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer, logger);
+	t_instruccion* instruccion = obtener_instruccion(pcb);
 	switch(instruccion->identificador){
-		t_buffer *buffer = malloc(sizeof(t_buffer));
-		t_paquete *paquete;
-		char *mensaje;
 		case F_OPEN: 
 			bool abrioElArchivo = abrir_archivo(instruccion->parametros[0]);
 			if(abrioElArchivo){
-				mensaje = "se pudo abrir el archivo";
+				send(conexion_kernel, "abierto", strlen("abierto") + 1, 0);
+				log_info(logger, "Abrir Archivo: %s", instruccion->parametros[0]);
 			}
 			else{
-				mensaje = "No se pudo abrir el archivo, el archivo no existe";
+				send(conexion_kernel, "no abierto", strlen("no abierto"), 0);
+				uint32_t offset = 0;
+				t_paquete* paquete = recibir_paquete(conexion_kernel, logger);
+				t_instruccion* instruccion = crear_instruccion_para_el_buffer(paquete->buffer, &offset);
+				crear_archivo(instruccion->parametros[0]);
+				send(conexion_kernel, "creado", strlen("creado"), 0);
 			}
-			paquete = crear_paquete(buffer, instruccion->identificador);
-			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(socket_kernel, paquete, logger);
 
+		break;
 		case F_READ: 
-			t_direc_fisica *direcFisica_lectura = traducir_direccion(instruccion->parametros[1]);
-			char* info_a_leer = malloc(instruccion->parametros[2] + 1);
+			log_info(logger , "Leer Archivo: %s - Puntero: %s - Memoria: %d - Tamaño: %s", instruccion->parametros[0], instruccion->parametros[1], pcb->direccion_fisica, instruccion->parametros[2]);
+			leer_archivo(instruccion->parametros[0], atoi(instruccion->parametros[1]), atoi(instruccion->parametros[2]), pcb->direccion_fisica, pcb->pid);
+    		send(conexion_kernel, "SI", strlen("SI"), 0);
+		break;
+		case F_WRITE: 			
+			escribir(pcb, conexion_kernel);
 			
-			leer_archivo(instruccion->parametros[0], info_a_leer ,instruccion->parametros[2]);
-			
-			//le mando a memoria lo que se leyo
-			mandar_a_memoria(info_a_leer, direcFisica_lectura, conexionConMemoria, instruccion);
-
-			//le mando a kernel que se leyo el archivo
-			mensaje = "se leyo el archivo";
-			paquete = crear_paquete(buffer, instruccion->identificador);
-			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(socket_kernel, paquete, logger);
-
-		case F_WRITE: 
-		//le solicita a memoria la info que se encuentra a partir de la direc fisica
-			char datos_para_escribir = pedir_a_memoria(instruccion->parametros[1], conexionConMemoria);
-			
-			escribir_archivo(instruccion->parametros[0],datos_para_escribir, instruccion->parametros[2]);
-			
-			//le mando a kernel que se escribio el archivo
-			mensaje = "se escribio el archivo";
-			paquete = crear_paquete(buffer, instruccion->identificador);
-			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(socket_kernel, paquete, logger);
-
-		case F_CLOSE:
-		t_fcb *fcb_eliminar = obtenerFcb(instruccion->parametros[0]);
-		list_remove(lista_fcbs, fcb_eliminar);//elimino de la lista de fcbs el fcb de ese arch 
-
-		// eimino la entrada del directorio
-
+		break;
 		case F_TRUNCATE:
-			//truncar_archivo(instruccion->parametros[0]);
-			mensaje = "se modifico el tamanio del archivo";
-			paquete = crear_paquete(buffer, instruccion->identificador);
-			agregar_a_paquete(paquete, mensaje, sizeof(char*));
-			enviar_paquete(socket_kernel, paquete, logger);
-		case F_SEEK:
+			truncar_archivo(instruccion->parametros[0], atoi(instruccion->parametros[1]));
+			send(conexion_kernel, "truncado", strlen("truncado"), 0);
+		break;	
 	}
+
+		destruir_pcb(pcb);
+	
+	}
+
+	close(socket_kernel);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 char pedir_a_memoria(t_instruccion* instruccion, int conexionConMemoria){
 	t_buffer *buffer = malloc(sizeof(t_buffer));
@@ -80,8 +78,6 @@ char pedir_a_memoria(t_instruccion* instruccion, int conexionConMemoria){
 	memcpy(&(valor), stream, sizeof(char));
 
 	return valor;
-	*/
-destruir_pcb(pcb);
 }
 
 void mandar_a_memoria(char* valor, t_direc_fisica* direccion, int socketMemoria, t_instruccion *instruccion){

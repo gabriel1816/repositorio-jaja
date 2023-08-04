@@ -1,6 +1,6 @@
 #include "CPU.h"
 
-char* MOV_IN_memoria(pid_t pid, uint32_t direccion_f, uint32_t registro) 
+char* MOV_IN_memoria(pid_t pid, uint32_t direccion_f, uint32_t tam_registro) 
 { 
 	// paso parametros a string
 	char* pid_str = string_itoa((int)pid);
@@ -10,7 +10,7 @@ char* MOV_IN_memoria(pid_t pid, uint32_t direccion_f, uint32_t registro)
 	t_list* parametros = list_create();
 	list_add(parametros, pid_str);
 	list_add(parametros, direccion_f_str);
-	list_add(parametros, registro);
+	list_add(parametros, string_itoa((int)tam_registro));
 
 	// creo la instruccion y hago el pedido a memoria
     t_instruccion* instruccion_pedido = crear_instruccion(MOV_IN, parametros);

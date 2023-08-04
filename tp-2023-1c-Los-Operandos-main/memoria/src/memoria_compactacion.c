@@ -14,7 +14,7 @@ void compactar_memoria()
 void pedir_compactacion(int conexion)
 {
     t_list* parametros = list_create();
-    t_instruccion* instruccion_compactar = crear_instruccion(COMPACTACION, parametros);
+    t_instruccion* instruccion_compactar = crear_instruccion(COMPACTAR, parametros);
 
     t_buffer* buffer = crear_buffer_para_t_instruccion(instruccion_compactar); 
     t_paquete* paquete = crear_paquete(buffer, COMPACTACION);

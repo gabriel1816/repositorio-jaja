@@ -45,27 +45,28 @@ void recibir_creacion(t_pcb* pcb, t_instruccion* instruccion_pedido)
 {
     t_paquete *paquete = recibir_paquete(memoria_socket, logger);
     switch(paquete->codigo_operacion) {
+        
         case CODIGO_INSTRUCCION_MEMORIA: 
             actualizar_tabla (paquete, pcb);
         break;
-
         case ERROR_MEMORIA:
             t_pcb* pcb_en_ejecucion = sacar_pcb_de_ejecucion();
             terminar_proceso(pcb_en_ejecucion, "OUT_OF_MEMORY");
         break;
-
         case COMPACTACION:
             t_list* parametros = list_create();
             t_instruccion* pedidoCompactacion = crear_instruccion(COMPACTACION, parametros);
             log_info(logger, "Esperando fin de Filesystem");
             //esperar_fin_FS();
-            //log_info(logger, "Cantidad procesos en sistema %u", list_size(procecos_sistema));
+            log_info(logger, "Cantidad procesos en sistema %u", list_size(cola_procesos));
             pedir_memoria(pedidoCompactacion, memoria_socket, logger); 
             actualizar_procesos_recibidos(memoria_socket);
             log_debug(logger, "FIN compactacion");
             pedir_memoria(instruccion_pedido, memoria_socket, logger); 
             recibir_creacion(pcb, instruccion_pedido);
         break;
+        default:
+            log_error(logger, "mensaje desconocido");
 
     }
     destruir_paquete(paquete);

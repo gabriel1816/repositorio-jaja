@@ -37,9 +37,17 @@ t_segmento buscar_hueco(int tam_segmento)
         return *hueco;
     }
     else{
-        hueco->id = -2;
+        hueco->id = -2; 
         return *hueco;
     }
+}
+
+void inicializar_lista_huecos()
+{
+    t_segmento* huecoLibre = malloc(sizeof(t_segmento));
+    huecoLibre->base = segmento_cero.limite;
+    huecoLibre->limite = tamanio_memoria;
+    list_add(lista_huecos, huecoLibre);
 }
 
 t_segmento modificar_lista_huecos(t_segmento* hueco, int tam_segmento, int index) 

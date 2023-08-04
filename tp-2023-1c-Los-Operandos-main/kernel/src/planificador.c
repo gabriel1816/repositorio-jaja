@@ -12,6 +12,7 @@ void agregar_a_listos(t_pcb* pcb)
     list_add(cola_ready, pcb);
     pcb->tiempo_llegada = temporal_create();
     pthread_mutex_unlock(&mutex_cola_listos);
+    agregar_a_cola_procesos(pcb);
     sem_post(&sem_ready);
     //log_info(logger, "Cola Ready %d:  %???", kernel_config.schedulerAlgorithm, ???)
 }
@@ -23,6 +24,8 @@ t_pcb* sacar_de_listos()
     pcb = list_remove(cola_ready, 0);
     temporal_stop(pcb->tiempo_llegada);
     pthread_mutex_unlock(&mutex_cola_listos);
+    sacar_de_cola_procesos(pcb);
+
     return pcb;
 }
 
@@ -48,6 +51,7 @@ void agregar_a_nuevos(t_pcb* pcb)
     pthread_mutex_lock(&mutex_cola_nuevos);
     list_add(cola_new, pcb);
     pthread_mutex_unlock(&mutex_cola_nuevos);
+    agregar_a_cola_procesos(pcb);
     sem_post(&sem_nuevos);
 }
 
@@ -57,6 +61,7 @@ t_pcb* sacar_de_nuevos()
     pthread_mutex_lock(&mutex_cola_nuevos);
     pcb = list_remove(cola_new, 0);
     pthread_mutex_unlock(&mutex_cola_nuevos);
+    sacar_de_cola_procesos(pcb);
     return pcb;
 } 
 
@@ -92,4 +97,19 @@ char* pasar_a_string(t_estado estado)
             return "SEGMENTATION FAULT";
         break;
     }
+}
+void sacar_de_cola_procesos(t_pcb* proceso)
+{
+    pthread_mutex_lock(&procesosEnSistemaMutex);
+    list_remove_element(cola_procesos, proceso);
+    pthread_mutex_unlock(&procesosEnSistemaMutex);
+    return;
+}
+
+
+void agregar_a_cola_procesos(t_pcb* proceso) 
+{
+    pthread_mutex_lock(&procesosEnSistemaMutex);
+    list_add(cola_procesos, proceso); 
+    pthread_mutex_unlock(&procesosEnSistemaMutex);
 }

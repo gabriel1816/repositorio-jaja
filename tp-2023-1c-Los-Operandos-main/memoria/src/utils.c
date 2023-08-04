@@ -24,7 +24,7 @@ void inicializarMemoria()
     lista_huecos = list_create();
     procesos_en_memoria = list_create();
     tablas_segmentos = list_create();
-    //inicializar_lista_huecos(tablas_segmentos);
+    inicializar_lista_huecos();
     //inicializo seg_vacio...
     segmento_vacio.id = -1;
     segmento_vacio.base = 0;

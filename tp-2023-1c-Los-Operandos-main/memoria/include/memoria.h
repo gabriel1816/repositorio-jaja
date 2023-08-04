@@ -91,6 +91,7 @@ bool tam_mas_grande(t_segmento* h_1, t_segmento* h_2);
 bool tam_mas_chico(t_segmento* h_1, t_segmento* h_2);
 bool base_menor(t_segmento* h_1, t_segmento* h_2);
 int calcular_total();
+void inicializar_lista_huecos();
 
 
 //************* PROCESOS  *************//

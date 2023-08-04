@@ -32,10 +32,11 @@ void eliminar_proceso(pid_t pid)
         t_tabla_memoria* tabla = list_get(procesos_en_memoria, i);
         if(tabla->pid == pid){
             eliminar_segmentos(tabla);
+            free(tabla->tabla_segmentos); // ver si dejar
+            free(tabla);
             list_remove(procesos_en_memoria, i);
         }
-    free(tabla->tabla_segmentos);
-    free(tabla);
+    
     }
     log_info(logger, "Eliminacion de Proceso PID: %u", pid);
 }

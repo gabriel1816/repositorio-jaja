@@ -33,7 +33,6 @@ int main(void) {
 
     int server_socket = iniciar_servidor(puerto, ip_memoria, logger);
 
-    log_info(logger, "escuchando...");
     pthread_t hilo_escucha;	
 	pthread_create(&hilo_escucha, NULL, escucha_general, (void*) &server_socket);
 	pthread_join(hilo_escucha, NULL);

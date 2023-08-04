@@ -9,6 +9,10 @@ bool enviar_instrucciones(int socket, t_list *lista_instrucciones, t_log *logger
     return res;
 }
 
+t_instruccion* obtener_instruccion(t_pcb* pcb) {
+    return list_get(pcb->instrucciones, pcb->p_counter - 1);
+}
+
 t_buffer *crear_buffer__para_t_lista_instrucciones(t_list *lista_instrucciones) // creo un buffer para muchas instrucciones
 {
     t_buffer *buffer = malloc(sizeof(t_buffer));

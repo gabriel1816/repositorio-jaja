@@ -48,11 +48,11 @@ void ejecutar_wait(t_pcb* pcb, t_instruccion* instruccion)
     recurso->instancias --;
     log_info(logger, "PID: %d - WAIT: %s - Instancias: %d", pcb->pid, instruccion->parametros[0], recurso->instancias);
 
-    if(recurso->instancias <= 0){
+    if(recurso->instancias < 0){
         list_add(recurso->cola_bloqueados, pcb);
         log_info(logger, "PID: %d - Bloqueado por: %s", pcb->pid, instruccion->parametros[0]);
         cola_recursos_bloqueados_agregar(pcb);
-        return; //se bloqueo
+        return; 
     }
     ejecutar(pcb);
 }
@@ -62,13 +62,16 @@ void cola_recursos_bloqueados_sacar(t_pcb* pcb)
     for(int i=0; i < list_size(cola_recursos_bloqueados); i++){
         if(list_get(cola_recursos_bloqueados, i) == pcb){
             list_remove(cola_recursos_bloqueados, i);
+            sacar_de_cola_procesos(pcb);
             return;
         }
     }
+    
 }
 
 void cola_recursos_bloqueados_agregar(t_pcb* pcb)
 {
     list_add(cola_recursos_bloqueados, pcb);
     cambiar_estado(pcb, BLOQUEADO);
+    agregar_a_cola_procesos(pcb);
 }

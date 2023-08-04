@@ -48,8 +48,6 @@ int main(void) {
 
 	server_socket = iniciar_servidor(kernel_config.listenPort, kernel_config.kernelIP, logger);
 
-	
-
 	memoria_socket = crear_conexion(kernel_config.memoryIP,kernel_config.memoryPort);
 	log_info(logger, "conecte con memoria");
 	send(memoria_socket, "hola, soy kernel", strlen("hola, soy kernel") + 1, 0);

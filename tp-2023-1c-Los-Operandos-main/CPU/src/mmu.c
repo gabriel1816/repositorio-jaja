@@ -10,6 +10,8 @@ int32_t traducir_direccion(uint32_t direccion_logica, t_pcb *pcb, int conexion_k
     
     t_segmento segmento = pcb->tabla_segmentos[num_segmento]; 
     if((segmento.base + desplazamiento_segmento + cantidad_bytes) > segmento.limite){ // evaluo si estoy dentro del limite
+     //LOG DE SEGMENTATION FAULT
+     
         pcb->estado = SEG_FAULT;
         enviar_pcb(pcb, conexion_kernel, logger);
         temporal_stop(temporizador);

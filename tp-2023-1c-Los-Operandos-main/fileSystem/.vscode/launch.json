@@ -3,10 +3,10 @@
     "configurations": [
 
         {
-            "name": "File_system",
+            "name": "FileSystem",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/../file_system",
+            "program": "${fileDirname}/../fileSystem",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

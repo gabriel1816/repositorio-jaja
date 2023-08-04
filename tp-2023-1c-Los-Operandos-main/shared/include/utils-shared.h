@@ -30,8 +30,9 @@
 #define CODIGO_INSTRUCCION 20
 #define CODIGO_PCB 80
 #define CODIGO_INSTRUCCION_MEMORIA 65
-#define ERROR_MEMORIA 404
+#define ERROR_MEMORIA 40
 #define INFO_FS 75
+#define COMPACTACION 35
 
 extern t_log* logger;
 
@@ -75,6 +76,7 @@ typedef enum {
 	CREATE_SEGMENT,
 	F_WRITE,
 	F_READ,
+	F_CREATE,
 	DELETE_SEGMENT,
 	F_CLOSE,
 	EXIT,
@@ -82,7 +84,7 @@ typedef enum {
 	CREAR_PROCESO,
 	ELIMINAR_PROCESO,
 	ERROR,
-	COMPACTACION,
+	COMPACTAR,
 	F_READ_OK
 }t_identificador;
 
@@ -192,12 +194,7 @@ void pedir_memoria(t_instruccion* pedido, int socket, t_log* logger);
 t_tabla_memoria* recibir_memoria(int socket, t_log* logger);
 t_buffer* crear_buffer_tabla_memoria(t_tabla_memoria* nuevo_proceso);
 void enviar_procesos(int conexion);
-
-t_buffer* crear_buffer_para_t_fs_pedido(t_fs_pedido* fs_pedido);
-void enviar_fs_pedido(t_fs_pedido* fs_pedido, int conexion, t_log* logger);
-t_fs_pedido* crear_pedido_para_buffer_fs(t_buffer* buffer);
-void enviar_fs_pedido(t_fs_pedido* fs_pedido, int conexion, t_log* logger);
-t_fs_pedido* crear_pedido_para_buffer_fs(t_buffer* buffer);
+t_instruccion* obtener_instruccion(t_pcb* pcb);
 
 
 #endif

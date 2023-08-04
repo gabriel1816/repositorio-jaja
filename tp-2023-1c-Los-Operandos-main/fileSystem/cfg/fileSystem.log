@@ -618,3 +618,237 @@
 [INFO] 21:13:01:311 LOGGER FILESYSTEM/(15506:15506): Servidor listo para recibir al cliente
 [INFO] 21:16:12:357 LOGGER FILESYSTEM/(15795:15795): conecte con memoria
 [INFO] 21:16:12:357 LOGGER FILESYSTEM/(15795:15795): Servidor listo para recibir al cliente
+[INFO] 21:57:31:530 LOGGER FILESYSTEM/(3739:3739): conecte con memoria
+[INFO] 21:57:31:536 LOGGER FILESYSTEM/(3739:3739): Servidor listo para recibir al cliente
+[INFO] 22:14:31:586 LOGGER FILESYSTEM/(5779:5779): conecte con memoria
+[INFO] 22:14:31:594 LOGGER FILESYSTEM/(5779:5779): Servidor listo para recibir al cliente
+[INFO] 22:39:54:723 LOGGER FILESYSTEM/(7198:7198): conecte con memoria
+[INFO] 22:39:54:727 LOGGER FILESYSTEM/(7198:7198): Servidor listo para recibir al cliente
+[INFO] 22:49:57:094 LOGGER FILESYSTEM/(7422:7422): conecte con memoria
+[INFO] 22:49:57:097 LOGGER FILESYSTEM/(7422:7422): Servidor listo para recibir al cliente
+[INFO] 22:52:39:392 LOGGER FILESYSTEM/(8288:8288): conecte con memoria
+[INFO] 22:52:39:395 LOGGER FILESYSTEM/(8288:8288): Servidor listo para recibir al cliente
+[INFO] 23:12:00:601 LOGGER FILESYSTEM/(3757:3757): conecte con memoria
+[INFO] 23:12:00:608 LOGGER FILESYSTEM/(3757:3757): Servidor listo para recibir al cliente
+[INFO] 23:15:43:063 LOGGER FILESYSTEM/(4363:4363): conecte con memoria
+[INFO] 23:15:43:066 LOGGER FILESYSTEM/(4363:4363): Servidor listo para recibir al cliente
+[INFO] 23:18:51:466 LOGGER FILESYSTEM/(4965:4965): conecte con memoria
+[INFO] 23:18:51:471 LOGGER FILESYSTEM/(4965:4965): Servidor listo para recibir al cliente
+[INFO] 23:22:58:393 LOGGER FILESYSTEM/(5636:5636): conecte con memoria
+[INFO] 23:22:58:400 LOGGER FILESYSTEM/(5636:5636): Servidor listo para recibir al cliente
+[INFO] 23:39:31:182 LOGGER FILESYSTEM/(6794:6794): conecte con memoria
+[INFO] 23:39:31:184 LOGGER FILESYSTEM/(6794:6794): Servidor listo para recibir al cliente
+[INFO] 23:46:07:643 LOGGER FILESYSTEM/(7461:7461): conecte con memoria
+[INFO] 23:46:07:645 LOGGER FILESYSTEM/(7461:7461): Servidor listo para recibir al cliente
+[INFO] 00:01:23:385 LOGGER FILESYSTEM/(8497:8497): conecte con memoria
+[INFO] 00:01:23:389 LOGGER FILESYSTEM/(8497:8497): Servidor listo para recibir al cliente
+[INFO] 00:03:22:014 LOGGER FILESYSTEM/(8993:8993): conecte con memoria
+[INFO] 00:03:22:017 LOGGER FILESYSTEM/(8993:8993): Servidor listo para recibir al cliente
+[INFO] 00:08:31:529 LOGGER FILESYSTEM/(10172:10172): conecte con memoria
+[INFO] 00:08:31:544 LOGGER FILESYSTEM/(10172:10172): Servidor listo para recibir al cliente
+[INFO] 00:11:09:435 LOGGER FILESYSTEM/(10713:10713): conecte con memoria
+[INFO] 00:11:09:436 LOGGER FILESYSTEM/(10713:10713): Servidor listo para recibir al cliente
+[INFO] 00:16:34:704 LOGGER FILESYSTEM/(11686:11686): conecte con memoria
+[INFO] 00:16:34:707 LOGGER FILESYSTEM/(11686:11686): Servidor listo para recibir al cliente
+[INFO] 00:19:01:878 LOGGER FILESYSTEM/(12114:12114): conecte con memoria
+[INFO] 00:19:01:880 LOGGER FILESYSTEM/(12114:12114): Servidor listo para recibir al cliente
+[INFO] 00:23:22:833 LOGGER FILESYSTEM/(12972:12972): conecte con memoria
+[INFO] 00:23:22:852 LOGGER FILESYSTEM/(12972:12972): Servidor listo para recibir al cliente
+[INFO] 00:25:17:437 LOGGER FILESYSTEM/(13491:13491): conecte con memoria
+[INFO] 00:25:17:439 LOGGER FILESYSTEM/(13491:13491): Servidor listo para recibir al cliente
+[INFO] 00:28:57:022 LOGGER FILESYSTEM/(13991:13991): conecte con memoria
+[INFO] 00:28:57:024 LOGGER FILESYSTEM/(13991:13991): Servidor listo para recibir al cliente
+[INFO] 00:33:24:598 LOGGER FILESYSTEM/(14886:14886): conecte con memoria
+[INFO] 00:33:24:636 LOGGER FILESYSTEM/(14886:14886): Servidor listo para recibir al cliente
+[INFO] 00:36:07:242 LOGGER FILESYSTEM/(15722:15722): conecte con memoria
+[INFO] 00:36:07:247 LOGGER FILESYSTEM/(15722:15722): Servidor listo para recibir al cliente
+[INFO] 00:45:06:927 LOGGER FILESYSTEM/(16426:16426): conecte con memoria
+[INFO] 00:45:06:930 LOGGER FILESYSTEM/(16426:16426): Servidor listo para recibir al cliente
+[INFO] 00:47:12:556 LOGGER FILESYSTEM/(16895:16895): conecte con memoria
+[INFO] 00:47:12:561 LOGGER FILESYSTEM/(16895:16895): Servidor listo para recibir al cliente
+[INFO] 00:50:30:645 LOGGER FILESYSTEM/(17977:17977): conecte con memoria
+[INFO] 00:50:30:649 LOGGER FILESYSTEM/(17977:17977): Servidor listo para recibir al cliente
+[INFO] 00:53:01:514 LOGGER FILESYSTEM/(18842:18842): conecte con memoria
+[INFO] 00:53:01:520 LOGGER FILESYSTEM/(18842:18842): Servidor listo para recibir al cliente
+[INFO] 01:28:13:907 LOGGER FILESYSTEM/(20272:20272): conecte con memoria
+[INFO] 01:28:13:909 LOGGER FILESYSTEM/(20272:20272): Servidor listo para recibir al cliente
+[INFO] 01:45:29:516 LOGGER FILESYSTEM/(21852:21852): conecte con memoria
+[INFO] 01:45:29:518 LOGGER FILESYSTEM/(21852:21852): Servidor listo para recibir al cliente
+[INFO] 01:51:54:778 LOGGER FILESYSTEM/(23006:23006): conecte con memoria
+[INFO] 01:51:54:780 LOGGER FILESYSTEM/(23006:23006): Servidor listo para recibir al cliente
+[INFO] 02:09:25:483 LOGGER FILESYSTEM/(23491:23491): conecte con memoria
+[INFO] 02:09:25:484 LOGGER FILESYSTEM/(23491:23491): Servidor listo para recibir al cliente
+[INFO] 02:10:53:447 LOGGER FILESYSTEM/(23976:23976): conecte con memoria
+[INFO] 02:10:53:450 LOGGER FILESYSTEM/(23976:23976): Servidor listo para recibir al cliente
+[INFO] 02:13:20:218 LOGGER FILESYSTEM/(24378:24378): conecte con memoria
+[INFO] 02:13:20:226 LOGGER FILESYSTEM/(24378:24378): Servidor listo para recibir al cliente
+[INFO] 02:15:51:546 LOGGER FILESYSTEM/(25151:25151): conecte con memoria
+[INFO] 02:15:51:550 LOGGER FILESYSTEM/(25151:25151): Servidor listo para recibir al cliente
+[INFO] 02:19:43:431 LOGGER FILESYSTEM/(26336:26336): conecte con memoria
+[INFO] 02:19:43:435 LOGGER FILESYSTEM/(26336:26336): Servidor listo para recibir al cliente
+[INFO] 02:26:29:634 LOGGER FILESYSTEM/(27206:27206): conecte con memoria
+[INFO] 02:26:29:638 LOGGER FILESYSTEM/(27206:27206): Servidor listo para recibir al cliente
+[INFO] 02:32:56:891 LOGGER FILESYSTEM/(28019:28019): conecte con memoria
+[INFO] 02:32:56:893 LOGGER FILESYSTEM/(28019:28019): Servidor listo para recibir al cliente
+[INFO] 02:39:37:820 LOGGER FILESYSTEM/(28660:28660): conecte con memoria
+[INFO] 02:39:37:830 LOGGER FILESYSTEM/(28660:28660): Servidor listo para recibir al cliente
+[INFO] 02:45:35:936 LOGGER FILESYSTEM/(29827:29827): conecte con memoria
+[INFO] 02:45:35:938 LOGGER FILESYSTEM/(29827:29827): Servidor listo para recibir al cliente
+[INFO] 02:48:11:859 LOGGER FILESYSTEM/(30446:30446): conecte con memoria
+[INFO] 02:48:11:862 LOGGER FILESYSTEM/(30446:30446): Servidor listo para recibir al cliente
+[INFO] 02:57:48:210 LOGGER FILESYSTEM/(32302:32302): conecte con memoria
+[INFO] 02:57:48:223 LOGGER FILESYSTEM/(32302:32302): Servidor listo para recibir al cliente
+[INFO] 03:06:01:291 LOGGER FILESYSTEM/(33235:33235): conecte con memoria
+[INFO] 03:06:01:299 LOGGER FILESYSTEM/(33235:33235): Servidor listo para recibir al cliente
+[INFO] 03:08:00:928 LOGGER FILESYSTEM/(33738:33738): conecte con memoria
+[INFO] 03:08:00:931 LOGGER FILESYSTEM/(33738:33738): Servidor listo para recibir al cliente
+[INFO] 03:21:30:970 LOGGER FILESYSTEM/(35273:35273): conecte con memoria
+[INFO] 03:21:30:974 LOGGER FILESYSTEM/(35273:35273): Servidor listo para recibir al cliente
+[INFO] 03:29:39:922 LOGGER FILESYSTEM/(36299:36299): conecte con memoria
+[INFO] 03:29:39:924 LOGGER FILESYSTEM/(36299:36299): Servidor listo para recibir al cliente
+[INFO] 03:32:17:509 LOGGER FILESYSTEM/(36871:36871): conecte con memoria
+[INFO] 03:32:17:517 LOGGER FILESYSTEM/(36871:36871): Servidor listo para recibir al cliente
+[INFO] 03:39:12:779 LOGGER FILESYSTEM/(38197:38197): conecte con memoria
+[INFO] 03:39:12:783 LOGGER FILESYSTEM/(38197:38197): Servidor listo para recibir al cliente
+[INFO] 03:46:33:940 LOGGER FILESYSTEM/(39347:39347): conecte con memoria
+[INFO] 03:46:33:951 LOGGER FILESYSTEM/(39347:39347): Servidor listo para recibir al cliente
+[INFO] 03:51:21:234 LOGGER FILESYSTEM/(40395:40395): conecte con memoria
+[INFO] 03:51:21:235 LOGGER FILESYSTEM/(40395:40395): Servidor listo para recibir al cliente
+[INFO] 04:20:36:847 LOGGER FILESYSTEM/(42163:42163): conecte con memoria
+[INFO] 04:20:36:861 LOGGER FILESYSTEM/(42163:42163): Servidor listo para recibir al cliente
+[INFO] 04:28:37:141 LOGGER FILESYSTEM/(43129:43129): conecte con memoria
+[INFO] 04:28:37:142 LOGGER FILESYSTEM/(43129:43129): Servidor listo para recibir al cliente
+[INFO] 04:39:50:916 LOGGER FILESYSTEM/(44375:44375): conecte con memoria
+[INFO] 04:39:50:918 LOGGER FILESYSTEM/(44375:44375): Servidor listo para recibir al cliente
+[INFO] 04:43:55:880 LOGGER FILESYSTEM/(45176:45176): conecte con memoria
+[INFO] 04:43:55:883 LOGGER FILESYSTEM/(45176:45176): Servidor listo para recibir al cliente
+[INFO] 04:46:22:587 LOGGER FILESYSTEM/(45697:45697): conecte con memoria
+[INFO] 04:46:22:605 LOGGER FILESYSTEM/(45697:45697): Servidor listo para recibir al cliente
+[INFO] 04:52:08:449 LOGGER FILESYSTEM/(46509:46509): conecte con memoria
+[INFO] 04:52:08:455 LOGGER FILESYSTEM/(46509:46509): Servidor listo para recibir al cliente
+[INFO] 06:44:15:406 LOGGER FILESYSTEM/(50170:50170): rompo1
+[INFO] 06:44:45:503 LOGGER FILESYSTEM/(50199:50199): rompo1
+[INFO] 06:44:51:172 LOGGER FILESYSTEM/(50232:50232): rompo1
+[INFO] 06:44:51:177 LOGGER FILESYSTEM/(50232:50232): rompo2
+[INFO] 06:44:51:285 LOGGER FILESYSTEM/(50232:50232): rompo3
+[INFO] 06:44:51:287 LOGGER FILESYSTEM/(50232:50232): rompo4
+[INFO] 06:44:51:307 LOGGER FILESYSTEM/(50232:50232): Se levantaron correctamente las estructuras
+[INFO] 06:45:27:382 LOGGER FILESYSTEM/(50359:50359): Se levantaron correctamente las estructuras
+[INFO] 06:45:27:383 LOGGER FILESYSTEM/(50359:50359): conecte con memoria
+[INFO] 06:45:27:384 LOGGER FILESYSTEM/(50359:50359): Servidor listo para recibir al cliente
+[INFO] 06:48:17:064 LOGGER FILESYSTEM/(50886:50886): Se levantaron correctamente las estructuras
+[INFO] 06:48:17:066 LOGGER FILESYSTEM/(50886:50886): conecte con memoria
+[INFO] 06:48:17:066 LOGGER FILESYSTEM/(50886:50886): Servidor listo para recibir al cliente
+[INFO] 06:50:03:081 LOGGER FILESYSTEM/(51155:51155): Se levantaron correctamente las estructuras
+[INFO] 06:50:03:082 LOGGER FILESYSTEM/(51155:51155): conecte con memoria
+[INFO] 06:50:03:083 LOGGER FILESYSTEM/(51155:51155): Servidor listo para recibir al cliente
+[INFO] 06:52:02:983 LOGGER FILESYSTEM/(51528:51528): Se levantaron correctamente las estructuras
+[INFO] 06:52:02:983 LOGGER FILESYSTEM/(51528:51528): conecte con memoria
+[INFO] 06:52:02:984 LOGGER FILESYSTEM/(51528:51528): Servidor listo para recibir al cliente
+[INFO] 06:54:29:742 LOGGER FILESYSTEM/(52044:52044): Se levantaron correctamente las estructuras
+[INFO] 06:54:29:744 LOGGER FILESYSTEM/(52044:52044): conecte con memoria
+[INFO] 06:54:29:745 LOGGER FILESYSTEM/(52044:52044): Servidor listo para recibir al cliente
+[INFO] 06:57:02:882 LOGGER FILESYSTEM/(52358:52358): Se levantaron correctamente las estructuras
+[INFO] 06:57:02:887 LOGGER FILESYSTEM/(52358:52358): conecte con memoria
+[INFO] 06:57:02:888 LOGGER FILESYSTEM/(52358:52358): Servidor listo para recibir al cliente
+[INFO] 06:57:05:708 LOGGER FILESYSTEM/(52358:52358): Servidor listo para recibir al cliente
+[INFO] 06:59:33:325 LOGGER FILESYSTEM/(52701:52701): Se levantaron correctamente las estructuras
+[INFO] 06:59:33:327 LOGGER FILESYSTEM/(52701:52701): conecte con memoria
+[INFO] 06:59:33:327 LOGGER FILESYSTEM/(52701:52701): Servidor listo para recibir al cliente
+[INFO] 06:59:42:336 LOGGER FILESYSTEM/(52701:52701): Servidor listo para recibir al cliente
+[INFO] 07:02:04:085 LOGGER FILESYSTEM/(53125:53125): Se levantaron correctamente las estructuras
+[INFO] 07:02:04:086 LOGGER FILESYSTEM/(53125:53125): conecte con memoria
+[INFO] 07:02:04:087 LOGGER FILESYSTEM/(53125:53125): Servidor listo para recibir al cliente
+[INFO] 07:02:08:217 LOGGER FILESYSTEM/(53125:53171): rompo 1
+[INFO] 07:02:11:633 LOGGER FILESYSTEM/(53125:53171): rompo 1
+[INFO] 07:02:11:633 LOGGER FILESYSTEM/(53125:53171): rompo 1
+[INFO] 07:03:53:277 LOGGER FILESYSTEM/(53446:53446): Se levantaron correctamente las estructuras
+[INFO] 07:03:53:279 LOGGER FILESYSTEM/(53446:53446): conecte con memoria
+[INFO] 07:03:53:279 LOGGER FILESYSTEM/(53446:53446): Servidor listo para recibir al cliente
+[INFO] 07:05:23:464 LOGGER FILESYSTEM/(53762:53762): Se levantaron correctamente las estructuras
+[INFO] 07:05:23:465 LOGGER FILESYSTEM/(53762:53762): conecte con memoria
+[INFO] 07:05:23:466 LOGGER FILESYSTEM/(53762:53762): Servidor listo para recibir al cliente
+[INFO] 07:05:54:395 LOGGER FILESYSTEM/(53762:53837): -------6
+[INFO] 07:07:54:588 LOGGER FILESYSTEM/(54268:54268): Se levantaron correctamente las estructuras
+[INFO] 07:07:54:589 LOGGER FILESYSTEM/(54268:54268): conecte con memoria
+[INFO] 07:07:54:590 LOGGER FILESYSTEM/(54268:54268): Servidor listo para recibir al cliente
+[INFO] 07:09:07:566 LOGGER FILESYSTEM/(54600:54600): Se levantaron correctamente las estructuras
+[INFO] 07:09:51:239 LOGGER FILESYSTEM/(54690:54690): Se levantaron correctamente las estructuras
+[INFO] 07:09:51:241 LOGGER FILESYSTEM/(54690:54690): conecte con memoria
+[INFO] 07:09:51:241 LOGGER FILESYSTEM/(54690:54690): Servidor listo para recibir al cliente
+[INFO] 07:12:02:801 LOGGER FILESYSTEM/(55196:55196): Se levantaron correctamente las estructuras
+[INFO] 07:12:02:803 LOGGER FILESYSTEM/(55196:55196): conecte con memoria
+[INFO] 07:12:02:804 LOGGER FILESYSTEM/(55196:55196): Servidor listo para recibir al cliente
+[INFO] 07:12:13:190 LOGGER FILESYSTEM/(55196:55257): rompo1
+[INFO] 07:14:11:952 LOGGER FILESYSTEM/(55607:55607): Se levantaron correctamente las estructuras
+[INFO] 07:14:11:954 LOGGER FILESYSTEM/(55607:55607): conecte con memoria
+[INFO] 07:14:11:955 LOGGER FILESYSTEM/(55607:55607): Servidor listo para recibir al cliente
+[INFO] 07:16:15:186 LOGGER FILESYSTEM/(56042:56042): Se levantaron correctamente las estructuras
+[INFO] 07:16:15:188 LOGGER FILESYSTEM/(56042:56042): conecte con memoria
+[INFO] 07:16:15:189 LOGGER FILESYSTEM/(56042:56042): Servidor listo para recibir al cliente
+[INFO] 07:16:24:212 LOGGER FILESYSTEM/(56042:56093): rompo1
+[INFO] 07:17:03:392 LOGGER FILESYSTEM/(56042:56093): Crear Archivo: ¿ ı
+[INFO] 07:20:46:247 LOGGER FILESYSTEM/(56560:56560): Se levantaron correctamente las estructuras
+[INFO] 07:20:46:249 LOGGER FILESYSTEM/(56560:56560): conecte con memoria
+[INFO] 07:20:46:250 LOGGER FILESYSTEM/(56560:56560): Servidor listo para recibir al cliente
+[INFO] 07:25:03:930 LOGGER FILESYSTEM/(57022:57022): Se levantaron correctamente las estructuras
+[INFO] 07:25:03:931 LOGGER FILESYSTEM/(57022:57022): conecte con memoria
+[INFO] 07:25:03:932 LOGGER FILESYSTEM/(57022:57022): Servidor listo para recibir al cliente
+[INFO] 07:25:16:624 LOGGER FILESYSTEM/(57022:57105): Crear Archivo: MORIS
+[INFO] 07:54:56:956 LOGGER FILESYSTEM/(58457:58457): Se levantaron correctamente las estructuras
+[INFO] 07:54:56:959 LOGGER FILESYSTEM/(58457:58457): conecte con memoria
+[INFO] 07:54:56:960 LOGGER FILESYSTEM/(58457:58457): Servidor listo para recibir al cliente
+[INFO] 07:55:09:095 LOGGER FILESYSTEM/(58457:58530): Abrir Archivo: MORIS
+[INFO] 07:57:34:163 LOGGER FILESYSTEM/(59028:59028): Se levantaron correctamente las estructuras
+[INFO] 07:57:34:164 LOGGER FILESYSTEM/(59028:59028): conecte con memoria
+[INFO] 07:57:34:165 LOGGER FILESYSTEM/(59028:59028): Servidor listo para recibir al cliente
+[INFO] 07:58:50:556 LOGGER FILESYSTEM/(59028:59100): Abrir Archivo: MORIS
+[INFO] 08:00:51:131 LOGGER FILESYSTEM/(59587:59587): Se levantaron correctamente las estructuras
+[INFO] 08:00:51:132 LOGGER FILESYSTEM/(59587:59587): conecte con memoria
+[INFO] 08:00:51:133 LOGGER FILESYSTEM/(59587:59587): Servidor listo para recibir al cliente
+[INFO] 08:01:09:553 LOGGER FILESYSTEM/(59587:59653): Abrir Archivo: MORIS
+[INFO] 08:02:55:548 LOGGER FILESYSTEM/(59949:59949): Se levantaron correctamente las estructuras
+[INFO] 08:02:55:550 LOGGER FILESYSTEM/(59949:59949): conecte con memoria
+[INFO] 08:02:55:550 LOGGER FILESYSTEM/(59949:59949): Servidor listo para recibir al cliente
+[INFO] 08:03:03:468 LOGGER FILESYSTEM/(59949:60001): Abrir Archivo: MORIS
+[INFO] 08:05:08:297 LOGGER FILESYSTEM/(60448:60448): Se levantaron correctamente las estructuras
+[INFO] 08:05:08:299 LOGGER FILESYSTEM/(60448:60448): conecte con memoria
+[INFO] 08:05:08:300 LOGGER FILESYSTEM/(60448:60448): Servidor listo para recibir al cliente
+[INFO] 08:05:26:725 LOGGER FILESYSTEM/(60448:60499): Abrir Archivo: MORIS
+[INFO] 08:05:26:725 LOGGER FILESYSTEM/(60448:60499): rompo1
+[INFO] 08:08:23:285 LOGGER FILESYSTEM/(60882:60882): Se levantaron correctamente las estructuras
+[INFO] 08:08:23:287 LOGGER FILESYSTEM/(60882:60882): conecte con memoria
+[INFO] 08:08:23:288 LOGGER FILESYSTEM/(60882:60882): Servidor listo para recibir al cliente
+[INFO] 08:08:32:398 LOGGER FILESYSTEM/(60882:60946): Abrir Archivo: MORIS
+[INFO] 08:10:47:702 LOGGER FILESYSTEM/(61249:61249): Se levantaron correctamente las estructuras
+[INFO] 08:10:47:704 LOGGER FILESYSTEM/(61249:61249): conecte con memoria
+[INFO] 08:10:47:705 LOGGER FILESYSTEM/(61249:61249): Servidor listo para recibir al cliente
+[INFO] 08:10:57:297 LOGGER FILESYSTEM/(61249:61322): Abrir Archivo: MORIS
+[INFO] 08:13:39:175 LOGGER FILESYSTEM/(61643:61643): Se levantaron correctamente las estructuras
+[INFO] 08:13:39:178 LOGGER FILESYSTEM/(61643:61643): conecte con memoria
+[INFO] 08:13:39:179 LOGGER FILESYSTEM/(61643:61643): Servidor listo para recibir al cliente
+[INFO] 08:13:47:076 LOGGER FILESYSTEM/(61643:61697): Truncar Archivo: MORIS - Tama√±o: 128
+[INFO] 08:13:47:076 LOGGER FILESYSTEM/(61643:61697): Acceso a Bitmap - Bloque: 0 - Estado: 0
+[INFO] 08:13:47:076 LOGGER FILESYSTEM/(61643:61697): Acceso a Bitmap - Bloque: 1 - Estado: 0
+[INFO] 08:13:47:076 LOGGER FILESYSTEM/(61643:61697): Acceso a Bitmap - Bloque: 2 - Estado: 0
+[INFO] 08:17:34:664 LOGGER FILESYSTEM/(62072:62072): Se levantaron correctamente las estructuras
+[INFO] 08:17:34:665 LOGGER FILESYSTEM/(62072:62072): conecte con memoria
+[INFO] 08:17:34:667 LOGGER FILESYSTEM/(62072:62072): Servidor listo para recibir al cliente
+[INFO] 08:17:44:688 LOGGER FILESYSTEM/(62072:62123): Abrir Archivo: MORIS
+[INFO] 08:25:16:640 LOGGER FILESYSTEM/(63274:63274): Se levantaron correctamente las estructuras
+[INFO] 08:25:16:643 LOGGER FILESYSTEM/(63274:63274): conecte con memoria
+[INFO] 08:25:16:644 LOGGER FILESYSTEM/(63274:63274): Servidor listo para recibir al cliente
+[INFO] 08:26:31:932 LOGGER FILESYSTEM/(63274:63369): Abrir Archivo: MORIS
+[INFO] 08:29:15:867 LOGGER FILESYSTEM/(64085:64085): Se levantaron correctamente las estructuras
+[INFO] 08:29:15:879 LOGGER FILESYSTEM/(64085:64085): conecte con memoria
+[INFO] 08:29:15:881 LOGGER FILESYSTEM/(64085:64085): Servidor listo para recibir al cliente
+[INFO] 08:30:10:600 LOGGER FILESYSTEM/(64085:64186): Abrir Archivo: MORIS
+[INFO] 08:34:11:446 LOGGER FILESYSTEM/(65421:65421): Se levantaron correctamente las estructuras
+[INFO] 08:34:11:469 LOGGER FILESYSTEM/(65421:65421): conecte con memoria
+[INFO] 08:34:11:469 LOGGER FILESYSTEM/(65421:65421): Servidor listo para recibir al cliente
+[INFO] 08:35:32:099 LOGGER FILESYSTEM/(65421:65671): Abrir Archivo: MORIS
+[INFO] 08:39:38:071 LOGGER FILESYSTEM/(66395:66395): Se levantaron correctamente las estructuras
+[INFO] 08:39:38:072 LOGGER FILESYSTEM/(66395:66395): conecte con memoria
+[INFO] 08:39:38:073 LOGGER FILESYSTEM/(66395:66395): Servidor listo para recibir al cliente
+[INFO] 08:40:11:837 LOGGER FILESYSTEM/(66395:66451): Abrir Archivo: MORIS
+[INFO] 08:40:56:320 LOGGER FILESYSTEM/(66395:66451): Truncar Archivo: MORIS - Tama√±o: 128

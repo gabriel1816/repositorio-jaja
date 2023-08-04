@@ -48,6 +48,7 @@ void poner_en_ejecucion(t_pcb* pcb)
     pthread_mutex_lock(&mutex_pcb_a_ejecutar);
     pcb_a_ejecutar = pcb;
     pthread_mutex_unlock(&mutex_pcb_a_ejecutar);
+    agregar_a_cola_procesos(pcb);
 }
 
 

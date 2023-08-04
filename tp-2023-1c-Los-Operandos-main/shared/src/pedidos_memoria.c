@@ -74,3 +74,50 @@ t_tabla_memoria* deserializar_buffer_para_tabla_memoria(t_buffer* buffer)
     }
     return proceso;
 }
+
+t_buffer* crear_buffer_para_t_pedido_file_system(t_fs_pedido* pedido_filesystem) 
+{
+    t_buffer* buffer = malloc(sizeof(t_buffer));
+
+    uint32_t tam_instruccion = sizeof(uint32_t) + sizeof(int32_t) + sizeof(uint32_t) * 4 + 
+                              espacio_de_array_parametros(pedido_filesystem->instruccion);
+    buffer->size = sizeof(uint32_t) + sizeof(int32_t) + tam_instruccion;
+
+    void* stream = malloc(buffer->size);
+    int offset = 0;
+    memcpy(stream + offset, &pedido_filesystem->pid, sizeof(uint32_t));
+    offset += sizeof(uint32_t);
+    memcpy(stream + offset, &pedido_filesystem->direccion_fisica, sizeof(int32_t));
+    offset += sizeof(int32_t);
+
+    t_buffer* buffer_instruccion = crear_buffer_para_t_instruccion(pedido_filesystem->instruccion);
+    void *stream_instruccion = buffer_instruccion->stream;
+    memcpy(stream + offset, stream_instruccion, buffer_instruccion->size);
+    offset += buffer_instruccion->size;
+    buffer->stream = stream;
+    
+    free(buffer_instruccion);
+    return buffer;
+}
+
+
+void enviar_pedido_file_system(t_fs_pedido* pedido_filesystem, int conexion, t_log* logger_kernel) 
+{
+    t_buffer* buffer = crear_buffer_para_t_pedido_file_system(pedido_filesystem);
+    t_paquete *paquete = crear_paquete(buffer, 79);
+    enviar_paquete(conexion, paquete, logger_kernel);
+}
+
+
+t_fs_pedido* crear_pedido_file_system_para_el_buffer(t_buffer* buffer) 
+{
+    t_fs_pedido* pedido_filesystem = malloc(sizeof(t_fs_pedido));
+    void* stream = buffer->stream;
+    uint32_t offset = 0;
+    memcpy(&(pedido_filesystem->pid), stream + offset, sizeof(uint32_t));
+    offset += sizeof(uint32_t);
+    memcpy(&(pedido_filesystem->direccion_fisica), stream + offset, sizeof(int32_t));
+    offset += sizeof(int32_t);
+    pedido_filesystem->instruccion = crear_instruccion_para_el_buffer(buffer, &offset);
+    return pedido_filesystem;
+}

@@ -37,7 +37,7 @@ void escuchar(int puerto_escucha) {
 void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int) conexion;
-	log_info(logger, "Sescuchando a memoria");
+	log_info(logger, "Escuchando a memoria");
 
     t_paquete* paquete;
     while (1)
@@ -101,14 +101,12 @@ void atender_kernel(void* conexion)
 	log_info(logger, "escuchando a kernel");
 
 	while(1){
-        log_info(logger, "llegue");
 		t_paquete *paquete = recibir_paquete(conexion_kernel, logger); 
 		uint32_t offset = 0;
 		t_instruccion *instruccion =  crear_instruccion_para_el_buffer(paquete->buffer, &offset); 
 		pid_t pid;
 		int id;
         int tam_segmento;
-        log_info(logger, "instruccion %d", instruccion->identificador);
 		switch(instruccion->identificador){
 			case CREATE_SEGMENT:
 				id = strtoul(instruccion->parametros[0], NULL, 10);
@@ -123,11 +121,11 @@ void atender_kernel(void* conexion)
                 break;
 			break;
 			case CREAR_PROCESO:
-                log_info(logger, "habemus proceso");
 				pid = (pid_t)atoi(instruccion->parametros[0]);
 				crear_proceso_memoria(pid, conexion);
 			break;
 			case ELIMINAR_PROCESO:
+                pid = (pid_t)atoi(instruccion->parametros[0]);
 				eliminar_proceso(pid);
 			break;
 			default:
@@ -162,7 +160,7 @@ void atender_fs(void* conexion)
         uint32_t lectura;
         t_instruccion* instr_respuesta;
         t_list* parametros = list_create();
-        t_buffer* buffer;
+        t_buffer* buffer; 
     
         switch (fs_pedido->instruccion->identificador) {
             case F_READ: 
@@ -196,7 +194,7 @@ void atender_fs(void* conexion)
         usleep(retardo_memoria*1000);
         enviar_paquete(conexion_fs, paquete_rta, logger);
 	    destruir_paquete(paquete_rta);
-        destruir_paquete(paquete);
+        destruir_paquete(paquete); 
     }
 
     log_info(logger, "Cierro conexion con fs");

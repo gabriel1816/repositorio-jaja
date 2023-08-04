@@ -149,6 +149,16 @@ t_pcb* sacar_de_bloqueados();
 void agregar_a_nuevos(t_pcb* pcb);
 t_pcb* sacar_de_nuevos();
 t_pcb* buscar_pcb(pid_t* pid);
+void sacar_de_cola_procesos(t_pcb* proceso);
+void agregar_a_cola_procesos(t_pcb* proceso);
 
+
+//*************** LISTAS  ***************//
+
+bool solicitar_apertura(t_pcb* pcb);
+void solicitar_creacion(t_instruccion* instruccion);
+void solicitar_truncamiento(t_pcb* pcb);
+void leer(t_pcb* pcb);
+void escribir(t_pcb* pcb);
 
 #endif /* KERNEL_H_ */

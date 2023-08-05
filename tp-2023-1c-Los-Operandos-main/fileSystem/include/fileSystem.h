@@ -4,17 +4,18 @@
 
 #include <stdbool.h>
 #include <commons/config.h>
-#include <commons/string.h>
 #include <commons/collections/list.h>
 #include <commons/bitarray.h>
 #include <fcntl.h>
 #include <sys/mman.h>
+#include <math.h>
 #include <dirent.h>
+#include <string.h>
 
 #include "utils-shared.h"
 #define MAX_LINE_LENGTH 24
-#define LOG_PATH "./cfg/fileSystem.log"
-#define CONFIG_PATH "./cfg/fileSystem.config"
+#define LOG_PATH "../cfg/fileSystem.log"
+#define CONFIG_PATH "../cfg/fileSystem.config"
 
 
 
@@ -53,6 +54,7 @@ extern char* ipFs;
 extern t_list* lista_fcbs;
 extern t_superbloque* superbloque;
 extern t_bitarray* bitmap;
+extern sem_t semBinSolicitudes;
 
 //************* ---------- *************//
 

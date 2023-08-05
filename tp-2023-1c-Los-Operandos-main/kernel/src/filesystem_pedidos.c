@@ -37,10 +37,40 @@ void solicitar_truncamiento(t_pcb* pcb) {
 
 }
 
-void leer(t_pcb* pcb) {
+void leer(t_instruccion* instruccion, t_pcb* pcb) {
+
+    archivo_abierto* archivo = buscar_archivo(instruccion->parametros[0]);
+    t_list* parametros = list_create();
+    list_add(parametros, instruccion->parametros[0]);
+    list_add(parametros, string_itoa(archivo->puntero));
+    list_add(parametros, instruccion->parametros[2]);
+    t_instruccion* pedidoFS = crear_instruccion(F_READ, parametros);
+    list_clean(parametros);
+    list_add(parametros, pedidoFS);
+    log_info("PID: %d - Leer Archivo: %s - Puntero %d - Dirección Memoria %d - Tamaño %s",pcb->pid, instruccion->parametros[0],archivo->puntero, pcb->direccion_fisica, instruccion->parametros[2]);
+
+    t_pcb* pcbcito = crear_pcb(pcb->conexion, parametros, EJECUTANDO, pcb->estimado_rafaga);
+    pcbcito->p_counter++;
+    enviar_pcb(pcbcito, filesystem_socket, logger);
+    char* respuesta[20];
+    recv(filesystem_socket, respuesta, sizeof(respuesta), 0);
 
 }
 
-void escribir(t_pcb* pcb) {
+void escribir(t_instruccion* instruccion, t_pcb* pcb) {
 
+    archivo_abierto* archivo = buscar_archivo(instruccion->parametros[0]);
+    t_list* parametros = list_create();
+    list_add(parametros, instruccion->parametros[0]);
+    list_add(parametros, string_itoa(archivo->puntero));
+    list_add(parametros, instruccion->parametros[2]);
+    t_instruccion* pedidoFS = crear_instruccion(F_WRITE, parametros);
+    list_clean(parametros);
+    list_add(parametros, pedidoFS);
+    log_info("PID: %d - Escribir Archivo: %s - Puntero %d - Dirección Memoria %d - Tamaño %s",pcb->pid, instruccion->parametros[0],archivo->puntero, pcb->direccion_fisica, instruccion->parametros[2]);
+    t_pcb* pcbcito = crear_pcb(pcb->conexion, parametros, EJECUTANDO, pcb->estimado_rafaga);
+    pcbcito->p_counter++;
+    enviar_pcb(pcbcito, filesystem_socket, logger);
+    char* respuesta[20];
+    recv(filesystem_socket, respuesta, sizeof(respuesta), 0);
 }

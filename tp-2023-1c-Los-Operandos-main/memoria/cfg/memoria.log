@@ -13004,3 +13004,332 @@
 [INFO] 17:14:14:074 LOGGER MEMORIA/(9160:9408): Eliminacion de Proceso PID: 1
 [INFO] 17:14:28:300 LOGGER MEMORIA/(9160:9408): Eliminacion de Proceso PID: 2
 [INFO] 17:15:36:421 LOGGER MEMORIA/(9160:9341): Mensaje no reconocido
+[INFO] 20:29:18:887 LOGGER MEMORIA/(15028:15499): escuchando a filesystem
+[INFO] 20:29:27:399 LOGGER MEMORIA/(15028:15554): Escuchando a memoria
+[INFO] 20:29:33:866 LOGGER MEMORIA/(15028:15606): escuchando a kernel
+[INFO] 20:31:23:189 LOGGER MEMORIA/(15028:15606): Creacion de Proceso PID: 1
+[INFO] 20:33:46:895 LOGGER MEMORIA/(16137:16216): escuchando a filesystem
+[INFO] 20:34:37:976 LOGGER MEMORIA/(16137:16375): Escuchando a memoria
+[INFO] 20:34:45:644 LOGGER MEMORIA/(16137:16430): escuchando a kernel
+[INFO] 20:34:51:102 LOGGER MEMORIA/(16137:16430): Creacion de Proceso PID: 1
+[INFO] 20:36:50:126 LOGGER MEMORIA/(16727:16763): escuchando a filesystem
+[INFO] 20:36:56:426 LOGGER MEMORIA/(16727:16810): Escuchando a memoria
+[INFO] 20:39:13:798 LOGGER MEMORIA/(16727:17305): escuchando a kernel
+[INFO] 20:39:37:236 LOGGER MEMORIA/(16727:17305): Creacion de Proceso PID: 1
+[INFO] 20:44:19:835 LOGGER MEMORIA/(18304:18334): Escuchando a memoria
+[INFO] 20:44:30:838 LOGGER MEMORIA/(18304:18408): escuchando a filesystem
+[INFO] 20:44:55:943 LOGGER MEMORIA/(18304:18588): escuchando a kernel
+[INFO] 20:45:38:779 LOGGER MEMORIA/(18304:18588): Creacion de Proceso PID: 1
+[INFO] 20:49:17:398 LOGGER MEMORIA/(19273:19291): Escuchando a memoria
+[INFO] 20:49:25:902 LOGGER MEMORIA/(19273:19340): escuchando a filesystem
+[INFO] 20:50:06:946 LOGGER MEMORIA/(19273:19462): escuchando a kernel
+[INFO] 20:51:28:515 LOGGER MEMORIA/(19273:19462): Creacion de Proceso PID: 1
+[INFO] 20:58:19:730 LOGGER MEMORIA/(20104:20190): Escuchando a memoria
+[INFO] 20:58:24:806 LOGGER MEMORIA/(20104:20235): escuchando a filesystem
+[INFO] 20:59:48:975 LOGGER MEMORIA/(20104:20388): escuchando a kernel
+[INFO] 21:00:04:618 LOGGER MEMORIA/(20104:20388): Creacion de Proceso PID: 1
+[INFO] 21:02:50:356 LOGGER MEMORIA/(21049:21069): Escuchando a memoria
+[INFO] 21:03:02:421 LOGGER MEMORIA/(21049:21168): escuchando a filesystem
+[INFO] 21:03:23:085 LOGGER MEMORIA/(21049:21269): escuchando a kernel
+[INFO] 21:04:09:409 LOGGER MEMORIA/(21049:21269): Creacion de Proceso PID: 1
+[INFO] 21:06:10:616 LOGGER MEMORIA/(21990:22023): Escuchando a memoria
+[INFO] 21:06:20:762 LOGGER MEMORIA/(21990:22102): escuchando a filesystem
+[INFO] 21:06:46:130 LOGGER MEMORIA/(21990:22230): escuchando a kernel
+[INFO] 21:07:01:487 LOGGER MEMORIA/(21990:22230): Creacion de Proceso PID: 1
+[INFO] 21:13:29:381 LOGGER MEMORIA/(22840:22858): Escuchando a memoria
+[INFO] 21:13:46:018 LOGGER MEMORIA/(22840:22921): escuchando a filesystem
+[INFO] 21:14:11:257 LOGGER MEMORIA/(22840:23055): escuchando a kernel
+[INFO] 21:14:45:711 LOGGER MEMORIA/(22840:23055): Creacion de Proceso PID: 1
+[INFO] 21:24:56:676 LOGGER MEMORIA/(24053:24102): escuchando a filesystem
+[INFO] 21:25:37:850 LOGGER MEMORIA/(24053:24167): Escuchando a memoria
+[INFO] 21:25:43:973 LOGGER MEMORIA/(24053:24227): escuchando a kernel
+[INFO] 21:25:48:486 LOGGER MEMORIA/(24053:24227): Creacion de Proceso PID: 1
+[INFO] 21:25:48:509 LOGGER MEMORIA/(24053:24167): Mensaje no reconocido
+[INFO] 21:30:37:555 LOGGER MEMORIA/(24643:24671): escuchando a filesystem
+[INFO] 21:33:26:482 LOGGER MEMORIA/(24643:24993): Escuchando a memoria
+[INFO] 21:33:33:363 LOGGER MEMORIA/(24643:25044): escuchando a kernel
+[INFO] 21:33:38:855 LOGGER MEMORIA/(24643:25044): Creacion de Proceso PID: 1
+[INFO] 21:36:28:252 LOGGER MEMORIA/(25710:25756): Escuchando a memoria
+[INFO] 21:36:39:463 LOGGER MEMORIA/(25710:25804): escuchando a filesystem
+[INFO] 21:36:44:486 LOGGER MEMORIA/(25710:25845): escuchando a kernel
+[INFO] 21:37:01:029 LOGGER MEMORIA/(25710:25845): Creacion de Proceso PID: 1
+[INFO] 21:37:01:057 LOGGER MEMORIA/(25710:25756): Mensaje no reconocido
+[INFO] 21:38:52:036 LOGGER MEMORIA/(26159:26178): Escuchando a memoria
+[INFO] 21:39:11:226 LOGGER MEMORIA/(26159:26293): escuchando a filesystem
+[INFO] 21:39:30:966 LOGGER MEMORIA/(26159:26380): escuchando a kernel
+[INFO] 21:39:42:470 LOGGER MEMORIA/(26159:26380): Creacion de Proceso PID: 1
+[INFO] 21:39:59:560 LOGGER MEMORIA/(26159:26178): Mensaje no reconocido
+[INFO] 21:43:26:496 LOGGER MEMORIA/(26861:26891): Escuchando a memoria
+[INFO] 21:43:46:171 LOGGER MEMORIA/(26861:26999): escuchando a filesystem
+[INFO] 21:44:02:610 LOGGER MEMORIA/(26861:27087): escuchando a kernel
+[INFO] 21:44:23:931 LOGGER MEMORIA/(26861:27087): Creacion de Proceso PID: 1
+[INFO] 21:44:37:121 LOGGER MEMORIA/(26861:26891): Mensaje no reconocido
+[INFO] 21:52:16:919 LOGGER MEMORIA/(27884:27921): Escuchando a memoria
+[INFO] 21:52:40:980 LOGGER MEMORIA/(27884:28077): escuchando a filesystem
+[INFO] 21:52:59:310 LOGGER MEMORIA/(27884:28155): escuchando a kernel
+[INFO] 21:53:04:782 LOGGER MEMORIA/(27884:28155): Creacion de Proceso PID: 1
+[INFO] 21:53:16:896 LOGGER MEMORIA/(27884:27921): Mensaje no reconocido
+[INFO] 21:55:51:067 LOGGER MEMORIA/(28659:28704): Escuchando a memoria
+[INFO] 21:56:34:488 LOGGER MEMORIA/(28659:28811): escuchando a filesystem
+[INFO] 21:56:42:522 LOGGER MEMORIA/(28659:28868): escuchando a kernel
+[INFO] 21:56:47:514 LOGGER MEMORIA/(28659:28868): Creacion de Proceso PID: 1
+[INFO] 21:57:08:434 LOGGER MEMORIA/(28659:28704): Mensaje no reconocido
+[INFO] 22:01:28:785 LOGGER MEMORIA/(29414:29447): Escuchando a memoria
+[INFO] 22:01:42:038 LOGGER MEMORIA/(29414:29541): escuchando a filesystem
+[INFO] 22:02:50:831 LOGGER MEMORIA/(29414:29605): escuchando a kernel
+[INFO] 22:02:58:147 LOGGER MEMORIA/(29414:29605): Creacion de Proceso PID: 1
+[INFO] 22:03:24:191 LOGGER MEMORIA/(29414:29447): Mensaje no reconocido
+[INFO] 22:13:03:553 LOGGER MEMORIA/(30210:30260): Escuchando a memoria
+[INFO] 22:13:36:790 LOGGER MEMORIA/(30210:30415): escuchando a filesystem
+[INFO] 22:13:53:322 LOGGER MEMORIA/(30210:30517): escuchando a kernel
+[INFO] 22:13:59:621 LOGGER MEMORIA/(30210:30517): Creacion de Proceso PID: 1
+[INFO] 22:14:25:150 LOGGER MEMORIA/(30210:30260): Mensaje no reconocido
+[INFO] 22:24:50:230 LOGGER MEMORIA/(31309:31344): escuchando a filesystem
+[INFO] 22:24:55:832 LOGGER MEMORIA/(31309:31400): Escuchando a memoria
+[INFO] 22:25:59:960 LOGGER MEMORIA/(31309:31743): escuchando a kernel
+[INFO] 22:26:22:283 LOGGER MEMORIA/(31309:31743): Creacion de Proceso PID: 1
+[INFO] 22:30:14:274 LOGGER MEMORIA/(31309:31400): Mensaje no reconocido
+[INFO] 22:32:19:763 LOGGER MEMORIA/(32717:32745): escuchando a filesystem
+[INFO] 22:33:15:645 LOGGER MEMORIA/(32717:32871): Escuchando a memoria
+[INFO] 22:33:52:471 LOGGER MEMORIA/(32717:33034): escuchando a kernel
+[INFO] 22:34:16:150 LOGGER MEMORIA/(32717:33034): Creacion de Proceso PID: 1
+[INFO] 22:36:29:745 LOGGER MEMORIA/(32717:32871): Mensaje no reconocido
+[INFO] 22:40:28:932 LOGGER MEMORIA/(33754:33790): Escuchando a memoria
+[INFO] 22:40:37:402 LOGGER MEMORIA/(33754:33850): escuchando a filesystem
+[INFO] 22:42:41:752 LOGGER MEMORIA/(33754:34199): escuchando a kernel
+[INFO] 22:43:10:715 LOGGER MEMORIA/(33754:34199): Creacion de Proceso PID: 1
+[INFO] 22:51:00:073 LOGGER MEMORIA/(35401:35439): Escuchando a memoria
+[INFO] 22:51:38:914 LOGGER MEMORIA/(35401:35508): escuchando a filesystem
+[INFO] 22:53:03:257 LOGGER MEMORIA/(35401:35685): escuchando a kernel
+[INFO] 22:53:20:037 LOGGER MEMORIA/(35401:35685): Creacion de Proceso PID: 1
+[INFO] 22:59:18:290 LOGGER MEMORIA/(36912:36941): escuchando a filesystem
+[INFO] 22:59:26:606 LOGGER MEMORIA/(36912:36994): Escuchando a memoria
+[INFO] 22:59:31:401 LOGGER MEMORIA/(36912:37044): escuchando a kernel
+[INFO] 22:59:35:988 LOGGER MEMORIA/(36912:37044): Creacion de Proceso PID: 1
+[INFO] 23:01:18:151 LOGGER MEMORIA/(37338:37356): escuchando a filesystem
+[INFO] 23:01:27:336 LOGGER MEMORIA/(37338:37418): Escuchando a memoria
+[INFO] 23:02:18:426 LOGGER MEMORIA/(37338:37510): escuchando a kernel
+[INFO] 23:02:24:975 LOGGER MEMORIA/(37338:37510): Creacion de Proceso PID: 1
+[INFO] 23:12:53:536 LOGGER MEMORIA/(38446:38565): Escuchando a memoria
+[INFO] 23:13:00:382 LOGGER MEMORIA/(38446:38612): escuchando a filesystem
+[INFO] 23:13:20:528 LOGGER MEMORIA/(38446:38565): Mensaje no reconocido
+[INFO] 23:14:59:030 LOGGER MEMORIA/(38897:38917): escuchando a filesystem
+[INFO] 23:15:04:073 LOGGER MEMORIA/(38897:38949): Escuchando a memoria
+[INFO] 23:15:08:491 LOGGER MEMORIA/(38897:39000): escuchando a kernel
+[INFO] 23:15:13:541 LOGGER MEMORIA/(38897:39000): Creacion de Proceso PID: 1
+[INFO] 23:17:03:603 LOGGER MEMORIA/(38897:38949): Mensaje no reconocido
+[INFO] 23:20:07:161 LOGGER MEMORIA/(39506:39535): Escuchando a memoria
+[INFO] 23:20:19:270 LOGGER MEMORIA/(39506:39675): escuchando a filesystem
+[INFO] 23:20:35:594 LOGGER MEMORIA/(39506:39836): escuchando a kernel
+[INFO] 23:20:55:187 LOGGER MEMORIA/(39506:39836): Creacion de Proceso PID: 1
+[INFO] 23:23:45:738 LOGGER MEMORIA/(39506:39535): Mensaje no reconocido
+[INFO] 23:25:20:832 LOGGER MEMORIA/(40893:40926): escuchando a filesystem
+[INFO] 23:25:26:450 LOGGER MEMORIA/(40893:40968): Escuchando a memoria
+[INFO] 23:25:33:983 LOGGER MEMORIA/(40893:41024): escuchando a kernel
+[INFO] 23:25:40:234 LOGGER MEMORIA/(40893:41024): Creacion de Proceso PID: 1
+[INFO] 23:28:27:286 LOGGER MEMORIA/(41384:41403): Escuchando a memoria
+[INFO] 23:28:36:239 LOGGER MEMORIA/(41384:41450): escuchando a filesystem
+[INFO] 23:28:45:470 LOGGER MEMORIA/(41384:41529): escuchando a kernel
+[INFO] 23:28:49:428 LOGGER MEMORIA/(41384:41529): Creacion de Proceso PID: 1
+[INFO] 23:31:00:538 LOGGER MEMORIA/(41788:41905): escuchando a filesystem
+[INFO] 23:31:04:338 LOGGER MEMORIA/(41788:41949): Escuchando a memoria
+[INFO] 23:31:29:396 LOGGER MEMORIA/(41788:42084): escuchando a kernel
+[INFO] 23:32:15:823 LOGGER MEMORIA/(41788:42084): Creacion de Proceso PID: 1
+[INFO] 23:35:03:542 LOGGER MEMORIA/(42968:42987): Escuchando a memoria
+[INFO] 23:35:10:468 LOGGER MEMORIA/(42968:43034): escuchando a filesystem
+[INFO] 23:35:35:902 LOGGER MEMORIA/(42968:43168): escuchando a kernel
+[INFO] 23:36:11:325 LOGGER MEMORIA/(42968:43168): Creacion de Proceso PID: 1
+[INFO] 23:40:26:848 LOGGER MEMORIA/(43961:43991): Escuchando a memoria
+[INFO] 23:40:32:975 LOGGER MEMORIA/(43961:44033): escuchando a filesystem
+[INFO] 23:40:38:965 LOGGER MEMORIA/(43961:44089): escuchando a kernel
+[ERROR] 23:40:41:629 LOGGER MEMORIA/(43961:44089): mensaje no reconocido
+[INFO] 23:41:54:145 LOGGER MEMORIA/(44197:44233): Escuchando a memoria
+[INFO] 23:42:11:326 LOGGER MEMORIA/(44197:44280): escuchando a filesystem
+[INFO] 23:42:47:814 LOGGER MEMORIA/(44197:44419): escuchando a kernel
+[INFO] 23:42:52:531 LOGGER MEMORIA/(44197:44419): Creacion de Proceso PID: 1
+[INFO] 23:45:04:580 LOGGER MEMORIA/(44754:44782): Escuchando a memoria
+[INFO] 23:45:11:966 LOGGER MEMORIA/(44754:44834): escuchando a filesystem
+[INFO] 23:45:34:804 LOGGER MEMORIA/(44754:44921): escuchando a kernel
+[INFO] 23:45:40:584 LOGGER MEMORIA/(44754:44921): Creacion de Proceso PID: 1
+[INFO] 23:50:34:968 LOGGER MEMORIA/(45554:45587): Escuchando a memoria
+[INFO] 23:51:06:653 LOGGER MEMORIA/(45554:45737): escuchando a filesystem
+[INFO] 23:51:28:568 LOGGER MEMORIA/(45554:45874): escuchando a kernel
+[INFO] 23:51:47:114 LOGGER MEMORIA/(45554:45874): Creacion de Proceso PID: 1
+[INFO] 00:11:48:796 LOGGER MEMORIA/(46787:46829): Escuchando a memoria
+[INFO] 00:12:07:802 LOGGER MEMORIA/(46787:46965): escuchando a filesystem
+[INFO] 00:12:24:535 LOGGER MEMORIA/(46787:47040): escuchando a kernel
+[INFO] 00:12:37:841 LOGGER MEMORIA/(46787:47040): Creacion de Proceso PID: 1
+[INFO] 00:20:57:494 LOGGER MEMORIA/(48201:48247): escuchando a filesystem
+[INFO] 00:21:11:782 LOGGER MEMORIA/(48201:48334): Escuchando a memoria
+[INFO] 00:21:26:066 LOGGER MEMORIA/(48201:48433): escuchando a kernel
+[INFO] 00:21:33:667 LOGGER MEMORIA/(48201:48433): Creacion de Proceso PID: 1
+[INFO] 00:23:54:465 LOGGER MEMORIA/(48934:48952): Escuchando a memoria
+[INFO] 00:24:22:377 LOGGER MEMORIA/(48934:49101): escuchando a filesystem
+[INFO] 00:24:30:865 LOGGER MEMORIA/(48934:49178): escuchando a kernel
+[INFO] 00:24:40:811 LOGGER MEMORIA/(48934:49178): Creacion de Proceso PID: 1
+[INFO] 00:31:38:321 LOGGER MEMORIA/(50088:50150): Escuchando a memoria
+[INFO] 00:32:15:711 LOGGER MEMORIA/(50088:50348): escuchando a filesystem
+[INFO] 00:32:26:191 LOGGER MEMORIA/(50088:50422): escuchando a kernel
+[INFO] 00:32:37:653 LOGGER MEMORIA/(50088:50422): Creacion de Proceso PID: 1
+[INFO] 01:23:43:760 LOGGER MEMORIA/(51419:51638): escuchando a filesystem
+[INFO] 01:24:06:703 LOGGER MEMORIA/(51419:51681): Escuchando a memoria
+[INFO] 01:24:06:703 LOGGER MEMORIA/(51419:51682): escuchando a kernel
+[ERROR] 01:24:06:705 LOGGER MEMORIA/(51419:51682): mensaje no reconocido
+[INFO] 01:31:02:963 LOGGER MEMORIA/(2329:2563): escuchando a filesystem
+[INFO] 01:31:12:697 LOGGER MEMORIA/(2329:2576): Escuchando a memoria
+[INFO] 01:31:12:698 LOGGER MEMORIA/(2329:2601): escuchando a kernel
+[INFO] 01:32:01:956 LOGGER MEMORIA/(2329:2601): Creacion de Proceso PID: 1
+[INFO] 01:35:40:964 LOGGER MEMORIA/(3229:3387): Escuchando a CPU
+[INFO] 01:35:47:073 LOGGER MEMORIA/(3229:3414): escuchando a filesystem
+[INFO] 01:35:47:074 LOGGER MEMORIA/(3229:3436): escuchando a kernel
+[ERROR] 01:35:47:075 LOGGER MEMORIA/(3229:3436): mensaje no reconocido
+[INFO] 01:37:47:809 LOGGER MEMORIA/(3687:3800): escuchando a filesystem
+[INFO] 01:37:53:280 LOGGER MEMORIA/(3687:3913): escuchando a kernel
+[ERROR] 01:37:53:280 LOGGER MEMORIA/(3687:3913): mensaje no reconocido
+[INFO] 01:38:03:243 LOGGER MEMORIA/(3687:3891): Escuchando a CPU
+[INFO] 01:40:57:388 LOGGER MEMORIA/(4785:4815): Escuchando a CPU
+[INFO] 01:41:04:945 LOGGER MEMORIA/(4785:4886): escuchando a filesystem
+[INFO] 01:41:14:307 LOGGER MEMORIA/(4785:4955): escuchando a kernel
+[INFO] 01:41:29:688 LOGGER MEMORIA/(4785:4955): Creacion de Proceso PID: 1
+[INFO] 01:41:31:718 LOGGER MEMORIA/(4785:4886): PID: 2 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 0 - Origen: FS
+[INFO] 01:41:33:430 LOGGER MEMORIA/(4785:4815): Mensaje no reconocido
+[INFO] 01:42:33:215 LOGGER MEMORIA/(5298:5316): escuchando a filesystem
+[INFO] 01:42:36:741 LOGGER MEMORIA/(5298:5348): Escuchando a CPU
+[INFO] 01:42:41:047 LOGGER MEMORIA/(5298:5398): escuchando a kernel
+[INFO] 01:42:44:945 LOGGER MEMORIA/(5298:5398): Creacion de Proceso PID: 1
+[INFO] 01:42:46:978 LOGGER MEMORIA/(5298:5316): PID: 2 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 0 - Origen: FS
+[INFO] 01:42:48:224 LOGGER MEMORIA/(5298:5348): Mensaje no reconocido
+[INFO] 01:55:43:771 LOGGER MEMORIA/(6434:6452): Escuchando a CPU
+[INFO] 01:55:47:144 LOGGER MEMORIA/(6434:6479): escuchando a filesystem
+[INFO] 01:55:52:386 LOGGER MEMORIA/(6434:6535): escuchando a kernel
+[INFO] 01:56:32:802 LOGGER MEMORIA/(6434:6535): Creacion de Proceso PID: 1
+[INFO] 01:56:33:738 LOGGER MEMORIA/(6434:6535): Creacion de Proceso PID: 2
+[INFO] 01:56:33:836 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:35:837 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:37:839 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:39:842 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:41:849 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:43:853 LOGGER MEMORIA/(6434:6452): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 01:56:47:936 LOGGER MEMORIA/(6434:6479): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 01:56:47:942 LOGGER MEMORIA/(6434:6535): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 01:56:47:946 LOGGER MEMORIA/(6434:6535): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 01:56:47:949 LOGGER MEMORIA/(6434:6535): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 01:56:47:960 LOGGER MEMORIA/(6434:6535): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 01:56:47:969 LOGGER MEMORIA/(6434:6535): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 01:56:47:975 LOGGER MEMORIA/(6434:6535): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 01:56:47:981 LOGGER MEMORIA/(6434:6535): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 01:56:47:985 LOGGER MEMORIA/(6434:6535): Solicito compactacion
+[INFO] 01:56:47:986 LOGGER MEMORIA/(6434:6535): Procedo a compactar
+[INFO] 01:56:50:723 LOGGER MEMORIA/(6434:6479): Mensaje no reconocido
+[INFO] 01:58:47:328 LOGGER MEMORIA/(7253:7295): escuchando a filesystem
+[INFO] 01:58:51:387 LOGGER MEMORIA/(7253:7331): Escuchando a CPU
+[INFO] 01:58:56:017 LOGGER MEMORIA/(7253:7376): escuchando a kernel
+[INFO] 01:59:03:454 LOGGER MEMORIA/(7253:7376): Creacion de Proceso PID: 1
+[INFO] 01:59:04:467 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:04:516 LOGGER MEMORIA/(7253:7376): Creacion de Proceso PID: 2
+[INFO] 01:59:06:469 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:08:470 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:10:472 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:12:473 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:14:475 LOGGER MEMORIA/(7253:7331): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 01:59:15:519 LOGGER MEMORIA/(7253:7295): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 01:59:15:525 LOGGER MEMORIA/(7253:7376): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 01:59:15:529 LOGGER MEMORIA/(7253:7376): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 01:59:15:535 LOGGER MEMORIA/(7253:7376): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 01:59:15:541 LOGGER MEMORIA/(7253:7376): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 01:59:15:546 LOGGER MEMORIA/(7253:7376): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 01:59:15:550 LOGGER MEMORIA/(7253:7376): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 01:59:15:559 LOGGER MEMORIA/(7253:7376): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 01:59:15:565 LOGGER MEMORIA/(7253:7376): Solicito compactacion
+[INFO] 01:59:15:565 LOGGER MEMORIA/(7253:7376): Procedo a compactar
+[INFO] 01:59:17:704 LOGGER MEMORIA/(7253:7295): Mensaje no reconocido
+[INFO] 02:00:52:364 LOGGER MEMORIA/(7996:8014): escuchando a filesystem
+[INFO] 02:00:56:255 LOGGER MEMORIA/(7996:8046): Escuchando a CPU
+[INFO] 02:01:02:461 LOGGER MEMORIA/(7996:8119): escuchando a kernel
+[INFO] 02:01:09:822 LOGGER MEMORIA/(7996:8119): Creacion de Proceso PID: 1
+[INFO] 02:01:10:854 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:10:896 LOGGER MEMORIA/(7996:8119): Creacion de Proceso PID: 2
+[INFO] 02:01:12:855 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:14:857 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:16:860 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:18:861 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:20:864 LOGGER MEMORIA/(7996:8046): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:01:21:909 LOGGER MEMORIA/(7996:8014): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:01:21:917 LOGGER MEMORIA/(7996:8119): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:01:21:922 LOGGER MEMORIA/(7996:8119): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:01:21:931 LOGGER MEMORIA/(7996:8119): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:01:21:936 LOGGER MEMORIA/(7996:8119): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:01:21:942 LOGGER MEMORIA/(7996:8119): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:01:21:947 LOGGER MEMORIA/(7996:8119): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:01:21:953 LOGGER MEMORIA/(7996:8119): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:01:21:961 LOGGER MEMORIA/(7996:8119): Solicito compactacion
+[INFO] 02:01:24:101 LOGGER MEMORIA/(7996:8014): Mensaje no reconocido
+[INFO] 02:01:24:102 LOGGER MEMORIA/(7996:8119): Procedo a compactar
+[INFO] 02:12:39:391 LOGGER MEMORIA/(9440:9458): Escuchando a CPU
+[INFO] 02:13:02:310 LOGGER MEMORIA/(9440:9606): escuchando a filesystem
+[INFO] 02:13:15:539 LOGGER MEMORIA/(9440:9663): escuchando a kernel
+[INFO] 02:13:23:955 LOGGER MEMORIA/(9440:9663): Creacion de Proceso PID: 1
+[INFO] 02:13:24:961 LOGGER MEMORIA/(9440:9663): Creacion de Proceso PID: 2
+[INFO] 02:13:24:994 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:13:26:997 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:13:29:001 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:13:31:004 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:13:33:007 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:13:35:010 LOGGER MEMORIA/(9440:9458): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:14:05:640 LOGGER MEMORIA/(9440:9663): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:14:05:650 LOGGER MEMORIA/(9440:9663): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:14:05:663 LOGGER MEMORIA/(9440:9663): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:14:05:671 LOGGER MEMORIA/(9440:9663): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:14:05:675 LOGGER MEMORIA/(9440:9663): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:14:05:692 LOGGER MEMORIA/(9440:9663): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:14:05:697 LOGGER MEMORIA/(9440:9663): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:14:05:703 LOGGER MEMORIA/(9440:9663): Solicito compactacion
+[INFO] 02:14:39:928 LOGGER MEMORIA/(9440:9606): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:16:12:412 LOGGER MEMORIA/(9440:9606): Mensaje no reconocido
+[INFO] 02:16:12:418 LOGGER MEMORIA/(9440:9663): Procedo a compactar
+[INFO] 02:18:11:891 LOGGER MEMORIA/(11008:11057): Escuchando a CPU
+[INFO] 02:18:27:705 LOGGER MEMORIA/(11008:11188): escuchando a filesystem
+[INFO] 02:18:32:388 LOGGER MEMORIA/(11008:11229): escuchando a kernel
+[INFO] 02:18:40:818 LOGGER MEMORIA/(11008:11229): Creacion de Proceso PID: 1
+[INFO] 02:18:41:852 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:18:42:031 LOGGER MEMORIA/(11008:11229): Creacion de Proceso PID: 2
+[INFO] 02:18:43:863 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:18:45:868 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:18:47:870 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:18:49:873 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:18:51:875 LOGGER MEMORIA/(11008:11057): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:23:32:867 LOGGER MEMORIA/(11008:11229): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:23:32:878 LOGGER MEMORIA/(11008:11229): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:23:32:879 LOGGER MEMORIA/(11008:11229): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:23:32:879 LOGGER MEMORIA/(11008:11229): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:23:32:880 LOGGER MEMORIA/(11008:11229): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:23:32:880 LOGGER MEMORIA/(11008:11229): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:23:32:881 LOGGER MEMORIA/(11008:11229): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:23:32:881 LOGGER MEMORIA/(11008:11229): Solicito compactacion
+[INFO] 02:23:56:710 LOGGER MEMORIA/(11008:11188): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:24:20:226 LOGGER MEMORIA/(11008:11188): Mensaje no reconocido
+[INFO] 02:24:20:582 LOGGER MEMORIA/(11008:11229): Procedo a compactar
+[INFO] 02:26:35:228 LOGGER MEMORIA/(12335:12470): escuchando a filesystem
+[INFO] 02:26:36:554 LOGGER MEMORIA/(12335:12494): Escuchando a CPU
+[INFO] 02:26:44:631 LOGGER MEMORIA/(12335:12580): escuchando a kernel
+[INFO] 02:26:54:851 LOGGER MEMORIA/(12335:12580): Creacion de Proceso PID: 1
+[INFO] 02:26:55:876 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:26:56:078 LOGGER MEMORIA/(12335:12580): Creacion de Proceso PID: 2
+[INFO] 02:26:57:959 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:26:59:963 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:27:01:965 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:27:03:968 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:27:05:969 LOGGER MEMORIA/(12335:12494): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:27:24:428 LOGGER MEMORIA/(12335:12580): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:27:24:433 LOGGER MEMORIA/(12335:12580): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:27:24:434 LOGGER MEMORIA/(12335:12580): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:27:24:436 LOGGER MEMORIA/(12335:12580): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:27:24:441 LOGGER MEMORIA/(12335:12580): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:27:24:442 LOGGER MEMORIA/(12335:12580): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:27:24:444 LOGGER MEMORIA/(12335:12580): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:27:24:447 LOGGER MEMORIA/(12335:12580): Solicito compactacion
+[INFO] 02:27:44:236 LOGGER MEMORIA/(12335:12470): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:30:15:544 LOGGER MEMORIA/(12335:12470): Mensaje no reconocido
+[INFO] 02:30:15:548 LOGGER MEMORIA/(12335:12580): Procedo a compactar
+[INFO] 02:31:58:621 LOGGER MEMORIA/(13718:13736): Escuchando a CPU
+[INFO] 02:32:31:575 LOGGER MEMORIA/(13718:13970): escuchando a filesystem

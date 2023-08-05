@@ -22,6 +22,7 @@ t_pcb* crear_pcb(int conexion, t_list* lista_instrucciones, t_estado estado, dou
 	pcb->tamanio_tabla = 0;
 	pcb->estimado_rafaga = estimado_rafaga; 
 	pcb->direccion_fisica = 0;
+	pcb->archivos_abiertos= list_create();
 	return pcb;
 }
 
@@ -113,6 +114,7 @@ t_pcb* recibir_pcb(int socket_cliente, t_log* logger)
 {
 	t_paquete* paquete = recibir_paquete(socket_cliente, logger);
 	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer, logger);
+	pcb->archivos_abiertos = list_create();
 
 	eliminar_paquete(paquete);
 	return pcb;

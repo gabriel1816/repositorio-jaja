@@ -13,19 +13,19 @@ void agregar_a_listos(t_pcb* pcb)
     pcb->tiempo_llegada = temporal_create();
     pthread_mutex_unlock(&mutex_cola_listos);
     agregar_a_cola_procesos(pcb);
-    char pid[20];
+   /* char pid[20];
     strcpy(pid, "");
     for(int i=0; i < list_size(cola_procesos); i++){
         t_pcb* pcb_aux = list_get(cola_procesos, i);
         strcat(pid, string_itoa(pcb_aux->pid));
-        if(i == list_size(cola_procesos)){
-            break;
+        if(i =! list_size(cola_procesos)){
+            strcat(pid, ", ");
         }
-        strcat(pid, ", ");
+        
     }
-    log_info(logger, "Cola ready %s [%s]", kernel_config.schedulerAlgorithm, pid);
+    log_info(logger, "Cola ready %s [%s]", kernel_config.schedulerAlgorithm, pid);*/
     sem_post(&sem_ready);
-    //log_info(logger, "Cola Ready %d:  %???", kernel_config.schedulerAlgorithm, ???)
+
 }
 
 t_pcb* sacar_de_listos()
@@ -143,4 +143,24 @@ void  sacar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb)
     sacar_de_cola_procesos(pcb);
     pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
     return;
+}
+
+t_pcb*  sacar_pcb_cola_bloqueados_FileSystem()
+{
+    pthread_mutex_lock(&procesosBloqueadosFileSystemMutex);
+    t_pcb* proceso = list_remove(cola_bloqueados_fs, 0);
+    sacar_de_cola_procesos(proceso);
+    pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
+    return proceso;
+}
+
+
+void agregar_pcb_en_cola_bloqueados_FileSystem(t_pcb* proceso) 
+{
+    pthread_mutex_lock(&procesosBloqueadosFileSystemMutex);
+    list_add(cola_bloqueados_fs, proceso);
+    cambiar_estado(proceso, BLOQUEADO);
+    agregar_a_cola_procesos(proceso);
+    pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
+    sem_post(&sem_bloqueados_fs);
 }

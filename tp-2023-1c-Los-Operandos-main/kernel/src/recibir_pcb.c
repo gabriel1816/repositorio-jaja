@@ -61,34 +61,76 @@ void recibir_pcb_de_cpu(int cpu_socket)
             destruir_pcb(pcb_en_ejecucion);
             terminar_proceso(pcb_actualizado, "SEGMENTATION FAULT");
         break;
-        case F_OPEN: //INCOMPLETO
+        case F_OPEN: 
             pcb_en_ejecucion = sacar_pcb_de_ejecucion();
-            log_info(logger, "PID: %d - Abrir Archivo: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
-            solicitar_apertura(pcb_actualizado);
+
+            if(esta_en_tabla(ultima_instruccion->parametros[0]))
+            {
+                agregar_a_tabla_proceso(pcb_actualizado, ultima_instruccion->parametros[0]);
+                atender_wait_archivo(pcb_actualizado, ultima_instruccion->parametros[0]);
+                break;
+            }
+            else {
+                log_info(logger, "PID: %d - Abrir Archivo: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+                solicitar_apertura(pcb_actualizado);
+                agregar_a_tabla_global(ultima_instruccion->parametros[0]);
+                agregar_a_tabla_proceso(pcb_actualizado, ultima_instruccion->parametros[0]);
+                atender_wait_archivo(pcb_actualizado, ultima_instruccion->parametros[0]);
+                }
             agregar_a_listos(pcb_actualizado); 
         break;
-        case F_TRUNCATE: //INCOMPLETO
+        case F_SEEK:
+            archivo_abierto* archivo = buscar_archivo(ultima_instruccion->parametros[0]);
+            archivo->puntero = atoi(ultima_instruccion->parametros[1]);
+        log_info(logger, "PID: %d- Actualizar puntero Archivo: %s - Puntero: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0], ultima_instruccion->parametros[1]);
+        agregar_a_listos(pcb_actualizado); 
+        break;
+        case F_CLOSE: 
+            log_info(logger, "PID: %d - Cerrar Archivo: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+            sacar_de_tabla_proceso(pcb_actualizado, ultima_instruccion->parametros[0]);
+            if(hay_procesos_en_espera(pcb_actualizado, ultima_instruccion->parametros[0])) {
+                atender_signal_archivo(pcb_actualizado, ultima_instruccion->parametros[0]);
+            }
+            else {
+                sacar_de_tabla_global(pcb_actualizado, ultima_instruccion->parametros[0]);
+            }
+            pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+            agregar_a_listos(pcb_actualizado); 
+        break;
+        case F_WRITE: 
+            if(pcb_actualizado->estado == SEG_FAULT) {
+                pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+                destruir_pcb(pcb_en_ejecucion); 
+            }
+            else {
+                pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+                destruir_pcb(pcb_en_ejecucion);
+                set_puede_iniciar_compactacion(false);
+                log_info(logger, "PID: %d - Bloqueado por: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+                agregar_pcb_en_cola_bloqueados_FileSystem(pcb_actualizado); 
+            }
+        break;
+        case F_READ: 
+            if(pcb_actualizado->estado == SEG_FAULT) {
+                pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+                destruir_pcb(pcb_en_ejecucion); 
+
+            }
+            else {
+                pcb_en_ejecucion = sacar_pcb_de_ejecucion();
+                destruir_pcb(pcb_en_ejecucion);
+                set_puede_iniciar_compactacion(false);
+                log_info(logger, "PID: %d - Bloqueado por: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+                agregar_pcb_en_cola_bloqueados_FileSystem(pcb_actualizado); 
+            }
+        break;
+        case F_TRUNCATE:
             log_info(logger, "PID: %d - Archivo: %s - Tamaño: %s ", pcb_actualizado->pid, ultima_instruccion->parametros[0], ultima_instruccion->parametros[1]);
             pcb_en_ejecucion = sacar_pcb_de_ejecucion();
             destruir_pcb(pcb_en_ejecucion);
-            solicitar_truncamiento(pcb_actualizado);
+            log_info(logger, "PID: %d - Bloqueado por: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
+            agregar_pcb_en_cola_bloqueados_FileSystem(pcb_actualizado);
 
-        break;
-        case F_SEEK://pendiente
-
-        log_info(logger, "PID: %d- Actualizar puntero Archivo: %s - Puntero <PUNTERO>", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
-        break;
-        case F_READ: //INCOMPLETO
-            leer(pcb_actualizado);
-            //log_info(logger, "PID: %d - Leer Archivo: %s - Puntero % - Dirección Memoria %u- Tamaño %s", pcb_actualizado->pid, ultima_instruccion->parametros[0], ,direccion_fisica, ultima_instruccion->parametros[2]);
-       
-        break;
-        case F_WRITE: //INCOMPLETO
-            escribir(pcb_actualizado);
-            //log_info(logger, "PID: %d - Escribir Archivo: %s - Puntero % - Dirección Memoria %u- Tamaño %s", pcb_actualizado->pid, ultima_instruccion->parametros[0], ,direccion_fisica, ultima_instruccion->parametros[2]);
-        break;
-        case F_CLOSE: //pendiente
-        log_info(logger, "PID: %d - Cerrar Archivo: %s", pcb_actualizado->pid, ultima_instruccion->parametros[0]);
         break;
     }
 }

@@ -53,13 +53,14 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 			//enviar_instrucciones(instruccion_a_ejecutar, conexion_con_memoria, logger);
 		break;
 		case F_READ: 
-			log_info(logger, "PID: %d - ejecutando F_READ -%d - %s %s", 
+			log_info(logger, "PID: %d - ejecutando F_READ -%s - %s %s", 
 					pcb->pid ,
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1],
 					instruccion_a_ejecutar->parametros[2]);
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[2]) + 1);
 			enviar_pcb(pcb, conexion_con_kernel, logger);
+			return;
 		break;
 		case F_WRITE: 
 			log_info(logger, "PID: %d - ejecutando F_WRITE - %s %s %s", 
@@ -70,22 +71,29 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 			pcb->direccion_fisica = traducir_direccion(atoi(instruccion_a_ejecutar->parametros[1]), pcb, conexion_con_kernel, tamanio_registro(instruccion_a_ejecutar->parametros[2]) + 1);
 
 			enviar_pcb(pcb, conexion_con_kernel, logger);
+			return;
 		break;
 		case F_TRUNCATE:
 			log_info(logger, "PID: %d - ejecutando F_TRUNCATE - %s %s", 
 					pcb->pid ,
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
-
+			temporal_stop(temporizador);
+			pcb->tiempo_ejecucion = temporal_gettime(temporizador);
+			temporal_destroy(temporizador);
 			enviar_pcb(pcb, conexion_con_kernel, logger);
+			return;
 		break;
 		case F_SEEK:
 			log_info(logger, "PID: %d - ejecutando F_SEEK - %s %s", 
 					pcb->pid ,
 					instruccion_a_ejecutar->parametros[0],
 					instruccion_a_ejecutar->parametros[1]);
-
+			temporal_stop(temporizador);
+			pcb->tiempo_ejecucion = temporal_gettime(temporizador);
+			temporal_destroy(temporizador);
 			enviar_pcb(pcb, conexion_con_kernel, logger);
+			return;
 		break;
 		case CREATE_SEGMENT:
 			log_info(logger, "PID: %d - ejecutando CREATE_SEGMENT - %s %s", 

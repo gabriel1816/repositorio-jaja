@@ -11,11 +11,6 @@
 
 //************ ESTRUCTURAS   ************//
 
-typedef struct{
-    pid_t pid;
-    //int tamanio;
-} t_new_procesos;
-
 typedef enum{
     BEST,
     WORST,
@@ -27,7 +22,6 @@ typedef enum{
 
 extern int memoria_libre;
 extern t_list* tablas_segmentos;
-extern int memoria_libre;
 extern void* memoria_fisica;
 extern t_list* lista_huecos;
 extern t_algoritmo algoritmo;

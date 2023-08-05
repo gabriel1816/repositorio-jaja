@@ -9,6 +9,7 @@ void atender_kernel(void* socket_kernel)
 	t_paquete* paquete = recibir_paquete(conexion_kernel, logger);
 	t_pcb* pcb = deserializar_buffer_pcb(paquete->buffer, logger);
 	t_instruccion* instruccion = obtener_instruccion(pcb);
+	sem_wait(&semBinSolicitudes);
 	switch(instruccion->identificador){
 		case F_OPEN: 
 			bool abrioElArchivo = abrir_archivo(instruccion->parametros[0]);
@@ -42,7 +43,7 @@ void atender_kernel(void* socket_kernel)
 	}
 
 		destruir_pcb(pcb);
-	
+		sem_post(&semBinSolicitudes);
 	}
 
 	close(socket_kernel);

@@ -142,3 +142,14 @@ void atender_wait_archivo(t_pcb* pcb, char* key_archivo)
         return;
     }
 }
+
+
+archivo_abierto* buscar_archivo(char* archivo_a_sacar){
+    
+    for(int i=0; i < list_size(tabla_global_archivos); i++){
+        archivo_abierto* archivo = list_get(tabla_global_archivos, i);
+        if(!strcmp(archivo->nombre_archivo, archivo_a_sacar)){
+            return archivo;
+        }
+    }
+}

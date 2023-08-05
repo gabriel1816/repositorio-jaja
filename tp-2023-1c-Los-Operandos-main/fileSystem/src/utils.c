@@ -51,13 +51,13 @@ void levantar_bitmap() {
 	int bit_map_tam = ceil(superbloque->cantidad_bloques / 8); 
 
     //                                          permisos
-    int bitmap = open(path_bitmap, O_CREAT | O_RDWR, 0644);
-    ftruncate(bitmap, sizeof(t_superbloque) + bit_map_tam);
+    int archivo_bit = open(path_bitmap, O_CREAT | O_RDWR, 0644);
+    ftruncate(archivo_bit, sizeof(t_superbloque) + bit_map_tam);
 
-    void *mmap_bitmap = mmap(NULL, sizeof(t_superbloque) + bit_map_tam, PROT_READ | PROT_WRITE, MAP_SHARED, bitmap, 0);
+    void *mmap_bitmap = mmap(NULL, sizeof(t_superbloque) + bit_map_tam, PROT_READ | PROT_WRITE, MAP_SHARED, archivo_bit, 0);
     bitmap = bitarray_create_with_mode(mmap_bitmap + sizeof(t_superbloque), bit_map_tam, LSB_FIRST);
 
-    if (lseek(bitmap, 0, SEEK_END) == 0) { 
+    if (lseek(archivo_bit, 0, SEEK_END) == 0) { 
         for(int i = 0; i < bitarray_get_max_bit(bitmap); i++) {
             bitarray_clean_bit(bitmap, i); 
         }
@@ -65,7 +65,7 @@ void levantar_bitmap() {
 
     msync(mmap_bitmap, sizeof(t_superbloque) + bit_map_tam, MS_SYNC);
 
-    close(bitmap);
+    close(archivo_bit);
 
 }
 

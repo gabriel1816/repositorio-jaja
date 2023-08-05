@@ -58,7 +58,7 @@ void recibir_creacion(t_pcb* pcb, t_instruccion* instruccion_pedido)
             log_info(logger, "Compactación: Se solicitó compactación");
             t_instruccion* pedidoCompactacion = crear_instruccion(COMPACTACION, parametros);
             log_info(logger, "Esperando fin de Filesystem");
-            //esperar_fin_FS();
+            esperar_fin_FS();
             log_info(logger, "Cantidad procesos en sistema %u", list_size(cola_procesos));
             pedir_memoria(pedidoCompactacion, memoria_socket, logger); 
             actualizar_procesos_recibidos(memoria_socket);

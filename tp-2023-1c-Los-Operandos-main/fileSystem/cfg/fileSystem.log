@@ -873,3 +873,310 @@
 [INFO] 17:13:12:391 LOGGER FILESYSTEM/(9192:9192): Se levantaron correctamente las estructuras
 [INFO] 17:13:12:395 LOGGER FILESYSTEM/(9192:9192): conecte con memoria
 [INFO] 17:13:12:397 LOGGER FILESYSTEM/(9192:9192): Servidor listo para recibir al cliente
+[INFO] 20:29:18:867 LOGGER FILESYSTEM/(15487:15487): Se levantaron correctamente las estructuras
+[INFO] 20:29:18:873 LOGGER FILESYSTEM/(15487:15487): conecte con memoria
+[INFO] 20:29:18:873 LOGGER FILESYSTEM/(15487:15487): Servidor listo para recibir al cliente
+[INFO] 20:33:46:885 LOGGER FILESYSTEM/(16215:16215): Se levantaron correctamente las estructuras
+[INFO] 20:33:46:887 LOGGER FILESYSTEM/(16215:16215): conecte con memoria
+[INFO] 20:33:46:890 LOGGER FILESYSTEM/(16215:16215): Servidor listo para recibir al cliente
+[INFO] 20:36:50:121 LOGGER FILESYSTEM/(16762:16762): Se levantaron correctamente las estructuras
+[INFO] 20:36:50:123 LOGGER FILESYSTEM/(16762:16762): conecte con memoria
+[INFO] 20:36:50:124 LOGGER FILESYSTEM/(16762:16762): Servidor listo para recibir al cliente
+[INFO] 20:44:30:834 LOGGER FILESYSTEM/(18407:18407): Se levantaron correctamente las estructuras
+[INFO] 20:44:30:835 LOGGER FILESYSTEM/(18407:18407): conecte con memoria
+[INFO] 20:44:30:836 LOGGER FILESYSTEM/(18407:18407): Servidor listo para recibir al cliente
+[INFO] 20:49:25:895 LOGGER FILESYSTEM/(19339:19339): Se levantaron correctamente las estructuras
+[INFO] 20:49:25:897 LOGGER FILESYSTEM/(19339:19339): conecte con memoria
+[INFO] 20:49:25:899 LOGGER FILESYSTEM/(19339:19339): Servidor listo para recibir al cliente
+[INFO] 20:56:24:470 LOGGER FILESYSTEM/(20061:20061): Se levantaron correctamente las estructuras
+[INFO] 20:58:24:802 LOGGER FILESYSTEM/(20234:20234): Se levantaron correctamente las estructuras
+[INFO] 20:58:24:803 LOGGER FILESYSTEM/(20234:20234): conecte con memoria
+[INFO] 20:58:24:803 LOGGER FILESYSTEM/(20234:20234): Servidor listo para recibir al cliente
+[INFO] 21:00:07:951 LOGGER FILESYSTEM/(20234:20389): Crear Archivo: ARCHIVO
+[INFO] 21:03:02:420 LOGGER FILESYSTEM/(21167:21167): Se levantaron correctamente las estructuras
+[INFO] 21:03:02:421 LOGGER FILESYSTEM/(21167:21167): conecte con memoria
+[INFO] 21:03:02:421 LOGGER FILESYSTEM/(21167:21167): Servidor listo para recibir al cliente
+[INFO] 21:04:16:869 LOGGER FILESYSTEM/(21167:21268): Abrir Archivo: ARCHIVO
+[INFO] 21:06:20:757 LOGGER FILESYSTEM/(22101:22101): Se levantaron correctamente las estructuras
+[INFO] 21:06:20:758 LOGGER FILESYSTEM/(22101:22101): conecte con memoria
+[INFO] 21:06:20:759 LOGGER FILESYSTEM/(22101:22101): Servidor listo para recibir al cliente
+[INFO] 21:08:21:528 LOGGER FILESYSTEM/(22101:22229): Abrir Archivo: ARCHIVO
+[INFO] 21:13:46:010 LOGGER FILESYSTEM/(22920:22920): Se levantaron correctamente las estructuras
+[INFO] 21:13:46:014 LOGGER FILESYSTEM/(22920:22920): conecte con memoria
+[INFO] 21:13:46:014 LOGGER FILESYSTEM/(22920:22920): Servidor listo para recibir al cliente
+[INFO] 21:15:05:391 LOGGER FILESYSTEM/(22920:23056): Abrir Archivo: ARCHIVO
+[INFO] 21:15:22:139 LOGGER FILESYSTEM/(22920:23056): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:24:56:673 LOGGER FILESYSTEM/(24101:24101): Se levantaron correctamente las estructuras
+[INFO] 21:24:56:674 LOGGER FILESYSTEM/(24101:24101): conecte con memoria
+[INFO] 21:24:56:674 LOGGER FILESYSTEM/(24101:24101): Servidor listo para recibir al cliente
+[INFO] 21:25:48:500 LOGGER FILESYSTEM/(24101:24228): Abrir Archivo: ARCHIVO
+[INFO] 21:25:48:506 LOGGER FILESYSTEM/(24101:24228): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:30:37:547 LOGGER FILESYSTEM/(24670:24670): Se levantaron correctamente las estructuras
+[INFO] 21:30:37:553 LOGGER FILESYSTEM/(24670:24670): conecte con memoria
+[INFO] 21:30:37:554 LOGGER FILESYSTEM/(24670:24670): Servidor listo para recibir al cliente
+[INFO] 21:33:54:615 LOGGER FILESYSTEM/(24670:25045): Abrir Archivo: ARCHIVO
+[INFO] 21:34:10:270 LOGGER FILESYSTEM/(24670:25045): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:36:39:455 LOGGER FILESYSTEM/(25803:25803): Se levantaron correctamente las estructuras
+[INFO] 21:36:39:456 LOGGER FILESYSTEM/(25803:25803): conecte con memoria
+[INFO] 21:36:39:457 LOGGER FILESYSTEM/(25803:25803): Servidor listo para recibir al cliente
+[INFO] 21:37:01:041 LOGGER FILESYSTEM/(25803:25846): Abrir Archivo: ARCHIVO
+[INFO] 21:37:01:056 LOGGER FILESYSTEM/(25803:25846): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:39:11:218 LOGGER FILESYSTEM/(26287:26287): Se levantaron correctamente las estructuras
+[INFO] 21:39:11:219 LOGGER FILESYSTEM/(26287:26287): conecte con memoria
+[INFO] 21:39:11:220 LOGGER FILESYSTEM/(26287:26287): Servidor listo para recibir al cliente
+[INFO] 21:40:00:910 LOGGER FILESYSTEM/(26287:26381): Abrir Archivo: ARCHIVO
+[INFO] 21:41:03:667 LOGGER FILESYSTEM/(26287:26381): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:43:46:169 LOGGER FILESYSTEM/(26994:26994): Se levantaron correctamente las estructuras
+[INFO] 21:43:46:169 LOGGER FILESYSTEM/(26994:26994): conecte con memoria
+[INFO] 21:43:46:169 LOGGER FILESYSTEM/(26994:26994): Servidor listo para recibir al cliente
+[INFO] 21:44:37:097 LOGGER FILESYSTEM/(26994:27088): Crear Archivo: ARCHIVO
+[INFO] 21:45:24:967 LOGGER FILESYSTEM/(26994:27088): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:52:40:966 LOGGER FILESYSTEM/(28067:28067): Se levantaron correctamente las estructuras
+[INFO] 21:52:40:971 LOGGER FILESYSTEM/(28067:28067): conecte con memoria
+[INFO] 21:52:40:975 LOGGER FILESYSTEM/(28067:28067): Servidor listo para recibir al cliente
+[INFO] 21:53:19:703 LOGGER FILESYSTEM/(28067:28156): Abrir Archivo: ARCHIVO
+[INFO] 21:53:37:483 LOGGER FILESYSTEM/(28067:28156): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 21:56:34:474 LOGGER FILESYSTEM/(28806:28806): Se levantaron correctamente las estructuras
+[INFO] 21:56:34:482 LOGGER FILESYSTEM/(28806:28806): conecte con memoria
+[INFO] 21:56:34:484 LOGGER FILESYSTEM/(28806:28806): Servidor listo para recibir al cliente
+[INFO] 21:57:09:341 LOGGER FILESYSTEM/(28806:28869): Abrir Archivo: ARCHIVO
+[INFO] 21:57:55:823 LOGGER FILESYSTEM/(28806:28869): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:01:42:026 LOGGER FILESYSTEM/(29535:29535): Se levantaron correctamente las estructuras
+[INFO] 22:01:42:030 LOGGER FILESYSTEM/(29535:29535): conecte con memoria
+[INFO] 22:01:42:035 LOGGER FILESYSTEM/(29535:29535): Servidor listo para recibir al cliente
+[INFO] 22:03:26:822 LOGGER FILESYSTEM/(29535:29606): Abrir Archivo: ARCHIVO
+[INFO] 22:04:46:987 LOGGER FILESYSTEM/(29535:29606): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:13:36:784 LOGGER FILESYSTEM/(30398:30398): Se levantaron correctamente las estructuras
+[INFO] 22:13:36:787 LOGGER FILESYSTEM/(30398:30398): conecte con memoria
+[INFO] 22:13:36:788 LOGGER FILESYSTEM/(30398:30398): Servidor listo para recibir al cliente
+[INFO] 22:14:25:991 LOGGER FILESYSTEM/(30398:30518): Abrir Archivo: ARCHIVO
+[INFO] 22:14:43:575 LOGGER FILESYSTEM/(30398:30518): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:14:51:854 LOGGER FILESYSTEM/(30398:30518): Acceso a Bitmap - Bloque: 0 - Estado: 0
+[INFO] 22:14:55:232 LOGGER FILESYSTEM/(30398:30518): Acceso a Bitmap - Bloque: 1 - Estado: 0
+[INFO] 22:24:50:214 LOGGER FILESYSTEM/(31343:31343): Se levantaron correctamente las estructuras
+[INFO] 22:24:50:217 LOGGER FILESYSTEM/(31343:31343): conecte con memoria
+[INFO] 22:24:50:219 LOGGER FILESYSTEM/(31343:31343): Servidor listo para recibir al cliente
+[INFO] 22:26:32:852 LOGGER FILESYSTEM/(31343:31744): Abrir Archivo: ARCHIVO
+[INFO] 22:27:23:099 LOGGER FILESYSTEM/(31343:31744): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:32:19:759 LOGGER FILESYSTEM/(32744:32744): Se levantaron correctamente las estructuras
+[INFO] 22:32:19:761 LOGGER FILESYSTEM/(32744:32744): conecte con memoria
+[INFO] 22:32:19:761 LOGGER FILESYSTEM/(32744:32744): Servidor listo para recibir al cliente
+[INFO] 22:34:55:818 LOGGER FILESYSTEM/(32744:33035): Abrir Archivo: ARCHIVO
+[INFO] 22:34:57:144 LOGGER FILESYSTEM/(32744:33035): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:40:37:396 LOGGER FILESYSTEM/(33849:33849): Se levantaron correctamente las estructuras
+[INFO] 22:40:37:398 LOGGER FILESYSTEM/(33849:33849): conecte con memoria
+[INFO] 22:40:37:399 LOGGER FILESYSTEM/(33849:33849): Servidor listo para recibir al cliente
+[INFO] 22:43:29:228 LOGGER FILESYSTEM/(33849:34200): Abrir Archivo: ARCHIVO
+[INFO] 22:44:40:658 LOGGER FILESYSTEM/(33849:34200): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:51:38:900 LOGGER FILESYSTEM/(35507:35507): Se levantaron correctamente las estructuras
+[INFO] 22:51:38:903 LOGGER FILESYSTEM/(35507:35507): conecte con memoria
+[INFO] 22:51:38:905 LOGGER FILESYSTEM/(35507:35507): Servidor listo para recibir al cliente
+[INFO] 22:53:47:224 LOGGER FILESYSTEM/(35507:35686): Abrir Archivo: ARCHIVO
+[INFO] 22:55:20:286 LOGGER FILESYSTEM/(35507:35686): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 22:59:18:285 LOGGER FILESYSTEM/(36940:36940): Se levantaron correctamente las estructuras
+[INFO] 22:59:18:287 LOGGER FILESYSTEM/(36940:36940): conecte con memoria
+[INFO] 22:59:18:288 LOGGER FILESYSTEM/(36940:36940): Servidor listo para recibir al cliente
+[INFO] 22:59:35:992 LOGGER FILESYSTEM/(36940:37045): Abrir Archivo: ARCHIVO
+[INFO] 22:59:35:995 LOGGER FILESYSTEM/(36940:37045): Truncar Archivo: ARCHIVO - Tamaño: 64
+[INFO] 23:01:18:149 LOGGER FILESYSTEM/(37355:37355): Se levantaron correctamente las estructuras
+[INFO] 23:01:18:150 LOGGER FILESYSTEM/(37355:37355): conecte con memoria
+[INFO] 23:01:18:151 LOGGER FILESYSTEM/(37355:37355): Servidor listo para recibir al cliente
+[INFO] 23:02:24:986 LOGGER FILESYSTEM/(37355:37511): Abrir Archivo: ARCHIVO
+[INFO] 23:02:24:991 LOGGER FILESYSTEM/(37355:37511): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:02:25:001 LOGGER FILESYSTEM/(37355:37511): Acceso a Bitmap - Bloque: 2 - Estado: 0
+[INFO] 23:02:40:002 LOGGER FILESYSTEM/(37355:37511): Acceso a Bitmap - Bloque: 3 - Estado: 0
+[INFO] 23:02:55:002 LOGGER FILESYSTEM/(37355:37511): Acceso a Bitmap - Bloque: 4 - Estado: 0
+[INFO] 23:12:28:159 LOGGER FILESYSTEM/(38393:38393): Se levantaron correctamente las estructuras
+[INFO] 23:13:00:380 LOGGER FILESYSTEM/(38611:38611): Se levantaron correctamente las estructuras
+[INFO] 23:13:00:380 LOGGER FILESYSTEM/(38611:38611): conecte con memoria
+[INFO] 23:13:00:380 LOGGER FILESYSTEM/(38611:38611): Servidor listo para recibir al cliente
+[INFO] 23:14:05:285 LOGGER FILESYSTEM/(38860:38860): Se levantaron correctamente las estructuras
+[INFO] 23:14:59:022 LOGGER FILESYSTEM/(38916:38916): Se levantaron correctamente las estructuras
+[INFO] 23:14:59:027 LOGGER FILESYSTEM/(38916:38916): conecte con memoria
+[INFO] 23:14:59:028 LOGGER FILESYSTEM/(38916:38916): Servidor listo para recibir al cliente
+[INFO] 23:15:13:552 LOGGER FILESYSTEM/(38916:38999): Abrir Archivo: ARCHIVO
+[INFO] 23:15:13:555 LOGGER FILESYSTEM/(38916:38999): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:17:51:073 LOGGER FILESYSTEM/(39400:39400): Se levantaron correctamente las estructuras
+[INFO] 23:20:19:266 LOGGER FILESYSTEM/(39674:39674): Se levantaron correctamente las estructuras
+[INFO] 23:20:19:268 LOGGER FILESYSTEM/(39674:39674): conecte con memoria
+[INFO] 23:20:19:268 LOGGER FILESYSTEM/(39674:39674): Servidor listo para recibir al cliente
+[INFO] 23:21:18:073 LOGGER FILESYSTEM/(39674:39837): Abrir Archivo: ARCHIVO
+[INFO] 23:22:15:243 LOGGER FILESYSTEM/(39674:39837): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:24:28:830 LOGGER FILESYSTEM/(40800:40800): Se levantaron correctamente las estructuras
+[INFO] 23:25:20:814 LOGGER FILESYSTEM/(40925:40925): Se levantaron correctamente las estructuras
+[INFO] 23:25:20:829 LOGGER FILESYSTEM/(40925:40925): conecte con memoria
+[INFO] 23:25:20:830 LOGGER FILESYSTEM/(40925:40925): Servidor listo para recibir al cliente
+[INFO] 23:25:40:238 LOGGER FILESYSTEM/(40925:41025): Abrir Archivo: ARCHIVO
+[INFO] 23:25:40:242 LOGGER FILESYSTEM/(40925:41025): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:28:36:232 LOGGER FILESYSTEM/(41449:41449): Se levantaron correctamente las estructuras
+[INFO] 23:28:36:232 LOGGER FILESYSTEM/(41449:41449): conecte con memoria
+[INFO] 23:28:36:232 LOGGER FILESYSTEM/(41449:41449): Servidor listo para recibir al cliente
+[INFO] 23:28:49:432 LOGGER FILESYSTEM/(41449:41530): Abrir Archivo: ARCHIVO
+[INFO] 23:28:49:435 LOGGER FILESYSTEM/(41449:41530): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:30:05:610 LOGGER FILESYSTEM/(41739:41739): Se levantaron correctamente las estructuras
+[INFO] 23:31:00:531 LOGGER FILESYSTEM/(41904:41904): Se levantaron correctamente las estructuras
+[INFO] 23:31:00:534 LOGGER FILESYSTEM/(41904:41904): conecte con memoria
+[INFO] 23:31:00:535 LOGGER FILESYSTEM/(41904:41904): Servidor listo para recibir al cliente
+[INFO] 23:32:24:084 LOGGER FILESYSTEM/(41904:42083): Abrir Archivo: ARCHIVO
+[INFO] 23:32:39:475 LOGGER FILESYSTEM/(41904:42083): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:35:10:461 LOGGER FILESYSTEM/(43033:43033): Se levantaron correctamente las estructuras
+[INFO] 23:35:10:464 LOGGER FILESYSTEM/(43033:43033): conecte con memoria
+[INFO] 23:35:10:464 LOGGER FILESYSTEM/(43033:43033): Servidor listo para recibir al cliente
+[INFO] 23:36:15:291 LOGGER FILESYSTEM/(43033:43167): Abrir Archivo: ARCHIVO
+[INFO] 23:36:41:658 LOGGER FILESYSTEM/(43033:43167): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:40:32:961 LOGGER FILESYSTEM/(44032:44032): Se levantaron correctamente las estructuras
+[INFO] 23:40:32:964 LOGGER FILESYSTEM/(44032:44032): conecte con memoria
+[INFO] 23:40:32:965 LOGGER FILESYSTEM/(44032:44032): Servidor listo para recibir al cliente
+[INFO] 23:42:11:320 LOGGER FILESYSTEM/(44279:44279): Se levantaron correctamente las estructuras
+[INFO] 23:42:11:320 LOGGER FILESYSTEM/(44279:44279): conecte con memoria
+[INFO] 23:42:11:320 LOGGER FILESYSTEM/(44279:44279): Servidor listo para recibir al cliente
+[INFO] 23:42:52:657 LOGGER FILESYSTEM/(44279:44420): Abrir Archivo: ARCHIVO
+[INFO] 23:42:52:741 LOGGER FILESYSTEM/(44279:44420): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:45:11:947 LOGGER FILESYSTEM/(44833:44833): Se levantaron correctamente las estructuras
+[INFO] 23:45:11:949 LOGGER FILESYSTEM/(44833:44833): conecte con memoria
+[INFO] 23:45:11:950 LOGGER FILESYSTEM/(44833:44833): Servidor listo para recibir al cliente
+[INFO] 23:45:40:689 LOGGER FILESYSTEM/(44833:44922): Abrir Archivo: ARCHIVO
+[INFO] 23:45:40:862 LOGGER FILESYSTEM/(44833:44922): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:45:40:934 LOGGER FILESYSTEM/(44833:44922): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 23:45:40:934 LOGGER FILESYSTEM/(44833:44922): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 23:51:06:646 LOGGER FILESYSTEM/(45710:45710): Se levantaron correctamente las estructuras
+[INFO] 23:51:06:646 LOGGER FILESYSTEM/(45710:45710): conecte con memoria
+[INFO] 23:51:06:646 LOGGER FILESYSTEM/(45710:45710): Servidor listo para recibir al cliente
+[INFO] 23:52:34:721 LOGGER FILESYSTEM/(45710:45875): Abrir Archivo: ARCHIVO
+[INFO] 23:52:58:322 LOGGER FILESYSTEM/(45710:45875): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 23:53:55:015 LOGGER FILESYSTEM/(45710:45875): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 23:54:32:726 LOGGER FILESYSTEM/(45710:45875): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 00:12:07:793 LOGGER FILESYSTEM/(46928:46928): Se levantaron correctamente las estructuras
+[INFO] 00:12:07:799 LOGGER FILESYSTEM/(46928:46928): conecte con memoria
+[INFO] 00:12:07:801 LOGGER FILESYSTEM/(46928:46928): Servidor listo para recibir al cliente
+[INFO] 00:12:45:723 LOGGER FILESYSTEM/(46928:47041): Abrir Archivo: ARCHIVO
+[INFO] 00:12:51:970 LOGGER FILESYSTEM/(46928:47041): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 00:13:28:880 LOGGER FILESYSTEM/(46928:47041): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 00:13:59:582 LOGGER FILESYSTEM/(46928:47041): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 00:20:57:482 LOGGER FILESYSTEM/(48246:48246): Se levantaron correctamente las estructuras
+[INFO] 00:20:57:488 LOGGER FILESYSTEM/(48246:48246): conecte con memoria
+[INFO] 00:20:57:489 LOGGER FILESYSTEM/(48246:48246): Servidor listo para recibir al cliente
+[INFO] 00:21:33:675 LOGGER FILESYSTEM/(48246:48434): Abrir Archivo: ARCHIVO
+[INFO] 00:21:33:686 LOGGER FILESYSTEM/(48246:48434): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 00:21:33:696 LOGGER FILESYSTEM/(48246:48434): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 00:21:33:696 LOGGER FILESYSTEM/(48246:48434): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 00:24:22:291 LOGGER FILESYSTEM/(49077:49077): Se levantaron correctamente las estructuras
+[INFO] 00:24:22:330 LOGGER FILESYSTEM/(49077:49077): conecte con memoria
+[INFO] 00:24:22:331 LOGGER FILESYSTEM/(49077:49077): Servidor listo para recibir al cliente
+[INFO] 00:24:58:950 LOGGER FILESYSTEM/(49077:49177): Abrir Archivo: ARCHIVO
+[INFO] 00:25:15:924 LOGGER FILESYSTEM/(49077:49177): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 00:25:47:299 LOGGER FILESYSTEM/(49077:49177): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 00:25:56:873 LOGGER FILESYSTEM/(49077:49177): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 00:32:15:679 LOGGER FILESYSTEM/(50320:50320): Se levantaron correctamente las estructuras
+[INFO] 00:32:15:702 LOGGER FILESYSTEM/(50320:50320): conecte con memoria
+[INFO] 00:32:15:704 LOGGER FILESYSTEM/(50320:50320): Servidor listo para recibir al cliente
+[INFO] 00:33:16:564 LOGGER FILESYSTEM/(50320:50421): Abrir Archivo: ARCHIVO
+[INFO] 00:33:26:730 LOGGER FILESYSTEM/(50320:50421): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 00:33:54:424 LOGGER FILESYSTEM/(50320:50421): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 00:34:00:773 LOGGER FILESYSTEM/(50320:50421): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 01:22:48:264 LOGGER FILESYSTEM/(51463:51463): Se levantaron correctamente las estructuras
+[INFO] 01:22:48:289 LOGGER FILESYSTEM/(51463:51463): conecte con memoria
+[INFO] 01:22:48:290 LOGGER FILESYSTEM/(51463:51463): Servidor listo para recibir al cliente
+                                                                                                                                                                         [INFO] 01:30:01:301 LOGGER FILESYSTEM/(2387:2387): Se levantaron correctamente las estructuras
+[INFO] 01:30:01:350 LOGGER FILESYSTEM/(2387:2387): conecte con memoria
+[INFO] 01:30:01:351 LOGGER FILESYSTEM/(2387:2387): Servidor listo para recibir al cliente
+[INFO] 01:32:01:982 LOGGER FILESYSTEM/(2387:2443): Abrir Archivo: ARCHIVO
+[INFO] 01:32:01:995 LOGGER FILESYSTEM/(2387:2443): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 01:32:02:008 LOGGER FILESYSTEM/(2387:2443): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 01:32:02:020 LOGGER FILESYSTEM/(2387:2443): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 01:35:09:963 LOGGER FILESYSTEM/(3283:3283): Se levantaron correctamente las estructuras
+[INFO] 01:35:09:965 LOGGER FILESYSTEM/(3283:3283): conecte con memoria
+[INFO] 01:35:09:966 LOGGER FILESYSTEM/(3283:3283): Servidor listo para recibir al cliente
+[INFO] 01:37:17:766 LOGGER FILESYSTEM/(3727:3727): Se levantaron correctamente las estructuras
+[INFO] 01:37:17:773 LOGGER FILESYSTEM/(3727:3727): conecte con memoria
+[INFO] 01:37:17:780 LOGGER FILESYSTEM/(3727:3727): Servidor listo para recibir al cliente
+[INFO] 01:38:12:923 LOGGER FILESYSTEM/(3727:3779): Abrir Archivo: ARCHIVO
+[INFO] 01:38:12:935 LOGGER FILESYSTEM/(3727:3779): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 01:41:04:918 LOGGER FILESYSTEM/(4885:4885): Se levantaron correctamente las estructuras
+[INFO] 01:41:04:930 LOGGER FILESYSTEM/(4885:4885): conecte con memoria
+[INFO] 01:41:04:930 LOGGER FILESYSTEM/(4885:4885): Servidor listo para recibir al cliente
+[INFO] 01:41:29:696 LOGGER FILESYSTEM/(4885:4954): Abrir Archivo: ARCHIVO
+[INFO] 01:41:29:701 LOGGER FILESYSTEM/(4885:4954): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 01:41:29:716 LOGGER FILESYSTEM/(4885:4954): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 01:41:29:716 LOGGER FILESYSTEM/(4885:4954): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 01:42:33:212 LOGGER FILESYSTEM/(5315:5315): Se levantaron correctamente las estructuras
+[INFO] 01:42:33:213 LOGGER FILESYSTEM/(5315:5315): conecte con memoria
+[INFO] 01:42:33:214 LOGGER FILESYSTEM/(5315:5315): Servidor listo para recibir al cliente
+[INFO] 01:42:44:958 LOGGER FILESYSTEM/(5315:5399): Abrir Archivo: ARCHIVO
+[INFO] 01:42:44:964 LOGGER FILESYSTEM/(5315:5399): Truncar Archivo: ARCHIVO - Tamaño: 200
+[INFO] 01:42:44:977 LOGGER FILESYSTEM/(5315:5399): Leer Archivo: ARCHIVO - Puntero: 10 - Memoria: 0 - Tamaño: 4
+[INFO] 01:42:44:977 LOGGER FILESYSTEM/(5315:5399): Acceso Bloque - Archivo: ARCHIVO - Bloque Archivo: 1 - Bloque File System 0 
+[INFO] 01:53:30:159 LOGGER FILESYSTEM/(6022:6022): Se levantaron correctamente las estructuras
+[INFO] 01:54:04:048 LOGGER FILESYSTEM/(6086:6086): Se levantaron correctamente las estructuras
+[INFO] 01:54:19:665 LOGGER FILESYSTEM/(6174:6174): Se levantaron correctamente las estructuras
+[INFO] 01:55:47:138 LOGGER FILESYSTEM/(6478:6478): Se levantaron correctamente las estructuras
+[INFO] 01:55:47:140 LOGGER FILESYSTEM/(6478:6478): conecte con memoria
+[INFO] 01:55:47:141 LOGGER FILESYSTEM/(6478:6478): Servidor listo para recibir al cliente
+[INFO] 01:56:44:860 LOGGER FILESYSTEM/(6478:6534): Crear Archivo: Consoles
+[INFO] 01:56:44:886 LOGGER FILESYSTEM/(6478:6534): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 01:56:44:899 LOGGER FILESYSTEM/(6478:6534): Acceso a Bitmap - Bloque: 5 - Estado: 0
+[INFO] 01:56:44:899 LOGGER FILESYSTEM/(6478:6534): Acceso a Bitmap - Bloque: 6 - Estado: 0
+[INFO] 01:56:44:899 LOGGER FILESYSTEM/(6478:6534): Acceso a Bitmap - Bloque: 7 - Estado: 0
+[INFO] 01:56:45:900 LOGGER FILESYSTEM/(6478:6534): Acceso a Bitmap - Bloque: 8 - Estado: 0
+[INFO] 01:56:46:901 LOGGER FILESYSTEM/(6478:6534): Acceso a Bitmap - Bloque: 9 - Estado: 0
+[INFO] 01:56:48:936 LOGGER FILESYSTEM/(6478:6534): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 01:56:48:936 LOGGER FILESYSTEM/(6478:6534): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 01:56:48:936 LOGGER FILESYSTEM/(6478:6534): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 01:56:49:936 LOGGER FILESYSTEM/(6478:6534): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 01:56:49:937 LOGGER FILESYSTEM/(6478:6534): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 01:58:02:160 LOGGER FILESYSTEM/(7202:7202): Se levantaron correctamente las estructuras
+[INFO] 01:58:47:322 LOGGER FILESYSTEM/(7294:7294): Se levantaron correctamente las estructuras
+[INFO] 01:58:47:324 LOGGER FILESYSTEM/(7294:7294): conecte con memoria
+[INFO] 01:58:47:324 LOGGER FILESYSTEM/(7294:7294): Servidor listo para recibir al cliente
+[INFO] 01:59:15:477 LOGGER FILESYSTEM/(7294:7377): Abrir Archivo: Consoles
+[INFO] 01:59:15:503 LOGGER FILESYSTEM/(7294:7377): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 01:59:16:520 LOGGER FILESYSTEM/(7294:7377): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 01:59:16:520 LOGGER FILESYSTEM/(7294:7377): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 01:59:16:520 LOGGER FILESYSTEM/(7294:7377): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 01:59:17:520 LOGGER FILESYSTEM/(7294:7377): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 01:59:17:520 LOGGER FILESYSTEM/(7294:7377): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 02:00:26:758 LOGGER FILESYSTEM/(7932:7932): Se levantaron correctamente las estructuras
+[INFO] 02:00:52:360 LOGGER FILESYSTEM/(8013:8013): Se levantaron correctamente las estructuras
+[INFO] 02:00:52:361 LOGGER FILESYSTEM/(8013:8013): conecte con memoria
+[INFO] 02:00:52:362 LOGGER FILESYSTEM/(8013:8013): Servidor listo para recibir al cliente
+[INFO] 02:01:21:867 LOGGER FILESYSTEM/(8013:8120): Abrir Archivo: Consoles
+[INFO] 02:01:21:889 LOGGER FILESYSTEM/(8013:8120): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 02:01:22:910 LOGGER FILESYSTEM/(8013:8120): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 02:01:22:910 LOGGER FILESYSTEM/(8013:8120): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:01:22:911 LOGGER FILESYSTEM/(8013:8120): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 02:01:23:911 LOGGER FILESYSTEM/(8013:8120): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:01:23:911 LOGGER FILESYSTEM/(8013:8120): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 02:13:02:296 LOGGER FILESYSTEM/(9575:9575): Se levantaron correctamente las estructuras
+[INFO] 02:13:02:306 LOGGER FILESYSTEM/(9575:9575): conecte con memoria
+[INFO] 02:13:02:306 LOGGER FILESYSTEM/(9575:9575): Servidor listo para recibir al cliente
+[INFO] 02:13:49:830 LOGGER FILESYSTEM/(9575:9662): Abrir Archivo: Consoles
+[INFO] 02:14:05:579 LOGGER FILESYSTEM/(9575:9662): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 02:14:32:679 LOGGER FILESYSTEM/(9575:9662): rompo acá
+[INFO] 02:15:29:037 LOGGER FILESYSTEM/(9575:9662): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 02:15:33:048 LOGGER FILESYSTEM/(9575:9662): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:15:33:049 LOGGER FILESYSTEM/(9575:9662): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 02:15:34:049 LOGGER FILESYSTEM/(9575:9662): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:15:34:049 LOGGER FILESYSTEM/(9575:9662): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 02:18:27:690 LOGGER FILESYSTEM/(11159:11159): Se levantaron correctamente las estructuras
+[INFO] 02:18:27:694 LOGGER FILESYSTEM/(11159:11159): conecte con memoria
+[INFO] 02:18:27:696 LOGGER FILESYSTEM/(11159:11159): Servidor listo para recibir al cliente
+[INFO] 02:22:41:568 LOGGER FILESYSTEM/(11159:11230): Abrir Archivo: Consoles
+[INFO] 02:23:31:428 LOGGER FILESYSTEM/(11159:11230): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 02:24:12:949 LOGGER FILESYSTEM/(11159:11230): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 02:24:12:952 LOGGER FILESYSTEM/(11159:11230): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:24:12:967 LOGGER FILESYSTEM/(11159:11230): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 02:24:13:974 LOGGER FILESYSTEM/(11159:11230): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:24:13:975 LOGGER FILESYSTEM/(11159:11230): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 02:26:35:221 LOGGER FILESYSTEM/(12439:12439): Se levantaron correctamente las estructuras
+[INFO] 02:26:35:224 LOGGER FILESYSTEM/(12439:12439): conecte con memoria
+[INFO] 02:26:35:226 LOGGER FILESYSTEM/(12439:12439): Servidor listo para recibir al cliente
+[INFO] 02:27:14:194 LOGGER FILESYSTEM/(12439:12579): Abrir Archivo: Consoles
+[INFO] 02:27:24:250 LOGGER FILESYSTEM/(12439:12579): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 02:28:02:067 LOGGER FILESYSTEM/(12439:12579): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 0 - Tamaño: 80
+[INFO] 02:28:39:865 LOGGER FILESYSTEM/(12439:12579): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:28:39:869 LOGGER FILESYSTEM/(12439:12579): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 9 
+[INFO] 02:28:40:870 LOGGER FILESYSTEM/(12439:12579): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 6 
+[INFO] 02:28:40:870 LOGGER FILESYSTEM/(12439:12579): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 02:32:31:559 LOGGER FILESYSTEM/(13945:13945): Se levantaron correctamente las estructuras
+[INFO] 02:32:31:568 LOGGER FILESYSTEM/(13945:13945): conecte con memoria
+[INFO] 02:32:31:570 LOGGER FILESYSTEM/(13945:13945): Servidor listo para recibir al cliente

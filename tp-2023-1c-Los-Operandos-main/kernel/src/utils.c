@@ -28,6 +28,8 @@ void iniciar_colas(){
     cola_blocked = list_create();
 	cola_procesos = list_create();
 	cola_bloqueados_archivos = list_create();
+	cola_bloqueados_fs = list_create();
+	tabla_global_archivos = list_create();
 }
 
 
@@ -40,11 +42,14 @@ void iniciar_semaforos(){
 	pthread_mutex_init(&mutex_cambio_estado, NULL);
 	pthread_mutex_init(&procesosEnSistemaMutex, NULL);
 	pthread_mutex_init(&procesosBloqueadosFileSystemMutex, NULL);
+	pthread_mutex_init(&puedeIniciarCompactacionMutex, NULL);
 	
 	
 
 	sem_init(&sem_nuevos, 0, 0);
 	sem_init(&sem_ready, 0, 0);
+	sem_init(&sem_bloqueados_fs, 0, 0);
+	sem_init(&compactacion, 0, 0);
 
 	sem_init(&contador_multiprogramacion, 0, kernel_config.multiprogrammingLevel);
 	

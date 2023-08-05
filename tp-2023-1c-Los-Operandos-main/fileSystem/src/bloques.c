@@ -30,12 +30,12 @@ int calcular_bloques_de_mas(uint32_t nuevo_tamanio, t_fcb *fcb)
     return bloques_de_mas;
 }
 
-uint32_t buscar_bloque_libre(t_bitarray *bitmap)
+uint32_t asignar_bloque_libre()
 {
 
     uint32_t bloque_libre = -1;
 
-    uint32_t tamanio_bitmap = bitarray_get_max_bit(bitmap);
+    uint32_t tamanio_bitmap = superbloque->cantidad_bloques;
     for (int i = 0; i < tamanio_bitmap; i++)
     {
 
@@ -84,7 +84,7 @@ void asignar_bloque(t_fcb *fcb, uint32_t bloques_adicionales)
     uint32_t bloques_asignados = ceil(fcb->tam_archivo/superbloque->tam_bloque);
     for (uint32_t i = 0; i < bloques_adicionales; i++)
     {
-        uint32_t bloque_libre = buscar_bloque_libre(bitmap);
+        uint32_t bloque_libre = asignar_bloque_libre();
         if (bloque_libre != -1)
         { 
             escribir_bloque_en_archivo(fcb->puntero_indirecto, bloques_asignados - 1 + i, bloque_libre);

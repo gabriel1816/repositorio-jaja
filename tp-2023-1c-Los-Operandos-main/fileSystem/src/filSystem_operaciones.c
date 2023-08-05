@@ -101,9 +101,9 @@ void agrandar(t_fcb* fcb, uint32_t tamanio_nuevo) {
         
             uint32_t bloque_libre; 
                 if(fcb->tam_archivo == 0) { 
-                    bloque_libre = buscar_bloque_libre(bitmap);
+                    bloque_libre = asignar_bloque_libre();
                     fcb->puntero_directo = bloque_libre;
-                    bloque_libre = buscar_bloque_libre(bitmap);  
+                    bloque_libre = asignar_bloque_libre();  
                     fcb->puntero_indirecto = bloque_libre; 
                     bloques_adicionales--;
                         } 
@@ -115,12 +115,12 @@ void agrandar(t_fcb* fcb, uint32_t tamanio_nuevo) {
 
 void agregar_bloques(int ocupados, int bloques_a_sumar, t_fcb *fcb){
     if(ocupados == 0){
-        fcb->puntero_directo = buscar_bloque_libre();
+        fcb->puntero_directo = asignar_bloque_libre();
         bloques_a_sumar -= 1; 
     }
     else{
         for(int i = 0; i < bloques_a_sumar; i++){
-            fcb->puntero_indirecto = buscar_bloque_libre();
+            fcb->puntero_indirecto = asignar_bloque_libre();
         }
     }
     
@@ -188,15 +188,13 @@ void leer_archivo(char *archivo, int puntero_archivo, int bytes_para_leer, int d
     pedido_fs->instruccion = crear_instruccion(F_READ, param);
     pedido_fs->pid = pid;
     pedido_fs->direccion_fisica = direccion_fisica;
-    t_buffer *buffer = crear_buffer_para_t_pedido_file_system(pedido_fs);
+    t_buffer *buffer = crear_buffer_para_t_fs_pedido(pedido_fs);
     t_paquete *paquete_a_enviar = crear_paquete(buffer, 79); // poner código
     enviar_paquete(conexionConMemoria, paquete_a_enviar, logger);
-    list_destroy(param);
-
     t_paquete *paquete_a_recibir = recibir_paquete(conexionConMemoria, logger);
-
     destruir_paquete(paquete_a_enviar);
     destruir_paquete(paquete_a_recibir);
+    list_destroy(param);
 
 
 }
@@ -208,10 +206,10 @@ void escribir(t_pcb* pcb, int conexion) {
     pedido_fs->instruccion = instruccion;
     pedido_fs->pid = pcb->pid;
     pedido_fs->direccion_fisica = pcb->direccion_fisica;
-    enviar_pedido_file_system(pedido_fs, conexionConMemoria, logger);
+    enviar_fs_pedido(pedido_fs, conexionConMemoria, logger);
     t_paquete *paquete = recibir_paquete(conexionConMemoria, logger);
 	int offset=0;
-    t_instruccion* respuestaMemoria = crear_instruccion_para_el_buffer(paquete->buffer,&offset);
+    t_instruccion* respuestaMemoria = crear_instruccion_para_el_buffer(paquete->buffer, &offset);
     log_info(logger , "Escribir Archivo: %s - Puntero: %s - Memoria: %d - Tamaño: %s", pedido_fs->instruccion->parametros[0], pedido_fs->instruccion->parametros[1], pedido_fs->direccion_fisica, pedido_fs->instruccion->parametros[2]);
     escribir_archivo(instruccion->parametros[0], atoi(instruccion->parametros[1]), respuestaMemoria->parametros[0], atoi(pedido_fs->instruccion->parametros[2])); 
     destruir_paquete(paquete);

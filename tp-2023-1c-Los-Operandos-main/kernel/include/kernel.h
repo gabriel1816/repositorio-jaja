@@ -81,9 +81,12 @@ extern pthread_mutex_t mutex_pcb_a_ejecutar;
 extern pthread_mutex_t mutex_cambio_estado;
 extern pthread_mutex_t procesosEnSistemaMutex; 
 extern pthread_mutex_t procesosBloqueadosFileSystemMutex;
+extern pthread_mutex_t puedeIniciarCompactacionMutex;
 extern sem_t contador_multiprogramacion;
 extern sem_t sem_nuevos;
 extern sem_t sem_ready;
+extern sem_t sem_bloqueados_fs;
+extern sem_t compactacion;
 
 extern t_dictionary* diccionario_recursos;
 extern t_dictionary* diccionario_archivos;
@@ -91,6 +94,9 @@ extern t_list* tabla_global_archivos;
 extern t_list* cola_recursos_bloqueados;
 extern t_list* cola_procesos;
 extern t_list* cola_bloqueados_archivos;
+extern t_list* cola_bloqueados_fs;
+
+
 
 //************* ---------------  *************//
 void startUp(void);
@@ -158,13 +164,11 @@ void sacar_de_cola_procesos(t_pcb* proceso);
 void agregar_a_cola_procesos(t_pcb* proceso);
 
 
-//*************** LISTAS  ***************//
-
 bool solicitar_apertura(t_pcb* pcb);
 void solicitar_creacion(t_instruccion* instruccion);
 void solicitar_truncamiento(t_pcb* pcb);
-void leer(t_pcb* pcb);
-void escribir(t_pcb* pcb);
+void leer(t_instruccion* instruccion, t_pcb* pcb);
+void escribir(t_instruccion* instruccion, t_pcb* pcb);
 
 
 //*************** TABLA ARCHIVOS  ***************//
@@ -183,10 +187,12 @@ void atender_wait_archivo(t_pcb* pcb, char* key_archivo);
 void agregar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb); 
 void sacar_pcb_cola_bloqueados_RecursoArchivo(t_pcb* pcb);
 t_recurso* crear_recurso(int instancias);
-
-
-
-
+archivo_abierto* buscar_archivo(char* archivo_a_sacar);
+void agregar_pcb_en_cola_bloqueados_FileSystem(t_pcb* pcb);
+t_pcb* sacar_pcb_cola_bloqueados_FileSystem();
+void iniciar_file_system();
+void file_system(); 
+void set_puede_iniciar_compactacion(bool estado);
 
 
 

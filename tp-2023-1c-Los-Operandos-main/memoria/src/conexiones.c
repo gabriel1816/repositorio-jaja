@@ -37,7 +37,7 @@ void escuchar(int puerto_escucha) {
 void atender_cpu(void* conexion)
 {
 	int conexion_cpu = (int) conexion;
-	log_info(logger, "Escuchando a memoria");
+	log_info(logger, "Escuchando a CPU");
 
     t_paquete* paquete;
     while (1)
@@ -147,9 +147,7 @@ void atender_fs(void* conexion)
 {
 	int conexion_fs = (int)conexion;
 	log_info(logger, "escuchando a filesystem");
-	t_pcb* pcb = recibir_pcb(conexion_fs, logger);
-	//recibo algo
-	t_paquete *paquete = recibir_paquete(conexion_fs, logger); 
+    t_paquete * paquete;
 	while(1)
     {
         paquete = recibir_paquete(conexion_fs, logger);
@@ -172,7 +170,7 @@ void atender_fs(void* conexion)
                 instr_respuesta = crear_instruccion(F_READ, parametros);
                 buffer = crear_buffer_para_t_instruccion(instr_respuesta);
                 paquete_rta = crear_paquete(buffer, F_READ_OK);
-                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
+                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %d - Origen: FS", pid, direccion_fisica, lectura);
                 archivo = ""; // inicializo para proxima
                 break;
             case F_WRITE: 

@@ -21,6 +21,7 @@ char* ipFs;
 t_list* lista_fcbs;
 t_superbloque* superbloque;
 t_bitarray* bitmap;
+sem_t semBinSolicitudes;
 
 int main(void) {
 
@@ -31,7 +32,7 @@ int main(void) {
 	conexionConMemoria= crear_conexion(ipMemoria, puertoMemoria);
 	send(conexionConMemoria, "hola, soy filesystem", strlen("hola, soy filesystem") + 1, 0);
 	log_info(logger, "conecte con memoria");
-
+	sem_init(&semBinSolicitudes, 0, 1);
 
 	//espero al kernel 
 	int socket_servidor = iniciar_servidor(puertoEscucha, ipFs, logger);

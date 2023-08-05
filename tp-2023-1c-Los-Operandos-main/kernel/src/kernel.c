@@ -27,6 +27,9 @@ pthread_mutex_t procesosEnSistemaMutex;
 sem_t contador_multiprogramacion;
 sem_t sem_nuevos;
 sem_t sem_ready;
+sem_t sem_bloqueados_fs;
+sem_t sem_bloqueados_archivos;
+sem_t compactacion;
 
 t_pcb* pcb_a_ejecutar;
 t_list* cola_procesos; 
@@ -34,7 +37,8 @@ t_dictionary* diccionario_archivos;
 t_list* tabla_global_archivos;
 pthread_mutex_t procesosBloqueadosFileSystemMutex;
 t_list* cola_bloqueados_archivos;
-
+t_list* cola_bloqueados_fs;
+pthread_mutex_t puedeIniciarCompactacionMutex;
 
 int main(void) {
 
@@ -42,13 +46,14 @@ int main(void) {
 	
 	if (kernel_config.config == NULL) {
 	    log_error(logger, "No se pudo leer el archivo de configuración.");
-		return EXIT_FAILURE;	// Hacer funcion terminate_kernel(EXIT)
+		return EXIT_FAILURE;	
 	}else {
 		log_info(logger,"No es null el archivo de config");
 	}
 	
 	hilo_planificador_largo_plazo();
 	hilo_planificador_corto_plazo();
+	iniciar_file_system(); 
 
 	server_socket = iniciar_servidor(kernel_config.listenPort, kernel_config.kernelIP, logger);
 
@@ -77,12 +82,11 @@ int main(void) {
 
 void startUp(void){
 
-	// Inicializo logger
+
 	logger = log_create(LOG_PATH,"kernel_logger", true, LOG_LEVEL_DEBUG);	
 	
-	// Inicializo archivo de configuracion.
+
 	kernel_config =	levantar_config();
-	// Creo todas las colas
 	iniciar_colas();
 	iniciar_semaforos();
 	iniciar_recursos();
@@ -96,7 +100,6 @@ void terminate_kernel(int x)
 	list_destroy(cola_blocked);
 	list_destroy(cola_exit);
 
-	//pthread_mutex_destroy(&execution_mutex);
 
 	config_destroy(config);
 	if (cpu_socket)

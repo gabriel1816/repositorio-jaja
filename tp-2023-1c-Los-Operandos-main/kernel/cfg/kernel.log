@@ -4865,3 +4865,1412 @@
 [INFO] 17:14:27:280 kernel_logger/(9405:9407): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
 [INFO] 17:14:28:300 kernel_logger/(9405:9407): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
 [INFO] 17:14:28:300 kernel_logger/(9405:9407): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 20:29:33:846 kernel_logger/(15602:15602): No es null el archivo de config
+[INFO] 20:29:33:856 kernel_logger/(15602:15602): conecte con memoria
+[INFO] 20:29:33:857 kernel_logger/(15602:15602): conecte con filesystem
+[INFO] 20:31:23:185 kernel_logger/(15602:15872): escuchando a consola
+[INFO] 20:31:23:190 kernel_logger/(15602:15872): Se crea el proceso 1 en NEW
+[INFO] 20:31:23:191 kernel_logger/(15602:15872): Se crea proceso 1 en NEW
+[INFO] 20:31:23:192 kernel_logger/(15602:15603): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:31:23:192 kernel_logger/(15602:15603): Cola ready FIFO [1, ]
+[INFO] 20:31:23:192 kernel_logger/(15602:15603): ingreso proceso a listos
+[INFO] 20:31:23:192 kernel_logger/(15602:15604): conecte con cpu
+[INFO] 20:31:23:192 kernel_logger/(15602:15604): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:34:45:631 kernel_logger/(16427:16427): No es null el archivo de config
+[INFO] 20:34:45:636 kernel_logger/(16427:16427): conecte con memoria
+[INFO] 20:34:45:639 kernel_logger/(16427:16427): conecte con filesystem
+[INFO] 20:34:51:098 kernel_logger/(16427:16465): escuchando a consola
+[INFO] 20:34:51:103 kernel_logger/(16427:16465): Se crea el proceso 1 en NEW
+[INFO] 20:34:51:106 kernel_logger/(16427:16465): Se crea proceso 1 en NEW
+[INFO] 20:34:51:107 kernel_logger/(16427:16428): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:34:51:107 kernel_logger/(16427:16428): Cola ready FIFO [1, ]
+[INFO] 20:34:51:107 kernel_logger/(16427:16428): ingreso proceso a listos
+[INFO] 20:34:51:108 kernel_logger/(16427:16429): conecte con cpu
+[INFO] 20:34:51:108 kernel_logger/(16427:16429): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:38:12:759 kernel_logger/(17109:17109): No es null el archivo de config
+[INFO] 20:39:06:609 kernel_logger/(17262:17262): No es null el archivo de config
+[INFO] 20:39:13:768 kernel_logger/(17262:17262): conecte con memoria
+[INFO] 20:39:13:771 kernel_logger/(17262:17262): conecte con filesystem
+[INFO] 20:39:28:458 kernel_logger/(17262:17381): escuchando a consola
+[INFO] 20:39:43:127 kernel_logger/(17262:17381): Se crea el proceso 1 en NEW
+[INFO] 20:39:44:821 kernel_logger/(17262:17381): Se crea proceso 1 en NEW
+[INFO] 20:39:44:822 kernel_logger/(17262:17268): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:39:44:822 kernel_logger/(17262:17268): Cola ready FIFO [1, ]
+[INFO] 20:39:44:822 kernel_logger/(17262:17268): ingreso proceso a listos
+[INFO] 20:39:58:121 kernel_logger/(17262:17302): conecte con cpu
+[INFO] 20:40:00:292 kernel_logger/(17262:17302): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:44:50:199 kernel_logger/(18526:18526): No es null el archivo de config
+[INFO] 20:44:55:927 kernel_logger/(18526:18526): conecte con memoria
+[INFO] 20:44:55:934 kernel_logger/(18526:18526): conecte con filesystem
+[INFO] 20:45:27:015 kernel_logger/(18526:18716): escuchando a consola
+[INFO] 20:45:58:997 kernel_logger/(18526:18716): Se crea el proceso 1 en NEW
+[INFO] 20:45:59:870 kernel_logger/(18526:18716): Se crea proceso 1 en NEW
+[INFO] 20:45:59:872 kernel_logger/(18526:18548): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:45:59:872 kernel_logger/(18526:18548): Cola ready FIFO [1, ]
+[INFO] 20:45:59:872 kernel_logger/(18526:18548): ingreso proceso a listos
+[INFO] 20:46:29:519 kernel_logger/(18526:18577): conecte con cpu
+[INFO] 20:46:30:741 kernel_logger/(18526:18577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:50:06:914 kernel_logger/(19449:19449): No es null el archivo de config
+[INFO] 20:50:06:940 kernel_logger/(19449:19449): conecte con memoria
+[INFO] 20:50:06:942 kernel_logger/(19449:19449): conecte con filesystem
+[INFO] 20:51:13:229 kernel_logger/(19449:19553): escuchando a consola
+[INFO] 20:51:42:199 kernel_logger/(19449:19553): Se crea el proceso 1 en NEW
+[INFO] 20:51:43:851 kernel_logger/(19449:19553): Se crea proceso 1 en NEW
+[INFO] 20:51:43:852 kernel_logger/(19449:19458): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 20:51:43:852 kernel_logger/(19449:19458): Cola ready FIFO [1, ]
+[INFO] 20:51:43:852 kernel_logger/(19449:19458): ingreso proceso a listos
+[INFO] 20:51:43:852 kernel_logger/(19449:19459): conecte con cpu
+[INFO] 20:51:43:854 kernel_logger/(19449:19459): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 20:59:48:926 kernel_logger/(20380:20380): No es null el archivo de config
+[INFO] 20:59:48:962 kernel_logger/(20380:20380): conecte con memoria
+[INFO] 20:59:48:965 kernel_logger/(20380:20380): conecte con filesystem
+[INFO] 20:59:56:324 kernel_logger/(20380:20443): escuchando a consola
+[INFO] 21:00:04:620 kernel_logger/(20380:20443): Se crea el proceso 1 en NEW
+[INFO] 21:00:04:620 kernel_logger/(20380:20443): Se crea proceso 1 en NEW
+[INFO] 21:00:04:620 kernel_logger/(20380:20385): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:00:04:620 kernel_logger/(20380:20385): Cola ready FIFO [1, ]
+[INFO] 21:00:04:620 kernel_logger/(20380:20385): ingreso proceso a listos
+[INFO] 21:00:04:620 kernel_logger/(20380:20386): conecte con cpu
+[INFO] 21:00:04:620 kernel_logger/(20380:20386): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:00:07:933 kernel_logger/(20380:20386): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:00:07:935 kernel_logger/(20380:20386): PID: 1 - Crear Archivo: ARCHIVO
+[INFO] 21:03:23:060 kernel_logger/(21260:21260): No es null el archivo de config
+[INFO] 21:03:23:078 kernel_logger/(21260:21260): conecte con memoria
+[INFO] 21:03:23:080 kernel_logger/(21260:21260): conecte con filesystem
+[INFO] 21:04:03:270 kernel_logger/(21260:21347): escuchando a consola
+[INFO] 21:04:13:526 kernel_logger/(21260:21347): Se crea el proceso 1 en NEW
+[INFO] 21:04:14:297 kernel_logger/(21260:21347): Se crea proceso 1 en NEW
+[INFO] 21:04:14:298 kernel_logger/(21260:21265): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:04:14:298 kernel_logger/(21260:21265): Cola ready FIFO [1, ]
+[INFO] 21:04:14:298 kernel_logger/(21260:21265): ingreso proceso a listos
+[INFO] 21:04:14:299 kernel_logger/(21260:21266): conecte con cpu
+[INFO] 21:04:14:299 kernel_logger/(21260:21266): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:04:16:868 kernel_logger/(21260:21266): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:06:46:099 kernel_logger/(22221:22221): No es null el archivo de config
+[INFO] 21:06:46:126 kernel_logger/(22221:22221): conecte con memoria
+[INFO] 21:06:46:127 kernel_logger/(22221:22221): conecte con filesystem
+[INFO] 21:06:52:403 kernel_logger/(22221:22278): escuchando a consola
+[INFO] 21:07:09:619 kernel_logger/(22221:22278): Se crea el proceso 1 en NEW
+[INFO] 21:07:18:049 kernel_logger/(22221:22278): Se crea proceso 1 en NEW
+[INFO] 21:07:18:050 kernel_logger/(22221:22226): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:07:18:050 kernel_logger/(22221:22226): Cola ready FIFO [1, ]
+[INFO] 21:07:18:050 kernel_logger/(22221:22226): ingreso proceso a listos
+[INFO] 21:07:18:050 kernel_logger/(22221:22227): conecte con cpu
+[INFO] 21:07:18:050 kernel_logger/(22221:22227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:08:16:020 kernel_logger/(22221:22227): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:14:11:211 kernel_logger/(23042:23042): No es null el archivo de config
+[INFO] 21:14:11:231 kernel_logger/(23042:23042): conecte con memoria
+[INFO] 21:14:11:233 kernel_logger/(23042:23042): conecte con filesystem
+[INFO] 21:14:38:943 kernel_logger/(23042:23145): escuchando a consola
+[INFO] 21:14:50:436 kernel_logger/(23042:23145): Se crea el proceso 1 en NEW
+[INFO] 21:14:51:508 kernel_logger/(23042:23145): Se crea proceso 1 en NEW
+[INFO] 21:14:51:509 kernel_logger/(23042:23052): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:14:51:509 kernel_logger/(23042:23052): Cola ready FIFO [1, ]
+[INFO] 21:14:51:509 kernel_logger/(23042:23052): ingreso proceso a listos
+[INFO] 21:14:51:510 kernel_logger/(23042:23053): conecte con cpu
+[INFO] 21:14:51:510 kernel_logger/(23042:23053): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:15:01:923 kernel_logger/(23042:23053): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:15:09:604 kernel_logger/(23042:23053): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:15:09:605 kernel_logger/(23042:23053): Cola ready FIFO [1, ]
+[INFO] 21:15:19:645 kernel_logger/(23042:23053): conecte con cpu
+[INFO] 21:15:19:646 kernel_logger/(23042:23053): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:15:22:138 kernel_logger/(23042:23053): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:15:22:139 kernel_logger/(23042:23053): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:15:22:139 kernel_logger/(23042:23053): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:15:25:929 kernel_logger/(23042:23054): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:15:25:930 kernel_logger/(23042:23054): Cola ready FIFO [1, ]
+[INFO] 21:15:47:499 kernel_logger/(23042:23053): conecte con cpu
+[INFO] 21:15:47:501 kernel_logger/(23042:23053): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:15:50:487 kernel_logger/(23042:23053): ���
+[INFO] 21:25:43:956 kernel_logger/(24223:24223): No es null el archivo de config
+[INFO] 21:25:43:964 kernel_logger/(24223:24223): conecte con memoria
+[INFO] 21:25:43:969 kernel_logger/(24223:24223): conecte con filesystem
+[INFO] 21:25:48:482 kernel_logger/(24223:24262): escuchando a consola
+[INFO] 21:25:48:487 kernel_logger/(24223:24262): Se crea el proceso 1 en NEW
+[INFO] 21:25:48:488 kernel_logger/(24223:24262): Se crea proceso 1 en NEW
+[INFO] 21:25:48:490 kernel_logger/(24223:24224): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:25:48:490 kernel_logger/(24223:24224): Cola ready FIFO [1, ]
+[INFO] 21:25:48:490 kernel_logger/(24223:24224): ingreso proceso a listos
+[INFO] 21:25:48:490 kernel_logger/(24223:24225): conecte con cpu
+[INFO] 21:25:48:490 kernel_logger/(24223:24225): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:25:48:500 kernel_logger/(24223:24225): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:25:48:500 kernel_logger/(24223:24225): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:25:48:500 kernel_logger/(24223:24225): Cola ready FIFO [1, ]
+[INFO] 21:25:48:500 kernel_logger/(24223:24225): conecte con cpu
+[INFO] 21:25:48:500 kernel_logger/(24223:24225): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:25:48:506 kernel_logger/(24223:24225): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:25:48:506 kernel_logger/(24223:24225): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:25:48:506 kernel_logger/(24223:24225): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:25:49:139 kernel_logger/(24223:24226): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:25:49:141 kernel_logger/(24223:24226): Cola ready FIFO [1, ]
+[INFO] 21:25:49:141 kernel_logger/(24223:24225): conecte con cpu
+[INFO] 21:25:49:141 kernel_logger/(24223:24225): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:33:33:350 kernel_logger/(25040:25040): No es null el archivo de config
+[INFO] 21:33:33:353 kernel_logger/(25040:25040): conecte con memoria
+[INFO] 21:33:33:354 kernel_logger/(25040:25040): conecte con filesystem
+[INFO] 21:33:38:855 kernel_logger/(25040:25092): escuchando a consola
+[INFO] 21:33:38:855 kernel_logger/(25040:25092): Se crea el proceso 1 en NEW
+[INFO] 21:33:38:855 kernel_logger/(25040:25092): Se crea proceso 1 en NEW
+[INFO] 21:33:38:855 kernel_logger/(25040:25041): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:33:38:856 kernel_logger/(25040:25041): Cola ready FIFO [1, ]
+[INFO] 21:33:38:856 kernel_logger/(25040:25041): ingreso proceso a listos
+[INFO] 21:33:38:856 kernel_logger/(25040:25042): conecte con cpu
+[INFO] 21:33:38:856 kernel_logger/(25040:25042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:33:54:567 kernel_logger/(25040:25042): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:33:54:612 kernel_logger/(25040:25042): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:33:54:612 kernel_logger/(25040:25042): Cola ready FIFO [1, ]
+[INFO] 21:33:54:612 kernel_logger/(25040:25042): conecte con cpu
+[INFO] 21:33:54:616 kernel_logger/(25040:25042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:34:10:270 kernel_logger/(25040:25042): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:34:10:270 kernel_logger/(25040:25042): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:34:10:270 kernel_logger/(25040:25042): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:34:11:182 kernel_logger/(25040:25043): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:34:11:184 kernel_logger/(25040:25043): Cola ready FIFO [1, ]
+[INFO] 21:34:11:187 kernel_logger/(25040:25042): conecte con cpu
+[INFO] 21:34:11:187 kernel_logger/(25040:25042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:34:19:492 kernel_logger/(25040:25042): �e�
+[INFO] 21:36:44:474 kernel_logger/(25839:25839): No es null el archivo de config
+[INFO] 21:36:44:478 kernel_logger/(25839:25839): conecte con memoria
+[INFO] 21:36:44:480 kernel_logger/(25839:25839): conecte con filesystem
+[INFO] 21:37:01:020 kernel_logger/(25839:25938): escuchando a consola
+[INFO] 21:37:01:032 kernel_logger/(25839:25938): Se crea el proceso 1 en NEW
+[INFO] 21:37:01:034 kernel_logger/(25839:25938): Se crea proceso 1 en NEW
+[INFO] 21:37:01:034 kernel_logger/(25839:25842): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:37:01:034 kernel_logger/(25839:25842): Cola ready FIFO [1, ]
+[INFO] 21:37:01:034 kernel_logger/(25839:25842): ingreso proceso a listos
+[INFO] 21:37:01:034 kernel_logger/(25839:25843): conecte con cpu
+[INFO] 21:37:01:034 kernel_logger/(25839:25843): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:37:01:041 kernel_logger/(25839:25843): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:37:01:041 kernel_logger/(25839:25843): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:37:01:041 kernel_logger/(25839:25843): Cola ready FIFO [1, ]
+[INFO] 21:37:01:041 kernel_logger/(25839:25843): conecte con cpu
+[INFO] 21:37:01:041 kernel_logger/(25839:25843): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:37:01:055 kernel_logger/(25839:25843): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:37:01:056 kernel_logger/(25839:25843): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:37:01:056 kernel_logger/(25839:25843): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:37:01:438 kernel_logger/(25839:25844): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:37:01:439 kernel_logger/(25839:25844): Cola ready FIFO [1, ]
+[INFO] 21:37:01:439 kernel_logger/(25839:25843): conecte con cpu
+[INFO] 21:37:01:439 kernel_logger/(25839:25843): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:39:30:953 kernel_logger/(26376:26376): No es null el archivo de config
+[INFO] 21:39:30:956 kernel_logger/(26376:26376): conecte con memoria
+[INFO] 21:39:30:957 kernel_logger/(26376:26376): conecte con filesystem
+[INFO] 21:39:42:463 kernel_logger/(26376:26460): escuchando a consola
+[INFO] 21:39:42:470 kernel_logger/(26376:26460): Se crea el proceso 1 en NEW
+[INFO] 21:39:42:470 kernel_logger/(26376:26460): Se crea proceso 1 en NEW
+[INFO] 21:39:42:470 kernel_logger/(26376:26377): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:39:42:470 kernel_logger/(26376:26377): Cola ready FIFO [1, ]
+[INFO] 21:39:42:470 kernel_logger/(26376:26377): ingreso proceso a listos
+[INFO] 21:39:42:470 kernel_logger/(26376:26378): conecte con cpu
+[INFO] 21:39:42:471 kernel_logger/(26376:26378): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:39:42:530 kernel_logger/(26376:26378): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:39:59:540 kernel_logger/(26376:26378): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:39:59:541 kernel_logger/(26376:26378): Cola ready FIFO [1, ]
+[INFO] 21:39:59:542 kernel_logger/(26376:26378): conecte con cpu
+[INFO] 21:39:59:542 kernel_logger/(26376:26378): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:39:59:557 kernel_logger/(26376:26378): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:39:59:557 kernel_logger/(26376:26378): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:39:59:557 kernel_logger/(26376:26378): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:41:26:293 kernel_logger/(26376:26379): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:41:26:294 kernel_logger/(26376:26379): Cola ready FIFO [1, ]
+[INFO] 21:41:26:294 kernel_logger/(26376:26378): conecte con cpu
+[INFO] 21:41:26:294 kernel_logger/(26376:26378): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:44:02:594 kernel_logger/(27083:27083): No es null el archivo de config
+[INFO] 21:44:02:600 kernel_logger/(27083:27083): conecte con memoria
+[INFO] 21:44:02:606 kernel_logger/(27083:27083): conecte con filesystem
+[INFO] 21:44:23:930 kernel_logger/(27083:27154): escuchando a consola
+[INFO] 21:44:23:931 kernel_logger/(27083:27154): Se crea el proceso 1 en NEW
+[INFO] 21:44:23:931 kernel_logger/(27083:27154): Se crea proceso 1 en NEW
+[INFO] 21:44:23:931 kernel_logger/(27083:27084): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:44:23:931 kernel_logger/(27083:27084): Cola ready FIFO [1, ]
+[INFO] 21:44:23:931 kernel_logger/(27083:27084): ingreso proceso a listos
+[INFO] 21:44:23:931 kernel_logger/(27083:27085): conecte con cpu
+[INFO] 21:44:23:932 kernel_logger/(27083:27085): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:44:23:949 kernel_logger/(27083:27085): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:44:37:096 kernel_logger/(27083:27085): PID: 1 - Crear Archivo: ARCHIVO
+[INFO] 21:44:37:097 kernel_logger/(27083:27085): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:44:37:097 kernel_logger/(27083:27085): Cola ready FIFO [1, ]
+[INFO] 21:44:37:097 kernel_logger/(27083:27085): conecte con cpu
+[INFO] 21:44:37:097 kernel_logger/(27083:27085): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:44:37:118 kernel_logger/(27083:27085): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:44:37:118 kernel_logger/(27083:27085): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:44:37:118 kernel_logger/(27083:27085): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:45:55:492 kernel_logger/(27083:27086): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:45:55:494 kernel_logger/(27083:27086): Cola ready FIFO [1, ]
+[INFO] 21:45:55:494 kernel_logger/(27083:27085): conecte con cpu
+[INFO] 21:45:55:494 kernel_logger/(27083:27085): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:52:59:276 kernel_logger/(28151:28151): No es null el archivo de config
+[INFO] 21:52:59:295 kernel_logger/(28151:28151): conecte con memoria
+[INFO] 21:52:59:297 kernel_logger/(28151:28151): conecte con filesystem
+[INFO] 21:53:04:782 kernel_logger/(28151:28194): escuchando a consola
+[INFO] 21:53:04:782 kernel_logger/(28151:28194): Se crea el proceso 1 en NEW
+[INFO] 21:53:04:782 kernel_logger/(28151:28194): Se crea proceso 1 en NEW
+[INFO] 21:53:04:783 kernel_logger/(28151:28152): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:53:04:783 kernel_logger/(28151:28152): Cola ready FIFO [1, ]
+[INFO] 21:53:04:783 kernel_logger/(28151:28152): ingreso proceso a listos
+[INFO] 21:53:04:783 kernel_logger/(28151:28153): conecte con cpu
+[INFO] 21:53:04:783 kernel_logger/(28151:28153): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:53:04:800 kernel_logger/(28151:28153): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:53:16:887 kernel_logger/(28151:28153): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:53:16:888 kernel_logger/(28151:28153): Cola ready FIFO [1, ]
+[INFO] 21:53:16:888 kernel_logger/(28151:28153): conecte con cpu
+[INFO] 21:53:16:888 kernel_logger/(28151:28153): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:53:16:896 kernel_logger/(28151:28153): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:53:16:896 kernel_logger/(28151:28153): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:53:16:896 kernel_logger/(28151:28153): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:54:48:620 kernel_logger/(28151:28154): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:54:48:621 kernel_logger/(28151:28154): Cola ready FIFO [1, ]
+[INFO] 21:54:48:621 kernel_logger/(28151:28153): conecte con cpu
+[INFO] 21:54:48:621 kernel_logger/(28151:28153): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:56:42:509 kernel_logger/(28864:28864): No es null el archivo de config
+[INFO] 21:56:42:519 kernel_logger/(28864:28864): conecte con memoria
+[INFO] 21:56:42:519 kernel_logger/(28864:28864): conecte con filesystem
+[INFO] 21:56:47:513 kernel_logger/(28864:28913): escuchando a consola
+[INFO] 21:56:47:515 kernel_logger/(28864:28913): Se crea el proceso 1 en NEW
+[INFO] 21:56:47:517 kernel_logger/(28864:28913): Se crea proceso 1 en NEW
+[INFO] 21:56:47:518 kernel_logger/(28864:28865): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 21:56:47:519 kernel_logger/(28864:28865): Cola ready FIFO [1, ]
+[INFO] 21:56:47:519 kernel_logger/(28864:28865): ingreso proceso a listos
+[INFO] 21:56:47:519 kernel_logger/(28864:28866): conecte con cpu
+[INFO] 21:56:47:519 kernel_logger/(28864:28866): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:56:47:554 kernel_logger/(28864:28866): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 21:57:08:421 kernel_logger/(28864:28866): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 21:57:08:422 kernel_logger/(28864:28866): Cola ready FIFO [1, ]
+[INFO] 21:57:08:423 kernel_logger/(28864:28866): conecte con cpu
+[INFO] 21:57:08:423 kernel_logger/(28864:28866): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 21:57:08:434 kernel_logger/(28864:28866): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 21:57:08:434 kernel_logger/(28864:28866): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 21:57:08:434 kernel_logger/(28864:28866): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 21:59:49:645 kernel_logger/(28864:28867): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 21:59:49:648 kernel_logger/(28864:28867): Cola ready FIFO [1, ]
+[INFO] 21:59:49:648 kernel_logger/(28864:28866): conecte con cpu
+[INFO] 21:59:49:648 kernel_logger/(28864:28866): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:02:50:814 kernel_logger/(29601:29601): No es null el archivo de config
+[INFO] 22:02:50:817 kernel_logger/(29601:29601): conecte con memoria
+[INFO] 22:02:50:819 kernel_logger/(29601:29601): conecte con filesystem
+[INFO] 22:02:58:147 kernel_logger/(29601:29682): escuchando a consola
+[INFO] 22:02:58:148 kernel_logger/(29601:29682): Se crea el proceso 1 en NEW
+[INFO] 22:02:58:149 kernel_logger/(29601:29682): Se crea proceso 1 en NEW
+[INFO] 22:02:58:149 kernel_logger/(29601:29602): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:02:58:149 kernel_logger/(29601:29602): Cola ready FIFO [1, ]
+[INFO] 22:02:58:150 kernel_logger/(29601:29602): ingreso proceso a listos
+[INFO] 22:02:58:150 kernel_logger/(29601:29603): conecte con cpu
+[INFO] 22:02:58:150 kernel_logger/(29601:29603): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:02:58:174 kernel_logger/(29601:29603): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:03:24:181 kernel_logger/(29601:29603): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:03:24:182 kernel_logger/(29601:29603): Cola ready FIFO [1, ]
+[INFO] 22:03:24:182 kernel_logger/(29601:29603): conecte con cpu
+[INFO] 22:03:24:182 kernel_logger/(29601:29603): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:03:24:188 kernel_logger/(29601:29603): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:03:24:188 kernel_logger/(29601:29603): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:03:24:188 kernel_logger/(29601:29603): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:05:26:608 kernel_logger/(29601:29604): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:05:26:610 kernel_logger/(29601:29604): Cola ready FIFO [1, ]
+[INFO] 22:05:26:612 kernel_logger/(29601:29603): conecte con cpu
+[INFO] 22:05:26:612 kernel_logger/(29601:29603): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:13:53:232 kernel_logger/(30513:30513): No es null el archivo de config
+[INFO] 22:13:53:309 kernel_logger/(30513:30513): conecte con memoria
+[INFO] 22:13:53:311 kernel_logger/(30513:30513): conecte con filesystem
+[INFO] 22:13:59:618 kernel_logger/(30513:30577): escuchando a consola
+[INFO] 22:13:59:624 kernel_logger/(30513:30577): Se crea el proceso 1 en NEW
+[INFO] 22:13:59:626 kernel_logger/(30513:30577): Se crea proceso 1 en NEW
+[INFO] 22:13:59:628 kernel_logger/(30513:30514): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:13:59:628 kernel_logger/(30513:30514): Cola ready FIFO [1, ]
+[INFO] 22:13:59:628 kernel_logger/(30513:30514): ingreso proceso a listos
+[INFO] 22:13:59:628 kernel_logger/(30513:30515): conecte con cpu
+[INFO] 22:13:59:628 kernel_logger/(30513:30515): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:13:59:638 kernel_logger/(30513:30515): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:14:25:135 kernel_logger/(30513:30515): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:14:25:135 kernel_logger/(30513:30515): Cola ready FIFO [1, ]
+[INFO] 22:14:25:136 kernel_logger/(30513:30515): conecte con cpu
+[INFO] 22:14:25:137 kernel_logger/(30513:30515): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:14:25:145 kernel_logger/(30513:30515): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:14:25:145 kernel_logger/(30513:30515): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:14:25:145 kernel_logger/(30513:30515): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:15:18:807 kernel_logger/(30513:30516): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:15:18:808 kernel_logger/(30513:30516): Cola ready FIFO [1, ]
+[INFO] 22:15:18:808 kernel_logger/(30513:30515): conecte con cpu
+[INFO] 22:15:18:808 kernel_logger/(30513:30515): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:25:59:896 kernel_logger/(31714:31714): No es null el archivo de config
+[INFO] 22:25:59:920 kernel_logger/(31714:31714): conecte con memoria
+[INFO] 22:25:59:922 kernel_logger/(31714:31714): conecte con filesystem
+[INFO] 22:26:13:832 kernel_logger/(31714:31797): escuchando a consola
+[INFO] 22:26:22:285 kernel_logger/(31714:31797): Se crea el proceso 1 en NEW
+[INFO] 22:26:22:285 kernel_logger/(31714:31797): Se crea proceso 1 en NEW
+[INFO] 22:26:22:285 kernel_logger/(31714:31740): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:26:22:285 kernel_logger/(31714:31740): Cola ready FIFO [1, ]
+[INFO] 22:26:22:285 kernel_logger/(31714:31740): ingreso proceso a listos
+[INFO] 22:26:22:285 kernel_logger/(31714:31741): conecte con cpu
+[INFO] 22:26:22:285 kernel_logger/(31714:31741): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:26:31:564 kernel_logger/(31714:31741): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:27:00:625 kernel_logger/(31714:31741): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:27:00:625 kernel_logger/(31714:31741): Cola ready FIFO [1, ]
+[INFO] 22:27:16:462 kernel_logger/(31714:31741): conecte con cpu
+[INFO] 22:27:16:463 kernel_logger/(31714:31741): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:27:18:689 kernel_logger/(31714:31741): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:27:18:690 kernel_logger/(31714:31741): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:27:18:690 kernel_logger/(31714:31741): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:27:30:231 kernel_logger/(31714:31742): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:27:30:232 kernel_logger/(31714:31742): Cola ready FIFO [1, ]
+[INFO] 22:27:30:232 kernel_logger/(31714:31741): conecte con cpu
+[INFO] 22:27:30:232 kernel_logger/(31714:31741): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:27:33:918 kernel_logger/(31714:31741): ���
+[INFO] 22:33:52:459 kernel_logger/(33030:33030): No es null el archivo de config
+[INFO] 22:33:52:466 kernel_logger/(33030:33030): conecte con memoria
+[INFO] 22:33:52:469 kernel_logger/(33030:33030): conecte con filesystem
+[INFO] 22:34:16:146 kernel_logger/(33030:33099): escuchando a consola
+[INFO] 22:34:16:160 kernel_logger/(33030:33099): Se crea el proceso 1 en NEW
+[INFO] 22:34:16:160 kernel_logger/(33030:33099): Se crea proceso 1 en NEW
+[INFO] 22:34:16:160 kernel_logger/(33030:33031): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:34:16:160 kernel_logger/(33030:33031): Cola ready FIFO [1, ]
+[INFO] 22:34:16:160 kernel_logger/(33030:33031): ingreso proceso a listos
+[INFO] 22:34:16:160 kernel_logger/(33030:33032): conecte con cpu
+[INFO] 22:34:16:162 kernel_logger/(33030:33032): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:34:55:816 kernel_logger/(33030:33032): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:34:55:821 kernel_logger/(33030:33032): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:34:55:825 kernel_logger/(33030:33032): Cola ready FIFO [1, ]
+[INFO] 22:34:55:825 kernel_logger/(33030:33032): conecte con cpu
+[INFO] 22:34:55:825 kernel_logger/(33030:33032): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:34:57:143 kernel_logger/(33030:33032): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:34:57:143 kernel_logger/(33030:33032): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:34:57:143 kernel_logger/(33030:33032): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:34:57:147 kernel_logger/(33030:33033): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:34:57:147 kernel_logger/(33030:33033): Cola ready FIFO [1, ]
+[INFO] 22:34:57:147 kernel_logger/(33030:33032): conecte con cpu
+[INFO] 22:34:57:147 kernel_logger/(33030:33032): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:35:13:855 kernel_logger/(33030:33032): ���
+[INFO] 22:42:41:415 kernel_logger/(34184:34184): No es null el archivo de config
+[INFO] 22:42:41:464 kernel_logger/(34184:34184): conecte con memoria
+[INFO] 22:42:41:469 kernel_logger/(34184:34184): conecte con filesystem
+[INFO] 22:43:03:983 kernel_logger/(34184:34255): escuchando a consola
+[INFO] 22:43:15:838 kernel_logger/(34184:34255): Se crea el proceso 1 en NEW
+[INFO] 22:43:17:268 kernel_logger/(34184:34255): Se crea proceso 1 en NEW
+[INFO] 22:43:17:270 kernel_logger/(34184:34196): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:43:17:270 kernel_logger/(34184:34196): Cola ready FIFO [1, ]
+[INFO] 22:43:17:270 kernel_logger/(34184:34196): ingreso proceso a listos
+[INFO] 22:43:17:270 kernel_logger/(34184:34197): conecte con cpu
+[INFO] 22:43:17:270 kernel_logger/(34184:34197): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:43:28:315 kernel_logger/(34184:34197): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:43:47:321 kernel_logger/(34184:34197): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:43:47:321 kernel_logger/(34184:34197): Cola ready FIFO [1, ]
+[INFO] 22:44:25:619 kernel_logger/(34184:34197): conecte con cpu
+[INFO] 22:44:25:620 kernel_logger/(34184:34197): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:44:35:749 kernel_logger/(34184:34197): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:44:35:750 kernel_logger/(34184:34197): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:44:35:750 kernel_logger/(34184:34197): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:44:42:898 kernel_logger/(34184:34198): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:44:42:899 kernel_logger/(34184:34198): Cola ready FIFO [1, ]
+[INFO] 22:44:42:900 kernel_logger/(34184:34197): conecte con cpu
+[INFO] 22:44:42:900 kernel_logger/(34184:34197): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:44:58:370 kernel_logger/(34184:34197): ���
+[INFO] 22:53:03:226 kernel_logger/(35653:35653): No es null el archivo de config
+[INFO] 22:53:03:246 kernel_logger/(35653:35653): conecte con memoria
+[INFO] 22:53:03:248 kernel_logger/(35653:35653): conecte con filesystem
+[INFO] 22:53:12:818 kernel_logger/(35653:35748): escuchando a consola
+[INFO] 22:53:24:653 kernel_logger/(35653:35748): Se crea el proceso 1 en NEW
+[INFO] 22:53:29:828 kernel_logger/(35653:35748): Se crea proceso 1 en NEW
+[INFO] 22:53:29:829 kernel_logger/(35653:35682): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:53:29:829 kernel_logger/(35653:35682): Cola ready FIFO [1, ]
+[INFO] 22:53:29:829 kernel_logger/(35653:35682): ingreso proceso a listos
+[INFO] 22:53:29:830 kernel_logger/(35653:35683): conecte con cpu
+[INFO] 22:53:29:830 kernel_logger/(35653:35683): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:53:46:023 kernel_logger/(35653:35683): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:53:52:571 kernel_logger/(35653:35683): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:53:52:572 kernel_logger/(35653:35683): Cola ready FIFO [1, ]
+[INFO] 22:54:45:724 kernel_logger/(35653:35683): conecte con cpu
+[INFO] 22:54:45:725 kernel_logger/(35653:35683): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:54:52:481 kernel_logger/(35653:35683): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:55:00:648 kernel_logger/(35653:35683): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:55:08:471 kernel_logger/(35653:35683): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:55:22:342 kernel_logger/(35653:35684): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:55:22:342 kernel_logger/(35653:35684): Cola ready FIFO [1, ]
+[INFO] 22:55:29:865 kernel_logger/(35653:35683): conecte con cpu
+[INFO] 22:55:29:866 kernel_logger/(35653:35683): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:55:33:926 kernel_logger/(35653:35683): ���
+[INFO] 22:59:31:390 kernel_logger/(37040:37040): No es null el archivo de config
+[INFO] 22:59:31:394 kernel_logger/(37040:37040): conecte con memoria
+[INFO] 22:59:31:399 kernel_logger/(37040:37040): conecte con filesystem
+[INFO] 22:59:35:987 kernel_logger/(37040:37086): escuchando a consola
+[INFO] 22:59:35:989 kernel_logger/(37040:37086): Se crea el proceso 1 en NEW
+[INFO] 22:59:35:989 kernel_logger/(37040:37086): Se crea proceso 1 en NEW
+[INFO] 22:59:35:989 kernel_logger/(37040:37041): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 22:59:35:989 kernel_logger/(37040:37041): Cola ready FIFO [1]
+[INFO] 22:59:35:989 kernel_logger/(37040:37041): ingreso proceso a listos
+[INFO] 22:59:35:989 kernel_logger/(37040:37042): conecte con cpu
+[INFO] 22:59:35:989 kernel_logger/(37040:37042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:59:35:992 kernel_logger/(37040:37042): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 22:59:35:992 kernel_logger/(37040:37042): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 22:59:35:992 kernel_logger/(37040:37042): Cola ready FIFO [1]
+[INFO] 22:59:35:993 kernel_logger/(37040:37042): conecte con cpu
+[INFO] 22:59:35:993 kernel_logger/(37040:37042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:59:35:995 kernel_logger/(37040:37042): PID: 1 - Archivo: ARCHIVO - Tamaño: 64 
+[INFO] 22:59:35:995 kernel_logger/(37040:37042): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 22:59:35:995 kernel_logger/(37040:37042): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 22:59:35:996 kernel_logger/(37040:37043): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 22:59:35:996 kernel_logger/(37040:37043): Cola ready FIFO [1]
+[INFO] 22:59:35:996 kernel_logger/(37040:37042): conecte con cpu
+[INFO] 22:59:35:996 kernel_logger/(37040:37042): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 22:59:35:999 kernel_logger/(37040:37042): @��
+[INFO] 23:02:18:420 kernel_logger/(37506:37506): No es null el archivo de config
+[INFO] 23:02:18:423 kernel_logger/(37506:37506): conecte con memoria
+[INFO] 23:02:18:424 kernel_logger/(37506:37506): conecte con filesystem
+[INFO] 23:02:24:966 kernel_logger/(37506:37568): escuchando a consola
+[INFO] 23:02:24:976 kernel_logger/(37506:37568): Se crea el proceso 1 en NEW
+[INFO] 23:02:24:980 kernel_logger/(37506:37568): Se crea proceso 1 en NEW
+[INFO] 23:02:24:980 kernel_logger/(37506:37507): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:02:24:980 kernel_logger/(37506:37507): Cola ready FIFO [1]
+[INFO] 23:02:24:981 kernel_logger/(37506:37507): ingreso proceso a listos
+[INFO] 23:02:24:981 kernel_logger/(37506:37508): conecte con cpu
+[INFO] 23:02:24:981 kernel_logger/(37506:37508): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:02:24:986 kernel_logger/(37506:37508): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:02:24:987 kernel_logger/(37506:37508): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:02:24:987 kernel_logger/(37506:37508): Cola ready FIFO [1]
+[INFO] 23:02:24:987 kernel_logger/(37506:37508): conecte con cpu
+[INFO] 23:02:24:987 kernel_logger/(37506:37508): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:02:24:991 kernel_logger/(37506:37508): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:02:24:991 kernel_logger/(37506:37508): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:02:24:991 kernel_logger/(37506:37508): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:03:10:004 kernel_logger/(37506:37509): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:03:10:004 kernel_logger/(37506:37509): Cola ready FIFO [1]
+[INFO] 23:03:10:004 kernel_logger/(37506:37508): conecte con cpu
+[INFO] 23:03:10:004 kernel_logger/(37506:37508): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:03:10:022 kernel_logger/(37506:37508): 
+[INFO] 23:15:08:475 kernel_logger/(38995:38995): No es null el archivo de config
+[INFO] 23:15:08:487 kernel_logger/(38995:38995): conecte con memoria
+[INFO] 23:15:08:488 kernel_logger/(38995:38995): conecte con filesystem
+[INFO] 23:15:13:540 kernel_logger/(38995:39047): escuchando a consola
+[INFO] 23:15:13:542 kernel_logger/(38995:39047): Se crea el proceso 1 en NEW
+[INFO] 23:15:13:543 kernel_logger/(38995:39047): Se crea proceso 1 en NEW
+[INFO] 23:15:13:544 kernel_logger/(38995:38996): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:15:13:545 kernel_logger/(38995:38996): Cola ready FIFO [1]
+[INFO] 23:15:13:545 kernel_logger/(38995:38996): ingreso proceso a listos
+[INFO] 23:15:13:545 kernel_logger/(38995:38997): conecte con cpu
+[INFO] 23:15:13:545 kernel_logger/(38995:38997): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:15:13:552 kernel_logger/(38995:38997): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:15:13:552 kernel_logger/(38995:38997): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:15:13:552 kernel_logger/(38995:38997): Cola ready FIFO [1]
+[INFO] 23:15:13:552 kernel_logger/(38995:38997): conecte con cpu
+[INFO] 23:15:13:552 kernel_logger/(38995:38997): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:15:13:555 kernel_logger/(38995:38997): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:15:13:555 kernel_logger/(38995:38997): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:15:13:555 kernel_logger/(38995:38997): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:15:13:571 kernel_logger/(38995:38998): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:15:13:571 kernel_logger/(38995:38998): Cola ready FIFO [1]
+[INFO] 23:15:13:571 kernel_logger/(38995:38997): conecte con cpu
+[INFO] 23:15:13:574 kernel_logger/(38995:38997): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:15:13:578 kernel_logger/(38995:38997): �5�
+[INFO] 23:20:35:558 kernel_logger/(39822:39822): No es null el archivo de config
+[INFO] 23:20:35:583 kernel_logger/(39822:39822): conecte con memoria
+[INFO] 23:20:35:584 kernel_logger/(39822:39822): conecte con filesystem
+[INFO] 23:20:45:195 kernel_logger/(39822:39911): escuchando a consola
+[INFO] 23:20:59:424 kernel_logger/(39822:39911): Se crea el proceso 1 en NEW
+[INFO] 23:21:01:066 kernel_logger/(39822:39911): Se crea proceso 1 en NEW
+[INFO] 23:21:01:067 kernel_logger/(39822:39833): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:21:01:067 kernel_logger/(39822:39833): Cola ready FIFO [1]
+[INFO] 23:21:01:067 kernel_logger/(39822:39833): ingreso proceso a listos
+[INFO] 23:21:01:067 kernel_logger/(39822:39834): conecte con cpu
+[INFO] 23:21:01:068 kernel_logger/(39822:39834): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:21:16:998 kernel_logger/(39822:39834): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:21:21:873 kernel_logger/(39822:39834): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:21:21:874 kernel_logger/(39822:39834): Cola ready FIFO [1]
+[INFO] 23:21:37:159 kernel_logger/(39822:39834): conecte con cpu
+[INFO] 23:21:37:159 kernel_logger/(39822:39834): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:21:58:945 kernel_logger/(39822:39834): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:22:03:521 kernel_logger/(39822:39834): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:22:05:074 kernel_logger/(39822:39834): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:22:15:247 kernel_logger/(39822:39835): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:22:15:247 kernel_logger/(39822:39835): Cola ready FIFO [1]
+[INFO] 23:22:29:999 kernel_logger/(39822:39834): conecte con cpu
+[INFO] 23:22:30:000 kernel_logger/(39822:39834): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:23:09:908 kernel_logger/(39822:39834): ���
+[INFO] 23:25:33:975 kernel_logger/(41020:41020): No es null el archivo de config
+[INFO] 23:25:33:977 kernel_logger/(41020:41020): conecte con memoria
+[INFO] 23:25:33:981 kernel_logger/(41020:41020): conecte con filesystem
+[INFO] 23:25:40:234 kernel_logger/(41020:41082): escuchando a consola
+[INFO] 23:25:40:235 kernel_logger/(41020:41082): Se crea el proceso 1 en NEW
+[INFO] 23:25:40:235 kernel_logger/(41020:41082): Se crea proceso 1 en NEW
+[INFO] 23:25:40:235 kernel_logger/(41020:41021): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:25:40:236 kernel_logger/(41020:41021): Cola ready FIFO [1]
+[INFO] 23:25:40:236 kernel_logger/(41020:41021): ingreso proceso a listos
+[INFO] 23:25:40:236 kernel_logger/(41020:41022): conecte con cpu
+[INFO] 23:25:40:236 kernel_logger/(41020:41022): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:25:40:238 kernel_logger/(41020:41022): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:25:40:239 kernel_logger/(41020:41022): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:25:40:239 kernel_logger/(41020:41022): Cola ready FIFO [1]
+[INFO] 23:25:40:239 kernel_logger/(41020:41022): conecte con cpu
+[INFO] 23:25:40:239 kernel_logger/(41020:41022): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:25:40:241 kernel_logger/(41020:41022): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:25:40:241 kernel_logger/(41020:41022): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:25:40:241 kernel_logger/(41020:41022): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:25:40:242 kernel_logger/(41020:41023): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:25:40:242 kernel_logger/(41020:41023): Cola ready FIFO [1]
+[INFO] 23:25:40:242 kernel_logger/(41020:41022): conecte con cpu
+[INFO] 23:25:40:242 kernel_logger/(41020:41022): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:25:40:245 kernel_logger/(41020:41022): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:28:45:460 kernel_logger/(41525:41525): No es null el archivo de config
+[INFO] 23:28:45:467 kernel_logger/(41525:41525): conecte con memoria
+[INFO] 23:28:45:468 kernel_logger/(41525:41525): conecte con filesystem
+[INFO] 23:28:49:427 kernel_logger/(41525:41563): escuchando a consola
+[INFO] 23:28:49:429 kernel_logger/(41525:41563): Se crea el proceso 1 en NEW
+[INFO] 23:28:49:429 kernel_logger/(41525:41563): Se crea proceso 1 en NEW
+[INFO] 23:28:49:429 kernel_logger/(41525:41526): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:28:49:429 kernel_logger/(41525:41526): Cola ready FIFO [1]
+[INFO] 23:28:49:429 kernel_logger/(41525:41526): ingreso proceso a listos
+[INFO] 23:28:49:429 kernel_logger/(41525:41527): conecte con cpu
+[INFO] 23:28:49:429 kernel_logger/(41525:41527): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:28:49:432 kernel_logger/(41525:41527): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:28:49:432 kernel_logger/(41525:41527): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:28:49:432 kernel_logger/(41525:41527): Cola ready FIFO [1]
+[INFO] 23:28:49:432 kernel_logger/(41525:41527): conecte con cpu
+[INFO] 23:28:49:432 kernel_logger/(41525:41527): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:28:49:435 kernel_logger/(41525:41527): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:28:49:435 kernel_logger/(41525:41527): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:28:49:435 kernel_logger/(41525:41527): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:28:49:436 kernel_logger/(41525:41528): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:28:49:436 kernel_logger/(41525:41528): Cola ready FIFO [1]
+[INFO] 23:28:49:436 kernel_logger/(41525:41527): conecte con cpu
+[INFO] 23:28:49:436 kernel_logger/(41525:41527): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:28:49:440 kernel_logger/(41525:41527): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:28:49:440 kernel_logger/(41525:41527): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:31:29:350 kernel_logger/(42051:42051): No es null el archivo de config
+[INFO] 23:31:29:370 kernel_logger/(42051:42051): conecte con memoria
+[INFO] 23:31:29:371 kernel_logger/(42051:42051): conecte con filesystem
+[INFO] 23:32:03:210 kernel_logger/(42051:42219): escuchando a consola
+[INFO] 23:32:19:431 kernel_logger/(42051:42219): Se crea el proceso 1 en NEW
+[INFO] 23:32:19:432 kernel_logger/(42051:42219): Se crea proceso 1 en NEW
+[INFO] 23:32:19:432 kernel_logger/(42051:42080): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:32:19:432 kernel_logger/(42051:42080): Cola ready FIFO [1]
+[INFO] 23:32:19:432 kernel_logger/(42051:42080): ingreso proceso a listos
+[INFO] 23:32:19:432 kernel_logger/(42051:42081): conecte con cpu
+[INFO] 23:32:19:432 kernel_logger/(42051:42081): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:32:24:075 kernel_logger/(42051:42081): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:32:24:084 kernel_logger/(42051:42081): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:32:24:084 kernel_logger/(42051:42081): Cola ready FIFO [1]
+[INFO] 23:32:24:084 kernel_logger/(42051:42081): conecte con cpu
+[INFO] 23:32:24:084 kernel_logger/(42051:42081): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:32:29:935 kernel_logger/(42051:42081): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:32:33:591 kernel_logger/(42051:42081): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:32:35:472 kernel_logger/(42051:42081): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:32:39:551 kernel_logger/(42051:42082): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:32:39:552 kernel_logger/(42051:42082): Cola ready FIFO [1]
+[INFO] 23:32:39:553 kernel_logger/(42051:42081): conecte con cpu
+[INFO] 23:32:39:553 kernel_logger/(42051:42081): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:32:46:619 kernel_logger/(42051:42081): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:32:46:620 kernel_logger/(42051:42081): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:35:35:871 kernel_logger/(43147:43147): No es null el archivo de config
+[INFO] 23:35:35:898 kernel_logger/(43147:43147): conecte con memoria
+[INFO] 23:35:35:899 kernel_logger/(43147:43147): conecte con filesystem
+[INFO] 23:36:04:374 kernel_logger/(43147:43236): escuchando a consola
+[INFO] 23:36:11:326 kernel_logger/(43147:43236): Se crea el proceso 1 en NEW
+[INFO] 23:36:11:327 kernel_logger/(43147:43236): Se crea proceso 1 en NEW
+[INFO] 23:36:11:328 kernel_logger/(43147:43164): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:36:11:328 kernel_logger/(43147:43164): Cola ready FIFO [1]
+[INFO] 23:36:11:328 kernel_logger/(43147:43164): ingreso proceso a listos
+[INFO] 23:36:11:328 kernel_logger/(43147:43165): conecte con cpu
+[INFO] 23:36:11:329 kernel_logger/(43147:43165): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:36:15:289 kernel_logger/(43147:43165): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:36:15:291 kernel_logger/(43147:43165): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:36:15:291 kernel_logger/(43147:43165): Cola ready FIFO [1]
+[INFO] 23:36:15:291 kernel_logger/(43147:43165): conecte con cpu
+[INFO] 23:36:15:291 kernel_logger/(43147:43165): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:36:28:158 kernel_logger/(43147:43165): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:36:31:764 kernel_logger/(43147:43165): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:36:33:847 kernel_logger/(43147:43165): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:36:41:662 kernel_logger/(43147:43166): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:36:41:663 kernel_logger/(43147:43166): Cola ready FIFO [1]
+[INFO] 23:37:00:490 kernel_logger/(43147:43165): conecte con cpu
+[INFO] 23:37:00:490 kernel_logger/(43147:43165): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:37:03:612 kernel_logger/(43147:43165): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:37:03:613 kernel_logger/(43147:43165): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:40:38:952 kernel_logger/(44085:44085): No es null el archivo de config
+[INFO] 23:40:38:956 kernel_logger/(44085:44085): conecte con memoria
+[INFO] 23:40:38:959 kernel_logger/(44085:44085): conecte con filesystem
+[INFO] 23:42:47:059 kernel_logger/(44400:44400): No es null el archivo de config
+[INFO] 23:42:47:780 kernel_logger/(44400:44400): conecte con memoria
+[INFO] 23:42:47:813 kernel_logger/(44400:44400): conecte con filesystem
+[INFO] 23:42:52:492 kernel_logger/(44400:44452): escuchando a consola
+[INFO] 23:42:52:554 kernel_logger/(44400:44452): Se crea el proceso 1 en NEW
+[INFO] 23:42:52:558 kernel_logger/(44400:44452): Se crea proceso 1 en NEW
+[INFO] 23:42:52:573 kernel_logger/(44400:44411): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:42:52:585 kernel_logger/(44400:44411): Cola ready FIFO [1]
+[INFO] 23:42:52:589 kernel_logger/(44400:44417): conecte con cpu
+[INFO] 23:42:52:592 kernel_logger/(44400:44417): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:42:52:595 kernel_logger/(44400:44411): ingreso proceso a listos
+[INFO] 23:42:52:651 kernel_logger/(44400:44417): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:42:52:672 kernel_logger/(44400:44417): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:42:52:680 kernel_logger/(44400:44417): Cola ready FIFO [1]
+[INFO] 23:42:52:685 kernel_logger/(44400:44417): conecte con cpu
+[INFO] 23:42:52:687 kernel_logger/(44400:44417): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:42:52:706 kernel_logger/(44400:44417): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:42:52:719 kernel_logger/(44400:44417): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:42:52:730 kernel_logger/(44400:44417): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:42:52:742 kernel_logger/(44400:44418): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:42:52:744 kernel_logger/(44400:44418): Cola ready FIFO [1]
+[INFO] 23:42:52:749 kernel_logger/(44400:44417): conecte con cpu
+[INFO] 23:42:52:750 kernel_logger/(44400:44417): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:42:52:754 kernel_logger/(44400:44417): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:42:52:775 kernel_logger/(44400:44417): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:45:34:019 kernel_logger/(44889:44889): No es null el archivo de config
+[INFO] 23:45:34:765 kernel_logger/(44889:44889): conecte con memoria
+[INFO] 23:45:34:818 kernel_logger/(44889:44889): conecte con filesystem
+[INFO] 23:45:40:456 kernel_logger/(44889:44967): escuchando a consola
+[INFO] 23:45:40:591 kernel_logger/(44889:44967): Se crea el proceso 1 en NEW
+[INFO] 23:45:40:596 kernel_logger/(44889:44967): Se crea proceso 1 en NEW
+[INFO] 23:45:40:611 kernel_logger/(44889:44918): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:45:40:627 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:45:40:627 kernel_logger/(44889:44918): ingreso proceso a listos
+[INFO] 23:45:40:632 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:45:40:678 kernel_logger/(44889:44919): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:45:40:707 kernel_logger/(44889:44919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:45:40:726 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:45:40:733 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:45:40:783 kernel_logger/(44889:44919): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:45:40:820 kernel_logger/(44889:44919): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:45:40:831 kernel_logger/(44889:44919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:45:40:868 kernel_logger/(44889:44920): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:45:40:887 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:45:40:887 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:45:40:891 kernel_logger/(44889:44919): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:45:40:894 kernel_logger/(44889:44919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:45:40:895 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:45:40:896 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:45:40:914 kernel_logger/(44889:44919): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:45:40:921 kernel_logger/(44889:44919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:46:11:401 kernel_logger/(44889:44920): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:46:11:402 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:46:11:403 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:46:11:425 kernel_logger/(44889:44919): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 23:46:11:428 kernel_logger/(44889:44919): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:46:11:436 kernel_logger/(44889:44919): conecte con cpu
+[INFO] 23:46:11:442 kernel_logger/(44889:44919): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:51:28:210 kernel_logger/(45860:45860): No es null el archivo de config
+[INFO] 23:51:28:548 kernel_logger/(45860:45860): conecte con memoria
+[INFO] 23:51:28:567 kernel_logger/(45860:45860): conecte con filesystem
+[INFO] 23:51:47:027 kernel_logger/(45860:45942): escuchando a consola
+[INFO] 23:51:47:120 kernel_logger/(45860:45942): Se crea el proceso 1 en NEW
+[INFO] 23:51:47:124 kernel_logger/(45860:45942): Se crea proceso 1 en NEW
+[INFO] 23:51:47:145 kernel_logger/(45860:45871): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 23:51:47:156 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:51:47:162 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:51:47:164 kernel_logger/(45860:45871): ingreso proceso a listos
+[INFO] 23:51:47:217 kernel_logger/(45860:45872): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 23:52:33:684 kernel_logger/(45860:45872): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:52:33:707 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:52:33:720 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:52:33:737 kernel_logger/(45860:45872): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 23:52:33:756 kernel_logger/(45860:45872): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:52:33:771 kernel_logger/(45860:45872): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:53:23:320 kernel_logger/(45860:45873): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:53:23:333 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:53:23:336 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:53:23:410 kernel_logger/(45860:45872): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 23:53:23:412 kernel_logger/(45860:45872): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:53:23:414 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:53:23:414 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:53:23:439 kernel_logger/(45860:45872): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 23:53:23:441 kernel_logger/(45860:45872): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 23:54:41:657 kernel_logger/(45860:45873): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 23:54:41:664 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:54:41:665 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 23:54:41:720 kernel_logger/(45860:45872): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 23:54:41:747 kernel_logger/(45860:45872): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 23:54:41:809 kernel_logger/(45860:45872): conecte con cpu
+[INFO] 23:54:41:810 kernel_logger/(45860:45872): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:12:24:166 kernel_logger/(47023:47023): No es null el archivo de config
+[INFO] 00:12:24:496 kernel_logger/(47023:47023): conecte con memoria
+[INFO] 00:12:24:514 kernel_logger/(47023:47023): conecte con filesystem
+[INFO] 00:12:37:779 kernel_logger/(47023:47129): escuchando a consola
+[INFO] 00:12:37:848 kernel_logger/(47023:47129): Se crea el proceso 1 en NEW
+[INFO] 00:12:37:858 kernel_logger/(47023:47129): Se crea proceso 1 en NEW
+[INFO] 00:12:37:891 kernel_logger/(47023:47037): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 00:12:37:907 kernel_logger/(47023:47037): ingreso proceso a listos
+[INFO] 00:12:37:909 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:12:37:915 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:12:38:004 kernel_logger/(47023:47038): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 00:12:45:726 kernel_logger/(47023:47038): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:12:45:746 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:12:45:746 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:12:45:750 kernel_logger/(47023:47038): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 00:12:45:760 kernel_logger/(47023:47038): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:12:45:763 kernel_logger/(47023:47038): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:13:14:149 kernel_logger/(47023:47039): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:13:14:152 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:13:14:152 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:13:14:179 kernel_logger/(47023:47038): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 00:13:14:179 kernel_logger/(47023:47038): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:13:14:180 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:13:14:180 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:13:14:187 kernel_logger/(47023:47038): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:13:14:188 kernel_logger/(47023:47038): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:14:52:724 kernel_logger/(47023:47039): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:14:52:763 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:14:52:763 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:14:52:842 kernel_logger/(47023:47038): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 00:14:53:099 kernel_logger/(47023:47038): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:14:53:119 kernel_logger/(47023:47038): conecte con cpu
+[INFO] 00:14:53:120 kernel_logger/(47023:47038): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:21:26:040 kernel_logger/(48429:48429): No es null el archivo de config
+[INFO] 00:21:26:044 kernel_logger/(48429:48429): conecte con memoria
+[INFO] 00:21:26:058 kernel_logger/(48429:48429): conecte con filesystem
+[INFO] 00:21:33:665 kernel_logger/(48429:48496): escuchando a consola
+[INFO] 00:21:33:667 kernel_logger/(48429:48496): Se crea el proceso 1 en NEW
+[INFO] 00:21:33:669 kernel_logger/(48429:48496): Se crea proceso 1 en NEW
+[INFO] 00:21:33:669 kernel_logger/(48429:48430): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 00:21:33:669 kernel_logger/(48429:48430): ingreso proceso a listos
+[INFO] 00:21:33:669 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:21:33:670 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:21:33:675 kernel_logger/(48429:48431): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 00:21:33:676 kernel_logger/(48429:48431): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:21:33:676 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:21:33:676 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:21:33:686 kernel_logger/(48429:48431): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 00:21:33:686 kernel_logger/(48429:48431): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:21:33:686 kernel_logger/(48429:48431): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:21:33:686 kernel_logger/(48429:48432): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:21:33:687 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:21:33:687 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:21:33:691 kernel_logger/(48429:48431): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 00:21:33:692 kernel_logger/(48429:48431): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:21:33:692 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:21:33:692 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:21:33:696 kernel_logger/(48429:48431): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:21:33:696 kernel_logger/(48429:48431): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:22:05:640 kernel_logger/(48429:48432): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:22:05:735 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:22:05:735 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:22:05:815 kernel_logger/(48429:48431): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 00:22:05:815 kernel_logger/(48429:48431): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:22:05:815 kernel_logger/(48429:48431): conecte con cpu
+[INFO] 00:22:05:815 kernel_logger/(48429:48431): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:24:30:857 kernel_logger/(49173:49173): No es null el archivo de config
+[INFO] 00:24:30:860 kernel_logger/(49173:49173): conecte con memoria
+[INFO] 00:24:30:861 kernel_logger/(49173:49173): conecte con filesystem
+[INFO] 00:24:40:788 kernel_logger/(49173:49236): escuchando a consola
+[INFO] 00:24:40:815 kernel_logger/(49173:49236): Se crea el proceso 1 en NEW
+[INFO] 00:24:40:815 kernel_logger/(49173:49236): Se crea proceso 1 en NEW
+[INFO] 00:24:40:815 kernel_logger/(49173:49174): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 00:24:40:815 kernel_logger/(49173:49174): ingreso proceso a listos
+[INFO] 00:24:40:815 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:24:40:816 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:24:40:840 kernel_logger/(49173:49175): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 00:24:57:131 kernel_logger/(49173:49175): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:24:57:133 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:24:57:133 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:24:57:144 kernel_logger/(49173:49175): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 00:24:57:145 kernel_logger/(49173:49175): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:24:57:145 kernel_logger/(49173:49175): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:25:33:180 kernel_logger/(49173:49176): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:25:34:845 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:25:34:845 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:25:34:904 kernel_logger/(49173:49175): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 00:25:34:904 kernel_logger/(49173:49175): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:25:34:904 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:25:34:904 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:25:34:933 kernel_logger/(49173:49175): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:25:34:933 kernel_logger/(49173:49175): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:25:59:406 kernel_logger/(49173:49176): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:25:59:407 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:25:59:408 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:25:59:427 kernel_logger/(49173:49175): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 00:25:59:427 kernel_logger/(49173:49175): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:25:59:427 kernel_logger/(49173:49175): conecte con cpu
+[INFO] 00:25:59:427 kernel_logger/(49173:49175): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:32:26:170 kernel_logger/(50417:50417): No es null el archivo de config
+[INFO] 00:32:26:187 kernel_logger/(50417:50417): conecte con memoria
+[INFO] 00:32:26:188 kernel_logger/(50417:50417): conecte con filesystem
+[INFO] 00:32:37:646 kernel_logger/(50417:50484): escuchando a consola
+[INFO] 00:32:37:653 kernel_logger/(50417:50484): Se crea el proceso 1 en NEW
+[INFO] 00:32:37:653 kernel_logger/(50417:50484): Se crea proceso 1 en NEW
+[INFO] 00:32:37:653 kernel_logger/(50417:50418): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 00:32:37:653 kernel_logger/(50417:50418): ingreso proceso a listos
+[INFO] 00:32:37:654 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:32:37:654 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:32:37:701 kernel_logger/(50417:50419): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 00:33:16:569 kernel_logger/(50417:50419): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:33:16:571 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:33:16:572 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:33:16:596 kernel_logger/(50417:50419): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 00:33:16:596 kernel_logger/(50417:50419): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:33:16:596 kernel_logger/(50417:50419): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:33:38:197 kernel_logger/(50417:50420): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:33:38:197 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:33:38:198 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:33:38:213 kernel_logger/(50417:50419): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 00:33:38:213 kernel_logger/(50417:50419): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:33:38:213 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:33:38:213 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:33:38:216 kernel_logger/(50417:50419): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 00:33:38:216 kernel_logger/(50417:50419): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 00:34:03:276 kernel_logger/(50417:50420): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 00:34:03:277 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:34:03:278 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 00:34:03:292 kernel_logger/(50417:50419): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 00:34:03:293 kernel_logger/(50417:50419): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 00:34:03:293 kernel_logger/(50417:50419): conecte con cpu
+[INFO] 00:34:03:293 kernel_logger/(50417:50419): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:23:19:684 kernel_logger/(51543:51543): No es null el archivo de config
+[INFO] 01:23:20:854 kernel_logger/(51543:51543): conecte con memoria
+[INFO] 01:23:20:854 kernel_logger/(51543:51543): conecte con filesystem
+[INFO] 01:23:31:271 kernel_logger/(51543:51591): escuchando a consola
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [INFO] 01:30:12:135 kernel_logger/(2439:2439): No es null el archivo de config
+[INFO] 01:30:12:140 kernel_logger/(2439:2439): conecte con memoria
+[INFO] 01:30:12:142 kernel_logger/(2439:2439): conecte con filesystem
+[INFO] 01:31:45:609 kernel_logger/(2439:2649): escuchando a consola
+[INFO] 01:32:01:957 kernel_logger/(2439:2649): Se crea el proceso 1 en NEW
+[INFO] 01:32:01:957 kernel_logger/(2439:2649): Se crea proceso 1 en NEW
+[INFO] 01:32:01:957 kernel_logger/(2439:2440): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:32:01:958 kernel_logger/(2439:2440): ingreso proceso a listos
+[INFO] 01:32:01:958 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:01:958 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:32:01:981 kernel_logger/(2439:2441): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 01:32:01:982 kernel_logger/(2439:2441): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:32:01:984 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:01:984 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:32:01:995 kernel_logger/(2439:2441): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 01:32:01:995 kernel_logger/(2439:2441): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:32:01:995 kernel_logger/(2439:2441): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:32:01:997 kernel_logger/(2439:2442): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:32:01:998 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:01:998 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:32:02:005 kernel_logger/(2439:2441): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 01:32:02:005 kernel_logger/(2439:2441): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:32:02:006 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:02:006 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:32:02:008 kernel_logger/(2439:2441): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:32:02:008 kernel_logger/(2439:2441): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:32:44:364 kernel_logger/(2439:2442): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:32:44:365 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:44:365 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:32:44:397 kernel_logger/(2439:2441): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 01:32:44:397 kernel_logger/(2439:2441): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:32:44:397 kernel_logger/(2439:2441): conecte con cpu
+[INFO] 01:32:44:397 kernel_logger/(2439:2441): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:35:14:594 kernel_logger/(3304:3304): No es null el archivo de config
+[INFO] 01:35:14:599 kernel_logger/(3304:3304): conecte con memoria
+[INFO] 01:35:14:602 kernel_logger/(3304:3304): conecte con filesystem
+[INFO] 01:35:18:539 kernel_logger/(3304:3340): escuchando a consola
+[INFO] 01:37:26:954 kernel_logger/(3775:3775): No es null el archivo de config
+[INFO] 01:37:26:958 kernel_logger/(3775:3775): conecte con memoria
+[INFO] 01:37:26:961 kernel_logger/(3775:3775): conecte con filesystem
+[INFO] 01:37:37:609 kernel_logger/(3775:3827): escuchando a consola
+[INFO] 01:38:12:897 kernel_logger/(3775:3827): Se crea el proceso 1 en NEW
+[INFO] 01:38:12:898 kernel_logger/(3775:3827): Se crea proceso 1 en NEW
+[INFO] 01:38:12:898 kernel_logger/(3775:3776): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:38:12:898 kernel_logger/(3775:3776): ingreso proceso a listos
+[INFO] 01:38:12:898 kernel_logger/(3775:3777): conecte con cpu
+[INFO] 01:38:12:898 kernel_logger/(3775:3777): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:38:12:922 kernel_logger/(3775:3777): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 01:38:12:923 kernel_logger/(3775:3777): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:38:12:923 kernel_logger/(3775:3777): conecte con cpu
+[INFO] 01:38:12:923 kernel_logger/(3775:3777): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:38:12:935 kernel_logger/(3775:3777): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 01:38:12:935 kernel_logger/(3775:3777): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:38:12:935 kernel_logger/(3775:3777): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:38:12:936 kernel_logger/(3775:3778): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:38:12:936 kernel_logger/(3775:3777): conecte con cpu
+[INFO] 01:38:12:936 kernel_logger/(3775:3777): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:38:12:948 kernel_logger/(3775:3777): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 01:38:12:948 kernel_logger/(3775:3777): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:38:12:948 kernel_logger/(3775:3777): conecte con cpu
+[INFO] 01:38:12:948 kernel_logger/(3775:3777): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:38:12:981 kernel_logger/(3775:3777): PID: 1 - Estado anterior: SEGMENTATION FAULT - Estado actual: TERMINANDO
+[INFO] 01:38:12:981 kernel_logger/(3775:3777): finaliza el proceso PID: 1 - motivo: SEGMENTATION FAULT
+[INFO] 01:41:14:288 kernel_logger/(4950:4950): No es null el archivo de config
+[INFO] 01:41:14:298 kernel_logger/(4950:4950): conecte con memoria
+[INFO] 01:41:14:299 kernel_logger/(4950:4950): conecte con filesystem
+[INFO] 01:41:29:683 kernel_logger/(4950:5065): escuchando a consola
+[INFO] 01:41:29:689 kernel_logger/(4950:5065): Se crea el proceso 1 en NEW
+[INFO] 01:41:29:691 kernel_logger/(4950:5065): Se crea proceso 1 en NEW
+[INFO] 01:41:29:692 kernel_logger/(4950:4951): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:41:29:692 kernel_logger/(4950:4951): ingreso proceso a listos
+[INFO] 01:41:29:692 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:29:692 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:41:29:696 kernel_logger/(4950:4952): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 01:41:29:696 kernel_logger/(4950:4952): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:41:29:696 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:29:696 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:41:29:701 kernel_logger/(4950:4952): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 01:41:29:701 kernel_logger/(4950:4952): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:41:29:701 kernel_logger/(4950:4952): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:41:29:702 kernel_logger/(4950:4953): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:41:29:702 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:29:702 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:41:29:709 kernel_logger/(4950:4952): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 01:41:29:709 kernel_logger/(4950:4952): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:41:29:709 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:29:709 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:41:29:716 kernel_logger/(4950:4952): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:41:29:716 kernel_logger/(4950:4952): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:41:32:718 kernel_logger/(4950:4953): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:41:32:718 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:32:718 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:41:32:734 kernel_logger/(4950:4952): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 01:41:32:734 kernel_logger/(4950:4952): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:41:32:735 kernel_logger/(4950:4952): conecte con cpu
+[INFO] 01:41:32:735 kernel_logger/(4950:4952): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:41:040 kernel_logger/(5394:5394): No es null el archivo de config
+[INFO] 01:42:41:042 kernel_logger/(5394:5394): conecte con memoria
+[INFO] 01:42:41:044 kernel_logger/(5394:5394): conecte con filesystem
+[INFO] 01:42:44:942 kernel_logger/(5394:5450): escuchando a consola
+[INFO] 01:42:44:946 kernel_logger/(5394:5450): Se crea el proceso 1 en NEW
+[INFO] 01:42:44:950 kernel_logger/(5394:5450): Se crea proceso 1 en NEW
+[INFO] 01:42:44:952 kernel_logger/(5394:5395): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:42:44:952 kernel_logger/(5394:5395): ingreso proceso a listos
+[INFO] 01:42:44:952 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:44:952 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:44:958 kernel_logger/(5394:5396): PID: 1 - Abrir Archivo: ARCHIVO
+[INFO] 01:42:44:958 kernel_logger/(5394:5396): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:42:44:958 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:44:958 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:44:963 kernel_logger/(5394:5396): PID: 1 - Archivo: ARCHIVO - Tamaño: 200 
+[INFO] 01:42:44:963 kernel_logger/(5394:5396): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:42:44:963 kernel_logger/(5394:5396): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:42:44:964 kernel_logger/(5394:5397): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:42:44:964 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:44:965 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:44:970 kernel_logger/(5394:5396): PID: 1- Actualizar puntero Archivo: ARCHIVO - Puntero: 10
+[INFO] 01:42:44:970 kernel_logger/(5394:5396): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:42:44:970 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:44:970 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:44:977 kernel_logger/(5394:5396): PID: 1 - Bloqueado por: ARCHIVO
+[INFO] 01:42:44:977 kernel_logger/(5394:5396): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:42:47:978 kernel_logger/(5394:5397): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:42:47:978 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:47:979 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:42:47:993 kernel_logger/(5394:5396): PID: 1 - Cerrar Archivo: ARCHIVO
+[INFO] 01:42:47:993 kernel_logger/(5394:5396): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:42:47:993 kernel_logger/(5394:5396): conecte con cpu
+[INFO] 01:42:47:994 kernel_logger/(5394:5396): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:55:52:368 kernel_logger/(6530:6530): No es null el archivo de config
+[INFO] 01:55:52:382 kernel_logger/(6530:6530): conecte con memoria
+[INFO] 01:55:52:382 kernel_logger/(6530:6530): conecte con filesystem
+[INFO] 01:56:32:798 kernel_logger/(6530:6757): escuchando a consola
+[INFO] 01:56:32:802 kernel_logger/(6530:6757): Se crea el proceso 1 en NEW
+[INFO] 01:56:32:804 kernel_logger/(6530:6757): Se crea proceso 1 en NEW
+[INFO] 01:56:32:808 kernel_logger/(6530:6531): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:56:32:808 kernel_logger/(6530:6531): ingreso proceso a listos
+[INFO] 01:56:32:808 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:32:808 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:32:813 kernel_logger/(6530:6532): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 01:56:32:813 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:33:736 kernel_logger/(6530:6764): escuchando a consola
+[INFO] 01:56:33:739 kernel_logger/(6530:6764): Se crea el proceso 2 en NEW
+[INFO] 01:56:33:742 kernel_logger/(6530:6764): Se crea proceso 2 en NEW
+[INFO] 01:56:33:742 kernel_logger/(6530:6531): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:56:33:742 kernel_logger/(6530:6531): ingreso proceso a listos
+[INFO] 01:56:44:854 kernel_logger/(6530:6532): PID: 1 - Abrir Archivo: Consoles
+[INFO] 01:56:44:854 kernel_logger/(6530:6532): PID: 1 - Crear Archivo: Consoles
+[INFO] 01:56:44:861 kernel_logger/(6530:6532): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:56:44:862 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:44:862 kernel_logger/(6530:6532): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:44:880 kernel_logger/(6530:6532): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 01:56:44:880 kernel_logger/(6530:6532): PID: 2 - Bloqueado por: RB
+[INFO] 01:56:44:880 kernel_logger/(6530:6532): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:56:44:880 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:44:881 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:44:886 kernel_logger/(6530:6532): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 01:56:44:886 kernel_logger/(6530:6532): PID: 1 - Bloqueado por: Consoles
+[INFO] 01:56:44:886 kernel_logger/(6530:6532): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:56:47:902 kernel_logger/(6530:6533): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:56:47:903 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:47:903 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:47:920 kernel_logger/(6530:6532): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 01:56:47:920 kernel_logger/(6530:6532): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:56:47:921 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:47:921 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:47:927 kernel_logger/(6530:6532): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:56:47:927 kernel_logger/(6530:6532): PID: 1- Signal: RB- Instancias: 0
+[INFO] 01:56:47:927 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:47:935 kernel_logger/(6530:6532): PID: 1 - Bloqueado por: Consoles
+[INFO] 01:56:47:935 kernel_logger/(6530:6532): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:56:47:936 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:47:936 kernel_logger/(6530:6532): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:47:942 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 01:56:47:942 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:946 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 01:56:47:946 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:949 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 01:56:47:949 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:960 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 01:56:47:960 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:969 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 01:56:47:970 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:975 kernel_logger/(6530:6532): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 01:56:47:975 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:981 kernel_logger/(6530:6532): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 01:56:47:981 kernel_logger/(6530:6532): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:56:47:985 kernel_logger/(6530:6532): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 01:56:47:985 kernel_logger/(6530:6532): Compactación: Se solicitó compactación
+[INFO] 01:56:47:985 kernel_logger/(6530:6532): Esperando fin de Filesystem
+[INFO] 01:56:47:985 kernel_logger/(6530:6532): Cantidad procesos en sistema 2
+[INFO] 01:56:50:723 kernel_logger/(6530:6533): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[DEBUG] 01:56:51:846 kernel_logger/(6530:6532): Se finalizó el proceso de compactación
+[ERROR] 01:56:51:847 kernel_logger/(6530:6532): mensaje desconocido
+[INFO] 01:56:51:847 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:51:847 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:51:863 kernel_logger/(6530:6532): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 01:56:51:863 kernel_logger/(6530:6532): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:56:51:863 kernel_logger/(6530:6532): conecte con cpu
+[INFO] 01:56:51:863 kernel_logger/(6530:6532): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:56:51:870 kernel_logger/(6530:6532): PID: 1 - Abrir Archivo: Videogames
+[INFO] 01:56:51:871 kernel_logger/(6530:6532): PID: 1 - Crear Archivo: Videogames
+[INFO] 01:58:56:009 kernel_logger/(7372:7372): No es null el archivo de config
+[INFO] 01:58:56:013 kernel_logger/(7372:7372): conecte con memoria
+[INFO] 01:58:56:015 kernel_logger/(7372:7372): conecte con filesystem
+[INFO] 01:59:03:452 kernel_logger/(7372:7465): escuchando a consola
+[INFO] 01:59:03:454 kernel_logger/(7372:7465): Se crea el proceso 1 en NEW
+[INFO] 01:59:03:456 kernel_logger/(7372:7465): Se crea proceso 1 en NEW
+[INFO] 01:59:03:457 kernel_logger/(7372:7373): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:59:03:457 kernel_logger/(7372:7373): ingreso proceso a listos
+[INFO] 01:59:03:457 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:03:457 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:03:462 kernel_logger/(7372:7374): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 01:59:03:462 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:04:516 kernel_logger/(7372:7478): escuchando a consola
+[INFO] 01:59:04:517 kernel_logger/(7372:7478): Se crea el proceso 2 en NEW
+[INFO] 01:59:04:518 kernel_logger/(7372:7478): Se crea proceso 2 en NEW
+[INFO] 01:59:04:520 kernel_logger/(7372:7373): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 01:59:04:520 kernel_logger/(7372:7373): ingreso proceso a listos
+[INFO] 01:59:15:476 kernel_logger/(7372:7374): PID: 1 - Abrir Archivo: Consoles
+[INFO] 01:59:15:477 kernel_logger/(7372:7374): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:59:15:477 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:477 kernel_logger/(7372:7374): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:15:495 kernel_logger/(7372:7374): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 01:59:15:495 kernel_logger/(7372:7374): PID: 2 - Bloqueado por: RB
+[INFO] 01:59:15:495 kernel_logger/(7372:7374): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:59:15:495 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:495 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:15:503 kernel_logger/(7372:7374): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 01:59:15:503 kernel_logger/(7372:7374): PID: 1 - Bloqueado por: Consoles
+[INFO] 01:59:15:503 kernel_logger/(7372:7374): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:59:15:503 kernel_logger/(7372:7375): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:59:15:503 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:504 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:15:509 kernel_logger/(7372:7374): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 01:59:15:509 kernel_logger/(7372:7374): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:59:15:509 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:509 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:15:513 kernel_logger/(7372:7374): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 01:59:15:513 kernel_logger/(7372:7374): PID: 1- Signal: RB- Instancias: 0
+[INFO] 01:59:15:513 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:519 kernel_logger/(7372:7374): PID: 1 - Bloqueado por: Consoles
+[INFO] 01:59:15:519 kernel_logger/(7372:7374): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 01:59:15:519 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:15:519 kernel_logger/(7372:7374): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:15:525 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 01:59:15:525 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:529 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 01:59:15:529 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:535 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 01:59:15:535 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:540 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 01:59:15:541 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:546 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 01:59:15:546 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:550 kernel_logger/(7372:7374): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 01:59:15:550 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:559 kernel_logger/(7372:7374): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 01:59:15:560 kernel_logger/(7372:7374): El PCB con ID 2 se reenvio a  CPU
+[INFO] 01:59:15:565 kernel_logger/(7372:7374): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 01:59:15:565 kernel_logger/(7372:7374): Compactación: Se solicitó compactación
+[INFO] 01:59:15:565 kernel_logger/(7372:7374): Esperando fin de Filesystem
+[INFO] 01:59:15:565 kernel_logger/(7372:7374): Cantidad procesos en sistema 2
+[INFO] 01:59:17:704 kernel_logger/(7372:7375): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[DEBUG] 01:59:18:838 kernel_logger/(7372:7374): Se finalizó el proceso de compactación
+[ERROR] 01:59:18:838 kernel_logger/(7372:7374): mensaje desconocido
+[INFO] 01:59:18:838 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:18:838 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:18:852 kernel_logger/(7372:7374): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 01:59:18:852 kernel_logger/(7372:7374): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 01:59:18:852 kernel_logger/(7372:7374): conecte con cpu
+[INFO] 01:59:18:852 kernel_logger/(7372:7374): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 01:59:18:859 kernel_logger/(7372:7374): PID: 1 - Abrir Archivo: Videogames
+[INFO] 01:59:18:859 kernel_logger/(7372:7374): PID: 1 - Crear Archivo: Videogames
+[INFO] 02:01:02:453 kernel_logger/(8115:8115): No es null el archivo de config
+[INFO] 02:01:02:457 kernel_logger/(8115:8115): conecte con memoria
+[INFO] 02:01:02:459 kernel_logger/(8115:8115): conecte con filesystem
+[INFO] 02:01:09:814 kernel_logger/(8115:8196): escuchando a consola
+[INFO] 02:01:09:825 kernel_logger/(8115:8196): Se crea el proceso 1 en NEW
+[INFO] 02:01:09:832 kernel_logger/(8115:8196): Se crea proceso 1 en NEW
+[INFO] 02:01:09:835 kernel_logger/(8115:8116): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:01:09:835 kernel_logger/(8115:8116): ingreso proceso a listos
+[INFO] 02:01:09:835 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:09:835 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:09:844 kernel_logger/(8115:8117): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 02:01:09:844 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:10:896 kernel_logger/(8115:8218): escuchando a consola
+[INFO] 02:01:10:896 kernel_logger/(8115:8218): Se crea el proceso 2 en NEW
+[INFO] 02:01:10:896 kernel_logger/(8115:8218): Se crea proceso 2 en NEW
+[INFO] 02:01:10:896 kernel_logger/(8115:8116): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:01:10:896 kernel_logger/(8115:8116): ingreso proceso a listos
+[INFO] 02:01:21:867 kernel_logger/(8115:8117): PID: 1 - Abrir Archivo: Consoles
+[INFO] 02:01:21:867 kernel_logger/(8115:8117): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:01:21:867 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:868 kernel_logger/(8115:8117): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:21:884 kernel_logger/(8115:8117): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 02:01:21:884 kernel_logger/(8115:8117): PID: 2 - Bloqueado por: RB
+[INFO] 02:01:21:884 kernel_logger/(8115:8117): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:01:21:884 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:884 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:21:888 kernel_logger/(8115:8117): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 02:01:21:889 kernel_logger/(8115:8117): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:01:21:889 kernel_logger/(8115:8117): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:01:21:889 kernel_logger/(8115:8118): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:01:21:889 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:889 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:21:894 kernel_logger/(8115:8117): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 02:01:21:894 kernel_logger/(8115:8117): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:01:21:894 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:894 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:21:900 kernel_logger/(8115:8117): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:01:21:900 kernel_logger/(8115:8117): PID: 1- Signal: RB- Instancias: 0
+[INFO] 02:01:21:900 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:909 kernel_logger/(8115:8117): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:01:21:909 kernel_logger/(8115:8117): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:01:21:909 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:21:909 kernel_logger/(8115:8117): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:21:917 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 02:01:21:917 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:922 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 02:01:21:923 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:931 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 02:01:21:931 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:936 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 02:01:21:937 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:942 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 02:01:21:942 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:948 kernel_logger/(8115:8117): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 02:01:21:948 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:953 kernel_logger/(8115:8117): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 02:01:21:953 kernel_logger/(8115:8117): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:01:21:961 kernel_logger/(8115:8117): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 02:01:21:961 kernel_logger/(8115:8117): Compactación: Se solicitó compactación
+[INFO] 02:01:21:961 kernel_logger/(8115:8117): Esperando fin de Filesystem
+[INFO] 02:01:24:101 kernel_logger/(8115:8118): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:01:24:102 kernel_logger/(8115:8117): Cantidad procesos en sistema 3
+[DEBUG] 02:01:25:254 kernel_logger/(8115:8117): Se finalizó el proceso de compactación
+[ERROR] 02:01:25:254 kernel_logger/(8115:8117): mensaje desconocido
+[INFO] 02:01:25:254 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:25:254 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:25:264 kernel_logger/(8115:8117): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 02:01:25:264 kernel_logger/(8115:8117): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:01:25:264 kernel_logger/(8115:8117): conecte con cpu
+[INFO] 02:01:25:264 kernel_logger/(8115:8117): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:01:25:269 kernel_logger/(8115:8117): PID: 1 - Abrir Archivo: Videogames
+[INFO] 02:01:25:269 kernel_logger/(8115:8117): PID: 1 - Crear Archivo: Videogames
+[INFO] 02:13:15:518 kernel_logger/(9658:9658): No es null el archivo de config
+[INFO] 02:13:15:530 kernel_logger/(9658:9658): conecte con memoria
+[INFO] 02:13:15:531 kernel_logger/(9658:9658): conecte con filesystem
+[INFO] 02:13:23:953 kernel_logger/(9658:9762): escuchando a consola
+[INFO] 02:13:23:956 kernel_logger/(9658:9762): Se crea el proceso 1 en NEW
+[INFO] 02:13:23:968 kernel_logger/(9658:9762): Se crea proceso 1 en NEW
+[INFO] 02:13:23:974 kernel_logger/(9658:9659): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:13:23:974 kernel_logger/(9658:9659): ingreso proceso a listos
+[INFO] 02:13:23:974 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:13:23:974 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:13:23:988 kernel_logger/(9658:9660): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 02:13:23:988 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:13:24:953 kernel_logger/(9658:9779): escuchando a consola
+[INFO] 02:13:24:963 kernel_logger/(9658:9779): Se crea el proceso 2 en NEW
+[INFO] 02:13:24:964 kernel_logger/(9658:9779): Se crea proceso 2 en NEW
+[INFO] 02:13:24:964 kernel_logger/(9658:9659): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:13:24:964 kernel_logger/(9658:9659): ingreso proceso a listos
+[INFO] 02:13:36:013 kernel_logger/(9658:9660): PID: 1 - Abrir Archivo: Consoles
+[INFO] 02:13:49:070 kernel_logger/(9658:9660): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:13:49:071 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:13:49:071 kernel_logger/(9658:9660): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:13:49:084 kernel_logger/(9658:9660): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 02:13:49:084 kernel_logger/(9658:9660): PID: 2 - Bloqueado por: RB
+[INFO] 02:13:49:084 kernel_logger/(9658:9660): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:13:49:084 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:13:49:084 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:13:49:095 kernel_logger/(9658:9660): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 02:13:49:095 kernel_logger/(9658:9660): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:13:49:095 kernel_logger/(9658:9660): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:14:05:581 kernel_logger/(9658:9661): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:14:05:581 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:14:05:581 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:14:05:609 kernel_logger/(9658:9660): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 02:14:05:610 kernel_logger/(9658:9660): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:14:05:610 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:14:05:610 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:14:05:619 kernel_logger/(9658:9660): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:14:05:619 kernel_logger/(9658:9660): PID: 1- Signal: RB- Instancias: 0
+[INFO] 02:14:05:619 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:14:05:628 kernel_logger/(9658:9660): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:14:05:628 kernel_logger/(9658:9660): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:14:05:629 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:14:05:629 kernel_logger/(9658:9660): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:14:05:640 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 02:14:05:640 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:650 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 02:14:05:650 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:663 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 02:14:05:664 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:670 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 02:14:05:671 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:675 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 02:14:05:676 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:692 kernel_logger/(9658:9660): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 02:14:05:692 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:698 kernel_logger/(9658:9660): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 02:14:05:698 kernel_logger/(9658:9660): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:14:05:703 kernel_logger/(9658:9660): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 02:14:05:703 kernel_logger/(9658:9660): Compactación: Se solicitó compactación
+[INFO] 02:14:05:703 kernel_logger/(9658:9660): Esperando fin de Filesystem
+[INFO] 02:16:12:412 kernel_logger/(9658:9661): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:16:12:412 kernel_logger/(9658:9660): Cantidad procesos en sistema 2
+[DEBUG] 02:16:14:216 kernel_logger/(9658:9660): Se finalizó el proceso de compactación
+[ERROR] 02:16:14:217 kernel_logger/(9658:9660): mensaje desconocido
+[INFO] 02:16:14:218 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:16:14:220 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:16:14:282 kernel_logger/(9658:9660): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 02:16:14:282 kernel_logger/(9658:9660): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:16:14:282 kernel_logger/(9658:9660): conecte con cpu
+[INFO] 02:16:14:282 kernel_logger/(9658:9660): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:16:14:293 kernel_logger/(9658:9660): PID: 1 - Abrir Archivo: Videogames
+[INFO] 02:16:14:293 kernel_logger/(9658:9660): PID: 1 - Crear Archivo: Videogames
+[INFO] 02:18:32:362 kernel_logger/(11225:11225): No es null el archivo de config
+[INFO] 02:18:32:365 kernel_logger/(11225:11225): conecte con memoria
+[INFO] 02:18:32:368 kernel_logger/(11225:11225): conecte con filesystem
+[INFO] 02:18:40:817 kernel_logger/(11225:11319): escuchando a consola
+[INFO] 02:18:40:821 kernel_logger/(11225:11319): Se crea el proceso 1 en NEW
+[INFO] 02:18:40:823 kernel_logger/(11225:11319): Se crea proceso 1 en NEW
+[INFO] 02:18:40:824 kernel_logger/(11225:11226): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:18:40:824 kernel_logger/(11225:11226): ingreso proceso a listos
+[INFO] 02:18:40:824 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:18:40:824 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:18:40:837 kernel_logger/(11225:11227): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 02:18:40:837 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:18:42:029 kernel_logger/(11225:11356): escuchando a consola
+[INFO] 02:18:42:032 kernel_logger/(11225:11356): Se crea el proceso 2 en NEW
+[INFO] 02:18:42:034 kernel_logger/(11225:11356): Se crea proceso 2 en NEW
+[INFO] 02:18:42:035 kernel_logger/(11225:11226): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:18:42:035 kernel_logger/(11225:11226): ingreso proceso a listos
+[INFO] 02:18:52:876 kernel_logger/(11225:11227): PID: 1 - Abrir Archivo: Consoles
+[INFO] 02:22:39:748 kernel_logger/(11225:11227): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:22:39:748 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:22:39:748 kernel_logger/(11225:11227): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:22:39:765 kernel_logger/(11225:11227): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 02:22:39:765 kernel_logger/(11225:11227): PID: 2 - Bloqueado por: RB
+[INFO] 02:22:39:765 kernel_logger/(11225:11227): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:22:39:765 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:22:39:765 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:22:39:773 kernel_logger/(11225:11227): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 02:22:39:773 kernel_logger/(11225:11227): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:22:39:773 kernel_logger/(11225:11227): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:23:32:831 kernel_logger/(11225:11228): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:23:32:832 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:23:32:832 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:23:32:840 kernel_logger/(11225:11227): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 02:23:32:840 kernel_logger/(11225:11227): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:23:32:840 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:23:32:841 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:23:32:847 kernel_logger/(11225:11227): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:23:32:848 kernel_logger/(11225:11227): PID: 1- Signal: RB- Instancias: 0
+[INFO] 02:23:32:848 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:23:32:852 kernel_logger/(11225:11227): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:23:32:852 kernel_logger/(11225:11227): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:23:32:852 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:23:32:853 kernel_logger/(11225:11227): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:23:32:855 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 02:23:32:878 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:878 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 02:23:32:878 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:879 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 02:23:32:879 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:879 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 02:23:32:879 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:880 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 02:23:32:880 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:880 kernel_logger/(11225:11227): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 02:23:32:880 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:881 kernel_logger/(11225:11227): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 02:23:32:881 kernel_logger/(11225:11227): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:23:32:881 kernel_logger/(11225:11227): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 02:23:32:881 kernel_logger/(11225:11227): Compactación: Se solicitó compactación
+[INFO] 02:23:32:881 kernel_logger/(11225:11227): Esperando fin de Filesystem
+[INFO] 02:24:20:254 kernel_logger/(11225:11228): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:24:20:255 kernel_logger/(11225:11227): Cantidad procesos en sistema 2
+[DEBUG] 02:24:21:870 kernel_logger/(11225:11227): Se finalizó el proceso de compactación
+[ERROR] 02:24:21:872 kernel_logger/(11225:11227): mensaje desconocido
+[INFO] 02:24:21:872 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:24:21:873 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:24:21:904 kernel_logger/(11225:11227): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 02:24:21:904 kernel_logger/(11225:11227): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:24:21:904 kernel_logger/(11225:11227): conecte con cpu
+[INFO] 02:24:21:904 kernel_logger/(11225:11227): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:24:21:909 kernel_logger/(11225:11227): PID: 1 - Abrir Archivo: Videogames
+[INFO] 02:24:21:909 kernel_logger/(11225:11227): PID: 1 - Crear Archivo: Videogames
+[INFO] 02:26:44:604 kernel_logger/(12575:12575): No es null el archivo de config
+[INFO] 02:26:44:606 kernel_logger/(12575:12575): conecte con memoria
+[INFO] 02:26:44:607 kernel_logger/(12575:12575): conecte con filesystem
+[INFO] 02:26:54:846 kernel_logger/(12575:12662): escuchando a consola
+[INFO] 02:26:54:852 kernel_logger/(12575:12662): Se crea el proceso 1 en NEW
+[INFO] 02:26:54:856 kernel_logger/(12575:12662): Se crea proceso 1 en NEW
+[INFO] 02:26:54:856 kernel_logger/(12575:12576): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:26:54:856 kernel_logger/(12575:12576): ingreso proceso a listos
+[INFO] 02:26:54:857 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:26:54:857 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:26:54:864 kernel_logger/(12575:12577): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 02:26:54:864 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:26:56:078 kernel_logger/(12575:12696): escuchando a consola
+[INFO] 02:26:56:078 kernel_logger/(12575:12696): Se crea el proceso 2 en NEW
+[INFO] 02:26:56:078 kernel_logger/(12575:12696): Se crea proceso 2 en NEW
+[INFO] 02:26:56:078 kernel_logger/(12575:12576): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 02:26:56:078 kernel_logger/(12575:12576): ingreso proceso a listos
+[INFO] 02:27:06:970 kernel_logger/(12575:12577): PID: 1 - Abrir Archivo: Consoles
+[INFO] 02:27:14:195 kernel_logger/(12575:12577): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:27:14:196 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:14:198 kernel_logger/(12575:12577): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:27:14:211 kernel_logger/(12575:12577): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 02:27:14:211 kernel_logger/(12575:12577): PID: 2 - Bloqueado por: RB
+[INFO] 02:27:14:211 kernel_logger/(12575:12577): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:27:14:211 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:14:211 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:27:14:217 kernel_logger/(12575:12577): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 02:27:14:217 kernel_logger/(12575:12577): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:27:14:217 kernel_logger/(12575:12577): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:27:24:381 kernel_logger/(12575:12578): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:27:24:383 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:24:383 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:27:24:406 kernel_logger/(12575:12577): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 02:27:24:406 kernel_logger/(12575:12577): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:27:24:406 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:24:406 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:27:24:419 kernel_logger/(12575:12577): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:27:24:419 kernel_logger/(12575:12577): PID: 1- Signal: RB- Instancias: 0
+[INFO] 02:27:24:419 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:24:423 kernel_logger/(12575:12577): PID: 1 - Bloqueado por: Consoles
+[INFO] 02:27:24:423 kernel_logger/(12575:12577): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 02:27:24:424 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:27:24:424 kernel_logger/(12575:12577): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:27:24:428 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 02:27:24:429 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:433 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 02:27:24:433 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:433 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 02:27:24:434 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:436 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 02:27:24:437 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:441 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 02:27:24:441 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:442 kernel_logger/(12575:12577): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 02:27:24:442 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:444 kernel_logger/(12575:12577): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 02:27:24:444 kernel_logger/(12575:12577): El PCB con ID 2 se reenvio a  CPU
+[INFO] 02:27:24:447 kernel_logger/(12575:12577): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 02:27:24:447 kernel_logger/(12575:12577): Compactación: Se solicitó compactación
+[INFO] 02:27:24:447 kernel_logger/(12575:12577): Esperando fin de Filesystem
+[INFO] 02:30:15:545 kernel_logger/(12575:12578): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 02:30:15:544 kernel_logger/(12575:12577): Cantidad procesos en sistema 2
+[DEBUG] 02:30:17:867 kernel_logger/(12575:12577): Se finalizó el proceso de compactación
+[ERROR] 02:30:17:869 kernel_logger/(12575:12577): mensaje desconocido
+[INFO] 02:30:17:872 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:30:17:875 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:30:17:934 kernel_logger/(12575:12577): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 02:30:17:938 kernel_logger/(12575:12577): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 02:30:17:938 kernel_logger/(12575:12577): conecte con cpu
+[INFO] 02:30:17:939 kernel_logger/(12575:12577): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 02:30:17:952 kernel_logger/(12575:12577): PID: 1 - Abrir Archivo: Videogames
+[INFO] 02:30:17:952 kernel_logger/(12575:12577): PID: 1 - Crear Archivo: Videogames

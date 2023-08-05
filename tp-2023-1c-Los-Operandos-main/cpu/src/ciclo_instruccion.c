@@ -50,7 +50,6 @@ void decode_y_execute(t_instruccion* instruccion_a_ejecutar, t_pcb* pcb, int con
 			MOV_OUT_memoria(pcb->pid, pcb->direccion_fisica, valor_escrito);
 			log_info(logger, "PID: %u - Acción: ESCRIBIR - Segmento: %u - Direccion Fisica: %d - Valor: %s", pcb->pid, obtener_numero_segmento(atoi(instruccion_a_ejecutar->parametros[0])), pcb->direccion_fisica, valor_escrito);
 
-			//enviar_instrucciones(instruccion_a_ejecutar, conexion_con_memoria, logger);
 		break;
 		case F_READ: 
 			log_info(logger, "PID: %d - ejecutando F_READ -%s - %s %s", 

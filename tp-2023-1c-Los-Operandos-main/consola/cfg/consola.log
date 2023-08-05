@@ -13269,3 +13269,15 @@
 [INFO] 08:38:46:535 LOGGER CONSOLA/(53014:53014): motivo finalizacion de proceso: SUCCESS
 [INFO] 08:38:46:546 LOGGER CONSOLA/(52948:52948): motivo finalizacion de proceso: SUCCESS
 [INFO] 08:38:46:555 LOGGER CONSOLA/(52959:52959): motivo finalizacion de proceso: SUCCESS
+[INFO] 08:48:45:121 LOGGER CONSOLA/(54066:54066): No es null el archivo de config
+[INFO] 08:48:45:124 LOGGER CONSOLA/(54066:54066): Consola iniciada
+[INFO] 08:48:45:140 LOGGER CONSOLA/(54066:54066): Se puedo enviar las instrucciones
+[INFO] 08:48:45:991 LOGGER CONSOLA/(54070:54070): No es null el archivo de config
+[INFO] 08:48:45:994 LOGGER CONSOLA/(54070:54070): Consola iniciada
+[INFO] 08:48:45:997 LOGGER CONSOLA/(54070:54070): Se puedo enviar las instrucciones
+[INFO] 08:50:58:234 LOGGER CONSOLA/(54070:54070): motivo finalizacion de proceso: SUCCESS
+[INFO] 08:51:29:267 LOGGER CONSOLA/(54066:54066): motivo finalizacion de proceso: SUCCESS
+[INFO] 08:56:28:112 LOGGER CONSOLA/(55980:55980): No es null el archivo de config
+[INFO] 08:56:28:121 LOGGER CONSOLA/(55980:55980): Consola iniciada
+[INFO] 08:56:28:123 LOGGER CONSOLA/(55980:55980): Se puedo enviar las instrucciones
+[INFO] 08:57:00:199 LOGGER CONSOLA/(55980:55980): motivo finalizacion de proceso: SUCCESS

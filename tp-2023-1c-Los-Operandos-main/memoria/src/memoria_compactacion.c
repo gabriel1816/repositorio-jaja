@@ -33,7 +33,7 @@ void recibo_respuesta(int una_conexion)
 
 void resultado_compactacion() 
 {
-    log_info(logger, "------------------------------------------");
+    log_info(logger, "------------------Resultado compactación------------------------");
     for(int i = 0; i < list_size(procesos_en_memoria); i++) {
         t_tabla_memoria* proceso = list_get(procesos_en_memoria, i);
         t_segmento* segmentos = proceso->tabla_segmentos;

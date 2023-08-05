@@ -22,7 +22,7 @@ void iniciar_recursos()
 void ejecutar_signal(t_pcb* pcb, t_instruccion* instruccion)
 {
     if(! dictionary_has_key(diccionario_recursos, instruccion->parametros[0])){
-        terminar_proceso(pcb, "No existe el recurso solicitado por signal");
+        terminar_proceso(pcb, "INVALID_RESOURCE");
         return;
     }
 
@@ -43,7 +43,7 @@ void ejecutar_signal(t_pcb* pcb, t_instruccion* instruccion)
 void ejecutar_wait(t_pcb* pcb, t_instruccion* instruccion)
 {
     if(! dictionary_has_key(diccionario_recursos, instruccion->parametros[0])){
-        terminar_proceso(pcb, "No existe el recurso solicitado por wait");
+        terminar_proceso(pcb, "INVALID_RESOURCE");
         return;
     }
     t_recurso* recurso = dictionary_get(diccionario_recursos, instruccion->parametros[0]);

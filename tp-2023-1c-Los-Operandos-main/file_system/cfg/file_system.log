@@ -78,3 +78,30 @@
 [INFO] 08:37:09:914 LOGGER FILESYSTEM/(52732:52732): Se levantaron correctamente las estructuras
 [INFO] 08:37:09:915 LOGGER FILESYSTEM/(52732:52732): conecte con memoria
 [INFO] 08:37:09:916 LOGGER FILESYSTEM/(52732:52732): Servidor listo para recibir al cliente
+[INFO] 08:46:59:566 LOGGER FILESYSTEM/(53765:53765): Se levantaron correctamente las estructuras
+[INFO] 08:46:59:567 LOGGER FILESYSTEM/(53765:53765): conecte con memoria
+[INFO] 08:46:59:568 LOGGER FILESYSTEM/(53765:53765): Servidor listo para recibir al cliente
+[INFO] 08:48:57:178 LOGGER FILESYSTEM/(53765:53836): Crear Archivo: Consoles
+[INFO] 08:48:57:192 LOGGER FILESYSTEM/(53765:53836): Truncar Archivo: Consoles - Tamaño: 256
+[INFO] 08:48:57:192 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 0 - Estado: 0
+[INFO] 08:48:57:192 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 1 - Estado: 0
+[INFO] 08:48:57:192 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 2 - Estado: 0
+[INFO] 08:49:12:192 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 3 - Estado: 0
+[INFO] 08:49:27:193 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 4 - Estado: 0
+[INFO] 08:49:43:219 LOGGER FILESYSTEM/(53765:53836): Escribir Archivo: Consoles - Puntero: 128 - Memoria: 32 - Tamaño: 80
+[INFO] 08:49:43:220 LOGGER FILESYSTEM/(53765:53836): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 1 
+[INFO] 08:49:43:220 LOGGER FILESYSTEM/(53765:53836): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 4 - Bloque File System 4 
+[INFO] 08:49:58:220 LOGGER FILESYSTEM/(53765:53836): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 2 - Bloque File System 1 
+[INFO] 08:49:58:220 LOGGER FILESYSTEM/(53765:53836): Acceso Bloque - Archivo: Consoles - Bloque Archivo: 5 - Bloque File System 0 
+[INFO] 08:50:58:237 LOGGER FILESYSTEM/(53765:53836): Crear Archivo: Videogames
+[INFO] 08:50:58:242 LOGGER FILESYSTEM/(53765:53836): Truncar Archivo: Videogames - Tamaño: 64
+[INFO] 08:50:58:242 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 5 - Estado: 0
+[INFO] 08:50:58:242 LOGGER FILESYSTEM/(53765:53836): Acceso a Bitmap - Bloque: 6 - Estado: 0
+[INFO] 08:50:59:247 LOGGER FILESYSTEM/(53765:53836): Escribir Archivo: Videogames - Puntero: 0 - Memoria: 0 - Tamaño: 16
+[INFO] 08:50:59:247 LOGGER FILESYSTEM/(53765:53836): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 
+[INFO] 08:56:14:073 LOGGER FILESYSTEM/(55857:55857): Se levantaron correctamente las estructuras
+[INFO] 08:56:14:078 LOGGER FILESYSTEM/(55857:55857): conecte con memoria
+[INFO] 08:56:14:079 LOGGER FILESYSTEM/(55857:55857): Servidor listo para recibir al cliente
+[INFO] 08:56:28:152 LOGGER FILESYSTEM/(55857:55914): Abrir Archivo: Videogames
+[INFO] 08:56:28:177 LOGGER FILESYSTEM/(55857:55914): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:56:28:178 LOGGER FILESYSTEM/(55857:55914): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 

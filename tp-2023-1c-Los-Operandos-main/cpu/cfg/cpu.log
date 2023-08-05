@@ -1483,3 +1483,171 @@
 [INFO] 08:38:46:554 LOGGER CPU/(52766:53298): recibi pcb
 [INFO] 08:38:46:554 LOGGER CPU/(52766:53298): comenzando ciclo de instruccion para el proceso PID: 2
 [INFO] 08:38:46:554 LOGGER CPU/(52766:53298): PID: 2 - ejecutando EXIT
+[INFO] 08:47:03:255 LOGGER CPU/(53787:53787): conecte con memoria
+[DEBUG] 08:47:03:282 LOGGER CPU/(53787:53787): Escuchando kernel
+[INFO] 08:48:45:146 LOGGER CPU/(53787:54068): escuchando al kernel
+[INFO] 08:48:45:148 LOGGER CPU/(53787:54068): recibi pcb
+[INFO] 08:48:45:148 LOGGER CPU/(53787:54068): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:45:148 LOGGER CPU/(53787:54068): PID: 1 - ejecutando WAIT - RA
+[INFO] 08:48:45:158 LOGGER CPU/(53787:54069): escuchando al kernel
+[INFO] 08:48:45:161 LOGGER CPU/(53787:54069): recibi pcb
+[INFO] 08:48:45:164 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:45:167 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RAX SonicTheHedgehog
+[INFO] 08:48:46:168 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:46:168 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:46:168 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 0 RAX
+[INFO] 08:48:47:168 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:47:170 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 0 - Valor: SonicTheHedgehog
+[INFO] 08:48:47:170 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:47:170 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:47:170 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RBX SonyPlaystation1
+[INFO] 08:48:48:170 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:48:171 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:48:171 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 32 RBX
+[INFO] 08:48:49:171 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:49:171 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 32 - Valor: SonyPlaystation1
+[INFO] 08:48:49:172 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:49:172 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:49:172 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RBX SonyPlaystation2
+[INFO] 08:48:50:172 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:50:172 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:50:172 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 48 RBX
+[INFO] 08:48:51:173 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:51:173 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 48 - Valor: SonyPlaystation2
+[INFO] 08:48:51:173 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:51:173 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:51:173 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RBX SonyPlaystation3
+[INFO] 08:48:52:173 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:52:173 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:52:173 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 64 RBX
+[INFO] 08:48:53:174 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:53:174 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 64 - Valor: SonyPlaystation3
+[INFO] 08:48:53:174 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:53:174 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:53:174 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RBX SonyPlaystation4
+[INFO] 08:48:54:174 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:54:175 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:54:175 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 80 RBX
+[INFO] 08:48:55:175 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:55:176 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 80 - Valor: SonyPlaystation4
+[INFO] 08:48:55:176 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:55:176 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:55:176 LOGGER CPU/(53787:54069): PID: 1 - ejecutando SET - RBX SonyPlaystation5
+[INFO] 08:48:56:176 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:56:176 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:56:176 LOGGER CPU/(53787:54069): PID: 1 - ejecutando MOV_OUT - 96 RBX
+[INFO] 08:48:57:177 LOGGER CPU/(53787:54069): MOV_OUT exitoso
+[INFO] 08:48:57:177 LOGGER CPU/(53787:54069): PID: 1 - Acción: ESCRIBIR - Segmento: 0 - Direccion Fisica: 96 - Valor: SonyPlaystation5
+[INFO] 08:48:57:177 LOGGER CPU/(53787:54069): Actualización del Program Counter
+[INFO] 08:48:57:177 LOGGER CPU/(53787:54069): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:57:177 LOGGER CPU/(53787:54069): PID: 1 - ejecutando F_OPEN - Consoles
+[INFO] 08:48:57:185 LOGGER CPU/(53787:54242): escuchando al kernel
+[INFO] 08:48:57:188 LOGGER CPU/(53787:54242): recibi pcb
+[INFO] 08:48:57:188 LOGGER CPU/(53787:54242): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:48:57:190 LOGGER CPU/(53787:54242): PID: 2 - ejecutando WAIT - RB
+[INFO] 08:48:57:191 LOGGER CPU/(53787:54243): escuchando al kernel
+[INFO] 08:48:57:191 LOGGER CPU/(53787:54243): recibi pcb
+[INFO] 08:48:57:191 LOGGER CPU/(53787:54243): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:48:57:191 LOGGER CPU/(53787:54243): PID: 1 - ejecutando F_TRUNCATE - Consoles 256
+[INFO] 08:49:42:196 LOGGER CPU/(53787:54375): escuchando al kernel
+[INFO] 08:49:42:204 LOGGER CPU/(53787:54375): recibi pcb
+[INFO] 08:49:42:204 LOGGER CPU/(53787:54375): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:49:42:206 LOGGER CPU/(53787:54375): PID: 1 - ejecutando F_SEEK - Consoles 128
+[INFO] 08:49:42:209 LOGGER CPU/(53787:54376): escuchando al kernel
+[INFO] 08:49:42:210 LOGGER CPU/(53787:54376): recibi pcb
+[INFO] 08:49:42:211 LOGGER CPU/(53787:54376): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:49:42:211 LOGGER CPU/(53787:54376): PID: 1 - ejecutando SIGNAL - RB
+[INFO] 08:49:42:215 LOGGER CPU/(53787:54377): escuchando al kernel
+[INFO] 08:49:42:216 LOGGER CPU/(53787:54377): recibi pcb
+[INFO] 08:49:42:216 LOGGER CPU/(53787:54377): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:49:42:216 LOGGER CPU/(53787:54377): PID: 1 - ejecutando F_WRITE - Consoles 32 80
+[INFO] 08:49:42:222 LOGGER CPU/(53787:54378): escuchando al kernel
+[INFO] 08:49:42:222 LOGGER CPU/(53787:54378): recibi pcb
+[INFO] 08:49:42:222 LOGGER CPU/(53787:54378): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:223 LOGGER CPU/(53787:54378): PID: 2 - ejecutando CREATE_SEGMENT - 1 64
+[INFO] 08:49:42:227 LOGGER CPU/(53787:54379): escuchando al kernel
+[INFO] 08:49:42:228 LOGGER CPU/(53787:54379): recibi pcb
+[INFO] 08:49:42:228 LOGGER CPU/(53787:54379): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:229 LOGGER CPU/(53787:54379): PID: 2 - ejecutando CREATE_SEGMENT - 2 64
+[INFO] 08:49:42:230 LOGGER CPU/(53787:54380): escuchando al kernel
+[INFO] 08:49:42:230 LOGGER CPU/(53787:54380): recibi pcb
+[INFO] 08:49:42:230 LOGGER CPU/(53787:54380): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:230 LOGGER CPU/(53787:54380): PID: 2 - ejecutando CREATE_SEGMENT - 3 64
+[INFO] 08:49:42:236 LOGGER CPU/(53787:54381): escuchando al kernel
+[INFO] 08:49:42:236 LOGGER CPU/(53787:54381): recibi pcb
+[INFO] 08:49:42:236 LOGGER CPU/(53787:54381): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:241 LOGGER CPU/(53787:54381): PID: 2 - ejecutando CREATE_SEGMENT - 4 64
+[INFO] 08:49:42:242 LOGGER CPU/(53787:54382): escuchando al kernel
+[INFO] 08:49:42:242 LOGGER CPU/(53787:54382): recibi pcb
+[INFO] 08:49:42:244 LOGGER CPU/(53787:54382): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:245 LOGGER CPU/(53787:54382): PID: 2 - ejecutando CREATE_SEGMENT - 5 128
+[INFO] 08:49:42:248 LOGGER CPU/(53787:54383): escuchando al kernel
+[INFO] 08:49:42:249 LOGGER CPU/(53787:54383): recibi pcb
+[INFO] 08:49:42:249 LOGGER CPU/(53787:54383): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:250 LOGGER CPU/(53787:54383): PID: 2 - ejecutando DELETE_SEGMENT - 2
+[INFO] 08:49:42:259 LOGGER CPU/(53787:54384): escuchando al kernel
+[INFO] 08:49:42:261 LOGGER CPU/(53787:54384): recibi pcb
+[INFO] 08:49:42:262 LOGGER CPU/(53787:54384): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:262 LOGGER CPU/(53787:54384): PID: 2 - ejecutando DELETE_SEGMENT - 4
+[INFO] 08:49:42:266 LOGGER CPU/(53787:54385): escuchando al kernel
+[INFO] 08:49:42:267 LOGGER CPU/(53787:54385): recibi pcb
+[INFO] 08:49:42:267 LOGGER CPU/(53787:54385): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:49:42:267 LOGGER CPU/(53787:54385): PID: 2 - ejecutando CREATE_SEGMENT - 6 128
+[INFO] 08:50:58:231 LOGGER CPU/(53787:54552): escuchando al kernel
+[INFO] 08:50:58:232 LOGGER CPU/(53787:54552): recibi pcb
+[INFO] 08:50:58:232 LOGGER CPU/(53787:54552): comenzando ciclo de instruccion para el proceso PID: 2
+[INFO] 08:50:58:232 LOGGER CPU/(53787:54552): PID: 2 - ejecutando EXIT
+[INFO] 08:50:58:236 LOGGER CPU/(53787:54553): escuchando al kernel
+[INFO] 08:50:58:236 LOGGER CPU/(53787:54553): recibi pcb
+[INFO] 08:50:58:236 LOGGER CPU/(53787:54553): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:50:58:236 LOGGER CPU/(53787:54553): PID: 1 - ejecutando F_CLOSE - Consoles
+[INFO] 08:50:58:237 LOGGER CPU/(53787:54554): escuchando al kernel
+[INFO] 08:50:58:237 LOGGER CPU/(53787:54554): recibi pcb
+[INFO] 08:50:58:237 LOGGER CPU/(53787:54554): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:50:58:237 LOGGER CPU/(53787:54554): PID: 1 - ejecutando F_OPEN - Videogames
+[INFO] 08:50:58:241 LOGGER CPU/(53787:54555): escuchando al kernel
+[INFO] 08:50:58:241 LOGGER CPU/(53787:54555): recibi pcb
+[INFO] 08:50:58:241 LOGGER CPU/(53787:54555): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:50:58:241 LOGGER CPU/(53787:54555): PID: 1 - ejecutando F_TRUNCATE - Videogames 64
+[INFO] 08:50:58:244 LOGGER CPU/(53787:54556): escuchando al kernel
+[INFO] 08:50:58:244 LOGGER CPU/(53787:54556): recibi pcb
+[INFO] 08:50:58:245 LOGGER CPU/(53787:54556): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:50:58:245 LOGGER CPU/(53787:54556): PID: 1 - ejecutando F_SEEK - Videogames 0
+[INFO] 08:50:58:246 LOGGER CPU/(53787:54557): escuchando al kernel
+[INFO] 08:50:58:246 LOGGER CPU/(53787:54557): recibi pcb
+[INFO] 08:50:58:246 LOGGER CPU/(53787:54557): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:50:58:246 LOGGER CPU/(53787:54557): PID: 1 - ejecutando F_WRITE - Videogames 0 16
+[INFO] 08:51:29:249 LOGGER CPU/(53787:54677): escuchando al kernel
+[INFO] 08:51:29:257 LOGGER CPU/(53787:54677): recibi pcb
+[INFO] 08:51:29:259 LOGGER CPU/(53787:54677): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:51:29:259 LOGGER CPU/(53787:54677): PID: 1 - ejecutando F_CLOSE - Videogames
+[INFO] 08:51:29:265 LOGGER CPU/(53787:54678): escuchando al kernel
+[INFO] 08:51:29:266 LOGGER CPU/(53787:54678): recibi pcb
+[INFO] 08:51:29:266 LOGGER CPU/(53787:54678): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:51:29:266 LOGGER CPU/(53787:54678): PID: 1 - ejecutando EXIT
+[INFO] 08:55:06:798 LOGGER CPU/(55570:55570): conecte con memoria
+[DEBUG] 08:55:06:807 LOGGER CPU/(55570:55570): Escuchando kernel
+[INFO] 08:56:28:142 LOGGER CPU/(55570:55982): escuchando al kernel
+[INFO] 08:56:28:146 LOGGER CPU/(55570:55982): recibi pcb
+[INFO] 08:56:28:147 LOGGER CPU/(55570:55982): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:56:28:149 LOGGER CPU/(55570:55982): PID: 1 - ejecutando F_OPEN - Videogames
+[INFO] 08:56:28:155 LOGGER CPU/(55570:55983): escuchando al kernel
+[INFO] 08:56:28:155 LOGGER CPU/(55570:55983): recibi pcb
+[INFO] 08:56:28:155 LOGGER CPU/(55570:55983): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:56:28:155 LOGGER CPU/(55570:55983): PID: 1 - ejecutando F_SEEK - Videogames 0
+[INFO] 08:56:28:169 LOGGER CPU/(55570:55984): escuchando al kernel
+[INFO] 08:56:28:170 LOGGER CPU/(55570:55984): recibi pcb
+[INFO] 08:56:28:172 LOGGER CPU/(55570:55984): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:56:28:174 LOGGER CPU/(55570:55984): PID: 1 - ejecutando F_READ -Videogames - 16 16
+[INFO] 08:56:59:185 LOGGER CPU/(55570:56110): escuchando al kernel
+[INFO] 08:56:59:185 LOGGER CPU/(55570:56110): recibi pcb
+[INFO] 08:56:59:185 LOGGER CPU/(55570:56110): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:56:59:185 LOGGER CPU/(55570:56110): PID: 1 - ejecutando MOV_IN - RAX 16
+[INFO] 08:57:00:186 LOGGER CPU/(55570:56110): PID: 1 - Acción: LEER - Segmento: 12320792 - Direccion Fisica: 16 - Valor: SonicTheHedgehog
+[INFO] 08:57:00:186 LOGGER CPU/(55570:56110): Actualización del Program Counter
+[INFO] 08:57:00:186 LOGGER CPU/(55570:56110): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:57:00:186 LOGGER CPU/(55570:56110): PID: 1 - ejecutando F_CLOSE - Videogames
+[INFO] 08:57:00:195 LOGGER CPU/(55570:56122): escuchando al kernel
+[INFO] 08:57:00:198 LOGGER CPU/(55570:56122): recibi pcb
+[INFO] 08:57:00:199 LOGGER CPU/(55570:56122): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 08:57:00:199 LOGGER CPU/(55570:56122): PID: 1 - ejecutando EXIT

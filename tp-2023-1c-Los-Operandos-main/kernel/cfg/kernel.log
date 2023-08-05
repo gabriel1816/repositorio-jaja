@@ -8659,3 +8659,149 @@
 [INFO] 08:38:46:546 kernel_logger/(52828:52830): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
 [INFO] 08:38:46:555 kernel_logger/(52828:52830): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
 [INFO] 08:38:46:555 kernel_logger/(52828:52830): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 08:47:06:515 kernel_logger/(53831:53831): No es null el archivo de config
+[INFO] 08:47:06:517 kernel_logger/(53831:53831): conecte con memoria
+[INFO] 08:47:06:518 kernel_logger/(53831:53831): conecte con filesystem
+[INFO] 08:48:45:144 kernel_logger/(53831:54067): escuchando a consola
+[INFO] 08:48:45:144 kernel_logger/(53831:54067): Se crea el proceso 1 en NEW
+[INFO] 08:48:45:144 kernel_logger/(53831:54067): Se crea proceso 1 en NEW
+[INFO] 08:48:45:145 kernel_logger/(53831:53832): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 08:48:45:145 kernel_logger/(53831:53832): Cola Ready FIFO: [ 1 ]
+[INFO] 08:48:45:145 kernel_logger/(53831:53832): ingreso proceso a listos
+[INFO] 08:48:45:145 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:48:45:145 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:48:45:151 kernel_logger/(53831:53833): PID: 1 - WAIT: RA - Instancias: 0
+[INFO] 08:48:45:151 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:48:46:001 kernel_logger/(53831:54071): escuchando a consola
+[INFO] 08:48:46:006 kernel_logger/(53831:54071): Se crea el proceso 2 en NEW
+[INFO] 08:48:46:008 kernel_logger/(53831:54071): Se crea proceso 2 en NEW
+[INFO] 08:48:46:008 kernel_logger/(53831:53832): PID: 2 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 08:48:46:009 kernel_logger/(53831:53832): Cola Ready FIFO: [ 2 ]
+[INFO] 08:48:46:009 kernel_logger/(53831:53832): ingreso proceso a listos
+[INFO] 08:48:57:177 kernel_logger/(53831:53833): PID: 1 - Abrir Archivo: Consoles
+[INFO] 08:48:57:177 kernel_logger/(53831:53833): PID: 1 - Crear Archivo: Consoles
+[INFO] 08:48:57:178 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:48:57:178 kernel_logger/(53831:53833): Cola Ready FIFO: [ 2 1 ]
+[INFO] 08:48:57:178 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:48:57:178 kernel_logger/(53831:53833): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:48:57:190 kernel_logger/(53831:53833): PID: 2 - WAIT: RB - Instancias: -1
+[INFO] 08:48:57:190 kernel_logger/(53831:53833): PID: 2 - Bloqueado por: RB
+[INFO] 08:48:57:190 kernel_logger/(53831:53833): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:48:57:190 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:48:57:191 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:48:57:191 kernel_logger/(53831:53833): PID: 1 - Archivo: Consoles - Tamaño: 256 
+[INFO] 08:48:57:191 kernel_logger/(53831:53833): PID: 1 - Bloqueado por: Consoles
+[INFO] 08:48:57:191 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:49:42:193 kernel_logger/(53831:53834): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:49:42:194 kernel_logger/(53831:53834): Cola Ready FIFO: [ 1 ]
+[INFO] 08:49:42:194 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:49:42:194 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:49:42:206 kernel_logger/(53831:53833): PID: 1- Actualizar puntero Archivo: Consoles - Puntero: 128
+[INFO] 08:49:42:206 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:49:42:206 kernel_logger/(53831:53833): Cola Ready FIFO: [ 1 ]
+[INFO] 08:49:42:206 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:49:42:206 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:49:42:211 kernel_logger/(53831:53833): PID: 2 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:49:42:212 kernel_logger/(53831:53833): Cola Ready FIFO: [ 2 ]
+[INFO] 08:49:42:212 kernel_logger/(53831:53833): PID: 1- Signal: RB- Instancias: 0
+[INFO] 08:49:42:212 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:49:42:218 kernel_logger/(53831:53833): PID: 1 - Bloqueado por: Consoles
+[INFO] 08:49:42:218 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:49:42:218 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:49:42:218 kernel_logger/(53831:53833): PID: 2 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:49:42:223 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 1 - Tamaño: 64
+[INFO] 08:49:42:223 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:229 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 2 - Tamaño: 64
+[INFO] 08:49:42:229 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:231 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 3 - Tamaño: 64
+[INFO] 08:49:42:231 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:241 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 4 - Tamaño: 64
+[INFO] 08:49:42:242 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:245 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 5 - Tamaño: 128
+[INFO] 08:49:42:245 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:250 kernel_logger/(53831:53833): PID: 2 - Eliminar Segmento - Id Segmento: 2
+[INFO] 08:49:42:250 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:263 kernel_logger/(53831:53833): PID: 2 - Eliminar Segmento - Id Segmento: 4
+[INFO] 08:49:42:263 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:49:42:267 kernel_logger/(53831:53833): PID: 2 - Crear Segmento - Id: 6 - Tamaño: 128
+[INFO] 08:49:42:267 kernel_logger/(53831:53833): Compactación: Se solicitó compactación
+[INFO] 08:49:42:267 kernel_logger/(53831:53833): Esperando fin de Filesystem
+[INFO] 08:50:28:221 kernel_logger/(53831:53834): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:50:28:221 kernel_logger/(53831:53833): Cantidad procesos en sistema 2
+[INFO] 08:50:28:221 kernel_logger/(53831:53834): Cola Ready FIFO: [ 1 ]
+[DEBUG] 08:50:58:222 kernel_logger/(53831:53833): Se finalizó el proceso de compactación
+[INFO] 08:50:58:222 kernel_logger/(53831:53833): El PCB con ID 2 se reenvio a  CPU
+[INFO] 08:50:58:233 kernel_logger/(53831:53833): PID: 2 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 08:50:58:233 kernel_logger/(53831:53833): finaliza el proceso PID: 2 - motivo: SUCCESS
+[INFO] 08:50:58:233 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:50:58:235 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:50:58:236 kernel_logger/(53831:53833): PID: 1 - Cerrar Archivo: Consoles
+[INFO] 08:50:58:236 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:50:58:236 kernel_logger/(53831:53833): Cola Ready FIFO: [ 1 ]
+[INFO] 08:50:58:237 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:50:58:237 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:50:58:237 kernel_logger/(53831:53833): PID: 1 - Abrir Archivo: Videogames
+[INFO] 08:50:58:237 kernel_logger/(53831:53833): PID: 1 - Crear Archivo: Videogames
+[INFO] 08:50:58:238 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:50:58:238 kernel_logger/(53831:53833): Cola Ready FIFO: [ 1 ]
+[INFO] 08:50:58:238 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:50:58:238 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:50:58:241 kernel_logger/(53831:53833): PID: 1 - Archivo: Videogames - Tamaño: 64 
+[INFO] 08:50:58:241 kernel_logger/(53831:53833): PID: 1 - Bloqueado por: Videogames
+[INFO] 08:50:58:241 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:50:58:242 kernel_logger/(53831:53834): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:50:58:242 kernel_logger/(53831:53834): Cola Ready FIFO: [ 1 ]
+[INFO] 08:50:58:242 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:50:58:242 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:50:58:245 kernel_logger/(53831:53833): PID: 1- Actualizar puntero Archivo: Videogames - Puntero: 0
+[INFO] 08:50:58:245 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:50:58:245 kernel_logger/(53831:53833): Cola Ready FIFO: [ 1 ]
+[INFO] 08:50:58:245 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:50:58:245 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:50:58:246 kernel_logger/(53831:53833): PID: 1 - Bloqueado por: Videogames
+[INFO] 08:50:58:246 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:51:29:248 kernel_logger/(53831:53834): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:51:29:248 kernel_logger/(53831:53834): Cola Ready FIFO: [ 1 ]
+[INFO] 08:51:29:248 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:51:29:248 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:51:29:259 kernel_logger/(53831:53833): PID: 1 - Cerrar Archivo: Videogames
+[INFO] 08:51:29:259 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:51:29:260 kernel_logger/(53831:53833): Cola Ready FIFO: [ 1 ]
+[INFO] 08:51:29:260 kernel_logger/(53831:53833): conecte con cpu
+[INFO] 08:51:29:260 kernel_logger/(53831:53833): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:51:29:266 kernel_logger/(53831:53833): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 08:51:29:267 kernel_logger/(53831:53833): finaliza el proceso PID: 1 - motivo: SUCCESS
+[INFO] 08:56:20:344 kernel_logger/(55909:55909): No es null el archivo de config
+[INFO] 08:56:20:346 kernel_logger/(55909:55909): conecte con memoria
+[INFO] 08:56:20:348 kernel_logger/(55909:55909): conecte con filesystem
+[INFO] 08:56:28:126 kernel_logger/(55909:55981): escuchando a consola
+[INFO] 08:56:28:129 kernel_logger/(55909:55981): Se crea el proceso 1 en NEW
+[INFO] 08:56:28:129 kernel_logger/(55909:55981): Se crea proceso 1 en NEW
+[INFO] 08:56:28:129 kernel_logger/(55909:55910): PID: 1 - Estado anterior: NUEVO - Estado actual: LISTO
+[INFO] 08:56:28:129 kernel_logger/(55909:55910): Cola Ready FIFO: [ 1 ]
+[INFO] 08:56:28:129 kernel_logger/(55909:55910): ingreso proceso a listos
+[INFO] 08:56:28:129 kernel_logger/(55909:55911): conecte con cpu
+[INFO] 08:56:28:129 kernel_logger/(55909:55911): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:56:28:152 kernel_logger/(55909:55911): PID: 1 - Abrir Archivo: Videogames
+[INFO] 08:56:28:152 kernel_logger/(55909:55911): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:56:28:152 kernel_logger/(55909:55911): Cola Ready FIFO: [ 1 ]
+[INFO] 08:56:28:153 kernel_logger/(55909:55911): conecte con cpu
+[INFO] 08:56:28:153 kernel_logger/(55909:55911): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:56:28:155 kernel_logger/(55909:55911): PID: 1- Actualizar puntero Archivo: Videogames - Puntero: 0
+[INFO] 08:56:28:155 kernel_logger/(55909:55911): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:56:28:155 kernel_logger/(55909:55911): Cola Ready FIFO: [ 1 ]
+[INFO] 08:56:28:155 kernel_logger/(55909:55911): conecte con cpu
+[INFO] 08:56:28:155 kernel_logger/(55909:55911): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:56:28:177 kernel_logger/(55909:55911): PID: 1 - Bloqueado por: Videogames
+[INFO] 08:56:28:177 kernel_logger/(55909:55911): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: BLOQUEADO
+[INFO] 08:56:59:179 kernel_logger/(55909:55912): PID: 1 - Estado anterior: BLOQUEADO - Estado actual: LISTO
+[INFO] 08:56:59:179 kernel_logger/(55909:55912): Cola Ready FIFO: [ 1 ]
+[INFO] 08:56:59:179 kernel_logger/(55909:55911): conecte con cpu
+[INFO] 08:56:59:179 kernel_logger/(55909:55911): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:57:00:186 kernel_logger/(55909:55911): PID: 1 - Cerrar Archivo: Videogames
+[INFO] 08:57:00:186 kernel_logger/(55909:55911): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: LISTO
+[INFO] 08:57:00:186 kernel_logger/(55909:55911): Cola Ready FIFO: [ 1 ]
+[INFO] 08:57:00:186 kernel_logger/(55909:55911): conecte con cpu
+[INFO] 08:57:00:187 kernel_logger/(55909:55911): PID: 1 - Estado anterior: LISTO - Estado actual: EJECUTANDO
+[INFO] 08:57:00:199 kernel_logger/(55909:55911): PID: 1 - Estado anterior: EJECUTANDO - Estado actual: TERMINANDO
+[INFO] 08:57:00:199 kernel_logger/(55909:55911): finaliza el proceso PID: 1 - motivo: SUCCESS

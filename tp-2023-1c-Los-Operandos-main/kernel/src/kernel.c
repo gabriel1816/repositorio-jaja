@@ -65,7 +65,6 @@ int main(void) {
 	filesystem_socket = crear_conexion(kernel_config.filesystemIP,kernel_config.filesystemPort);
 	log_info(logger, "conecte con filesystem");
 
-	// escucho consola y recibo las instruccioneS 
 	pthread_t hilo_de_escucha_consola;
 	while(1){
 		int socket_consola = esperar_cliente(server_socket);

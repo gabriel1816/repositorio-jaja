@@ -64,7 +64,7 @@ void atender_cpu(void* conexion)
                 respuesta_memoria = crear_instruccion(MOV_IN, parametros_respuesta);
                 buffer = crear_buffer_para_t_instruccion(respuesta_memoria);
                 respuesta = crear_paquete(buffer, CODIGO_INSTRUCCION_MEMORIA);
-                log_info(logger, "PID: %u - Acción: LEER - Dirección física: %d - Tamaño: %u - Origen: CPU", pid, direccion_fisica, tamanio_registro);
+                log_info(logger, "PID: %d - Acción: LEER - Dirección física: %d - Tamaño: %u - Origen: CPU", pid, direccion_fisica, tamanio_registro);
             break;
 
             case MOV_OUT:
@@ -74,7 +74,7 @@ void atender_cpu(void* conexion)
                 respuesta_memoria = crear_instruccion(MOV_OUT, parametros_respuesta);
                 buffer = crear_buffer_para_t_instruccion(parametros_respuesta);
                 respuesta = crear_paquete(buffer, MOV_OUT);
-                log_info(logger, "PID: %u - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: CPU", pid, direccion_fisica, tamanio_registro);
+                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: CPU", pid, direccion_fisica, tamanio_registro);
                 strcpy(valor_registro, "");
             break;
 

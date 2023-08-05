@@ -52,6 +52,7 @@ void leer(t_instruccion* instruccion, t_pcb* pcb) {
     t_pcb* pcbcito = crear_pcb(pcb->conexion, parametros, EJECUTANDO, pcb->estimado_rafaga);
     pcbcito->p_counter++;
     pcbcito->direccion_fisica = pcb->direccion_fisica;
+    pcbcito->pid = pcb->pid;
     enviar_pcb(pcbcito, filesystem_socket, logger);
     char* respuesta[20];
     recv(filesystem_socket, respuesta, sizeof(respuesta), 0);
@@ -72,6 +73,7 @@ void escribir(t_instruccion* instruccion, t_pcb* pcb) {
     t_pcb* pcbcito = crear_pcb(pcb->conexion, parametros, EJECUTANDO, pcb->estimado_rafaga);
     pcbcito->p_counter++;
     pcbcito->direccion_fisica = pcb->direccion_fisica;
+    pcbcito->pid = pcb->pid;
     enviar_pcb(pcbcito, filesystem_socket, logger);
     char* respuesta[20];
     recv(filesystem_socket, respuesta, sizeof(respuesta), 0);

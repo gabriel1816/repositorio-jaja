@@ -28,8 +28,7 @@ void atender_kernel(void* socket_kernel)
 
 		break;
 		case F_READ: 
-			log_info(logger , "Leer Archivo: %s - Puntero: %s - Memoria: %d - Tamaño: %s", instruccion->parametros[0], instruccion->parametros[1], pcb->direccion_fisica, instruccion->parametros[2]);
-			leer_archivo(instruccion->parametros[0], atoi(instruccion->parametros[1]), atoi(instruccion->parametros[2]), pcb->direccion_fisica, pcb->pid);
+			log_info(logger , "Leer Archivo: %s - Puntero: %s - Memoria: %d - Tamaño: %s", instruccion->parametros[0], instruccion->parametros[1], pcb->direccion_fisica, instruccion->parametros[2]);			leer_archivo(instruccion->parametros[0], atoi(instruccion->parametros[1]), atoi(instruccion->parametros[2]), pcb->direccion_fisica, pcb->pid);
     		send(conexion_kernel, "SI", strlen("SI"), 0);
 		break;
 		case F_WRITE: 			

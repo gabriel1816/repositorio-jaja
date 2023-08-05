@@ -14091,3 +14091,26 @@
 [INFO] 08:56:59:185 LOGGER MEMORIA/(55523:55571): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 16 - Origen: CPU
 [INFO] 08:57:00:199 LOGGER MEMORIA/(55523:55913): Eliminacion de Proceso PID: 1
 [INFO] 09:04:05:707 LOGGER MEMORIA/(55523:55858): Mensaje no reconocido
+[INFO] 09:41:08:746 LOGGER MEMORIA/(58162:58279): Escuchando a CPU
+[INFO] 09:41:24:833 LOGGER MEMORIA/(58162:58359): escuchando a filesystem
+[INFO] 09:42:09:963 LOGGER MEMORIA/(58162:58453): escuchando a kernel
+[INFO] 09:43:09:975 LOGGER MEMORIA/(58162:58453): Creacion de Proceso PID: 1
+[INFO] 09:43:40:020 LOGGER MEMORIA/(58162:58359): PID: 2 - Acción: ESCRIBIR - Dirección física: 16 - Tamaño: 16 - Origen: FS
+[INFO] 09:43:41:024 LOGGER MEMORIA/(58162:58279): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 16 - Origen: CPU
+[INFO] 09:43:42:044 LOGGER MEMORIA/(58162:58453): Eliminacion de Proceso PID: 1
+[INFO] 09:51:32:995 LOGGER MEMORIA/(59402:59421): Escuchando a CPU
+[INFO] 09:51:41:223 LOGGER MEMORIA/(59402:59494): escuchando a filesystem
+[INFO] 09:51:49:892 LOGGER MEMORIA/(59402:59544): escuchando a kernel
+[INFO] 09:52:01:946 LOGGER MEMORIA/(59402:59544): Creacion de Proceso PID: 1
+[INFO] 09:52:31:972 LOGGER MEMORIA/(59402:59494): PID: 2 - Acción: ESCRIBIR - Dirección física: 16 - Tamaño: 16 - Origen: FS
+[INFO] 09:52:32:980 LOGGER MEMORIA/(59402:59421): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 16 - Origen: CPU
+[INFO] 09:52:33:990 LOGGER MEMORIA/(59402:59544): Eliminacion de Proceso PID: 1
+[INFO] 09:54:46:259 LOGGER MEMORIA/(59402:59494): Mensaje no reconocido
+[INFO] 09:56:32:730 LOGGER MEMORIA/(60211:60229): Escuchando a CPU
+[INFO] 09:56:38:668 LOGGER MEMORIA/(60211:60271): escuchando a filesystem
+[INFO] 09:56:44:972 LOGGER MEMORIA/(60211:60345): escuchando a kernel
+[INFO] 09:56:49:135 LOGGER MEMORIA/(60211:60345): Creacion de Proceso PID: 1
+[INFO] 09:57:19:169 LOGGER MEMORIA/(60211:60271): PID: 1 - Acción: ESCRIBIR - Dirección física: 16 - Tamaño: 16 - Origen: FS
+[INFO] 09:57:20:175 LOGGER MEMORIA/(60211:60229): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 16 - Origen: CPU
+[INFO] 09:57:21:200 LOGGER MEMORIA/(60211:60345): Eliminacion de Proceso PID: 1
+[INFO] 09:57:34:777 LOGGER MEMORIA/(60211:60229): Mensaje no reconocido

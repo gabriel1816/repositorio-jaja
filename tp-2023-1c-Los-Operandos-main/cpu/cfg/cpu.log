@@ -1651,3 +1651,84 @@
 [INFO] 08:57:00:198 LOGGER CPU/(55570:56122): recibi pcb
 [INFO] 08:57:00:199 LOGGER CPU/(55570:56122): comenzando ciclo de instruccion para el proceso PID: 1
 [INFO] 08:57:00:199 LOGGER CPU/(55570:56122): PID: 1 - ejecutando EXIT
+[INFO] 09:41:08:711 LOGGER CPU/(58278:58278): conecte con memoria
+[DEBUG] 09:41:08:741 LOGGER CPU/(58278:58278): Escuchando kernel
+[INFO] 09:43:09:985 LOGGER CPU/(58278:58652): escuchando al kernel
+[INFO] 09:43:10:003 LOGGER CPU/(58278:58652): recibi pcb
+[INFO] 09:43:10:003 LOGGER CPU/(58278:58652): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:10:003 LOGGER CPU/(58278:58652): PID: 1 - ejecutando F_OPEN - Videogames
+[INFO] 09:43:10:010 LOGGER CPU/(58278:58653): escuchando al kernel
+[INFO] 09:43:10:012 LOGGER CPU/(58278:58653): recibi pcb
+[INFO] 09:43:10:012 LOGGER CPU/(58278:58653): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:10:012 LOGGER CPU/(58278:58653): PID: 1 - ejecutando F_SEEK - Videogames 0
+[INFO] 09:43:10:017 LOGGER CPU/(58278:58654): escuchando al kernel
+[INFO] 09:43:10:018 LOGGER CPU/(58278:58654): recibi pcb
+[INFO] 09:43:10:018 LOGGER CPU/(58278:58654): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:10:018 LOGGER CPU/(58278:58654): PID: 1 - ejecutando F_READ -Videogames - 16 16
+[INFO] 09:43:41:024 LOGGER CPU/(58278:58826): escuchando al kernel
+[INFO] 09:43:41:024 LOGGER CPU/(58278:58826): recibi pcb
+[INFO] 09:43:41:024 LOGGER CPU/(58278:58826): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:41:024 LOGGER CPU/(58278:58826): PID: 1 - ejecutando MOV_IN - RAX 16
+[INFO] 09:43:42:025 LOGGER CPU/(58278:58826): PID: 1 - Acción: LEER - Segmento: 2097174 - Direccion Fisica: 16 - Valor: SonicTheHedgehog
+[INFO] 09:43:42:025 LOGGER CPU/(58278:58826): Actualización del Program Counter
+[INFO] 09:43:42:025 LOGGER CPU/(58278:58826): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:42:025 LOGGER CPU/(58278:58826): PID: 1 - ejecutando F_CLOSE - Videogames
+[INFO] 09:43:42:039 LOGGER CPU/(58278:58838): escuchando al kernel
+[INFO] 09:43:42:042 LOGGER CPU/(58278:58838): recibi pcb
+[INFO] 09:43:42:042 LOGGER CPU/(58278:58838): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:43:42:043 LOGGER CPU/(58278:58838): PID: 1 - ejecutando EXIT
+[INFO] 09:50:15:481 LOGGER CPU/(59233:59233): conecte con memoria
+[INFO] 09:50:51:143 LOGGER CPU/(59314:59314): conecte con memoria
+[INFO] 09:51:32:988 LOGGER CPU/(59419:59419): conecte con memoria
+[DEBUG] 09:51:32:991 LOGGER CPU/(59419:59419): Escuchando kernel
+[INFO] 09:52:01:954 LOGGER CPU/(59419:59620): escuchando al kernel
+[INFO] 09:52:01:956 LOGGER CPU/(59419:59620): recibi pcb
+[INFO] 09:52:01:956 LOGGER CPU/(59419:59620): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:01:956 LOGGER CPU/(59419:59620): PID: 1 - ejecutando F_OPEN - Videogames
+[INFO] 09:52:01:961 LOGGER CPU/(59419:59621): escuchando al kernel
+[INFO] 09:52:01:961 LOGGER CPU/(59419:59621): recibi pcb
+[INFO] 09:52:01:962 LOGGER CPU/(59419:59621): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:01:962 LOGGER CPU/(59419:59621): PID: 1 - ejecutando F_SEEK - Videogames 0
+[INFO] 09:52:01:964 LOGGER CPU/(59419:59622): escuchando al kernel
+[INFO] 09:52:01:965 LOGGER CPU/(59419:59622): recibi pcb
+[INFO] 09:52:01:965 LOGGER CPU/(59419:59622): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:01:971 LOGGER CPU/(59419:59622): PID: 1 - ejecutando F_READ -Videogames - 16 16
+[INFO] 09:52:32:979 LOGGER CPU/(59419:59758): escuchando al kernel
+[INFO] 09:52:32:980 LOGGER CPU/(59419:59758): recibi pcb
+[INFO] 09:52:32:980 LOGGER CPU/(59419:59758): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:32:980 LOGGER CPU/(59419:59758): PID: 1 - ejecutando MOV_IN - RAX 16
+[INFO] 09:52:33:980 LOGGER CPU/(59419:59758): PID: 1 - Acción: LEER - Segmento: 12845080 - Direccion Fisica: 16 - Valor: SonicTheHedgehog
+[INFO] 09:52:33:980 LOGGER CPU/(59419:59758): Actualización del Program Counter
+[INFO] 09:52:33:980 LOGGER CPU/(59419:59758): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:33:980 LOGGER CPU/(59419:59758): PID: 1 - ejecutando F_CLOSE - Videogames
+[INFO] 09:52:33:983 LOGGER CPU/(59419:59770): escuchando al kernel
+[INFO] 09:52:33:989 LOGGER CPU/(59419:59770): recibi pcb
+[INFO] 09:52:33:990 LOGGER CPU/(59419:59770): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:52:33:990 LOGGER CPU/(59419:59770): PID: 1 - ejecutando EXIT
+[INFO] 09:55:43:269 LOGGER CPU/(60157:60157): conecte con memoria
+[INFO] 09:56:32:722 LOGGER CPU/(60228:60228): conecte con memoria
+[DEBUG] 09:56:32:728 LOGGER CPU/(60228:60228): Escuchando kernel
+[INFO] 09:56:49:154 LOGGER CPU/(60228:60372): escuchando al kernel
+[INFO] 09:56:49:156 LOGGER CPU/(60228:60372): recibi pcb
+[INFO] 09:56:49:156 LOGGER CPU/(60228:60372): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:56:49:157 LOGGER CPU/(60228:60372): PID: 1 - ejecutando F_OPEN - Videogames
+[INFO] 09:56:49:158 LOGGER CPU/(60228:60373): escuchando al kernel
+[INFO] 09:56:49:159 LOGGER CPU/(60228:60373): recibi pcb
+[INFO] 09:56:49:159 LOGGER CPU/(60228:60373): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:56:49:160 LOGGER CPU/(60228:60373): PID: 1 - ejecutando F_SEEK - Videogames 0
+[INFO] 09:56:49:167 LOGGER CPU/(60228:60374): escuchando al kernel
+[INFO] 09:56:49:167 LOGGER CPU/(60228:60374): recibi pcb
+[INFO] 09:56:49:167 LOGGER CPU/(60228:60374): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:56:49:167 LOGGER CPU/(60228:60374): PID: 1 - ejecutando F_READ -Videogames - 16 16
+[INFO] 09:57:20:174 LOGGER CPU/(60228:60525): escuchando al kernel
+[INFO] 09:57:20:174 LOGGER CPU/(60228:60525): recibi pcb
+[INFO] 09:57:20:174 LOGGER CPU/(60228:60525): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:57:20:174 LOGGER CPU/(60228:60525): PID: 1 - ejecutando MOV_IN - RAX 16
+[INFO] 09:57:21:175 LOGGER CPU/(60228:60525): PID: 1 - Acción: LEER - Segmento: 10747928 - Direccion Fisica: 16 - Valor: SonicTheHedgehog
+[INFO] 09:57:21:177 LOGGER CPU/(60228:60525): Actualización del Program Counter
+[INFO] 09:57:21:177 LOGGER CPU/(60228:60525): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:57:21:177 LOGGER CPU/(60228:60525): PID: 1 - ejecutando F_CLOSE - Videogames
+[INFO] 09:57:21:183 LOGGER CPU/(60228:60538): escuchando al kernel
+[INFO] 09:57:21:183 LOGGER CPU/(60228:60538): recibi pcb
+[INFO] 09:57:21:192 LOGGER CPU/(60228:60538): comenzando ciclo de instruccion para el proceso PID: 1
+[INFO] 09:57:21:199 LOGGER CPU/(60228:60538): PID: 1 - ejecutando EXIT

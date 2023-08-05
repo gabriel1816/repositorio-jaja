@@ -105,3 +105,23 @@
 [INFO] 08:56:28:152 LOGGER FILESYSTEM/(55857:55914): Abrir Archivo: Videogames
 [INFO] 08:56:28:177 LOGGER FILESYSTEM/(55857:55914): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
 [INFO] 08:56:28:178 LOGGER FILESYSTEM/(55857:55914): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 
+[INFO] 09:41:24:827 LOGGER FILESYSTEM/(58358:58358): Se levantaron correctamente las estructuras
+[INFO] 09:41:24:829 LOGGER FILESYSTEM/(58358:58358): conecte con memoria
+[INFO] 09:41:24:830 LOGGER FILESYSTEM/(58358:58358): Servidor listo para recibir al cliente
+[INFO] 09:43:10:004 LOGGER FILESYSTEM/(58358:58452): Abrir Archivo: Videogames
+[INFO] 09:43:10:019 LOGGER FILESYSTEM/(58358:58452): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 09:43:10:019 LOGGER FILESYSTEM/(58358:58452): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 
+[INFO] 09:51:41:219 LOGGER FILESYSTEM/(59493:59493): Se levantaron correctamente las estructuras
+[INFO] 09:51:41:220 LOGGER FILESYSTEM/(59493:59493): conecte con memoria
+[INFO] 09:51:41:221 LOGGER FILESYSTEM/(59493:59493): Servidor listo para recibir al cliente
+[INFO] 09:52:01:956 LOGGER FILESYSTEM/(59493:59545): Abrir Archivo: Videogames
+[INFO] 09:52:01:971 LOGGER FILESYSTEM/(59493:59545): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 09:52:01:971 LOGGER FILESYSTEM/(59493:59545): --------------------------------2
+[INFO] 09:52:01:972 LOGGER FILESYSTEM/(59493:59545): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 
+[INFO] 09:56:38:663 LOGGER FILESYSTEM/(60270:60270): Se levantaron correctamente las estructuras
+[INFO] 09:56:38:664 LOGGER FILESYSTEM/(60270:60270): conecte con memoria
+[INFO] 09:56:38:666 LOGGER FILESYSTEM/(60270:60270): Servidor listo para recibir al cliente
+[INFO] 09:56:49:157 LOGGER FILESYSTEM/(60270:60346): Abrir Archivo: Videogames
+[INFO] 09:56:49:167 LOGGER FILESYSTEM/(60270:60346): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 09:56:49:168 LOGGER FILESYSTEM/(60270:60346): --------------------------------1
+[INFO] 09:56:49:168 LOGGER FILESYSTEM/(60270:60346): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 5 

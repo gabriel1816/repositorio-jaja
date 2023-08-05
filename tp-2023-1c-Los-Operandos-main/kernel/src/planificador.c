@@ -13,17 +13,7 @@ void agregar_a_listos(t_pcb* pcb)
     pcb->tiempo_llegada = temporal_create();
     pthread_mutex_unlock(&mutex_cola_listos);
     agregar_a_cola_procesos(pcb);
-   /* char pid[20];
-    strcpy(pid, "");
-    for(int i=0; i < list_size(cola_procesos); i++){
-        t_pcb* pcb_aux = list_get(cola_procesos, i);
-        strcat(pid, string_itoa(pcb_aux->pid));
-        if(i =! list_size(cola_procesos)){
-            strcat(pid, ", ");
-        }
-        
-    }
-    log_info(logger, "Cola ready %s [%s]", kernel_config.schedulerAlgorithm, pid);*/
+    loggear_cola_listos();
     sem_post(&sem_ready);
 
 }
@@ -163,4 +153,16 @@ void agregar_pcb_en_cola_bloqueados_FileSystem(t_pcb* proceso)
     agregar_a_cola_procesos(proceso);
     pthread_mutex_unlock(&procesosBloqueadosFileSystemMutex);
     sem_post(&sem_bloqueados_fs);
+}
+
+void loggear_cola_listos()
+{
+    char * stringLog = string_new();
+    for(int i = 0; i < list_size(cola_ready); i++){
+        t_pcb* pcbReady = list_get(cola_ready, i);
+        char* pid = string_itoa(pcbReady->pid);
+        string_append(&stringLog, pid);
+        string_append(&stringLog, " ");
+    }
+    log_info(logger, "Cola Ready %s: [ %s]", kernel_config.schedulerAlgorithm, stringLog);
 }

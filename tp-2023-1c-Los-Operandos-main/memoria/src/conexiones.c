@@ -162,9 +162,10 @@ void atender_fs(void* conexion)
     
         switch (fs_pedido->instruccion->identificador) {
             case F_READ: 
-                char* archivo = malloc(sizeof(fs_pedido->instruccion->parametros[0])); 
-                archivo = fs_pedido->instruccion->parametros[0];       
-                lectura = sizeof(char)*strlen(archivo);
+                char* archivo = malloc(strlen(fs_pedido->instruccion->parametros[0])); 
+                archivo = fs_pedido->instruccion->parametros[0]; 
+    
+                lectura = strlen(archivo);
                 memcpy((memoria_fisica+direccion_fisica), archivo, lectura); 
                 instr_respuesta = crear_instruccion(F_READ, parametros);
                 buffer = crear_buffer_para_t_instruccion(instr_respuesta);

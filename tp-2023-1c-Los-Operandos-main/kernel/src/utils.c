@@ -30,6 +30,7 @@ void iniciar_colas(){
 	cola_bloqueados_archivos = list_create();
 	cola_bloqueados_fs = list_create();
 	tabla_global_archivos = list_create();
+	cola_bloqueados_IO = list_create();
 }
 
 

@@ -10,6 +10,7 @@ t_list *cola_ready;
 t_list *cola_running;
 t_list *cola_blocked;
 t_list *cola_exit;
+t_list* cola_bloqueados_IO;
 
 int server_socket;
 int cpu_socket;

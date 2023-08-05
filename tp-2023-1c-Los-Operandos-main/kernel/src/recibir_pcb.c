@@ -3,7 +3,7 @@
 #include "kernel.h"
 
 pthread_t hilo_IO;
-t_list* cola_bloqueados_IO;
+
 
 void recibir_pcb_de_cpu(int cpu_socket)
 {

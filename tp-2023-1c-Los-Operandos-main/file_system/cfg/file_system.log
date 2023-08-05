@@ -1,0 +1,80 @@
+[INFO] 07:10:28:852 LOGGER FILESYSTEM/(39209:39209): Se levantaron correctamente las estructuras
+[INFO] 07:10:28:853 LOGGER FILESYSTEM/(39209:39209): conecte con memoria
+[INFO] 07:10:28:854 LOGGER FILESYSTEM/(39209:39209): Servidor listo para recibir al cliente
+[INFO] 07:13:30:653 LOGGER FILESYSTEM/(40348:40348): Se levantaron correctamente las estructuras
+[INFO] 07:14:12:877 LOGGER FILESYSTEM/(40425:40425): Se levantaron correctamente las estructuras
+[INFO] 07:14:12:879 LOGGER FILESYSTEM/(40425:40425): conecte con memoria
+[INFO] 07:14:12:880 LOGGER FILESYSTEM/(40425:40425): Servidor listo para recibir al cliente
+[INFO] 07:24:55:944 LOGGER FILESYSTEM/(41806:41806): Se levantaron correctamente las estructuras
+[INFO] 07:24:55:946 LOGGER FILESYSTEM/(41806:41806): conecte con memoria
+[INFO] 07:24:55:947 LOGGER FILESYSTEM/(41806:41806): Servidor listo para recibir al cliente
+[INFO] 07:28:08:549 LOGGER FILESYSTEM/(42570:42570): Se levantaron correctamente las estructuras
+[INFO] 07:28:46:532 LOGGER FILESYSTEM/(42641:42641): Se levantaron correctamente las estructuras
+[INFO] 07:28:46:537 LOGGER FILESYSTEM/(42641:42641): conecte con memoria
+[INFO] 07:28:46:537 LOGGER FILESYSTEM/(42641:42641): Servidor listo para recibir al cliente
+[INFO] 07:35:20:232 LOGGER FILESYSTEM/(43424:43424): Se levantaron correctamente las estructuras
+[INFO] 07:35:20:234 LOGGER FILESYSTEM/(43424:43424): conecte con memoria
+[INFO] 07:35:20:235 LOGGER FILESYSTEM/(43424:43424): Servidor listo para recibir al cliente
+[INFO] 07:39:06:136 LOGGER FILESYSTEM/(44356:44356): Se levantaron correctamente las estructuras
+[INFO] 07:39:06:138 LOGGER FILESYSTEM/(44356:44356): conecte con memoria
+[INFO] 07:39:06:139 LOGGER FILESYSTEM/(44356:44356): Servidor listo para recibir al cliente
+[INFO] 07:40:25:432 LOGGER FILESYSTEM/(44554:44554): Se levantaron correctamente las estructuras
+[INFO] 07:40:25:433 LOGGER FILESYSTEM/(44554:44554): conecte con memoria
+[INFO] 07:40:25:435 LOGGER FILESYSTEM/(44554:44554): Servidor listo para recibir al cliente
+[INFO] 07:45:46:551 LOGGER FILESYSTEM/(45461:45461): Se levantaron correctamente las estructuras
+[INFO] 07:45:46:553 LOGGER FILESYSTEM/(45461:45461): conecte con memoria
+[INFO] 07:45:46:554 LOGGER FILESYSTEM/(45461:45461): Servidor listo para recibir al cliente
+[INFO] 07:47:59:183 LOGGER FILESYSTEM/(46198:46198): Se levantaron correctamente las estructuras
+[INFO] 07:48:54:733 LOGGER FILESYSTEM/(46280:46280): Se levantaron correctamente las estructuras
+[INFO] 07:48:54:735 LOGGER FILESYSTEM/(46280:46280): conecte con memoria
+[INFO] 07:48:54:737 LOGGER FILESYSTEM/(46280:46280): Servidor listo para recibir al cliente
+[INFO] 07:54:24:537 LOGGER FILESYSTEM/(47158:47158): Se levantaron correctamente las estructuras
+[INFO] 07:54:24:538 LOGGER FILESYSTEM/(47158:47158): conecte con memoria
+[INFO] 07:54:24:539 LOGGER FILESYSTEM/(47158:47158): Servidor listo para recibir al cliente
+[INFO] 07:55:24:267 LOGGER FILESYSTEM/(47158:47284): Abrir Archivo: Videogames
+[INFO] 07:55:24:278 LOGGER FILESYSTEM/(47158:47284): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 07:55:24:278 LOGGER FILESYSTEM/(47158:47284): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 07:55:54:292 LOGGER FILESYSTEM/(47158:47284): -------------------------------------------SonicTheHedgehog
+[INFO] 07:58:05:063 LOGGER FILESYSTEM/(47893:47893): Se levantaron correctamente las estructuras
+[INFO] 07:58:46:691 LOGGER FILESYSTEM/(47951:47951): Se levantaron correctamente las estructuras
+[INFO] 07:58:46:692 LOGGER FILESYSTEM/(47951:47951): conecte con memoria
+[INFO] 07:58:46:693 LOGGER FILESYSTEM/(47951:47951): Servidor listo para recibir al cliente
+[INFO] 08:02:04:117 LOGGER FILESYSTEM/(47951:48210): Abrir Archivo: Videogames
+[INFO] 08:02:04:176 LOGGER FILESYSTEM/(47951:48210): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:02:04:177 LOGGER FILESYSTEM/(47951:48210): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:11:17:071 LOGGER FILESYSTEM/(49116:49116): Se levantaron correctamente las estructuras
+[INFO] 08:11:17:077 LOGGER FILESYSTEM/(49116:49116): conecte con memoria
+[INFO] 08:11:17:084 LOGGER FILESYSTEM/(49116:49116): Servidor listo para recibir al cliente
+[INFO] 08:11:52:575 LOGGER FILESYSTEM/(49116:49278): Abrir Archivo: Videogames
+[INFO] 08:11:52:576 LOGGER FILESYSTEM/(49116:49278): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:11:52:576 LOGGER FILESYSTEM/(49116:49278): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:15:05:362 LOGGER FILESYSTEM/(49920:49920): Se levantaron correctamente las estructuras
+[INFO] 08:15:36:872 LOGGER FILESYSTEM/(50097:50097): Se levantaron correctamente las estructuras
+[INFO] 08:15:36:873 LOGGER FILESYSTEM/(50097:50097): conecte con memoria
+[INFO] 08:15:36:874 LOGGER FILESYSTEM/(50097:50097): Servidor listo para recibir al cliente
+[INFO] 08:16:03:956 LOGGER FILESYSTEM/(50097:50154): Abrir Archivo: Videogames
+[INFO] 08:16:03:966 LOGGER FILESYSTEM/(50097:50154): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:16:03:966 LOGGER FILESYSTEM/(50097:50154): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:21:43:049 LOGGER FILESYSTEM/(50606:50606): Se levantaron correctamente las estructuras
+[INFO] 08:22:30:193 LOGGER FILESYSTEM/(50738:50738): Se levantaron correctamente las estructuras
+[INFO] 08:22:30:194 LOGGER FILESYSTEM/(50738:50738): conecte con memoria
+[INFO] 08:22:30:195 LOGGER FILESYSTEM/(50738:50738): Servidor listo para recibir al cliente
+[INFO] 08:22:48:706 LOGGER FILESYSTEM/(50738:50837): Abrir Archivo: Videogames
+[INFO] 08:22:48:719 LOGGER FILESYSTEM/(50738:50837): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:22:48:719 LOGGER FILESYSTEM/(50738:50837): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:28:49:494 LOGGER FILESYSTEM/(51350:51350): Se levantaron correctamente las estructuras
+[INFO] 08:28:49:497 LOGGER FILESYSTEM/(51350:51350): conecte con memoria
+[INFO] 08:28:49:497 LOGGER FILESYSTEM/(51350:51350): Servidor listo para recibir al cliente
+[INFO] 08:28:57:456 LOGGER FILESYSTEM/(51350:51402): Abrir Archivo: Videogames
+[INFO] 08:28:57:472 LOGGER FILESYSTEM/(51350:51402): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:28:57:473 LOGGER FILESYSTEM/(51350:51402): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:34:18:624 LOGGER FILESYSTEM/(52118:52118): Se levantaron correctamente las estructuras
+[INFO] 08:34:18:626 LOGGER FILESYSTEM/(52118:52118): conecte con memoria
+[INFO] 08:34:18:627 LOGGER FILESYSTEM/(52118:52118): Servidor listo para recibir al cliente
+[INFO] 08:34:35:523 LOGGER FILESYSTEM/(52118:52170): Abrir Archivo: Videogames
+[INFO] 08:34:35:533 LOGGER FILESYSTEM/(52118:52170): Leer Archivo: Videogames - Puntero: 0 - Memoria: 16 - Tamaño: 16
+[INFO] 08:34:35:533 LOGGER FILESYSTEM/(52118:52170): Acceso Bloque - Archivo: Videogames - Bloque Archivo: 1 - Bloque File System 10 
+[INFO] 08:36:30:101 LOGGER FILESYSTEM/(52668:52668): Se levantaron correctamente las estructuras
+[INFO] 08:37:09:914 LOGGER FILESYSTEM/(52732:52732): Se levantaron correctamente las estructuras
+[INFO] 08:37:09:915 LOGGER FILESYSTEM/(52732:52732): conecte con memoria
+[INFO] 08:37:09:916 LOGGER FILESYSTEM/(52732:52732): Servidor listo para recibir al cliente

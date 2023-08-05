@@ -66,6 +66,7 @@ extern t_list *cola_new;
 extern t_list *cola_ready;
 extern t_list *cola_running;
 extern t_list *cola_blocked;
+extern t_list* cola_bloqueados_IO;
 
 extern int server_socket;
 extern int cpu_socket;
@@ -108,6 +109,7 @@ void atender_fs(void* conexion);
 void iniciar_colas();
 void iniciar_semaforos();
 void iniciar_recursos();
+void loggear_cola_listos();
 
 //**************    MEMORIA    **************//
 

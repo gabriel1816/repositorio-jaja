@@ -27,7 +27,7 @@ extern t_list* lista_huecos;
 extern t_algoritmo algoritmo;
 
 extern char*  puerto;
-extern int tamanio_memoria;
+extern uint32_t tamanio_memoria;
 extern int tamanio_segmento_0;
 extern int cantidad_segmentos;
 extern int retardo_memoria;

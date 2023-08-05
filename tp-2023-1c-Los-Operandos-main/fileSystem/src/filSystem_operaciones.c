@@ -156,7 +156,7 @@ void leer_archivo(char *archivo, int puntero_archivo, int bytes_para_leer, int d
             lseek(arch_bloques, (fcb->puntero_directo) * superbloque->tam_bloque + puntero_en_bloque, SEEK_SET);
             log_info(logger, "Acceso Bloque - Archivo: %s - Bloque Archivo: %d - Bloque File System %d ", archivo, bloque_actual, fcb->puntero_directo);
             char* datos_leidos_bloque = malloc(lectura_bloque_actual);
-            ssize_t numBytesLeidos = read(arch_bloques, datos_leidos_bloque, lectura_bloque_actual);
+            read(arch_bloques, datos_leidos_bloque, lectura_bloque_actual);
             strcat(leido, datos_leidos_bloque);
             puntero_archivo += lectura_bloque_actual;
             bytes_para_leer -= lectura_bloque_actual;
@@ -169,7 +169,7 @@ void leer_archivo(char *archivo, int puntero_archivo, int bytes_para_leer, int d
             log_info(logger, "Acceso Bloque - Archivo: %s - Bloque Archivo: %d - Bloque File System %d ", archivo, bloque_actual+1, bloque_leido);
             lseek(arch_bloques, bloque_leido * superbloque->tam_bloque + puntero_en_bloque, SEEK_SET);
             char* datos_leidos_bloque = malloc(lectura_bloque_actual);
-            ssize_t numBytesLeidos = read(arch_bloques, datos_leidos_bloque, lectura_bloque_actual);
+            read(arch_bloques, datos_leidos_bloque, lectura_bloque_actual);
             sleep(retardo_acceso_bloque / 1000);
             strcat(leido, datos_leidos_bloque);
             puntero_archivo += lectura_bloque_actual;
@@ -189,7 +189,7 @@ void leer_archivo(char *archivo, int puntero_archivo, int bytes_para_leer, int d
     pedido_fs->pid = pid;
     pedido_fs->direccion_fisica = direccion_fisica;
     t_buffer *buffer = crear_buffer_para_t_fs_pedido(pedido_fs);
-    t_paquete *paquete_a_enviar = crear_paquete(buffer, 79); // poner código
+    t_paquete *paquete_a_enviar = crear_paquete(buffer, INFO_FS); 
     enviar_paquete(conexionConMemoria, paquete_a_enviar, logger);
     t_paquete *paquete_a_recibir = recibir_paquete(conexionConMemoria, logger);
     destruir_paquete(paquete_a_enviar);

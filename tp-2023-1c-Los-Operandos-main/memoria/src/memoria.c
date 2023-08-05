@@ -11,7 +11,7 @@ t_list* lista_huecos;
 t_algoritmo algoritmo;
 
 char*  puerto;
-int  tamanio_memoria;
+uint32_t tamanio_memoria;
 int  tamanio_segmento_0;
 int  cantidad_segmentos;
 int  retardo_memoria;

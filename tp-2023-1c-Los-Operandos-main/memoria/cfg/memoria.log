@@ -13333,3 +13333,423 @@
 [INFO] 02:30:15:548 LOGGER MEMORIA/(12335:12580): Procedo a compactar
 [INFO] 02:31:58:621 LOGGER MEMORIA/(13718:13736): Escuchando a CPU
 [INFO] 02:32:31:575 LOGGER MEMORIA/(13718:13970): escuchando a filesystem
+[INFO] 02:34:36:287 LOGGER MEMORIA/(13718:14136): escuchando a kernel
+[INFO] 02:34:47:873 LOGGER MEMORIA/(13718:14136): Creacion de Proceso PID: 1
+[INFO] 02:34:48:741 LOGGER MEMORIA/(13718:14136): Creacion de Proceso PID: 2
+[INFO] 02:34:48:961 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:34:50:973 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:34:52:981 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:34:54:985 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:34:56:987 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:34:58:996 LOGGER MEMORIA/(13718:13736): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:35:58:451 LOGGER MEMORIA/(13718:14136): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:35:58:469 LOGGER MEMORIA/(13718:14136): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:35:58:472 LOGGER MEMORIA/(13718:14136): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:35:58:475 LOGGER MEMORIA/(13718:14136): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:35:58:476 LOGGER MEMORIA/(13718:14136): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:35:58:482 LOGGER MEMORIA/(13718:14136): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:35:58:490 LOGGER MEMORIA/(13718:14136): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:35:58:492 LOGGER MEMORIA/(13718:14136): Solicito compactacion
+[INFO] 02:36:20:650 LOGGER MEMORIA/(13718:13970): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:41:14:160 LOGGER MEMORIA/(13718:13970): Mensaje no reconocido
+[INFO] 02:41:14:179 LOGGER MEMORIA/(13718:14136): Procedo a compactar
+[INFO] 02:46:49:983 LOGGER MEMORIA/(15356:15671): escuchando a filesystem
+[INFO] 02:47:02:059 LOGGER MEMORIA/(15356:15672): Escuchando a CPU
+[INFO] 02:47:02:059 LOGGER MEMORIA/(15356:15715): escuchando a kernel
+[ERROR] 02:47:54:074 LOGGER MEMORIA/(15356:15715): mensaje no reconocido
+[INFO] 02:50:11:925 LOGGER MEMORIA/(16106:16164): Escuchando a CPU
+[INFO] 02:50:38:584 LOGGER MEMORIA/(16106:16252): escuchando a filesystem
+[INFO] 02:51:00:312 LOGGER MEMORIA/(16106:16437): escuchando a kernel
+[ERROR] 02:51:07:310 LOGGER MEMORIA/(16106:16437): mensaje no reconocido
+[INFO] 02:55:08:688 LOGGER MEMORIA/(16835:16870): escuchando a filesystem
+[INFO] 02:55:12:205 LOGGER MEMORIA/(16835:16902): Escuchando a CPU
+[INFO] 02:55:19:659 LOGGER MEMORIA/(16835:16976): escuchando a kernel
+[INFO] 02:55:31:226 LOGGER MEMORIA/(16835:16976): Creacion de Proceso PID: 1
+[INFO] 02:55:32:261 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:33:616 LOGGER MEMORIA/(16835:16976): Creacion de Proceso PID: 2
+[INFO] 02:55:34:264 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:36:271 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:38:274 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:40:278 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:42:282 LOGGER MEMORIA/(16835:16902): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 02:55:43:311 LOGGER MEMORIA/(16835:16870): SonicTheHedgehog
+[INFO] 02:55:43:311 LOGGER MEMORIA/(16835:16870): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 02:55:43:318 LOGGER MEMORIA/(16835:16976): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 02:55:43:320 LOGGER MEMORIA/(16835:16976): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:55:43:324 LOGGER MEMORIA/(16835:16976): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 02:55:43:336 LOGGER MEMORIA/(16835:16976): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:55:43:340 LOGGER MEMORIA/(16835:16976): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 02:55:43:341 LOGGER MEMORIA/(16835:16976): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 02:55:43:347 LOGGER MEMORIA/(16835:16976): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 02:55:43:352 LOGGER MEMORIA/(16835:16976): Solicito compactacion
+[INFO] 02:55:45:766 LOGGER MEMORIA/(16835:16870): Mensaje no reconocido
+[INFO] 02:55:45:766 LOGGER MEMORIA/(16835:16976): Procedo a compactar
+[INFO] 03:00:04:490 LOGGER MEMORIA/(17698:17727): escuchando a filesystem
+[INFO] 03:00:08:185 LOGGER MEMORIA/(17698:17749): Escuchando a CPU
+[INFO] 03:00:15:235 LOGGER MEMORIA/(17698:17838): escuchando a kernel
+[INFO] 03:00:21:221 LOGGER MEMORIA/(17698:17838): Creacion de Proceso PID: 1
+[INFO] 03:00:22:257 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:22:825 LOGGER MEMORIA/(17698:17838): Creacion de Proceso PID: 2
+[INFO] 03:00:24:258 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:26:262 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:28:269 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:30:270 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:32:272 LOGGER MEMORIA/(17698:17749): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:00:33:284 LOGGER MEMORIA/(17698:17727): SonicTheHedgehog
+[INFO] 03:00:33:284 LOGGER MEMORIA/(17698:17727): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 03:00:33:285 LOGGER MEMORIA/(17698:17838): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 03:00:33:285 LOGGER MEMORIA/(17698:17838): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:00:33:285 LOGGER MEMORIA/(17698:17838): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 03:00:33:286 LOGGER MEMORIA/(17698:17838): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:00:33:286 LOGGER MEMORIA/(17698:17838): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 03:00:33:287 LOGGER MEMORIA/(17698:17838): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:00:33:287 LOGGER MEMORIA/(17698:17838): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:00:33:288 LOGGER MEMORIA/(17698:17838): Solicito compactacion
+[INFO] 03:00:35:580 LOGGER MEMORIA/(17698:17727): Mensaje no reconocido
+[INFO] 03:00:35:581 LOGGER MEMORIA/(17698:17838): Procedo a compactar
+[INFO] 03:02:38:973 LOGGER MEMORIA/(18795:18828): escuchando a filesystem
+[INFO] 03:02:44:168 LOGGER MEMORIA/(18795:18860): Escuchando a CPU
+[INFO] 03:04:59:651 LOGGER MEMORIA/(18795:18951): escuchando a kernel
+[INFO] 03:05:16:343 LOGGER MEMORIA/(18795:18951): Creacion de Proceso PID: 1
+[INFO] 03:05:17:358 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:05:17:622 LOGGER MEMORIA/(18795:18951): Creacion de Proceso PID: 2
+[INFO] 03:05:19:362 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:05:21:365 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:05:23:367 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:05:25:368 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:05:27:370 LOGGER MEMORIA/(18795:18860): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:16:448 LOGGER MEMORIA/(19506:19534): Escuchando a CPU
+[INFO] 03:08:20:099 LOGGER MEMORIA/(19506:19556): escuchando a filesystem
+[INFO] 03:08:24:499 LOGGER MEMORIA/(19506:19606): escuchando a kernel
+[INFO] 03:08:30:155 LOGGER MEMORIA/(19506:19606): Creacion de Proceso PID: 1
+[INFO] 03:08:31:067 LOGGER MEMORIA/(19506:19606): Creacion de Proceso PID: 2
+[INFO] 03:08:31:185 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:33:187 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:35:189 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:37:191 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:39:193 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:08:41:195 LOGGER MEMORIA/(19506:19534): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:14:35:418 LOGGER MEMORIA/(20248:20283): escuchando a filesystem
+[INFO] 03:14:39:012 LOGGER MEMORIA/(20248:20315): Escuchando a CPU
+[INFO] 03:14:47:219 LOGGER MEMORIA/(20248:20382): escuchando a kernel
+[INFO] 03:14:52:576 LOGGER MEMORIA/(20248:20382): Creacion de Proceso PID: 1
+[INFO] 03:14:53:594 LOGGER MEMORIA/(20248:20315): SonicTheHedgehog
+[INFO] 03:14:53:594 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:14:53:927 LOGGER MEMORIA/(20248:20382): Creacion de Proceso PID: 2
+[INFO] 03:14:55:597 LOGGER MEMORIA/(20248:20315): SonyPlaystation1
+[INFO] 03:14:55:598 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:14:57:599 LOGGER MEMORIA/(20248:20315): SonyPlaystation2
+[INFO] 03:14:57:599 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:14:59:612 LOGGER MEMORIA/(20248:20315): SonyPlaystation3
+[INFO] 03:14:59:613 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:15:01:616 LOGGER MEMORIA/(20248:20315): SonyPlaystation4
+[INFO] 03:15:01:616 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:15:03:619 LOGGER MEMORIA/(20248:20315): SonyPlaystation5
+[INFO] 03:15:03:619 LOGGER MEMORIA/(20248:20315): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:23:53:927 LOGGER MEMORIA/(21045:21078): escuchando a filesystem
+[INFO] 03:23:57:759 LOGGER MEMORIA/(21045:21110): Escuchando a CPU
+[INFO] 03:24:01:761 LOGGER MEMORIA/(21045:21155): escuchando a kernel
+[INFO] 03:24:08:039 LOGGER MEMORIA/(21045:21155): Creacion de Proceso PID: 1
+[INFO] 03:24:09:081 LOGGER MEMORIA/(21045:21155): Creacion de Proceso PID: 2
+[INFO] 03:24:09:082 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:11:085 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:13:087 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:15:092 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:17:097 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:19:100 LOGGER MEMORIA/(21045:21110): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:24:20:152 LOGGER MEMORIA/(21045:21078): SonicTheHedgehog
+[INFO] 03:24:20:152 LOGGER MEMORIA/(21045:21078): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 03:24:20:158 LOGGER MEMORIA/(21045:21155): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 03:24:20:161 LOGGER MEMORIA/(21045:21155): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:24:20:186 LOGGER MEMORIA/(21045:21155): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 03:24:20:189 LOGGER MEMORIA/(21045:21155): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:24:20:195 LOGGER MEMORIA/(21045:21155): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 03:24:20:197 LOGGER MEMORIA/(21045:21155): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:24:20:212 LOGGER MEMORIA/(21045:21155): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:24:20:215 LOGGER MEMORIA/(21045:21155): Solicito compactacion
+[INFO] 03:24:22:638 LOGGER MEMORIA/(21045:21078): Mensaje no reconocido
+[INFO] 03:24:22:640 LOGGER MEMORIA/(21045:21155): Procedo a compactar
+[INFO] 03:27:31:142 LOGGER MEMORIA/(21783:21807): Escuchando a CPU
+[INFO] 03:27:33:526 LOGGER MEMORIA/(21783:21834): escuchando a filesystem
+[INFO] 03:27:38:645 LOGGER MEMORIA/(21783:21884): escuchando a kernel
+[INFO] 03:27:44:672 LOGGER MEMORIA/(21783:21884): Creacion de Proceso PID: 1
+[INFO] 03:27:45:697 LOGGER MEMORIA/(21783:21807): SonicTheHedgehog
+[INFO] 03:27:45:697 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:45:837 LOGGER MEMORIA/(21783:21884): Creacion de Proceso PID: 2
+[INFO] 03:27:47:702 LOGGER MEMORIA/(21783:21807): SonyPlaystation1
+[INFO] 03:27:47:702 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:49:706 LOGGER MEMORIA/(21783:21807): SonyPlaystation2
+[INFO] 03:27:49:706 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:51:714 LOGGER MEMORIA/(21783:21807): SonyPlaystation3
+[INFO] 03:27:51:715 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:53:720 LOGGER MEMORIA/(21783:21807): SonyPlaystation4
+[INFO] 03:27:53:720 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:55:723 LOGGER MEMORIA/(21783:21807): SonyPlaystation5
+[INFO] 03:27:55:723 LOGGER MEMORIA/(21783:21807): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:27:56:794 LOGGER MEMORIA/(21783:21834): SonicTheHedgehog
+[INFO] 03:27:56:794 LOGGER MEMORIA/(21783:21834): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 03:27:56:803 LOGGER MEMORIA/(21783:21884): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 03:27:56:808 LOGGER MEMORIA/(21783:21884): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:27:56:839 LOGGER MEMORIA/(21783:21884): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 03:27:56:847 LOGGER MEMORIA/(21783:21884): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:27:56:862 LOGGER MEMORIA/(21783:21884): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 03:27:56:869 LOGGER MEMORIA/(21783:21884): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:27:56:877 LOGGER MEMORIA/(21783:21884): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:27:56:882 LOGGER MEMORIA/(21783:21884): Solicito compactacion
+[INFO] 03:27:59:431 LOGGER MEMORIA/(21783:21834): Mensaje no reconocido
+[INFO] 03:27:59:432 LOGGER MEMORIA/(21783:21884): Procedo a compactar
+[INFO] 03:34:59:214 LOGGER MEMORIA/(22598:22631): escuchando a filesystem
+[INFO] 03:35:04:146 LOGGER MEMORIA/(22598:22663): Escuchando a CPU
+[INFO] 03:35:08:861 LOGGER MEMORIA/(22598:22714): escuchando a kernel
+[INFO] 03:35:18:396 LOGGER MEMORIA/(22598:22714): Creacion de Proceso PID: 1
+[INFO] 03:35:19:405 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:19:434 LOGGER MEMORIA/(22598:22714): Creacion de Proceso PID: 2
+[INFO] 03:35:21:414 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:23:416 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:25:418 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:27:419 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:29:420 LOGGER MEMORIA/(22598:22663): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 03:35:30:435 LOGGER MEMORIA/(22598:22631): SonicTheHedgehog
+[INFO] 03:35:30:436 LOGGER MEMORIA/(22598:22631): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 03:35:30:436 LOGGER MEMORIA/(22598:22714): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 03:35:30:437 LOGGER MEMORIA/(22598:22714): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:35:30:437 LOGGER MEMORIA/(22598:22714): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 03:35:30:437 LOGGER MEMORIA/(22598:22714): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:35:30:438 LOGGER MEMORIA/(22598:22714): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 03:35:30:439 LOGGER MEMORIA/(22598:22714): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 03:35:30:439 LOGGER MEMORIA/(22598:22714): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 03:35:30:440 LOGGER MEMORIA/(22598:22714): Solicito compactacion
+[INFO] 03:35:33:552 LOGGER MEMORIA/(22598:22631): Mensaje no reconocido
+[INFO] 03:35:33:553 LOGGER MEMORIA/(22598:22714): Procedo a compactar
+[INFO] 03:38:57:972 LOGGER MEMORIA/(23744:23939): Escuchando a CPU
+[INFO] 03:39:01:331 LOGGER MEMORIA/(23744:23960): escuchando a filesystem
+[INFO] 03:39:07:837 LOGGER MEMORIA/(23744:23961): escuchando a kernel
+[ERROR] 03:39:14:093 LOGGER MEMORIA/(23744:23961): mensaje no reconocido
+[INFO] 04:08:57:391 LOGGER MEMORIA/(24956:24992): escuchando a filesystem
+[INFO] 04:09:04:046 LOGGER MEMORIA/(24956:25039): Escuchando a CPU
+[INFO] 04:09:13:972 LOGGER MEMORIA/(24956:25105): escuchando a kernel
+[INFO] 04:09:22:000 LOGGER MEMORIA/(24956:25105): Creacion de Proceso PID: 1
+[INFO] 04:09:23:028 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:24:043 LOGGER MEMORIA/(24956:25105): Creacion de Proceso PID: 2
+[INFO] 04:09:25:031 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:27:034 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:29:036 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:31:038 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:33:039 LOGGER MEMORIA/(24956:25039): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 04:09:34:086 LOGGER MEMORIA/(24956:24992): SonicTheHedgehog
+[INFO] 04:09:34:086 LOGGER MEMORIA/(24956:24992): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 04:09:34:087 LOGGER MEMORIA/(24956:25105): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:09:34:087 LOGGER MEMORIA/(24956:25105): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:09:34:087 LOGGER MEMORIA/(24956:25105): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:09:34:088 LOGGER MEMORIA/(24956:25105): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:09:34:089 LOGGER MEMORIA/(24956:25105): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:09:34:089 LOGGER MEMORIA/(24956:25105): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:09:34:090 LOGGER MEMORIA/(24956:25105): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:09:34:090 LOGGER MEMORIA/(24956:25105): Solicito compactacion
+[INFO] 04:09:37:023 LOGGER MEMORIA/(24956:24992): Mensaje no reconocido
+[INFO] 04:09:37:024 LOGGER MEMORIA/(24956:25105): Procedo a compactar
+[INFO] 04:25:26:437 LOGGER MEMORIA/(25891:25926): escuchando a filesystem
+[INFO] 04:25:31:760 LOGGER MEMORIA/(25891:25958): Escuchando a CPU
+[INFO] 04:25:42:471 LOGGER MEMORIA/(25891:26035): escuchando a kernel
+[INFO] 04:26:02:586 LOGGER MEMORIA/(25891:26035): Creacion de Proceso PID: 1
+[INFO] 04:26:03:593 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:04:223 LOGGER MEMORIA/(25891:26035): Creacion de Proceso PID: 2
+[INFO] 04:26:05:594 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:07:600 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:09:605 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:11:609 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:13:612 LOGGER MEMORIA/(25891:25958): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 8 - Origen: CPU
+[INFO] 04:26:14:638 LOGGER MEMORIA/(25891:25926): SonicThe
+[INFO] 04:26:14:638 LOGGER MEMORIA/(25891:25926): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 04:26:14:638 LOGGER MEMORIA/(25891:26035): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:26:14:639 LOGGER MEMORIA/(25891:26035): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:26:14:639 LOGGER MEMORIA/(25891:26035): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:26:14:646 LOGGER MEMORIA/(25891:26035): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:26:14:646 LOGGER MEMORIA/(25891:26035): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:26:14:647 LOGGER MEMORIA/(25891:26035): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:26:14:647 LOGGER MEMORIA/(25891:26035): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:26:14:648 LOGGER MEMORIA/(25891:26035): Solicito compactacion
+[INFO] 04:26:17:401 LOGGER MEMORIA/(25891:25926): Mensaje no reconocido
+[INFO] 04:26:17:401 LOGGER MEMORIA/(25891:26035): Procedo a compactar
+[INFO] 04:28:03:276 LOGGER MEMORIA/(26736:26769): Escuchando a CPU
+[INFO] 04:28:07:278 LOGGER MEMORIA/(26736:26801): escuchando a filesystem
+[INFO] 04:28:11:329 LOGGER MEMORIA/(26736:26846): escuchando a kernel
+[INFO] 04:28:16:166 LOGGER MEMORIA/(26736:26846): Creacion de Proceso PID: 1
+[INFO] 04:28:17:178 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:17:368 LOGGER MEMORIA/(26736:26846): Creacion de Proceso PID: 2
+[INFO] 04:28:19:194 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:21:197 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:23:201 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:25:204 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:27:206 LOGGER MEMORIA/(26736:26769): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 04:28:28:236 LOGGER MEMORIA/(26736:26801): SonicTheHedgehog
+[INFO] 04:28:28:237 LOGGER MEMORIA/(26736:26801): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 04:28:28:237 LOGGER MEMORIA/(26736:26846): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:28:28:238 LOGGER MEMORIA/(26736:26846): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:28:28:238 LOGGER MEMORIA/(26736:26846): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:28:28:239 LOGGER MEMORIA/(26736:26846): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:28:28:239 LOGGER MEMORIA/(26736:26846): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:28:28:240 LOGGER MEMORIA/(26736:26846): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:28:28:240 LOGGER MEMORIA/(26736:26846): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:28:28:241 LOGGER MEMORIA/(26736:26846): Solicito compactacion
+[INFO] 04:28:31:803 LOGGER MEMORIA/(26736:26801): Mensaje no reconocido
+[INFO] 04:28:31:804 LOGGER MEMORIA/(26736:26846): Procedo a compactar
+[INFO] 04:44:15:037 LOGGER MEMORIA/(27921:27949): Escuchando a CPU
+[INFO] 04:44:18:275 LOGGER MEMORIA/(27921:27971): escuchando a filesystem
+[INFO] 04:44:22:649 LOGGER MEMORIA/(27921:28021): escuchando a kernel
+[INFO] 04:44:28:353 LOGGER MEMORIA/(27921:28021): Creacion de Proceso PID: 1
+[INFO] 04:44:29:408 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:29:422 LOGGER MEMORIA/(27921:28021): Creacion de Proceso PID: 2
+[INFO] 04:44:31:412 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:33:416 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:35:419 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:37:421 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:39:425 LOGGER MEMORIA/(27921:27949): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 04:44:40:437 LOGGER MEMORIA/(27921:27971): SonicTheHedgehog
+[INFO] 04:44:40:437 LOGGER MEMORIA/(27921:27971): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 04:44:40:437 LOGGER MEMORIA/(27921:28021): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:44:40:438 LOGGER MEMORIA/(27921:28021): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:44:40:438 LOGGER MEMORIA/(27921:28021): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:44:40:439 LOGGER MEMORIA/(27921:28021): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:44:40:440 LOGGER MEMORIA/(27921:28021): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:44:40:441 LOGGER MEMORIA/(27921:28021): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:44:40:442 LOGGER MEMORIA/(27921:28021): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:44:40:443 LOGGER MEMORIA/(27921:28021): Solicito compactacion
+[INFO] 04:44:43:202 LOGGER MEMORIA/(27921:27971): Mensaje no reconocido
+[INFO] 04:44:43:203 LOGGER MEMORIA/(27921:28021): Procedo a compactar
+[INFO] 04:49:39:859 LOGGER MEMORIA/(28641:28682): Escuchando a CPU
+[INFO] 04:49:43:562 LOGGER MEMORIA/(28641:28705): escuchando a filesystem
+[INFO] 04:49:47:341 LOGGER MEMORIA/(28641:28756): escuchando a kernel
+[INFO] 04:49:52:534 LOGGER MEMORIA/(28641:28756): Creacion de Proceso PID: 1
+[INFO] 04:49:53:562 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 04:49:53:917 LOGGER MEMORIA/(28641:28756): Creacion de Proceso PID: 2
+[INFO] 04:49:55:569 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 04:49:57:572 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 04:49:59:578 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 04:50:01:579 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 04:50:03:583 LOGGER MEMORIA/(28641:28682): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 04:50:04:631 LOGGER MEMORIA/(28641:28705): SonicTheHedgehog
+[INFO] 04:50:04:631 LOGGER MEMORIA/(28641:28705): PID: 3 - Acción: LEER - Dirección física: 0 - Tamaño: 80 - Origen: FS
+[INFO] 04:50:04:635 LOGGER MEMORIA/(28641:28756): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:50:04:640 LOGGER MEMORIA/(28641:28756): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:50:04:646 LOGGER MEMORIA/(28641:28756): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:50:04:652 LOGGER MEMORIA/(28641:28756): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:50:04:656 LOGGER MEMORIA/(28641:28756): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:50:04:662 LOGGER MEMORIA/(28641:28756): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:50:04:671 LOGGER MEMORIA/(28641:28756): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:50:04:678 LOGGER MEMORIA/(28641:28756): Solicito compactacion
+[INFO] 04:50:07:332 LOGGER MEMORIA/(28641:28705): Mensaje no reconocido
+[INFO] 04:50:07:334 LOGGER MEMORIA/(28641:28756): Procedo a compactar
+[INFO] 04:53:59:575 LOGGER MEMORIA/(29284:29312): escuchando a filesystem
+[INFO] 04:54:04:932 LOGGER MEMORIA/(29284:29345): Escuchando a CPU
+[INFO] 04:54:09:650 LOGGER MEMORIA/(29284:29406): escuchando a kernel
+[INFO] 04:54:16:005 LOGGER MEMORIA/(29284:29406): Creacion de Proceso PID: 1
+[INFO] 04:54:16:882 LOGGER MEMORIA/(29284:29406): Creacion de Proceso PID: 2
+[INFO] 04:54:17:033 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:19:043 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:21:045 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:23:048 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:25:050 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:27:052 LOGGER MEMORIA/(29284:29345): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 04:54:28:111 LOGGER MEMORIA/(29284:29312): SonyPlaystation1SonyPlaystation2SonyPlaystation3SonyPlaystation4SonyPlaystation5
+[INFO] 04:54:28:111 LOGGER MEMORIA/(29284:29312): PID: 3 - Acción: LEER - Dirección física: 32 - Tamaño: 80 - Origen: FS
+[INFO] 04:54:28:116 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:54:28:120 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:54:28:128 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 04:54:28:131 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:54:28:134 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 04:54:28:141 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 04:54:28:145 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 04:54:28:151 LOGGER MEMORIA/(29284:29406): Solicito compactacion
+[INFO] 04:54:32:118 LOGGER MEMORIA/(29284:29406): Procedo a compactar
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): ------------------------------------------
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 1 - Segmento: 0 - Base: 0 - Tamaño 128
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 2 - Segmento: 0 - Base: 0 - Tamaño 128
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 2 - Segmento: 1 - Base: 128 - Tamaño 64
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 2 - Segmento: 3 - Base: 192 - Tamaño 64
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 2 - Segmento: 5 - Base: 256 - Tamaño 128
+[INFO] 04:54:42:119 LOGGER MEMORIA/(29284:29406): PID: 2 - Crear Segmento: 6 - Base: 384 - TAMAÑO: 128
+[INFO] 04:54:42:146 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 04:54:42:147 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 3 - Base: 192 - TAMAÑO: 64
+[INFO] 04:54:42:147 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 5 - Base: 256 - TAMAÑO: 128
+[INFO] 04:54:42:147 LOGGER MEMORIA/(29284:29406): PID: 2 - Eliminar Segmento: 6 - Base: 384 - TAMAÑO: 128
+[INFO] 04:54:42:147 LOGGER MEMORIA/(29284:29406): Eliminacion de Proceso PID: 2
+[INFO] 04:54:42:213 LOGGER MEMORIA/(29284:29312): SonicTheHedgehog
+[INFO] 04:54:42:213 LOGGER MEMORIA/(29284:29312): PID: 4 - Acción: LEER - Dirección física: 0 - Tamaño: 16 - Origen: FS
+[INFO] 04:54:45:230 LOGGER MEMORIA/(29284:29406): Eliminacion de Proceso PID: 1
+[INFO] 04:59:03:068 LOGGER MEMORIA/(30168:30227): escuchando a filesystem
+[INFO] 04:59:39:561 LOGGER MEMORIA/(30168:30308): Escuchando a CPU
+[INFO] 04:59:45:195 LOGGER MEMORIA/(30168:30362): escuchando a kernel
+[INFO] 04:59:53:797 LOGGER MEMORIA/(30168:30362): Creacion de Proceso PID: 1
+[INFO] 05:00:23:814 LOGGER MEMORIA/(30168:30227): PID: 2 - Acción: ESCRIBIR - Dirección física: 16 - Tamaño: 16 - Origen: FS
+[INFO] 05:00:24:819 LOGGER MEMORIA/(30168:30308): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 4 - Origen: CPU
+[INFO] 05:00:25:853 LOGGER MEMORIA/(30168:30362): Eliminacion de Proceso PID: 1
+[INFO] 05:00:38:455 LOGGER MEMORIA/(30168:30308): Mensaje no reconocido
+[INFO] 05:04:43:189 LOGGER MEMORIA/(31376:31459): escuchando a filesystem
+[INFO] 05:05:37:692 LOGGER MEMORIA/(31376:31533): Escuchando a CPU
+[INFO] 05:05:43:136 LOGGER MEMORIA/(31376:31588): escuchando a kernel
+[INFO] 05:06:46:355 LOGGER MEMORIA/(31376:31588): Creacion de Proceso PID: 1
+[INFO] 05:06:47:386 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:47:460 LOGGER MEMORIA/(31376:31588): Creacion de Proceso PID: 2
+[INFO] 05:06:49:389 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:51:391 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:53:394 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:55:395 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:57:398 LOGGER MEMORIA/(31376:31533): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 05:06:58:469 LOGGER MEMORIA/(31376:31459): SonyPlaystation1SonyPlaystation2SonyPlaystation3SonyPlaystation4SonyPlaystation5
+[INFO] 05:06:58:469 LOGGER MEMORIA/(31376:31459): PID: 3 - Acción: LEER - Dirección física: 32 - Tamaño: 80 - Origen: FS
+[INFO] 05:06:58:481 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 05:06:58:486 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 05:06:58:500 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 05:06:58:506 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 05:06:58:523 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 05:06:58:530 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 05:06:58:531 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 05:06:58:538 LOGGER MEMORIA/(31376:31588): Solicito compactacion
+[INFO] 05:07:44:473 LOGGER MEMORIA/(31376:31588): Procedo a compactar
+[INFO] 05:07:54:473 LOGGER MEMORIA/(31376:31588): ------------------------------------------
+[INFO] 05:07:54:473 LOGGER MEMORIA/(31376:31588): PID: 1 - Segmento: 0 - Base: 0 - Tamaño 128
+[INFO] 05:07:54:473 LOGGER MEMORIA/(31376:31588): PID: 2 - Segmento: 0 - Base: 0 - Tamaño 128
+[INFO] 05:07:54:474 LOGGER MEMORIA/(31376:31588): PID: 2 - Segmento: 1 - Base: 128 - Tamaño 64
+[INFO] 05:07:54:474 LOGGER MEMORIA/(31376:31588): PID: 2 - Segmento: 3 - Base: 192 - Tamaño 64
+[INFO] 05:07:54:474 LOGGER MEMORIA/(31376:31588): PID: 2 - Segmento: 5 - Base: 256 - Tamaño 128
+[INFO] 05:07:54:474 LOGGER MEMORIA/(31376:31588): PID: 2 - Crear Segmento: 6 - Base: 384 - TAMAÑO: 128
+[INFO] 05:07:54:495 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 05:07:54:495 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 3 - Base: 192 - TAMAÑO: 64
+[INFO] 05:07:54:495 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 5 - Base: 256 - TAMAÑO: 128
+[INFO] 05:07:54:495 LOGGER MEMORIA/(31376:31588): PID: 2 - Eliminar Segmento: 6 - Base: 384 - TAMAÑO: 128
+[INFO] 05:07:54:495 LOGGER MEMORIA/(31376:31588): Eliminacion de Proceso PID: 2
+[INFO] 05:07:54:524 LOGGER MEMORIA/(31376:31459): SonicTheHedgehog
+[INFO] 05:07:54:524 LOGGER MEMORIA/(31376:31459): PID: 4 - Acción: LEER - Dirección física: 0 - Tamaño: 16 - Origen: FS
+[INFO] 05:08:25:557 LOGGER MEMORIA/(31376:31588): Eliminacion de Proceso PID: 1
+[INFO] 05:10:43:677 LOGGER MEMORIA/(32556:32602): Escuchando a CPU
+[INFO] 05:10:53:623 LOGGER MEMORIA/(32556:32689): escuchando a filesystem
+[INFO] 05:10:58:271 LOGGER MEMORIA/(32556:32724): escuchando a kernel
+[INFO] 05:11:10:188 LOGGER MEMORIA/(32556:32724): Creacion de Proceso PID: 1
+[INFO] 05:11:40:209 LOGGER MEMORIA/(32556:32689): PID: 2 - Acción: ESCRIBIR - Dirección física: 16 - Tamaño: 16 - Origen: FS
+[INFO] 05:11:41:220 LOGGER MEMORIA/(32556:32602): PID: 1 - Acción: LEER - Dirección física: 16 - Tamaño: 4 - Origen: CPU
+[INFO] 05:11:42:223 LOGGER MEMORIA/(32556:32724): Eliminacion de Proceso PID: 1
+[INFO] 05:12:20:687 LOGGER MEMORIA/(32556:32602): Mensaje no reconocido
+[INFO] 05:16:00:037 LOGGER MEMORIA/(33294:33356): Escuchando a CPU
+[INFO] 05:17:02:735 LOGGER MEMORIA/(33294:33704): escuchando a filesystem
+[INFO] 05:17:12:265 LOGGER MEMORIA/(33294:33778): escuchando a kernel
+[INFO] 05:17:22:379 LOGGER MEMORIA/(33294:33778): Creacion de Proceso PID: 1
+[INFO] 05:17:23:285 LOGGER MEMORIA/(33294:33778): Creacion de Proceso PID: 2
+[INFO] 05:17:23:742 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 0 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:25:748 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 32 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:27:753 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 48 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:29:757 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 64 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:31:758 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 80 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:33:761 LOGGER MEMORIA/(33294:33356): PID: 1 - Acción: ESCRIBIR - Dirección física: 96 - Tamaño: 16 - Origen: CPU
+[INFO] 05:17:57:616 LOGGER MEMORIA/(33294:33778): PID: 2 - Crear Segmento: 1 - Base: 128 - TAMAÑO: 64
+[INFO] 05:17:57:623 LOGGER MEMORIA/(33294:33778): PID: 2 - Crear Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 05:17:57:628 LOGGER MEMORIA/(33294:33778): PID: 2 - Crear Segmento: 3 - Base: 256 - TAMAÑO: 64
+[INFO] 05:17:57:632 LOGGER MEMORIA/(33294:33778): PID: 2 - Crear Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 05:17:57:637 LOGGER MEMORIA/(33294:33778): PID: 2 - Crear Segmento: 5 - Base: 384 - TAMAÑO: 128
+[INFO] 05:17:57:640 LOGGER MEMORIA/(33294:33778): PID: 2 - Eliminar Segmento: 2 - Base: 192 - TAMAÑO: 64
+[INFO] 05:17:57:644 LOGGER MEMORIA/(33294:33778): PID: 2 - Eliminar Segmento: 4 - Base: 320 - TAMAÑO: 64
+[INFO] 05:17:57:647 LOGGER MEMORIA/(33294:33778): Solicito compactacion
+[INFO] 05:21:54:094 LOGGER MEMORIA/(33294:33704): SonyPlaystation1SonyPlaystation2SonyPlaystation3SonyPlaystation4SonyPlaystation5
+[INFO] 05:21:54:095 LOGGER MEMORIA/(33294:33704): PID: 3 - Acción: LEER - Dirección física: 32 - Tamaño: 80 - Origen: FS
+[INFO] 05:23:52:610 LOGGER MEMORIA/(33294:33704): Mensaje no reconocido
+[INFO] 05:23:52:614 LOGGER MEMORIA/(33294:33778): Procedo a compactar

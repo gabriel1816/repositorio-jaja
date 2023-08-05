@@ -6,7 +6,7 @@ int kernel_socket;
 t_log *logger;
 t_console_config console_config;
 
-int main(int argc, char *argv[]){ // Argc es la cantidad de argumentos y argv son los argumentos. Esta forma es un estandar.
+int main(int argc, char *argv[]){ 
   //char *path_configuracion, char *path_pseudocodigo quiero que sean las entradas
 
   startUp(argv[1]); // Paso como parametro el archivo de configuracion

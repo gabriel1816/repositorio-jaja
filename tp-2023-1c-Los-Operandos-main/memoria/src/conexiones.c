@@ -68,14 +68,14 @@ void atender_cpu(void* conexion)
             break;
 
             case MOV_OUT:
-                valor_registro = pedidoMemoria->parametros[2];
-                tamanio_registro = sizeof(char)*strlen(valor_registro);
+                char * valor_registro = pedidoMemoria->parametros[2];
+                tamanio_registro = strlen(valor_registro);
                 memcpy((memoria_fisica+direccion_fisica), valor_registro, tamanio_registro);
                 respuesta_memoria = crear_instruccion(MOV_OUT, parametros_respuesta);
                 buffer = crear_buffer_para_t_instruccion(parametros_respuesta);
                 respuesta = crear_paquete(buffer, MOV_OUT);
                 log_info(logger, "PID: %u - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: CPU", pid, direccion_fisica, tamanio_registro);
-                valor_registro = "";
+                strcpy(valor_registro, "");
             break;
 
             default:
@@ -163,26 +163,25 @@ void atender_fs(void* conexion)
         switch (fs_pedido->instruccion->identificador) {
             case F_READ: 
                 char* archivo = malloc(sizeof(fs_pedido->instruccion->parametros[0])); 
-                archivo = fs_pedido->instruccion->parametros[0];          
+                archivo = fs_pedido->instruccion->parametros[0];       
                 lectura = sizeof(char)*strlen(archivo);
                 memcpy((memoria_fisica+direccion_fisica), archivo, lectura); 
-                //pasarle el valor
                 instr_respuesta = crear_instruccion(F_READ, parametros);
                 buffer = crear_buffer_para_t_instruccion(instr_respuesta);
                 paquete_rta = crear_paquete(buffer, F_READ_OK);
-                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %d - Origen: FS", pid, direccion_fisica, lectura);
+                log_info(logger, "PID: %d - Acción: ESCRIBIR - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
                 archivo = ""; // inicializo para proxima
                 break;
             case F_WRITE: 
                 lectura = (uint32_t)strtoul(fs_pedido->instruccion->parametros[2], NULL, 10);
                 char* escritura = malloc(lectura);
                 void* inicio_escritura = memoria_fisica + direccion_fisica;
-                memcpy(escritura, inicio_escritura, sizeof(char)*lectura); 
+                memcpy(escritura, inicio_escritura, lectura); 
                 list_add(parametros, escritura);
                 instr_respuesta = crear_instruccion(F_WRITE, parametros);
                 buffer = crear_buffer_para_t_instruccion(instr_respuesta);
                 paquete_rta = crear_paquete(buffer, CODIGO_INSTRUCCION_MEMORIA);
-                log_info(logger, "PID: %u - Acción: LEER - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
+                log_info(logger, "PID: %d - Acción: LEER - Dirección física: %d - Tamaño: %u - Origen: FS", pid, direccion_fisica, lectura);
                 break;
             default:
                 log_info(logger, "Mensaje no reconocido");
